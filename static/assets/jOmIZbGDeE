@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<streetmap>
+	<items-for-disable-area>
+		<item name="DisabledAreaItem2" />
+		<item name="DisabledAreaItem3" />
+	</items-for-disable-area>
+	<obstacles>
+		<obstacle className="townextensionTree" />
+		<obstacle className="towncentreSheep2" />
+		<obstacle className="towncentreSheep" />
+		<obstacle className="towncentreMayor" />
+		<obstacle className="towncentreBench" />
+		<obstacle className="streetCityFountain" />
+		<obstacle className="ArrowUpSide" />
+		<obstacle className="ArrowSide" />
+		<obstacle className="ArrowDownSide" />
+		<obstacle className="StreetHomeSign" />
+	</obstacles>
+	<hititems>
+		<hititem className="towncentreRiver" hitPetAnim="waterSkip" />
+		<hititem className="towncentreMountain" hitPetAnim="mountainClimb" />
+	</hititems>
+	<shaketrees>
+		<shaketree className="tree_anime_green" />
+		<shaketree className="tree_anime_pine" />
+		<shaketree className="tree_anime_pink" />
+		<shaketree className="tree_anime_round1" />
+		<shaketree className="tree_anime_round2" />
+		<shaketree className="tree_anime_round3" />
+	</shaketrees>
+	<shakeitems>
+		<!-- Halloween Gifts -->
+		<shakeitem name="Gummi Eyeball" startDate="2010-10-15" endDate="2010-10-31" />
+		<shakeitem name="Gummi Ghost" startDate="2010-10-15" endDate="2010-10-31" />
+		<shakeitem name="Halloween Candy" startDate="2010-10-15" endDate="2010-10-31" />
+		<shakeitem name="Halloween Candy Cane" startDate="2010-10-15" endDate="2010-10-31" />
+		<shakeitem name="Halloween Lolly" startDate="2010-10-15" endDate="2010-10-31" />
+		<shakeitem name="Tiny Candy Corn" startDate="2010-10-15" endDate="2010-10-31" />
+		<!-- Easter Gifts -->
+		<shakeitem name="Pink Egg Decor" startDate="2010-04-01" endDate="2010-04-05" />
+		<shakeitem name="Aquamarine Egg Decor" startDate="2010-04-01" endDate="2010-04-05" />
+		<shakeitem name="Green Egg Decor" startDate="2010-04-01" endDate="2010-04-05" />
+		<shakeitem name="Light Purple Egg Decor" startDate="2010-04-01" endDate="2010-04-05" />
+	</shakeitems>
+</streetmap>

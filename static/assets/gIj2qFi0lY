@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PetsQuestCollectables>
+	<inventorySet>
+	<!-- 
+	use psotBy = "inboxLetters" for new letters
+	and postBy = "feedLink" for wall posts
+	-->
+		<inventory id="1" 	name="Phone" 			cost="1" 	buildTimer="2" 	compositPiece="1"	limit="15"	 properties="cash" />
+		<inventory id="2" 	name="Milk"  			cost="1" 	buildTimer="2" 	compositPiece="2" 	limit="15"	 properties="cash" postBy="inboxLetters" />
+		<inventory id="3" 	name="Doorbell"   		cost="1" 	buildTimer="2" 	compositPiece="3" 	limit="5"	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="4" 	name="Bubble Gum"  		cost="1" 	buildTimer="2" 	compositPiece="3" 	limit="5"	 properties="cash" />
+		<inventory id="5" 	name="Hourglass" 		cost="1" 	buildTimer="2" 	compositPiece="3" 	limit="15"	 properties="cash"/>
+		<inventory id="6" 	name="Book"  			cost="1" 	buildTimer="2" 	compositPiece="3" 	limit="5"	 properties="cash" postBy="inboxLetters" />
+		<inventory id="7" 	name="Flowers"  		cost="1" 	buildTimer="4" 	compositPiece="3" 	limit="15"	 properties="cash" postBy="inboxLetters" />
+		<inventory id="8" 	name="Valour"  	 		cost="1" 	buildTimer="4" 	compositPiece="3" 	limit="15"	 properties="cash" postBy="inboxLetters" />
+		<inventory id="9" 	name="Hat"  			cost="1" 	buildTimer="4" 	compositPiece="3" 	limit="5"	 properties="cash" />
+		<inventory id="10"	name="Musical Notes"  	cost="1" 	buildTimer="4" 	compositPiece="3" 	limit="15"	 properties="cash"/>
+		<inventory id="11" 	name="Backpack"  		cost="1" 	buildTimer="4" 	compositPiece="3" 	limit="15"	 properties="cash" postBy="inboxLetters" />
+		<inventory id="12" 	name="Tote"  			cost="1" 	buildTimer="4" 	compositPiece="4" 	limit="15"	 properties="cash" postBy="inboxLetters" />
+		<inventory id="13" 	name="Compass"  		cost="1" 	buildTimer="6" 	compositPiece="4" 	limit="15" 	 properties="cash"/>
+		<inventory id="14" 	name="Fun"  			cost="1" 	buildTimer="6" 	compositPiece="4" 	limit="5" 	 properties="cash" />
+		<inventory id="15" 	name="Envy"  			cost="1" 	buildTimer="6" 	compositPiece="4" 	limit="15" 	 properties="cash"/>
+		<inventory id="16" 	name="Gluttony"  		cost="1" 	buildTimer="6" 	compositPiece="4" 	limit="15" 	 properties="cash"/>
+		<inventory id="17" 	name="Friendship"  		cost="1" 	buildTimer="6" 	compositPiece="4" 	limit="5" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="18" 	name="Harmony"  		cost="1" 	buildTimer="8" 	compositPiece="5" 	limit="15" 	 properties="cash"/>
+		<inventory id="19" 	name="Leisure"  		cost="1" 	buildTimer="8" 	compositPiece="5" 	limit="15" 	 properties="cash" postBy="inboxLetters" />
+		<inventory id="20" 	name="Love"  			cost="1" 	buildTimer="8" 	compositPiece="5" 	limit="15" 	 properties="cash"/>
+		<inventory id="21" 	name="Bright Spark"  	cost="1" 	buildTimer="8" 	compositPiece="5" 	limit="15" 	 properties="cash"/>
+		<inventory id="22" 	name="Toy"  			cost="1" 	buildTimer="8" 	compositPiece="3" 	limit="10" 	 properties="cash" postBy="inboxLetters" />
+		<inventory id="23" 	name="Clown"  			cost="1" 	buildTimer="8" 	compositPiece="3" 	limit="10" 	 properties="cash"/>
+		<inventory id="24" 	name="Pillow"  			cost="1" 	buildTimer="8" 	compositPiece="3" 	limit="5" 	 properties="cash"/>
+		<inventory id="25" 	name="Butterfly"  		cost="1" 	buildTimer="2" 	compositPiece="1" 	limit="5" 	 properties="cash" />
+		<inventory id="26" 	name="Gems"  			cost="1" 	buildTimer="2" 	compositPiece="1" 	limit="5" 	 properties="cash"/>
+		<inventory id="27" 	name="Key"  			cost="1" 	buildTimer="3" 	compositPiece="1" 	limit="5" 	 properties="cash" postBy="inboxLetters" />
+		<inventory id="28" 	name="Pencil"  			cost="1" 	buildTimer="3" 	compositPiece="1" 	limit="5" 	 properties="cash"/>
+		<inventory id="29" 	name="Feathers"  		cost="1" 	buildTimer="4" 	compositPiece="1" 	limit="5" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="30" 	name="Flower Button"  	cost="1" 	buildTimer="2" 	compositPiece="2" 	limit="10" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="31" 	name="Love Potion"  	cost="1" 	buildTimer="2" 	compositPiece="2" 	limit="10" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="32" 	name="Night Light"  	cost="1" 	buildTimer="3" 	compositPiece="2" 	limit="10" 	 properties="cash" />
+		<inventory id="33" 	name="Sapling"  		cost="1" 	buildTimer="2" 	compositPiece="3" 	limit="10" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="34" 	name="Medallion"  		cost="1" 	buildTimer="4" 	compositPiece="2" 	limit="10" 	 properties="cash" />
+		<inventory id="35" 	name="Excalibur"  		cost="1" 	buildTimer="3" 	compositPiece="3" 	limit="10" 	 properties="cash" postBy="inboxLetters" />
+		<inventory id="36" 	name="Autumn Leaves"  	cost="1" 	buildTimer="5" 	compositPiece="2" 	limit="10" 	 properties="cash" />
+		<inventory id="37" 	name="Shopping Tag"  	cost="1" 	buildTimer="5" 	compositPiece="2" 	limit="10" 	 properties="cash" />
+		<inventory id="38" 	name="Bow"  			cost="1" 	buildTimer="4" 	compositPiece="3" 	limit="10" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="39" 	name="Glasses"  		cost="1" 	buildTimer="4" 	compositPiece="3" 	limit="10" 	 properties="cash" />
+		<inventory id="40" 	name="Flame"  			cost="1" 	buildTimer="3" 	compositPiece="4" 	limit="5" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="41" 	name="Building Screw"  	cost="1" 	buildTimer="3" 	compositPiece="4" 	limit="5" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="42" 	name="Clippers"  		cost="1" 	buildTimer="4" 	compositPiece="4" 	limit="5" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="43" 	name="Love Letter"  	cost="1" 	buildTimer="4" 	compositPiece="4" 	limit="5" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="44" 	name="Hammer"  			cost="1" 	buildTimer="4" 	compositPiece="5" 	limit="5" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="45" 	name="Roses"  			cost="1" 	buildTimer="6" 	compositPiece="5" 	limit="5" 	 properties="cash" postBy="inboxLetters"/>
+		<inventory id="46" 	name="Pumpkin"  		cost="4" 	buildTimer="4" 	compositPiece="5" 	limit="5" 	 properties="cash" />
+		<inventory id="47" 	name="Choco Stick"  	cost="3" 	buildTimer="5" 	compositPiece="3" 	limit="5" 	 properties="cash" />
+		<inventory id="48" 	name="Water Drop"  		cost="3" 	buildTimer="5" 	compositPiece="3" 	limit="5" 	 properties="cash" />
+		<inventory id="49" 	name="Sugar Cube"  		cost="3" 	buildTimer="4" 	compositPiece="5" 	limit="5" 	 properties="cash" />
+		<inventory id="50" 	name="Red Chilies"  	cost="3" 	buildTimer="4" 	compositPiece="5" 	limit="7" 	 properties="cash" postBy="inboxLetters"  />
+		<inventory id="51" 	name="Heart"  			cost="2" 	buildTimer="5" 	compositPiece="5" 	limit="5" 	 properties="cash" postBy="inboxLetters"  />
+		<inventory id="52" 	name="Wings"  			cost="2" 	buildTimer="5" 	compositPiece="5" 	limit="5" 	 properties="cash" postBy="inboxLetters"  />
+	</inventorySet>
+	<collectableSet id ="cs1" >
+		<collectable id="1" name="Phone" 			weight="40"/>
+		<collectable id="2" name="Milk" 			weight="15"/>
+		<collectable id="4" name="Bubble Gum" 		weight="45"/>		
+	</collectableSet>
+	<collectableSet id ="cs2" >
+		<collectable id="3" 	name="Doorbell"   	weight="15"/>
+		<collectable id="5" 	name="Hourglass"   	weight="40"/>
+		<collectable id="32" 	name="Night Light"  weight="45"/>
+	</collectableSet>
+	<collectableSet id ="cs3">
+		<collectable id="6" 	name="Book"    		weight="30"	/>
+		<collectable id="7" 	name="Flowers"   	weight="35"	/>
+		<collectable id="13" 	name="Compass"  	weight="35"	/>
+	</collectableSet>
+	<collectableSet id ="cs4">
+		<collectable id="8" 	name="Valour"   	weight="0"		/>
+		<collectable id="9" 	name="Hat"  		weight="35"		/>
+		<collectable id="11" 	name="Backpack"  	weight="25"		/>
+		<collectable id="35" 	name="Excalibur"  	weight="15"		/>
+		<collectable id="40" 	name="Flame"  		weight="25"		/>
+	</collectableSet>
+	<collectableSet id ="cs5">
+		<collectable id="12" 	name="Tote"   		weight="25"		/>
+		<collectable id="28" 	name="Pencil"    	weight="25"		/>
+		<collectable id="38" 	name="Bow"  	 	weight="25"		/>
+		<collectable id="39" 	name="Glasses"  	weight="0"		/>
+		<collectable id="40" 	name="Flame"  		weight="25"		/>
+	</collectableSet>
+	<collectableSet id ="cs6">
+		<collectable id="31" 	name="Love Potion"  	 weight="0"		/>
+		<collectable id="32" 	name="Night Light"    	 weight="30"		/>
+		<collectable id="36" 	name="Autumn Leaves"  	 weight="10"		/>
+		<collectable id="37" 	name="Shopping Tag"   	 weight="30"		/>
+		<collectable id="41" 	name="Building Screw"  	 weight="15"		/>
+		<collectable id="42" 	name="Clippers"   		 weight="15"		/>
+	</collectableSet>
+	
+	<collectableSet id ="cs7" >
+		<collectable id="1" name="Phone" 			weight="40"/>
+		<collectable id="2" name="Milk" 			weight="15"/>
+		<collectable id="4" name="Bubble Gum" 		weight="45"/>		
+	</collectableSet>
+	<collectableSet id ="cs8" >
+		<collectable id="3" 	name="Doorbell"   	weight="15"/>
+		<collectable id="5" 	name="Hourglass"   	weight="20"/>
+		<collectable id="21" 	name="Bright Spark" weight="20"/>
+		<collectable id="32" 	name="Night Light"  weight="45"/>
+	</collectableSet>
+	<collectableSet id ="cs9">
+		<collectable id="6" 	name="Book"    			weight="15"	/>
+		<collectable id="7" 	name="Flowers"   		weight="35"	/>
+		<collectable id="10" 	name="Musical Notes"   	weight="15"	/>
+		<collectable id="13" 	name="Compass"  		weight="35"	/>
+	</collectableSet>
+	<collectableSet id ="cs10">
+		<collectable id="8" 	name="Valour"   	weight="0"		/>
+		<collectable id="9" 	name="Hat"  		weight="35"		/>
+		<collectable id="11" 	name="Backpack"  	weight="25"		/>
+		<collectable id="35" 	name="Excalibur"  	weight="15"		/>
+		<collectable id="40" 	name="Flame"  		weight="25"		/>
+	</collectableSet>
+	<collectableSet id ="cs11">
+		<collectable id="12" 	name="Tote"   		weight="25"		/>
+		<collectable id="28" 	name="Pencil"    	weight="25"		/>
+		<collectable id="38" 	name="Bow"  	 	weight="25"		/>
+		<collectable id="39" 	name="Glasses"  	weight="25"		/>
+		<collectable id="40" 	name="Flame"  		weight="0"		/>
+	</collectableSet>
+	<collectableSet id ="cs12">
+		<collectable id="31" 	name="Love Potion"  	 weight="15"		/>
+		<collectable id="32" 	name="Night Light"    	 weight="30"		/>
+		<collectable id="36" 	name="Autumn Leaves"  	 weight="10"		/>
+		<collectable id="37" 	name="Shopping Tag"   	 weight="30"		/>
+		<collectable id="41" 	name="Building Screw"  	 weight="0"			/>
+		<collectable id="42" 	name="Clippers"   		 weight="15"		/>
+	</collectableSet>
+	
+	<collectableSet id ="cs13">
+		<collectable id="1" name="Phone" 			weight="15"/>
+		<collectable id="2" name="Milk" 			weight="15"/>
+		<collectable id="4" name="Bubble Gum" 		weight="25"/>
+		<collectable id="25" name="Butterfly" 		weight="15"/>
+		<collectable id="26" name="Gems" 			weight="15"/>
+		<collectable id="27" name="Key" 				weight="15"/>
+	</collectableSet>
+	
+	<collectableSet id ="cs14" >
+		<collectable id="3" name="Doorbell" 		weight="15"/>
+		<collectable id="5" name="Hourglass" 		weight="15"/>
+		<collectable id="21" name="Bright Spark" 	weight="25"/>
+		<collectable id="29" name="Feathers" 		weight="15"/>
+		<collectable id="32" name="Night Light" 	weight="15"/>
+		<collectable id="34" name="Medallion" 		weight="15"/>		
+	</collectableSet>
+	<collectableSet id ="cs15" >
+		<collectable id="6" 	name="Book"   		weight="15"/>
+		<collectable id="7" 	name="Flowers"   	weight="15"/>
+		<collectable id="10" 	name="Musical Notes" weight="15"/>
+		<collectable id="13" 	name="Compass"  	weight="15"/>
+		<collectable id="14" 	name="Fun" 			weight="25"/>
+		<collectable id="30" 	name="Flower Button"  weight="15"/>
+	</collectableSet>
+	
+	
+	<collectableSet id ="cs16">
+		<collectable id="8" 	name="Valour"   	weight="15"		/>
+		<collectable id="9" 	name="Hat"  		weight="25"		/>
+		<collectable id="11" 	name="Backpack"  	weight="15"		/>
+		<collectable id="33" 	name="Sapling"  	weight="15"		/>
+		<collectable id="35" 	name="Excalibur"  	weight="15"		/>
+		<collectable id="40" 	name="Flame"  		weight="15"		/>
+	</collectableSet>
+	<collectableSet id ="cs17">
+		<collectable id="12" 	name="Tote"    		weight="15"	/>
+		<collectable id="28" 	name="Pencil"   	weight="15"	/>
+		<collectable id="38" 	name="Bow"   		weight="15"	/>
+		<collectable id="39" 	name="Glasses"  	weight="25"	/>
+		<collectable id="40" 	name="Flame"   		weight="15"	/>
+		<collectable id="43" 	name="Love Letter"  weight="15"	/>
+	</collectableSet>
+
+	<collectableSet id ="cs18">
+		<collectable id="31" 	name="Love Potion"   	weight="15"		/>
+		<collectable id="32" 	name="Night Light"    	weight="15"		/>
+		<collectable id="36" 	name="Autumn Leaves"  	weight="15"		/>
+		<collectable id="37" 	name="Shopping Tag"  	weight="25"		/>
+		<collectable id="41" 	name="Building Screw"  	weight="15"		/>
+		<collectable id="42" 	name="Clippers"  		weight="15"		/>
+	</collectableSet>
+	
+	<activity>
+	  <event id = "1" name="A Friendly Gesture" limit="20" /> 
+	  <event id = "2" name="Lost and Found" limit="20" /> 
+	  <event id = "3" name="Something Fishy" limit="20" /> 
+	  <event id = "4" name="Go Crafting" limit="15" /> 
+	  <event id = "5" name="Item Collector" limit="4" /> 
+	  <event id = "6" name="Steppin it Up" limit="4" /> 	  
+	  <event id = "7" name="Team Work" limit="4" /> 
+	  <event id = "8" name="Ask a friend" limit="20" /> 	   	  
+	  <event id = "9" name="Run till you drop!" limit="10" /> 
+	  <event id = "10" name="Eat, sleep, Recycle!" limit="20000" /> 
+	</activity>
+	<tradableItems>
+	  <trading id="1" gift="Backdrop" giftID="15" tradeReqCount="5">
+		   <tradeItem id="1" name="Blue Hat"/>
+		   <tradeItem id="2" name="Golden Decor"/>
+		   <tradeItem id="3" name="Knob"/>
+		   <tradeItem id="4" name="Hat Decor"/>
+		   <tradeItem id="5" name="Fashionista 4"/>
+		   <tradeItem id="6" name="Hat Dispencer" />
+		   <tradeItem id="7" name="Hat Container" />
+		   <tradeItem id="8" name="Fashion Ramp"  />
+	  </trading>
+	  <trading id="2" gift="Backdrop" giftID="15" tradeReqCount="5">
+		   <tradeItem id="1" name="Blue Hat"/>
+		   <tradeItem id="2" name="Golden Decor"/>
+		   <tradeItem id="3" name="Knob"/>
+		   <tradeItem id="4" name="Hat Decor"/>
+		   <tradeItem id="5" name="Fashionista 4"/>
+		   <tradeItem id="6" name="Hat Dispencer" />
+		   <tradeItem id="7" name="Hat Container" />
+		   <tradeItem id="8" name="Fashion Ramp"  />
+	</trading>
+ </tradableItems>
+</PetsQuestCollectables>
+		
+
+
+
+
+
+

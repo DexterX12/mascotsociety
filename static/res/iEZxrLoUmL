@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+<paths>
+<path src="http://localhost:8881/res/" name="1"/>
+<path src="http://localhost:8881/res/" name="0"/>
+</paths>
+<resources path="1">
+<resource length="1718950" src="sdUOjb0FwR" name="res_config"/>
+</resources><resources path="0">
+<resource length="1188539" src="YxNDNbAqyL" name="pets"/></resources></config>

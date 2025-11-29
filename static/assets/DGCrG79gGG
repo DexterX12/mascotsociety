@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customisedItems>
+	<item name = "PetsApp Banner" itemHash = "3093942249" >
+		<component  id = "1" name = "Word"  	allowedVariations = "a-z,A-Z" specialFeatures = " "  numberOfVariations = "20" dependency="colour,size"/>
+		<dependency id = "2" name = "colour" 	allowedVariations = "5,6,1,2,3,4" />
+		<dependency id = "3" name = "size" 		allowedVariations = "16,18,22" />
+	</item>
+</customisedItems>
+

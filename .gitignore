@@ -1,0 +1,5 @@
+scripts
+scripts_nonobfs
+.env
+__pycache__
+*.nofil

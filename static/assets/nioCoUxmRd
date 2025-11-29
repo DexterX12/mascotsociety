@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<itemGroups>
+	<itemGroup name="Perfume Collection" id="1">
+		<completionReward name="Grand Ballroom Entrance" itemHash="2025023369" />
+		
+		<item name="Striped Shell Perfume" itemHash="2974852765" />
+		<item name="Pink Coral Perfume" itemHash="1518393540" />
+		<item name="Purple Shell Perfume" itemHash="3863683933" />
+		<item name="Sandy Shell Perfume" itemHash="298835950" />
+		<item name="Peach Shell Perfume" itemHash="4064648455" />
+		<item name="Orange Shell Perfume" itemHash="2500463043" />
+		
+		<item name="Rose Perfume" itemHash="3939499751" />
+		<item name="Daffodil Perfume" itemHash="790279534" />
+		<item name="Pink Narcissus Perfume" itemHash="2749260361" />
+		<item name="Blue Peony Perfume" itemHash="4127223693" />
+		<item name="Tulip Perfume" itemHash="3272231450" />
+		<item name="Lily Perfume" itemHash="2125514284" />
+		
+		<item name="Tourmaline Perfume" itemHash="4070701987" />
+		<item name="Sapphire Perfume" itemHash="3157984361" />
+		<item name="Amber Perfume" itemHash="1166017706" />
+		<item name="Emerald Perfume" itemHash="2422943453" />
+		<item name="Blue Topaz Perfume" itemHash="1632840090" />
+		<item name="Ruby Perfume" itemHash="4081152111" />
+	</itemGroup>
+	
+	<itemGroup name="Gold Fish Collection" id="2">
+		<completionReward name="Giant Royal Teddy" itemHash="958202977" />
+		
+		<item name="Golden Discus Fish" itemHash="47309273" />
+		<item name="Golden Heartfish" itemHash="4212643486" />
+		<item name="Golden Frontosa Fish" itemHash="920326362" />
+		<item name="Golden Ram Fish" itemHash="3889375889" />
+		<item name="Golden Sardine Fish" itemHash="12534063" />
+		<item name="Golden African Butterfly Fish" itemHash="2310285849" />
+				
+	</itemGroup>
+	
+	<itemGroup name="Butterfies Collection" id="3">
+		<completionReward name="Stained Glass Wings" itemHash="872327557" />
+		
+		<item name="Yellow Glass Butterfly" itemHash="1795904914" />
+		<item name="Red Glass Butterfly" itemHash="85574888" />
+		<item name="Pink Glass Butterfly" itemHash="857362639" />
+		<item name="Blue Glass Butterfly" itemHash="3046560030" />
+		<item name="Green Glass Butterfly" itemHash="1292311767" />
+				
+	</itemGroup>
+	
+	<itemGroup name="Rainbow Fish Collection" id="4">
+		<completionReward name="Weather Changing Cloud Mask" itemHash="1029569502" />
+		
+		<item name="Silver Lining Fish" itemHash="1715792391" />
+		<item name="Storm Cloud Fish" itemHash="1715904058" />
+		<item name="Sunshine Fish" itemHash="855078110" />
+		<item name="Happy Rainbow Fish" itemHash="635277601" />
+		<item name="Rainy Cloud Fish" itemHash="453192592" />
+				
+	</itemGroup>
+	
+	<itemGroup name="Snailfish Collection" id="5">
+		<completionReward name="Small Ed Snail" itemHash="2841454080" />
+		
+		<item name="Pink Snailfish" itemHash="3581697254" />
+		<item name="Yellow Snailfish" itemHash="3369739401" />
+		<item name="Green Snailfish" itemHash="1868750869" />
+				
+	</itemGroup>
+	
+	<itemGroup name="Ladybugfish Collection" id="6">
+		<completionReward name="Little Mais Ladybug" itemHash="3114841827" />
+		
+		<item name="Heart Ladybugfish" itemHash="3371532630" />
+		<item name="Dot Ladybugfish" itemHash="2085645189" />
+		<item name="Star Ladybugfish" itemHash="2909196429" />
+				
+	</itemGroup>
+	
+	<itemGroup name="Beefish Collection" id="7">
+		<completionReward name="Buzzing Loppi Bee" itemHash="115925912" />
+		
+		<item name="Pink Beefish" itemHash="2885840048" />
+		<item name="Orange Beefish" itemHash="2962482615" />
+		<item name="Yellow Beefish" itemHash="284489331" />
+				
+	</itemGroup>
+	
+	<itemGroup name="Garden Pals Collection" id="8">
+		<completionReward name="Romantic Garden Secret Entrance" itemHash="1570036389" />
+		
+		<item name="Small Marby Snail" itemHash="1582824802" />
+		<item name="Small Ed Snail" itemHash="2841454080" />
+		<item name="Small Cluff Snail" itemHash="2514093181" />
+		<item name="Small Lisa Snail" itemHash="2852835064" />
+		
+		<item name="Little Anto Ladybug" itemHash="3793435535" />
+		<item name="Little Mais Ladybug" itemHash="3114841827" />
+		<item name="Little Bevy Ladybug" itemHash="2744483519" />
+		<item name="Little Maggie Ladybug" itemHash="1740872868" />
+		
+		<item name="Buzzing Erik Bee" itemHash="310280613" />
+		<item name="Buzzing Loppi Bee" itemHash="115925912" />
+		<item name="Buzzing Gemma Bee" itemHash="1135049437" />
+		<item name="Buzzing Chris Bee" itemHash="1617055159" />
+				
+	</itemGroup>
+	
+	<itemGroup name="Elemental Fish Collection" id="9">
+		<completionReward name="Bouncy Shape Shifting Five Elements Ball" itemHash="2234945303" />
+		
+		<item name="Fire Elementfish" itemHash="1065018451" />
+		<item name="Water Elementfish" itemHash="443800376" />
+		<item name="Earth Elementfish" itemHash="1314603057" />
+		<item name="Air Elementfish" itemHash="3870422404" />
+		<item name="Love Elementfish" itemHash="3808136175" />
+				
+	</itemGroup>
+	
+	<itemGroup name="Cactus Collection" id="10">
+		<completionReward name="Flowering Cactus Tree Seed" itemHash="4266174473" />
+		
+		<item name="Red Potted Cactus" itemHash="2295317670" />
+		<item name="Purple Potted Cactus" itemHash="476715839" />
+		<item name="Blue Potted Cactus" itemHash="1970596490" />
+		<item name="White Potted Cactus" itemHash="1493626106" />
+		<item name="Yellow Potted Cactus" itemHash="1825036322" />
+	</itemGroup>
+	
+	<itemGroup name="Wizard Portrait Collection" id="11">
+		<completionReward name="Dark Pet Lord Portrait" itemHash="1357083176" />
+		
+		<item name="Wizard Prodigy Portrait" itemHash="2711833775" />
+		<item name="Smart Wizard Portrait" itemHash="1912078560" />
+		<item name="Goofy Wizard Portrait" itemHash="2366307722" />
+	</itemGroup>
+	
+	<itemGroup name="Peacock Collection" id="12">
+		<completionReward name="Magnificent Peacock Seat" itemHash="2369340488" />
+		
+		<item name="Homegrown Peacock Eye Flower" itemHash="210692471" />
+		<item name="Homegrown Peacock Crown Flower" itemHash="3176326513" />
+		<item name="Homegrown Peacock Train Flower" itemHash="2419363318" />
+	</itemGroup>
+
+	<itemGroup name="Gargoyle Collection" id="13">
+		<completionReward name="Grand Pet Gargoyle" itemHash="2744832497" />
+		
+		<item name="Mini Kitty Gargoyle" itemHash="1802849908" />
+		<item name="Mini Teddy Gargoyle" itemHash="3993313155" />
+		<item name="Mini Puppy Gargoyle" itemHash="14564952" />
+		<item name="Mini Piglet Gargoyle" itemHash="1705924802" />
+		<item name="Mini Bunny Gargoyle" itemHash="4041391232" />
+	</itemGroup>	
+
+	<itemGroup name="Fairy Fish Collection" id="14">
+		<completionReward name="Gem Flower Trigger" itemHash="1869687313" />
+		
+		<item name="Dark Fairyfish" itemHash="3262604947" />
+		<item name="Princess Fairyfish" itemHash="2917133009" />
+		<item name="Petal Fairyfish" itemHash="3295467149" />
+		<item name="Acorn Fairyfish" itemHash="3643096903" />
+		<item name="Immaculate Fairyfish" itemHash="3935557342" />
+	</itemGroup>	
+
+	<!--  
+	      Don't use itemGroup 15 - this was accidently used for both the Ghostly Manor Completion and
+	      the Snow White Fish Collection.  Re-using it will mean that players who already got items
+	      from the Ghostly Manor Completion or the Snow White Fish Collection will get a head start in the
+	      new collection
+	-->
+	
+	<itemGroup name="Ghostly Manor Completion" id="16">
+		<completionReward name="Ghostly Manor Completion Bundle" itemHash="414350070" />
+
+		<item name="Ghostly Manor Mirror" itemHash="3884546246" />
+		<item name="Ghostly Manor Throne" itemHash="3975351058" />
+		<item name="Ghostly Manor Balcony" itemHash="937592375" />
+	</itemGroup>	
+
+	<itemGroup name="Snow White Fish Collection" id="17">
+		<completionReward name="Wicked Witch with Apples" itemHash="1493488484" />
+		
+		<item name="Snow Whitefish" itemHash="3913888921" />
+		<item name="Poison Applefish" itemHash="2380240881" />
+		<item name="Dwarfish" itemHash="2617051274" />
+		<item name="Evil Queenfish" itemHash="3507898876" />
+		<item name="Omniscient Mirrorfish" itemHash="1330273273" />
+	</itemGroup>
+	
+	<itemGroup name="Polar Paradise Collection" id="18">
+		<completionReward name="Polar Paradise Door" itemHash="1762366636" />
+		
+		<item name="Polar Paradise Fairy" itemHash="2095188151" />
+		<item name="Polar Paradise Bear Seat" itemHash="3682426724" />
+		<item name="Polar Paradise Falls" itemHash="1776900362" />
+	</itemGroup>
+	<itemGroup name="Phoenix Seat Collection" id="19">
+		<completionReward name="Phoenix Seat" itemHash="2926493033" />		
+		<item name="Homegrown Pink Phoenix Flower" itemHash="3965672569" />
+		<item name="Homegrown Purple Phoenix Flower" itemHash="3437454497" />
+		<item name="Homegrown Blue Phoenix Flower" itemHash="430911308" />
+	</itemGroup>
+	
+	<itemGroup name="Pawitched Phoenix Seat Collection" id="20">
+		<completionReward name="Pawitched Phoenix Seat" itemHash="2125876906" />		
+		<item name="Homegrown Pawitched Pink Phoenix Flower" itemHash="1550823170" />
+		<item name="Homegrown Pawitched Purple Phoenix Flower" itemHash="2428776113" />
+		<item name="Homegrown Pawitched Blue Phoenix Flower" itemHash="2716043230" />
+	</itemGroup>
+
+	<itemGroup name="Halloween 2012 Collection" id="21">
+		<completionReward name="Halloween Collection Pillar" itemHash="3054129157" />		
+		<item name="Pumpkin Hallow Wings" itemHash="1556449340" />
+		<item name="The Glove Summoning Armband" itemHash="3968011449" />
+		<item name="Haunted Blue Pirate Fairy" itemHash="3948399329" />
+	</itemGroup>
+	<itemGroup name="Princess Plushie Collection" id="22">
+		<completionReward name="Junglee Princess Plushie" itemHash="3872586365" />		
+		<item name="Berry Princess Plushie" itemHash="1256259124" />
+		<item name="Goo Princess Plushie" itemHash="551263232" />
+		<item name="Slime Princess Plushie" itemHash="123588987" />
+		<item name="Red Hot Princess Plushie" itemHash="1307828288" />
+		<item name="Pretty Princess Plushie" itemHash="945896045" />
+		<item name="Candy Ball Princess Plushie" itemHash="4061246003" />
+		<item name="Rag Doll Princess Plushie" itemHash="1370698054" />
+	</itemGroup>
+	<itemGroup name="Valentines Day 2013 Collection" id="23">
+		<completionReward name="Cupid Heart" itemHash="2661372254" />		
+		<item name="Evolving Love Struck Outfit" itemHash="3692018065" />
+		<item name="Evolving Valentine Evening Gown" itemHash="3388233536" />
+	</itemGroup>
+	<itemGroup name="Birdie Boo Collection" id="24">
+		<completionReward name="Barky Puppy Plushie" itemHash="3977470" />		
+		<item name="Ballet Couple Plushie" itemHash="4009294013" />
+		<item name="Flower Fairy Plushie" itemHash="1657615592" />
+		<item name="Farm Sheep Plushie" itemHash="3107944230" />
+		<item name="Pink Princess Plushie" itemHash="4139655079" />
+		<item name="Shakespeare Plushie" itemHash="1987761369" />
+		<item name="Voodoo Bear Plushie" itemHash="1880859703" />
+	</itemGroup>
+	<itemGroup name="Golden Age Hat Collection" id="25">
+		<completionReward name="Majestica Hat" itemHash="2968770976" />		
+		<item name="Big Bow Blue Hat" itemHash="4257980572" />
+		<item name="Big Bow Purple Hat" itemHash="355741584" />
+		<item name="Big Bow Red Hat" itemHash="1327187698" />
+		<item name="Big Bow Brown Hat" itemHash="443569972" />
+		<item name="Lady Like Green Hat" itemHash="2400899210" />
+		<item name="Lady Like Blue Hat" itemHash="1223809404" />
+		<item name="Lady Like Cream Hat" itemHash="2372141228" />
+		<item name="Spicy Lady Head Gear" itemHash="2921715236" />
+		<item name="Candy Cute Head Gear" itemHash="3705489712" />
+		<item name="Green Floppy Hat" itemHash="3799056111" />
+		<item name="Orange Floppy Hat" itemHash="3144382824" />
+		<item name="Blue Floppy Hat" itemHash="4143074887" />
+		<item name="Cream Floppy Hat" itemHash="3922787253" />
+		<item name="Blue Hair Scarf" itemHash="2778458262" />
+		<item name="Purple Hair Scarf" itemHash="3434129933" />
+		<item name="Green Hair Scarf" itemHash="1575047117" />
+		<item name="Sky Blue Hair Scarf" itemHash="297462366" />
+	</itemGroup>
+</itemGroups>
+

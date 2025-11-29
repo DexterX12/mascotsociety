@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quests>
+    <!--  Note that the minimumPetLevel is 1 based in this XML file, but is zero based in the database -->
+	<quest id="1" name="LostAnimal" isDaily="true" numberOfSteps="5" startDate="2011-03-01" minimumPetLevel="1" >
+		<stepRewards>
+			<rewardDescription id="1" startDate="2011-01-01" coins="30" xp="0" />
+		</stepRewards>
+		<completionRewards>
+			<!-- Under the Sea -->
+			<rewardDescription id="1" startDate="2011-03-17" endDate="2011-03-19" coins="0" xp="20">
+				<reward name="Purple Shell Perfume" itemHash="3863683933" />
+			</rewardDescription>
+			<rewardDescription id="2" startDate="2011-03-19" endDate="2011-03-21" coins="0" xp="20">
+				<reward name="Sandy Shell Perfume" itemHash="298835950" />
+			</rewardDescription>
+			<rewardDescription id="3" startDate="2011-03-21" endDate="2011-03-23" coins="0" xp="20">
+				<reward name="Peach Shell Perfume" itemHash="4064648455" />
+			</rewardDescription>
+			<rewardDescription id="4" startDate="2011-03-23" endDate="2011-03-24" coins="0" xp="20">
+				<reward name="Orange Shell Perfume" itemHash="2500463043" />
+			</rewardDescription>
+			
+			<!-- Modern Luxury -->
+			<rewardDescription id="5" startDate="2011-03-24" endDate="2011-03-26" coins="0" xp="20">
+				<reward name="Pink Narcissus Perfume" itemHash="2749260361" />
+			</rewardDescription>
+			<rewardDescription id="6" startDate="2011-03-26" endDate="2011-03-28" coins="0" xp="20">
+				<reward name="Blue Peony Perfume" itemHash="4127223693" />
+			</rewardDescription>
+			<rewardDescription id="7" startDate="2011-03-28" endDate="2011-03-30" coins="0" xp="20">
+				<reward name="Tulip Perfume" itemHash="3272231450" />
+			</rewardDescription>
+			<rewardDescription id="8" startDate="2011-03-30" endDate="2011-03-31" coins="0" xp="20">
+				<reward name="Lily Perfume" itemHash="2125514284" />
+			</rewardDescription>
+			
+			<!-- Museum -->
+			<rewardDescription id="9" startDate="2011-03-31" endDate="2011-04-02" coins="0" xp="20">
+				<reward name="Amber Perfume" itemHash="1166017706" />
+			</rewardDescription>
+			<rewardDescription id="10" startDate="2011-04-02" endDate="2011-04-04" coins="0" xp="20">
+				<reward name="Emerald Perfume" itemHash="2422943453" />
+			</rewardDescription>
+			<rewardDescription id="11" startDate="2011-04-04" endDate="2011-04-06" coins="0" xp="20">
+				<reward name="Blue Topaz Perfume" itemHash="1632840090" />
+			</rewardDescription>
+			<rewardDescription id="12" startDate="2011-04-06" endDate="2011-04-07" coins="0" xp="20">
+				<reward name="Ruby Perfume" itemHash="4081152111" />
+			</rewardDescription>
+			
+			<!-- Normal Mayor Quest -->
+			<rewardDescription id="13" startDate="2011-04-07" endDate="2011-05-04" coins="0" xp="20">
+				<reward name="Mystery Box" itemHash="3465775548" />
+			</rewardDescription>
+			
+			<!-- Cinqo De Mayo Quest -->
+			<rewardDescription id="14" startDate="2011-05-04" endDate="2011-05-06" coins="0" xp="20">
+				<reward name="Cinco De Mayo Mystery Box" itemHash="1758351306" />
+			</rewardDescription>
+			
+			<!-- Normal Mayor Quest Continued -->
+			<rewardDescription id="15" startDate="2011-05-06" endDate="2011-06-02" coins="0" xp="20">
+				<reward name="Mystery Box" itemHash="3465775548" />
+			</rewardDescription>
+			
+			<!-- Garden Pals Collection -->
+			<rewardDescription id="16" startDate="2011-06-02" endDate="2011-06-06" coins="0" xp="20">
+				<reward name="Small Cluff Snail" itemHash="2514093181" />
+			</rewardDescription>
+			
+			<rewardDescription id="17" startDate="2011-06-06" endDate="2011-06-09" coins="0" xp="20">
+				<reward name="Mystery Box" itemHash="3465775548" />
+			</rewardDescription>
+			
+			<rewardDescription id="18" startDate="2011-06-09" endDate="2011-06-13" coins="0" xp="20">
+				<reward name="Little Bevy Ladybug" itemHash="2744483519" />
+			</rewardDescription>
+			
+			<rewardDescription id="19" startDate="2011-06-13" endDate="2011-06-16" coins="0" xp="20">
+				<reward name="Mystery Box" itemHash="3465775548" />
+			</rewardDescription>
+			
+			<rewardDescription id="20" startDate="2011-06-16" endDate="2011-06-20" coins="0" xp="20">
+				<reward name="Buzzing Gemma Bee" itemHash="1135049437" />
+			</rewardDescription>
+			
+			<!-- Normal Mayor Quest -->
+			<rewardDescription id="21" startDate="2011-06-20" coins="0" xp="20">
+				<reward name="Mystery Box" itemHash="3465775548" />
+			</rewardDescription>
+			
+		</completionRewards>
+	</quest>
+
+	<quest id="2" name="GoOutside" isDaily="false" numberOfSteps="1" hideTaskIcon="true" startDate="2011-01-01" >
+		<stepRewards>
+			<rewardDescription id="1" startDate="2011-01-01" coins="0" />
+		</stepRewards>
+	</quest>
+
+	<quest id="3" name="UnlockOutside" isDaily="false" numberOfSteps="1" hideTaskIcon="true" startDate="2011-01-01" minimumPetLevel="6">
+		<stepRewards>
+			<rewardDescription id="1" startDate="2011-01-01" coins="0" />
+		</stepRewards>
+	</quest>
+</quests>

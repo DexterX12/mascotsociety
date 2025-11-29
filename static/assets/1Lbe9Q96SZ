@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<fish-category name="Fishing Junk">
+		<fish name="Bike Wheel" itemHash="1270330518"></fish>
+		<fish name="Broken Pot" itemHash="803842639"></fish>
+		<fish name="Conch Shell" itemHash="3668587690"></fish>
+		<fish name="Coral" itemHash="1353208514"></fish>
+		<fish name="Empty Bottle" itemHash="1724582104"></fish>
+		<fish name="Fish Bones" itemHash="3779074971"></fish>
+		<fish name="Message In A Bottle" itemHash="227107944"></fish>
+		<fish name="Old Boot" itemHash="3168616262"></fish>
+		<fish name="Sea Star Baby Doll" itemHash="3496307240"></fish>
+		<fish name="Sea Urchin" itemHash="76034151"></fish>
+		<fish name="Seaweed" itemHash="220167411"></fish>
+		<fish name="Soda Can" itemHash="304160890"></fish>
+		<fish name="Blue Sea Urchin Shell" itemHash="3056298484"></fish>
+		<fish name="Clam With Pearl" itemHash="950708706"></fish>
+		<fish name="Cypraea Englerti" itemHash="4025965874"></fish>
+		<fish name="Orange Seashell" itemHash="2707475700"></fish>
+		<fish name="White Anemone" itemHash="2309189350"></fish>
+		<fish name="Sea Anemone" itemHash="2983609216"></fish>
+		<fish name="Sea Slug" itemHash="100598844"></fish>
+		<fish name="Rusted Anchor" itemHash="1180676836"></fish>
+		<fish name="Amberstone Bug" itemHash="2257067612"></fish>
+		<fish name="Heart Locker" itemHash="55052368"></fish>
+		<fish name="Pink Diamond" itemHash="1353261580"></fish>
+		<fish name="Broken Mystery Box" itemHash="3985915905"></fish>
+		<fish name="Blue Anemone" itemHash="1895350430"></fish>
+		<fish name="Orange Coral" itemHash="1619582207"></fish>
+	</fish-category>
+	<fish-category name="Cash Fish">
+		<fish name="Pink Candy Seahorse" itemHash="958928875">
+			<bait name="Pink Candy Seahorse Bait" itemHash="2088074116" />
+		</fish>
+		<fish name="Pink Snailfish" itemHash="3581697254">
+			<bait name="Snail Fish Bait" itemHash="1971794673" />
+		</fish>
+		<fish name="Yellow Snailfish" itemHash="3369739401">
+			<bait name="Snail Fish Bait" itemHash="1971794673" />
+		</fish>
+		<fish name="Green Snailfish" itemHash="1868750869">
+			<bait name="Snail Fish Bait" itemHash="1971794673" />
+		</fish>
+		<fish name="Heart Ladybugfish" itemHash="3371532630">
+			<bait name="Ladybug Fish Bait" itemHash="2714661287" />
+		</fish>
+		<fish name="Dot Ladybugfish" itemHash="2085645189">
+			<bait name="Ladybug Fish Bait" itemHash="2714661287" />
+		</fish>
+		<fish name="Star Ladybugfish" itemHash="2909196429">
+			<bait name="Ladybug Fish Bait" itemHash="2714661287" />
+		</fish>
+		<fish name="Pink Beefish" itemHash="2885840048">
+			<bait name="Bee Fish Bait" itemHash="3225151383" />
+		</fish>
+		<fish name="Orange Beefish" itemHash="2962482615">
+			<bait name="Bee Fish Bait" itemHash="3225151383" />
+		</fish>
+		<fish name="Yellow Beefish" itemHash="284489331">
+			<bait name="Bee Fish Bait" itemHash="3225151383" />
+		</fish>
+		<fish name="Purple Tube Fish" itemHash="2997687618">
+			<bait name="Color Splash Fish Bait" itemHash="59493008" />
+		</fish>
+		<fish name="Blue Tube Fish" itemHash="3184891556">
+			<bait name="Color Splash Fish Bait" itemHash="59493008" />
+		</fish>
+		<fish name="Green Pencil Fish" itemHash="3768169159">
+			<bait name="Color Splash Fish Bait" itemHash="59493008" />
+		</fish>
+		<fish name="Red Pencil Fish" itemHash="1522709216">
+			<bait name="Color Splash Fish Bait" itemHash="59493008" />
+		</fish>
+		<fish name="Orange Brush Fish" itemHash="3965395302">
+			<bait name="Color Splash Fish Bait" itemHash="59493008" />
+		</fish>
+		<fish name="Pink Brush Fish" itemHash="2894450741">
+			<bait name="Color Splash Fish Bait" itemHash="59493008" />
+		</fish>
+		<fish name="Silver Lining Fish" itemHash="1715792391">
+			<bait name="Rainbow Fish Bait" itemHash="2766228073" />
+		</fish>
+		<fish name="Storm Cloud Fish" itemHash="1715904058">
+			<bait name="Rainbow Fish Bait" itemHash="2766228073" />
+		</fish>
+		<fish name="Sunshine Fish" itemHash="855078110">
+			<bait name="Rainbow Fish Bait" itemHash="2766228073" />
+		</fish>
+		<fish name="Happy Rainbow Fish" itemHash="635277601">
+			<bait name="Rainbow Fish Bait" itemHash="2766228073" />
+		</fish>
+		<fish name="Rainy Cloud Fish" itemHash="453192592">
+			<bait name="Rainbow Fish Bait" itemHash="2766228073" />
+		</fish>
+		<fish name="Golden Discus Fish" itemHash="47309273">
+			<bait name="Golden Fish Bait" itemHash="482524012" />
+		</fish>
+		<fish name="Golden Heartfish" itemHash="4212643486">
+			<bait name="Golden Fish Bait" itemHash="482524012" />
+		</fish>
+		<fish name="Golden Frontosa Fish" itemHash="920326362">
+			<bait name="Golden Fish Bait" itemHash="482524012" />
+		</fish>
+		<fish name="Golden Ram Fish" itemHash="3889375889">
+			<bait name="Golden Fish Bait" itemHash="482524012" />
+		</fish>
+		<fish name="Golden Sardine Fish" itemHash="12534063">
+			<bait name="Golden Fish Bait" itemHash="482524012" />
+		</fish>
+		<fish name="Golden African Butterfly Fish" itemHash="2310285849">
+			<bait name="Golden Fish Bait" itemHash="482524012" />
+		</fish>
+		<fish name="Fire Elementfish" itemHash="1065018451">
+			<bait name="Five Elements Fish Bait" itemHash="4051477733" />
+		</fish>
+		<fish name="Water Elementfish" itemHash="443800376">
+			<bait name="Five Elements Fish Bait" itemHash="4051477733" />
+		</fish>
+		<fish name="Earth Elementfish" itemHash="1314603057">
+			<bait name="Five Elements Fish Bait" itemHash="4051477733" />
+		</fish>
+		<fish name="Air Elementfish" itemHash="3870422404">
+			<bait name="Five Elements Fish Bait" itemHash="4051477733" />
+		</fish>
+		<fish name="Love Elementfish" itemHash="3808136175">
+			<bait name="Five Elements Fish Bait" itemHash="4051477733" />
+		</fish>
+		<fish name="Dark Fairyfish" itemHash="3262604947">
+			<bait name="Fairyfish Bait" itemHash="3201632851" />
+		</fish>
+		<fish name="Princess Fairyfish" itemHash="2917133009">
+			<bait name="Fairyfish Bait" itemHash="3201632851" />
+		</fish>
+		<fish name="Petal Fairyfish" itemHash="3295467149">
+			<bait name="Fairyfish Bait" itemHash="3201632851" />
+		</fish>
+		<fish name="Acorn Fairyfish" itemHash="3643096903">
+			<bait name="Fairyfish Bait" itemHash="3201632851" />
+		</fish>
+		<fish name="Immaculate Fairyfish" itemHash="3935557342">
+			<bait name="Fairyfish Bait" itemHash="3201632851" />
+		</fish>
+		<fish name="Lilac Starletfish" itemHash="115271814">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Biscuitfish" itemHash="1174891858">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Bluefish" itemHash="2065008620">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Daifuku Mochifish" itemHash="3907304616">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Crystalfish" itemHash="3255170089">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Blue Betta" itemHash="4175152138">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Pink Seahorse" itemHash="3231169695">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Spotted Cardinalfish" itemHash="425861311">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Guppy" itemHash="836771322">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Pink Ribbonfish" itemHash="2830114300">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Clown Triggerfish" itemHash="755379029">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Butterflyfish" itemHash="95518632">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Jellyfish" itemHash="1375587008">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Black Angelfish" itemHash="1076811138">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Green Gummifish" itemHash="1731445355">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Regal Tang" itemHash="2300918324">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Lionfish" itemHash="1964515279">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Teddyfish" itemHash="1917869037">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Pink Starletfish" itemHash="813322120">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Tancho Pearlscale" itemHash="4204268079">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Striped Bee Fish" itemHash="2898225461">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Dotted Bee Fish" itemHash="1923442790">
+			<bait name="Fish Biscuit" itemHash="429979779" />
+		</fish>
+		<fish name="Ghostfish" itemHash="3084714717">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Nightmarefish" itemHash="3800415231">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Scary Clownfish" itemHash="250347389">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Monsterfish" itemHash="3136041065">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Incubusfish" itemHash="329485239">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Mutantfish" itemHash="4062560885">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Scary Maskfish" itemHash="203948253">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Mummyfish" itemHash="486528225">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Frankensteinfish" itemHash="1040953271">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Pinfish" itemHash="1980762074">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Witchfish" itemHash="3763797111">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Crowfish" itemHash="1747556815">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Draculafish" itemHash="1614980864">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Black Kittenfish" itemHash="3294675100">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Skeletonfish" itemHash="4184767315">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Ghoulfish" itemHash="3107747032">
+			<bait name="Halloween Fish Biscuit" itemHash="3219748382" />
+		</fish>
+		<fish name="Magic Broom Fish" itemHash="2178229272">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Spell Book Fish" itemHash="3461872770">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Halloween Devil Fish" itemHash="3638445458">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Treat Fish" itemHash="3639100516">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Cute Pumpkin Ghost Fish" itemHash="123657256">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Halloween Angel Fish" itemHash="630356770">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Vampire Bat Fish" itemHash="278928345">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Magic Hat Fish" itemHash="2940537784">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Ogre Fish" itemHash="1209503060">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Eyeball Fish" itemHash="2455107782">
+			<bait name="Orange Halloween Fish Biscuit" itemHash="4280781538" />
+		</fish>
+		<fish name="Candy Canefish" itemHash="1430789995">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Colourful Baublefish" itemHash="2036598673">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Elfish" itemHash="986257951">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Giftwrappedfish" itemHash="3654805856">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Gingerbreadfish" itemHash="2080895987">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Gold Starfish" itemHash="3902278064">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Mince Piefish" itemHash="1712816883">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Pine Conefish" itemHash="2024982664">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Robinfish" itemHash="422720329">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Rudolfish" itemHash="208660591">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Santa Hatfish" itemHash="4246811415">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Santa Sackfish" itemHash="2577942602">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Snow Ballfish" itemHash="3318205914">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Snowmanfish" itemHash="582413677">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Sockfish" itemHash="513981229">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Xmas Puddingfish" itemHash="84372197">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Hollyfish" itemHash="2469838047">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Snowflakefish" itemHash="2699578617">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Yule Logfish" itemHash="2728980722">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Blue Tinselfish" itemHash="1367196060">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Pink Tinselfish" itemHash="3795337197">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Silver Bellfish" itemHash="2010897179">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Present Boxfish" itemHash="3113195891">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Pink Baublefish" itemHash="331254662">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Blue Baublefish" itemHash="2265527207">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Festive Treefish" itemHash="1749273848">
+			<bait name="Holiday Fish Biscuit" itemHash="2336144166" />
+		</fish>
+		<fish name="Nutcrackerfish" itemHash="2996693845">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Sleighfish" itemHash="1538258467">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Candlefish" itemHash="637163727">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Penguinfish" itemHash="3405751571">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Polar Bearfish" itemHash="938233281">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Sugar Plumfish" itemHash="445953286">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Rat Kingfish" itemHash="1502557490">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Shopping Bagfish" itemHash="4127297221">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Alphabet Blockfish" itemHash="3295084503">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Carolfish" itemHash="677322284">
+			<bait name="Icy Holiday Fish Bait" itemHash="1276303568" />
+		</fish>
+		<fish name="Cupidfish" itemHash="2446989804">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Rosefish" itemHash="2936196039">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Eel In Love" itemHash="767387210">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Groomfish" itemHash="2970133323">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Bridefish" itemHash="1286045314">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Valentine Candyfish" itemHash="744307023">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Romantic Jellyfish" itemHash="597157745">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Valentine Cookiefish" itemHash="310416982">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Ringfish" itemHash="3388589154">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Kissfish" itemHash="101350488">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Dovefish" itemHash="2440680832">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Fish-in-love" itemHash="1089906737">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Lovely Octopus" itemHash="1370026820">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Valentine Bearfish" itemHash="2955070621">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Valentine Giftfish" itemHash="1470434864">
+			<bait name="Valentine Fish Biscuit" itemHash="2938478649" />
+		</fish>
+		<fish name="Lambfish" itemHash="1876020249">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Chickfish" itemHash="3271720927">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Chocolate Eggfish" itemHash="1676410746">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Lilyfish" itemHash="1701133140">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Daffodilfish" itemHash="1260722485">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Bunnyfish" itemHash="1952067513">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Red Tulipfish" itemHash="1140946273">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Easter Ribbonfish" itemHash="4040058539">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Pink Eggfish" itemHash="1358448143">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Blue Eggfish" itemHash="3706947772">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Pigfish" itemHash="1927312392">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Easter Basketfish" itemHash="1245025472">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Bunfish" itemHash="3384621904">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Blue Tit Fish" itemHash="1807197467">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Fish In Bunny Costume" itemHash="1118411860">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Fish With Easter Bonnet" itemHash="4283605474">
+			<bait name="Easter Fish Biscuit" itemHash="2188674005" />
+		</fish>
+		<fish name="Pink Gummy Fish" itemHash="293663112">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Emerald Gummy Seahorse" itemHash="4067875379">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Blue Gummy Fish" itemHash="3185849347">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Aqua Gummy Seahorse" itemHash="3796269523">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Orange Gummy Seahorse" itemHash="3720734415">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Pale Pink Gummy Fish" itemHash="1807510400">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Dark Blue Gummy Octopus" itemHash="221612119">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Green Gummy Fish" itemHash="1477920791">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Indigo Gummy Squid" itemHash="3344859884">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Teal Gummy Starfish" itemHash="1842687209">
+			<bait name="Gummy Fish Candy" itemHash="1496043742" />
+		</fish>
+		<fish name="Creme Bruleefish" itemHash="1631999596">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Crepefish" itemHash="1469252646">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Chocolate Spongecakefish" itemHash="477684701">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Vanilla Spongecakefish" itemHash="1730956116">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Pistachio Icecreamfish" itemHash="86359629">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Ice Cream Sandwichfish" itemHash="3130667255">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Strawberry Icecreamfish" itemHash="1222442881">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Chocolate Macaronfish" itemHash="646977580">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Chocolate Creamfish" itemHash="3610096840">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Wafflefish" itemHash="2298860352">
+			<bait name="Bakery Fish Bait" itemHash="3403264777" />
+		</fish>
+		<fish name="Prehistoric Eggfish" itemHash="4115740951">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Tropical Rockfish" itemHash="2089352831">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Grumpy Rockfish" itemHash="3574783744">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Dinoshark" itemHash="4141138239">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Tricerafish" itemHash="858779038">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Pink Amoeba" itemHash="583523343">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Prehistoric Girlfish" itemHash="2686637828">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Ankylofish" itemHash="3955261436">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Prehistoric Eel" itemHash="1408276105">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Nessie" itemHash="542242382">
+			<bait name="Prehistoric Fish Bait" itemHash="2350957625" />
+		</fish>
+		<fish name="Snow Whitefish" itemHash="3913888921">
+			<bait name="Snow White Fish Bait" itemHash="2737520983" />
+		</fish>
+		<fish name="Poison Applefish" itemHash="2380240881">
+			<bait name="Snow White Fish Bait" itemHash="2737520983" />
+		</fish>
+		<fish name="Dwarfish" itemHash="2617051274">
+			<bait name="Snow White Fish Bait" itemHash="2737520983" />
+		</fish>
+		<fish name="Evil Queenfish" itemHash="3507898876">
+			<bait name="Snow White Fish Bait" itemHash="2737520983" />
+		</fish>
+		<fish name="Omniscient Mirrorfish" itemHash="1330273273">
+			<bait name="Snow White Fish Bait" itemHash="2737520983" />
+		</fish>
+		<fish name="Bubbles Volcano" itemHash="17129833">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Triton's Trident" itemHash="1920245277">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Sleepy Octopus" itemHash="482168698">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Corals Decor" itemHash="2181535421">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Magic Sea Mirror" itemHash="2974949496">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Sea Castle" itemHash="114819459">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Sweet Mermaid Statue" itemHash="718510545">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Deep Sea Golden Heart" itemHash="1525814005">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Mermaid Bear Plushie" itemHash="2162740524">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Sea Diamond" itemHash="1421682451">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Silver Sea Coin" itemHash="3205115780">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Golden Sea Coin" itemHash="1645318250">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Precious Mermaid Dress" itemHash="600013346">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Precious Shells Hairclip" itemHash="515623630">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+		<fish name="Mermaid Wig" itemHash="3751349477">
+			<bait name="Treasure Bait" itemHash="1482451241" />
+		</fish>
+	</fish-category>
+	<fish-category name="Pro Fish">
+		<fish name="Longbill Spearfish" itemHash="483421123"></fish>
+		<fish name="Coelacanth" itemHash="3926485623"></fish>
+		<fish name="Flying Fish" itemHash="2014021088"></fish>
+		<fish name="Masked Butterflyfish" itemHash="1320254883"></fish>
+		<fish name="Mola Mola" itemHash="3192917232"></fish>
+		<fish name="Rainbowfish" itemHash="2670685860"></fish>
+		<fish name="Mahi Mahi" itemHash="869519961"></fish>
+		<fish name="Royal Gramma" itemHash="3411897008"></fish>
+		<fish name="Indian Glassy Fish" itemHash="2334720868"></fish>
+		<fish name="Yellow Jack" itemHash="4035894133"></fish>
+		<fish name="Roosterfish" itemHash="4068320902"></fish>
+		<fish name="Blackcap Gramma" itemHash="2750443360"></fish>
+		<fish name="Helfrichi Firefish" itemHash="1880898517"></fish>
+		<fish name="Purple Firefish" itemHash="2533590113"></fish>
+		<fish name="Blue Girdled Angelfish" itemHash="984763725"></fish>
+		<fish name="Cubicus Boxfish" itemHash="3477799142"></fish>
+		<fish name="Emperor Angelfish" itemHash="2299433566"></fish>
+		<fish name="Vagabond Butterflyfish" itemHash="127558844"></fish>
+		<fish name="Longnose Butterflyfish" itemHash="2754373409"></fish>
+	</fish-category>
+	<fish-category name="Normal Fish">
+		<fish name="Friendly Carrot Buddy" itemHash="177758680"></fish>
+		<fish name="Romantic Icefish" itemHash="2450334645"></fish>
+		<fish name="Icefish" itemHash="1663051104">
+			<bait name="Hot Chocolate" itemHash="529184424" />
+			<bait name="Latte" itemHash="1807067949" />
+			<bait name="Mocha" itemHash="1032524618" />
+			<bait name="Espresso" itemHash="2917977167" />
+			<bait name="Cappuccino" itemHash="388788099" />
+		</fish>
+		<fish name="Altum Angelfish" itemHash="3536726099"></fish>
+		<fish name="Applefish" itemHash="3135193533">
+			<bait name="Apple" itemHash="3898149272" />
+		</fish>
+		<fish name="Bananafish" itemHash="3324350089">
+			<bait name="Banana" itemHash="2899387034" />
+			<bait name="Homegrown Banana" itemHash="1362558990" />
+		</fish>
+		<fish name="Blowfish" itemHash="250781402"></fish>
+		<fish name="Bluegill" itemHash="3301278730"></fish>
+		<fish name="Blue Ram" itemHash="3466023938"></fish>
+		<fish name="Carp" itemHash="2073618202"></fish>
+		<fish name="Catfish" itemHash="2934978717">
+			<bait name="Milk" itemHash="4064379758" />
+		</fish>
+		<fish name="Cheesefish" itemHash="140233214">
+			<bait name="Cheese" itemHash="555801654" />
+		</fish>
+		<fish name="Chocolate Donutfish" itemHash="3492420416">
+			<bait name="Donut" itemHash="2879989940" />
+		</fish>
+		<fish name="Chocolatefish" itemHash="941148894">
+			<bait name="Chocolate Heart" itemHash="4047355101" />
+		</fish>
+		<fish name="Clownfish" itemHash="1242304387"></fish>
+		<fish name="Clown Loach" itemHash="3600004662"></fish>
+		<fish name="Coconutfish" itemHash="2836036548">
+			<bait name="Homegrown Coconut" itemHash="3799886397" />
+		</fish>
+		<fish name="Crab" itemHash="2046754786"></fish>
+		<fish name="Dogfish" itemHash="919644717"></fish>
+		<fish name="Flounder" itemHash="1549910589"></fish>
+		<fish name="Frontosa" itemHash="1290019849"></fish>
+		<fish name="Golden Butterflyfish" itemHash="3091373252"></fish>
+		<fish name="Green Discus" itemHash="430481640"></fish>
+		<fish name="Lemonfish" itemHash="466252158">
+			<bait name="Lemon" itemHash="3576828376" />
+		</fish>
+		<fish name="Lovefish" itemHash="3003850990"></fish>
+		<fish name="Loverootfish" itemHash="2750822294">
+			<bait name="Tiny Homegrown Sweetheart Root" itemHash="1901749087" />
+			<bait name="Very Small Homegrown Sweetheart Root" itemHash="3013543318" />
+			<bait name="Small Homegrown Sweetheart Root" itemHash="97729520" />
+			<bait name="Below Average Homegrown Sweetheart Root" itemHash="3669838162" />
+			<bait name="Average Homegrown Sweetheart Root" itemHash="2680010454" />
+			<bait name="Above Average Homegrown Sweetheart Root" itemHash="280651245" />
+			<bait name="Large Homegrown Sweetheart Root" itemHash="2242020960" />
+			<bait name="Very Large Homegrown Sweetheart Root" itemHash="3693533641" />
+			<bait name="Gigantic Homegrown Sweetheart Root" itemHash="4067512609" />
+		</fish>
+		<fish name="Cupcakefish" itemHash="1482506951">
+			<bait name="Homegrown Cupcake" itemHash="1616536668" />
+		</fish>
+		<fish name="Octopus" itemHash="4113424114"></fish>
+		<fish name="Orangefish" itemHash="872109238">
+			<bait name="Homegrown Orange" itemHash="2092671410" />
+		</fish>
+		<fish name="Paddlefish" itemHash="1121750219"></fish>
+		<fish name="Piranha" itemHash="2011168076">
+			<bait name="Rare Steak" itemHash="3906597987" />
+		</fish>
+		<fish name="Puppyfish" itemHash="1098429532">
+			<bait name="Bone" itemHash="167237875" />
+		</fish>
+		<fish name="Red Salmon" itemHash="4255718555"></fish>
+		<fish name="Sardine" itemHash="1886746617"></fish>
+		<fish name="Schooling Bannerfish" itemHash="4030684494"></fish>
+		<fish name="Seahorse" itemHash="3409338387">
+			<bait name="Carrot" itemHash="2974615186" />
+		</fish>
+		<fish name="Sheepfish" itemHash="1404354952"></fish>
+		<fish name="Shrimp" itemHash="3703703431"></fish>
+		<fish name="Silver Arowana" itemHash="2795236930"></fish>
+		<fish name="Spotted Bass" itemHash="1538964035"></fish>
+		<fish name="Squid" itemHash="670999494"></fish>
+		<fish name="Starfish" itemHash="3698460187"></fish>
+		<fish name="Strawberry Donutfish" itemHash="1797276692">
+			<bait name="Pink Donut" itemHash="3203504151" />
+		</fish>
+		<fish name="Strawberryfish" itemHash="3737381420">
+			<bait name="Strawberry" itemHash="4034289997" />
+		</fish>
+		<fish name="Watermelonfish" itemHash="1755699949">
+			<bait name="Melon" itemHash="1608700834" />
+		</fish>
+		<fish name="Red Demekin Goldfish" itemHash="2859586198"></fish>
+		<fish name="Macaronfish" itemHash="2147652882"></fish>
+		<fish name="Strawberry Shortcakefish" itemHash="3692808457">
+			<bait name="Homegrown Strawberry Shortcake" itemHash="1693194699" />
+		</fish>
+		<fish name="Mosquitofish" itemHash="2035396565"></fish>
+		<fish name="Elephantnose Fish" itemHash="3526138142"></fish>
+		<fish name="Birthday Cakefish" itemHash="1175168944">
+			<bait name="Birthday Cake" itemHash="3877014970" />
+		</fish>
+		<fish name="Pretzelfish" itemHash="1772874036">
+			<bait name="Soft Pretzel" itemHash="2297679855" />
+		</fish>
+		<fish name="Clown Knifefish" itemHash="2960748358"></fish>
+		<fish name="Black Ghost Knifefish" itemHash="300172955"></fish>
+		<fish name="African Butterflyfish" itemHash="3866291080"></fish>
+		<fish name="Jack O' Lanternfish" itemHash="1441757594">
+			<bait name="Halloween Party Cake" itemHash="1776017915" />
+			<bait name="Tiny Homegrown Pumpkin" itemHash="3555264162" />
+			<bait name="Very Small Homegrown Pumpkin" itemHash="3424540849" />
+			<bait name="Small Homegrown Pumpkin" itemHash="2606833319" />
+			<bait name="Below Average Homegrown Pumpkin" itemHash="828877400" />
+			<bait name="Average Homegrown Pumpkin" itemHash="1715747340" />
+			<bait name="Above Average Homegrown Pumpkin" itemHash="1187219850" />
+			<bait name="Large Homegrown Pumpkin" itemHash="1258048891" />
+			<bait name="Very Large Homegrown Pumpkin" itemHash="3068801023" />
+			<bait name="Gigantic Homegrown Pumpkin" itemHash="1453790596" />
+			<bait name="Homegrown Halloween Lolly" itemHash="2001040951" />
+			<bait name="Sweet Halloween Tiered Cake" itemHash="2014914281" />
+		</fish>
+		<fish name="Golden White Cloud" itemHash="3962523491"></fish>
+		<fish name="Paradise Fish" itemHash="4287077872"></fish>
+		<fish name="Turkey Fish" itemHash="848705855">
+			<bait name="Roast Turkey" itemHash="3070620787" />
+			<bait name="Whole Pumpkin Pie" itemHash="1559454637" />
+			<bait name="Turkey" itemHash="2701546699" />
+		</fish>
+		<fish name="Chestnutfish" itemHash="2928861452">
+			<bait name="Mont Blanc Cake" itemHash="1338037676" />
+			<bait name="Chestnut Pancakes" itemHash="2351008067" />
+			<bait name="Homegrown Chestnut" itemHash="2094118386" />
+		</fish>
+		<fish name="Pink Heartfish" itemHash="4115085608"></fish>
+		<fish name="Green Neon Tetra" itemHash="1274803187"></fish>
+		<fish name="Saddle Valentini Puffe" itemHash="1981018377"></fish>
+		<fish name="Festive Cookiefish" itemHash="1433674095">
+			<bait name="Candy Cane" itemHash="3654961495" />
+			<bait name="Chocolate Log" itemHash="3532413701" />
+			<bait name="Egg Nog" itemHash="4031304954" />
+			<bait name="Fruit Cake" itemHash="3973162512" />
+			<bait name="Ginger Bread Man" itemHash="4246818461" />
+			<bait name="Mince Pie" itemHash="995547852" />
+			<bait name="Pandoro" itemHash="2613576465" />
+			<bait name="Plum Pudding" itemHash="1959771837" />
+			<bait name="Rice Pudding" itemHash="1203231968" />
+			<bait name="Panettone" itemHash="1551483422" />
+			<bait name="Raspberry Trifle" itemHash="251502131" />
+			<bait name="Mini Festive Cake" itemHash="2368165704" />
+			<bait name="Chocolate Roulade" itemHash="264638756" />
+			<bait name="Giant Green Gumdrop" itemHash="48673361" />
+			<bait name="Giant Pink Gumdrop" itemHash="2082544885" />
+			<bait name="Giant Red Gumdrop" itemHash="857950678" />
+			<bait name="Giant Yellow Gumdrop" itemHash="1222162430" />
+			<bait name="Giant Festive Candy" itemHash="1290623694" />
+		</fish>
+		<fish name="Festivefish" itemHash="527547155">
+			<bait name="Candy Cane" itemHash="3654961495" />
+			<bait name="Chocolate Log" itemHash="3532413701" />
+			<bait name="Egg Nog" itemHash="4031304954" />
+			<bait name="Fruit Cake" itemHash="3973162512" />
+			<bait name="Ginger Bread Man" itemHash="4246818461" />
+			<bait name="Mince Pie" itemHash="995547852" />
+			<bait name="Pandoro" itemHash="2613576465" />
+			<bait name="Plum Pudding" itemHash="1959771837" />
+			<bait name="Rice Pudding" itemHash="1203231968" />
+			<bait name="Panettone" itemHash="1551483422" />
+			<bait name="Raspberry Trifle" itemHash="251502131" />
+			<bait name="Mini Festive Cake" itemHash="2368165704" />
+			<bait name="Chocolate Roulade" itemHash="264638756" />
+			<bait name="Giant Green Gumdrop" itemHash="48673361" />
+			<bait name="Giant Pink Gumdrop" itemHash="2082544885" />
+			<bait name="Giant Red Gumdrop" itemHash="857950678" />
+			<bait name="Giant Yellow Gumdrop" itemHash="1222162430" />
+			<bait name="Giant Festive Candy" itemHash="1290623694" />
+		</fish>
+		<fish name="Groovy Teddyfish" itemHash="3195247800">
+			<bait name="Groovy Sandwich" itemHash="2355336075" />
+		</fish>
+		<fish name="Kangaroofish" itemHash="90765798">
+			<bait name="Choc-top" itemHash="2440818554" />
+			<bait name="Snack Roll" itemHash="2644986469" />
+		</fish>
+		<fish name="Valentine Heartfish" itemHash="3407011718">
+			<bait name="Homegrown Love Cherries" itemHash="894488844" />
+		</fish>
+		<fish name="Alien Fish" itemHash="437825031">
+			<bait name="Alien Jelly" itemHash="3125724657" />
+		</fish>
+		<fish name="Cactusfish" itemHash="1481291319"></fish>
+		<fish name="Breadfish" itemHash="870297066">
+			<bait name="Small Loaf Of Bread" itemHash="4193165382" />
+			<bait name="Loaf of Bread" itemHash="929000141" />
+		</fish>
+		<fish name="Emeraldfish" itemHash="2314444674">
+			<bait name="Broccoli" itemHash="838194209" />
+			<bait name="Courgette" itemHash="831392071" />
+			<bait name="Alien jelly" itemHash="3346760768" />
+			<bait name="Apple Soda Drink" itemHash="1871476143" />
+			<bait name="Leek" itemHash="4110934775" />
+			<bait name="Melon" itemHash="1608700834" />
+			<bait name="Pear" itemHash="274277818" />
+		</fish>
+		<fish name="Shamrockfish" itemHash="2341020982">
+			<bait name="Shamrock Cupcake" itemHash="1729277049" />
+			<bait name="Shamrock Drink" itemHash="135359885" />
+		</fish>
+		<fish name="Green Eggfish" itemHash="2548847371">
+			<bait name="Hot Cross Bun" itemHash="1141806393" />
+			<bait name="Easter Ham" itemHash="2304272988" />
+			<bait name="Yellow Flowers Cupcake" itemHash="627813835" />
+			<bait name="Green Flowers Cupcake" itemHash="1275354380" />
+			<bait name="Spring Flowers Sponge Cake" itemHash="2396112708" />
+		</fish>
+		<fish name="Koi Fish" itemHash="2027547950">
+			<bait name="Dorayaki" itemHash="340197805" />
+			<bait name="Pink Daifuku Mochi" itemHash="686125429" />
+			<bait name="Ramen Cup Noodle" itemHash="2350563176" />
+			<bait name="Green Tea" itemHash="3538262058" />
+			<bait name="Sausage Octopus" itemHash="2152645622" />
+			<bait name="Red Bean Dessert" itemHash="3814813704" />
+			<bait name="Onigiri" itemHash="3046693376" />
+			<bait name="Assorted Sushi" itemHash="3723663474" />
+		</fish>
+		<fish name="Danio Tinwini" itemHash="3660750496"></fish>
+		<fish name="Newspaper Fish" itemHash="1361823096"></fish>
+		<fish name="Neon Tetra Jumbo" itemHash="3995005658"></fish>
+		<fish name="Tapefish" itemHash="849336871"></fish>
+		<fish name="Saddleback Fish" itemHash="3845873657"></fish>
+		<fish name="Pink Neon Tetra" itemHash="2510689300"></fish>
+		<fish name="Maracafish" itemHash="2623535637">
+			<bait name="Chiles en Nogada" itemHash="1108735525" />
+			<bait name="Chocolate Xocoatl" itemHash="1130533262" />
+			<bait name="Beef Enchilada" itemHash="1363337721" />
+			<bait name="Fresh Tomato Salsa" itemHash="1640336611" />
+			<bait name="Mexican Corn on the Cob" itemHash="3976999473" />
+			<bait name="Burrito" itemHash="2796213029" />
+			<bait name="Spicy Nachos" itemHash="3015952525" />
+			<bait name="Agave Drink" itemHash="366718636" />
+			<bait name="Cafe de Olla" itemHash="2676160158" />
+			<bait name="Quesadillas" itemHash="1365954671" />
+		</fish>
+		<fish name="Fizzyfish" itemHash="2685793151">
+			<bait name="Cold Grape Soda" itemHash="1516793413" />
+			<bait name="Cold Tropical Drink" itemHash="2362633406" />
+			<bait name="Cold Lime Soda" itemHash="1299990928" />
+			<bait name="Cold Cola" itemHash="3810504873" />
+			<bait name="Cold Cherry Cola" itemHash="1120838937" />
+			<bait name="Cold Orange Soda" itemHash="4130233467" />
+			<bait name="Cold Peach Iced Tea" itemHash="2902924923" />
+			<bait name="Cold Lemonade" itemHash="2249772815" />
+			<bait name="Cold Coconut Drink" itemHash="1940849979" />
+			<bait name="Cold Mint Drink" itemHash="638469606" />
+		</fish>
+		<fish name="Patisseriefish" itemHash="1958049307">
+			<bait name="Buche Aux Fraises" itemHash="2851205925" />
+			<bait name="Fraisier" itemHash="2540227401" />
+			<bait name="Framboisier" itemHash="2655629712" />
+			<bait name="Macaron Aux Noix" itemHash="2796920421" />
+			<bait name="Mille Feuille Au Chocolat" itemHash="2082221452" />
+			<bait name="Truffe en Chocolat" itemHash="2162598196" />
+			<bait name="Strawberry and Chocolate Beignet" itemHash="1660071025" />
+			<bait name="Petit Four a la Fraise" itemHash="4100344092" />
+			<bait name="Eclair a la Creme" itemHash="261814803" />
+			<bait name="Cream and Strawberry Shortcake" itemHash="4100122545" />
+		</fish>
+		<fish name="Safetypinfish" itemHash="1360520279"></fish>
+		<fish name="Oktoberfest Drink Fish" itemHash="408809857">
+			<bait name="Weisswurst" itemHash="2484967506" />
+			<bait name="Oktoberfest Wheat Drink" itemHash="3851181664" />
+			<bait name="Steckerlfisch" itemHash="2856901655" />
+			<bait name="Reiberdatschi" itemHash="3833903784" />
+			<bait name="Wurstl" itemHash="20752050" />
+			<bait name="Hendl" itemHash="3558286934" />
+			<bait name="Kaasspotzn" itemHash="1894058522" />
+			<bait name="Schweinsbraten" itemHash="1853277093" />
+			<bait name="Rinderroulade mit Knodeln" itemHash="4097398505" />
+			<bait name="Haxn" itemHash="1523479004" />
+		</fish>
+		<fish name="Halloween Slimy Fish" itemHash="826916713"></fish>
+		<fish name="Mechanical Fish" itemHash="4267097804"></fish>
+		<fish name="Nurse Shark" itemHash="562921748">
+			<bait name="Cough Medicine" itemHash="2787526722" />
+		</fish>
+		<fish name="Vintage Ladyfish" itemHash="335285329">
+			<bait name="Pet Fashioned Cocktail" itemHash="1362862321" />
+			<bait name="Mint Jupet Cocktail" itemHash="550055969" />
+			<bait name="Mary Petford Cocktail" itemHash="3604408407" />
+		</fish>
+		<fish name="Cursed Fish" itemHash="3846202168"></fish>
+		<fish name="Blueberry Fish" itemHash="16499951"></fish>
+		<fish name="Ace of Hearts Fish" itemHash="2026823000">
+			<bait name="Mad Tea Party Shortcake" itemHash="407965622" />
+			<bait name="Mad Card Suits Cake" itemHash="2570179862" />
+		</fish>
+		<fish name="Pink Monster Fish" itemHash="4275072985"></fish>
+		<fish name="Punkfish" itemHash="3280099835"></fish>
+		<fish name="Gray Wizardfish" itemHash="2248180624"></fish>
+		<fish name="Seapony" itemHash="1567118450"></fish>
+		<fish name="Scoutfish" itemHash="1881244914"></fish>
+		<fish name="Golden Ballfish" itemHash="2825664711"></fish>
+		<fish name="Phoenixfish" itemHash="1822572730"></fish>
+		<fish name="Dark Symbol Eel" itemHash="1776697460"></fish>
+		<fish name="Pink Baby Dolphin" itemHash="3715922077"></fish>
+		<fish name="Birthday Blowfish" itemHash="3403472304"></fish>
+		<fish name="Totofish" itemHash="634625825"></fish>
+		<fish name="Cyber Jellyfish" itemHash="2915195084"></fish>
+		<fish name="Gothic Batfish" itemHash="179394676"></fish>
+		<fish name="Pharaohfish" itemHash="2571847229"></fish>
+		<fish name="Bride of Frankenfish" itemHash="1250320055"></fish>
+		<fish name="Candy Cane Eel" itemHash="2951385970"></fish>
+		<fish name="Sheriff Starfish" itemHash="3612521539"></fish>
+		<fish name="Fluffy Piranha Fish" itemHash="3688526787"></fish>
+		<fish name="Lettuce Fish" itemHash="383410985"></fish>
+		<fish name="Spade Fish" itemHash="674567715"></fish>
+		<fish name="Heart Fish" itemHash="1734254658"></fish>
+		<fish name="Club Fish" itemHash="3979966884"></fish>
+		<fish name="Diamond Fish" itemHash="2167488173"></fish>
+		<fish name="Mars Puffer Fish" itemHash="1932194198"></fish>
+		<fish name="Venus Puffer Fish" itemHash="1245066203"></fish>
+		<fish name="Poseidon Fish" itemHash="3708017176"></fish>
+	</fish-category>
+</properties>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- weigth defnes probablity of getting a promo_popup -->
+<!-- MAX WEIGHT is 100-->
+<promos weight = "0">	
+	
+	<!--<promo id="22" name="CashPromo" startDate="2012-03-24 00:00:00" endDate="2012-03-25 00:00:00" isRepeating="true" forceShow="true" weight = "20" extraParam="shopClothes0,shopMarket1,shopCash0" >
+		<button text="CashPromoButtonText" function="showBank" />
+	</promo>-->
+		
+	<promo id="1" name="VeggieWorld" startDate="2012-03-28" endDate="2012-04-12" isRepeating="true" weight = "10" minLevel = "0" maxLevel = "100" extraParam="shopClothes0,shopMarket1,shopCash0" >
+		<button text="goCraft" function="showWorkshop" />
+	</promo>
+	
+	<promo id="2" name="PetsQuestTwelve" startDate="2012-03-25" endDate="2012-04-18" isRepeating="true" weight = "10" minLevel = "0" maxLevel = "100" extraParam="shopClothes0,shopMarket1,shopCash0" >
+		<button text="QuestTitle" function="openQuestPortal" />
+	</promo>
+	
+	
+	<promo id="3" name="BunnyMayhem" startDate="2012-03-21" endDate="2012-04-05" isRepeating="true" weight = "10" minLevel = "0" maxLevel = "100" extraParam="shopClothes0,shopMarket1,shopCash0" >
+		<button text="goCraft" function="showWorkshop" />
+	</promo>
+	
+	<promo id="4" name="BackToTheGoldenAge" startDate="2012-04-04" endDate="2012-04-17" isRepeating="true" weight = "10" minLevel = "0" maxLevel = "100" extraParam="shopClothes0,shopMarket1,shopCash0" >
+		<button text="goCraft" function="showWorkshop" />
+	</promo>
+	
+	<promo id="5" name="AquaFlowWeek" startDate="2012-04-11" endDate="2012-04-24" isRepeating="true" weight = "10" minLevel = "0" maxLevel = "100" extraParam="shopClothes0,shopMarket1,shopCash0" >
+		<button text="goCraft" function="showWorkshop" />
+	</promo>
+
+	<promo id="6" name="PetsQuestThirteen" startDate="2012-04-15" endDate="2012-05-13" isRepeating="true" weight = "10" minLevel = "0" maxLevel = "100" extraParam="shopClothes0,shopMarket1,shopCash0" >
+		<button text="QuestTitle" function="openQuestPortal" />
+	</promo>
+	
+	<promo id="7" name="GoodBye" startDate="2011-04-16 00:01:00" endDate="2012-08-31 23:59:00" isRepeating="true" weight = "100" minLevel = "0" maxLevel = "100" extraParam="shopMarket1,shopClothes0,notWhenIdle"  forceShow="true">
+		<button text="buttonTextInfoPromo" function="goToURL" url="http://forum.playfish.com/showthread.php?t=2968220" />
+	</promo>
+
+	<promo id="8" name="MysteriesOfMorocco" startDate="2013-06-10" endDate="2013-04-12" isRepeating="true" weight = "10" minLevel = "0" maxLevel = "100" extraParam="shopClothes0,shopMarket1,shopCash0" >
+		<button text="buttonTextInfoPromo" function="goToURL" url="https://www.facebook.com/PetSocietyGameUpdate2" />
+</promo>
+	
+	<!-- Level Gating Popups -->
+	<promo id="101" name="BuyMoreRooms" startDate="2012-05-03" endDate="2012-05-04" isRepeating="true" weight = "20" minLevel = "24" maxLevel = "100" extraParam="notWhenIdle,levelUp" >
+		<button text="buttonTextBuyMoreRooms" function="backToGame" />
+	</promo>
+	<promo id="102" name="ExtraRoom11" startDate="2012-05-03" endDate="2012-05-04" isRepeating="true" weight = "20" minLevel = "0" maxLevel = "10" extraParam="notWhenIdle,levelUp" >
+		<button text="buttonTextBuyMoreRooms" function="backToGame" />
+	</promo>
+	<promo id="103" name="ExtraRoom29" startDate="2012-05-03" endDate="2012-05-04" isRepeating="true" weight = "20" minLevel = "24" maxLevel = "29" extraParam="notWhenIdle,levelUp" >
+		<button text="buttonTextBuyMoreRooms" function="backToGame" />
+	</promo>
+	<promo id="104" name="GoDigging" startDate="2012-05-03" endDate="2012-05-04" isRepeating="true" weight = "10" minLevel = "0" maxLevel = "100" extraParam="levelUp" >
+		<button text="buttonTextGoDigging" function="goDigging" />
+	</promo>
+	<promo id="105" name="GoRacing" startDate="2012-05-03" endDate="2012-05-04" isRepeating="true" weight = "20" minLevel = "0" maxLevel = "22" extraParam="notWhenIdle,levelUp" >
+		<button text="buttonTextGoRacing" function="goRacing" />
+	</promo>
+	<promo id="106" name="MysteryBox" startDate="2012-05-03" endDate="2012-05-04" isRepeating="true" weight = "10" minLevel = "24" maxLevel = "100" extraParam="shopClothes0,shopFurniture0,shopHome0,notWhenIdle,WithException" >
+		<button text="buttonTextBuyMysteryBox" function="openMystery" />
+	</promo>
+	<promo id="107" name="GlowInDark" startDate="2012-05-03" endDate="2012-05-04" isRepeating="true" weight = "20" minLevel = "12" maxLevel = "22"  extraParam="notWhenIdle,levelUp" >
+		<button text="buttonTextGlowInDark" function="gotoGlow" />
+	</promo>
+
+</promos>

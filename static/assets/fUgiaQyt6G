@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<LevelRewards>
+	<LevelReward level="1" points="0" rankName="Getting Started" />
+	<LevelReward level="2" points="20" rankName="New Arrival" />
+	<LevelReward level="3" points="50" rankName="Learner" />
+	<LevelReward level="4" points="100" rankName="Playful Pet" />
+	<LevelReward level="5" points="250" rankName="Fresh Face" />
+	<LevelReward level="6" points="500" rankName="Promising Prospect" />
+	<LevelReward level="7" points="750" rankName="One To Watch" />
+	<LevelReward level="8" points="1000" rankName="Growing Talent" />
+	<LevelReward level="9" points="1500" rankName="High Achiever" />
+	<LevelReward level="10" points="2000" rankName="Popular Pet" />
+	<LevelReward level="11" points="2500" rankName="Influential Pet" />
+	<LevelReward level="12" points="3000" rankName="Rising Star" />
+	<LevelReward level="13" points="3500" rankName="Established Presence" />
+	<LevelReward level="14" points="4000" rankName="Society Stalwart" />
+	<LevelReward level="15" points="4500" rankName="Famous Pet" />
+	<LevelReward level="16" points="5000" rankName="Media Darling" />
+	<LevelReward level="17" points="6000" rankName="High Profile Pet" />
+	<LevelReward level="18" points="7000" rankName="VIP Pet" />
+	<LevelReward level="19" points="8000" rankName="Celebrity Pet" />
+	<LevelReward level="20" points="9000" rankName="It Pet" />
+	<LevelReward level="21" points="10000" rankName="A-List Pet" />
+	<LevelReward level="22" points="11000" rankName="Renowned Pet"  />
+	<LevelReward level="23" points="12000" rankName="Superstar Pet" />
+	<LevelReward level="24" points="14000" rankName="Hollywood Pet" />
+	<LevelReward level="25" points="18000" rankName="Megastar Pet" />
+	<LevelReward level="26" points="24000" rankName="Platinum Pet"  />
+	<LevelReward level="27" points="32000" rankName="Uberstar Pet" />
+	<LevelReward level="28" points="42000" rankName="Ultimate Achiever" />
+	<LevelReward level="29" points="54000" rankName="Superb Pet" />
+	<LevelReward level="30" points="68000" rankName="Heroic Pet" />
+	<LevelReward level="31" points="84000" rankName="Royal Pet" />
+	<LevelReward level="32" points="102000" rankName="Historic Pet" />
+	<LevelReward level="33" points="122000" rankName="Super Pet" />
+	<LevelReward level="34" points="144000" rankName="All-Time Great"  />
+	<LevelReward level="35" points="166000" rankName="Ultimate Pet" />
+	<LevelReward level="36" points="188000" rankName="Ruby Renowned Pet" />
+	<LevelReward level="37" points="210000" rankName="Ruby Superstar Pet" />
+	<LevelReward level="38" points="232000" rankName="Ruby Hollywood Pet" />
+	<LevelReward level="39" points="254000" rankName="Ruby Megastar Pet" />
+	<LevelReward level="40" points="276000" rankName="Ruby Platinum Pet" />
+	<LevelReward level="41" points="298000" rankName="Ruby Uberstar Pet" />
+	<LevelReward level="42" points="310000" rankName="Ruby Ultimate Achiever Pet" />
+	<LevelReward level="43" points="332000" rankName="Ruby Superb Pet" />
+	<LevelReward level="44" points="354000" rankName="Ruby Heroic Pet" />
+	<LevelReward level="45" points="376000" rankName="Ruby Royal Pet" />
+	<LevelReward level="46" points="398000" rankName="Ruby Historic Pet" />
+	<LevelReward level="47" points="420000" rankName="Ruby Super Pet" />
+	<LevelReward level="48" points="442000" rankName="Ruby All-Time Great Pet" />
+	<LevelReward level="49" points="464000" rankName="Red Ruby Superstar" />
+	<LevelReward level="50" points="486000" rankName="Emerald Renowned Pet" />
+	<LevelReward level="51" points="508000" rankName="Emerald Superstar Pet" />
+	<LevelReward level="52" points="530000" rankName="Emerald Hollywood Pet" />
+	<LevelReward level="53" points="552000" rankName="Emerald Megastar Pet" />
+	<LevelReward level="54" points="574000" rankName="Emerald Platinum Pet" />
+	<LevelReward level="55" points="596000" rankName="Emerald Uberstar Pet" />
+	<LevelReward level="56" points="618000" rankName="Emerald Ultimate Achiever Pet" />
+	<LevelReward level="57" points="640000" rankName="Emerald Superb Pet" />
+	<LevelReward level="58" points="662000" rankName="Emerald Heroic Pet" />
+	<LevelReward level="59" points="684000" rankName="Emerald Royal Pet" />
+	<LevelReward level="60" points="706000" rankName="Emerald Historic Pet" />
+	<LevelReward level="61" points="728000" rankName="Emerald Super Pet" />
+	<LevelReward level="62" points="750000" rankName="Emerald All-Time Great Pet" />
+	<LevelReward level="63" points="772000" rankName="Green Emerald Superstar" />
+	<LevelReward level="64" points="794000" rankName="Sapphire Renowned Pet" />
+	<LevelReward level="65" points="816000" rankName="Sapphire Superstar Pet" />
+	<LevelReward level="66" points="838000" rankName="Sapphire Hollywood Pet" />
+	<LevelReward level="67" points="860000" rankName="Sapphire Megastar Pet" />
+	<LevelReward level="68" points="882000" rankName="Sapphire Platinum Pet" />
+	<LevelReward level="69" points="904000" rankName="Sapphire Uberstar Pet" />
+	<LevelReward level="70" points="926000" rankName="Sapphire Ultimate Achiever Pet" />
+	<LevelReward level="71" points="948000" rankName="Sapphire Superb Pet" />
+	<LevelReward level="72" points="970000" rankName="Sapphire Heroic Pet" />
+	<LevelReward level="73" points="992000" rankName="Sapphire Royal Pet" />
+	<LevelReward level="74" points="1014000" rankName="Sapphire Historic Pet" />
+	<LevelReward level="75" points="1036000" rankName="Sapphire Super Pet" />
+	<LevelReward level="76" points="1058000" rankName="Sapphire All-Time Great Pet" />
+	<LevelReward level="77" points="1080000" rankName="Blue Sapphire Superstar" />
+	<LevelReward level="78" points="1102000" rankName="Silver Renowned Pet" />
+	<LevelReward level="79" points="1124000" rankName="Silver Superstar Pet" />
+	<LevelReward level="80" points="1146000" rankName="Silver Hollywood Pet" />
+	<LevelReward level="81" points="1168000" rankName="Silver Megastar Pet" />
+	<LevelReward level="82" points="1190000" rankName="Silver Platinum Pet" />
+	<LevelReward level="83" points="1212000" rankName="Silver Uberstar Pet" />
+	<LevelReward level="84" points="1234000" rankName="Silver Ultimate Achiever Pet" />
+	<LevelReward level="85" points="1256000" rankName="Silver Superb Pet" />
+	<LevelReward level="86" points="1278000" rankName="Silver Heroic Pet" />
+	<LevelReward level="87" points="1300000" rankName="Silver Royal Pet" />
+	<LevelReward level="88" points="1322000" rankName="Silver Historic Pet" />
+	<LevelReward level="89" points="1344000" rankName="Silver Super Pet" />
+	<LevelReward level="90" points="1366000" rankName="Shining Silver Superstar" />
+	<LevelReward level="91" points="1388000" rankName="Gold Platinum Pet" />
+	<LevelReward level="92" points="1410000" rankName="Gold Uberstar Pet" />
+	<LevelReward level="93" points="1432000" rankName="Gold Ultimate Achiever Pet" />
+	<LevelReward level="94" points="1454000" rankName="Gold Superb Pet" />
+	<LevelReward level="95" points="1476000" rankName="Gold Heroic Pet" />
+	<LevelReward level="96" points="1498000" rankName="Gold Royal Pet" />
+	<LevelReward level="97" points="1520000" rankName="Gold Historic Pet" />
+	<LevelReward level="98" points="1542000" rankName="Gold Super Pet" />
+	<LevelReward level="99" points="1564000" rankName="Gold All-Time Great Pet" />
+	<LevelReward level="100" points="1586000" rankName="24 Carat Superstar" />
+</LevelRewards>

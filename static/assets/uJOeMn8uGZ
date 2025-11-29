@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dailyLoginBonus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.pets.playfish.com/dailyLoginBonus">
+  <dailyBonusGroup>
+    <dailyBonus day="1">
+      <bonus coins="500"/>
+    </dailyBonus>
+    <dailyBonus day="2">
+      <bonus coins="500" item="3465775548" questCollectable="17"/>
+      <bonus coins="500" item="3465775548" questCollectable="44"/>
+      <bonus coins="500" item="3465775548" questCollectable="27"/>
+    </dailyBonus>
+    <dailyBonus day="3">
+      <bonus coins="500" item="572252955" questCollectable="29"/>
+      <bonus coins="500" item="572252955" questCollectable="30"/>
+      <bonus coins="500" item="572252955" questCollectable="31"/>  
+    </dailyBonus>
+    <dailyBonus day="4">
+      <bonus coins="1000" shovel-coins="10"/>
+    </dailyBonus>
+    <dailyBonus day="5">
+	  <bonus cash="1" coins="2000" shovel-cash="2"/>
+	  <bonus cash="1" coins="2000" shovel-cash="3"/>
+	  <bonus cash="1" coins="2000" shovel-cash="4"/>
+	  <bonus cash="1" coins="2000" shovel-cash="5"/>	  
+	  <bonus cash="2" coins="2000" shovel-cash="1"/>
+	  <bonus cash="2" coins="2000" shovel-cash="2"/>
+	  <bonus cash="2" coins="2000" shovel-cash="3"/>
+	  <bonus cash="2" coins="2000" shovel-cash="4"/>
+	  <bonus cash="2" coins="2000" shovel-cash="5"/>
+	  <bonus cash="3" coins="2000" shovel-cash="1"/>
+	  <bonus cash="3" coins="2000" shovel-cash="2"/>
+	  <bonus cash="3" coins="2000" shovel-cash="3"/>
+	  <bonus cash="3" coins="2000" shovel-cash="4"/>
+	  <bonus cash="3" coins="2000" shovel-cash="5"/>
+	  <bonus cash="4" coins="2000" shovel-cash="1"/>
+	  <bonus cash="4" coins="2000" shovel-cash="2"/>
+	  <bonus cash="4" coins="2000" shovel-cash="3"/>
+	  <bonus cash="4" coins="2000" shovel-cash="4"/>  	  
+	  <bonus cash="5" coins="2000" shovel-cash="1"/>
+	  <bonus cash="5" coins="2000" shovel-cash="2"/>
+	  <bonus cash="5" coins="2000" shovel-cash="3"/>
+    </dailyBonus>
+  </dailyBonusGroup>
+  
+  <dailyBonusGroup endDate="2012-08-11" startDate="2012-08-06">
+    <dailyBonus day="1">
+      <bonus coins="500"/>
+    </dailyBonus>
+    <dailyBonus day="2">
+      <bonus coins="500" item="3465775548"/>
+    </dailyBonus>
+    <dailyBonus day="3">
+      <bonus coins="500" item="572252955"/>
+    </dailyBonus>
+    <dailyBonus day="4">
+      <bonus coins="1000" shovel-coins="10"/>
+    </dailyBonus>
+    <dailyBonus day="5">
+	  <bonus cash="1" coins="2000" shovel-cash="2"/>
+	  <bonus cash="1" coins="2000" shovel-cash="3"/>
+	  <bonus cash="1" coins="2000" shovel-cash="4"/>
+	  <bonus cash="2" coins="2000" shovel-cash="1"/>
+	  <bonus cash="2" coins="2000" shovel-cash="2"/>
+	  <bonus cash="2" coins="2000" shovel-cash="3"/>
+	  <bonus cash="2" coins="2000" shovel-cash="4"/>
+	  <bonus cash="3" coins="2000" shovel-cash="1"/>
+	  <bonus cash="3" coins="2000" shovel-cash="2"/>
+	  <bonus cash="3" coins="2000" shovel-cash="3"/>
+	  <bonus cash="3" coins="2000" shovel-cash="4"/>
+	  <bonus cash="4" coins="2000" shovel-cash="1"/>
+	  <bonus cash="4" coins="2000" shovel-cash="2"/>
+	  <bonus cash="4" coins="2000" shovel-cash="3"/>
+	  <bonus cash="4" coins="2000" shovel-cash="4"/>  	  
+    </dailyBonus>
+  </dailyBonusGroup>  
+ 
+ <dailyBonusGroup endDate="2012-03-03" startDate="2012-02-27">
+    <dailyBonus day="1">
+      <bonus coins="500"/>
+    </dailyBonus>
+    <dailyBonus day="2">
+      <bonus coins="1000"/>
+    </dailyBonus>
+    <dailyBonus day="3">
+      <bonus coins="2000"/>
+    </dailyBonus>
+    <dailyBonus day="4">
+      <bonus coins="3000"/>
+    </dailyBonus>
+    <dailyBonus day="5">
+      <bonus cash="1" coins="3000"/>
+      <bonus cash="2" coins="3000"/>
+      <bonus cash="3" coins="3000"/>
+      <bonus cash="4" coins="3000"/>
+      <bonus cash="5" coins="3000"/>
+    </dailyBonus>
+  </dailyBonusGroup>
+  
+  <dayBonusGroup endDate="2012-09-08" giftType="friday_gift" startDate="2012-09-07">
+      <bonus questCollectable="23"/>
+  </dayBonusGroup>
+  <dayBonusGroup endDate="2013-04-16" giftType="monday_gift" startDate="2013-04-15">
+      <bonus questCollectable="31"/>
+  </dayBonusGroup>
+  
+</dailyLoginBonus>

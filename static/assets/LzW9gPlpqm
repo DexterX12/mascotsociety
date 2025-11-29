@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+App URL is used (for FB): http://www.facebook.com/apps/application.php?id=11609831134
+
+-->
+
+<marina>
+
+	<game ref="brain">
+		<name>Who Has the Biggest Brain</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="biggestbrain" />
+			<application id="8827826004" />
+			<server gameId="1" />
+		</network>
+	</game>
+
+	<game ref="bowling">
+		<name>Bowling Buddies</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="bowlingbuddies" />
+			<application id="8519508606" />
+			<server gameId="3" />
+		</network>
+	</game>
+
+	<game ref="word">
+		<name>Word Challenge</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="wordchallenge" />
+			<application id="10726707410" />
+			<server gameId="2" />
+		</network>
+	</game>
+
+	<game ref="minigolf">
+		<name>Minigolf Party</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="minigolfparty" />
+			<application id="19982892822" />
+			<server gameId="6" />
+		</network>
+	</game>
+
+	<game ref="geo">
+		<name>Geo Challenge</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="geochallenge" />
+			<application id="23438505508" />
+			<server gameId="5" />
+		</network>
+	</game>
+
+	<game ref="quiz">
+		<name>Quiztastic!</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="quiztasticgame" />
+			<application id="224404165569" />
+		</network>
+	</game>
+
+	<game ref="planets">
+		<name>Crazy Planets</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="crazyplanets" />
+			<application id="48596151436" />
+			<server gameId="17" />
+		</network>
+	</game>
+
+	<game ref="country">
+		<name>Country Story</name>
+		<inviteRecommendationWeight value="2"/>
+		<network id="facebook">
+			<url canvas="countrystory" />
+			<application id="165747315075" />
+			<server gameId="16" />
+		</network>
+	</game>
+
+	<game ref="pets">
+		<name>Pet Society</name>
+		<network id="facebook">
+			<url canvas="petsociety" />
+			<application id="11609831134" />
+			<server gameId="4" />
+		</network>
+	</game>
+
+	<game ref="rc">
+		<name>Restaurant City</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="restaurantcity" />
+			<application id="43016202276" />
+			<server gameId="13" />
+		</network>
+	</game>
+
+	<game ref="poker">
+		<name>Poker Rivals</name>
+		<network id="facebook">
+			<url canvas="pokerrivals" />
+			<application id="163253396023" />
+			<server gameId="20" />
+		</network>
+	</game>
+
+	<game ref="gangster">
+		<name>Gangster City</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="gangstercity" />
+			<application id="79389216309" />
+			<server gameId="21" />
+		</network>
+	</game>
+
+	<game ref="hotel">
+		<name>Hotel City</name>
+		<network id="facebook">
+			<url canvas="hotelcity" />
+			<application id="299672925361" />
+			<server gameId="22" />
+		</network>
+	</game>
+
+	<game ref="fifa">
+		<name>EA SPORTS FIFA Superstars</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="fifasuperstars" />
+			<application id="113719625324737" />
+			<server gameId="23" />
+		</network>
+	</game>
+
+	<game ref="empire">
+		<name>My Empire</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="myempiregame" />
+			<application id="111884338842047" />
+			<server gameId="24" />
+		</network>
+	</game>
+
+	<game ref="madden">
+		<name>EA SPORTS Madden NFL Superstars</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="maddennflsuperstars" />
+			<application id="138575656172984" />
+			<server gameId="31" />
+		</network>
+	</game>
+
+	<game ref="monopoly">
+		<name>Monopoly Millionaires</name>
+		<inviteRecommendationWeight value="1"/>
+		<network id="facebook">
+			<url canvas="monopolymillionaires" />
+			<application id="157470434271574" />
+			<server gameId="28" />
+		</network>
+	</game>
+
+
+	<game>
+		<name>Mafia Wars</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="10979261223" />
+		</network>
+	</game>
+
+
+	<game>
+		<name>FarmVille</name>
+		<inviteRecommendationWeight value="1" />
+		<network id="facebook">
+			<application id="102452128776" />
+		</network>
+	</game>
+
+	<game>
+		<name>FrontierVille</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="201278444497" />
+		</network>
+	</game>
+
+	<game>
+		<name>Cafe World</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="101539264719" />
+		</network>
+	</game>
+
+	<game>
+		<name>Treasure Isle</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="234860566661" />
+		</network>
+	</game>
+
+	<game>
+		<name>City of Wonder</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="114335335255741" />
+		</network>
+	</game>
+
+	<game>
+		<name>Texas HoldEm Poker</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="2389801228" />
+		</network>
+	</game>
+
+	<game>
+		<name>Bejeweled Blitz</name>
+		<inviteRecommendationWeight value="1" />
+		<network id="facebook">
+			<application id="40343401983" />
+		</network>
+	</game>
+
+	<game>
+		<name>Millionaire City</name>
+		<inviteRecommendationWeight value="1" />
+		<network id="facebook">
+			<application id="315455798286" />
+		</network>
+	</game>
+
+	<game>
+		<name>PetVille</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="163576248142" />
+		</network>
+	</game>
+
+	<game>
+		<name>Happy Aquarium</name>
+		<inviteRecommendationWeight value="1" />
+		<network id="facebook">
+			<application id="134920244184" />
+		</network>
+	</game>
+
+	<game>
+		<name>Car Town</name>
+		<inviteRecommendationWeight value="1" />
+		<network id="facebook">
+			<application id="256799621935" />
+		</network>
+	</game>
+
+	<game>
+		<name>Family Feud</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="117955111903" />
+		</network>
+	</game>
+
+	<game>
+		<name>FishVille</name>
+		<inviteRecommendationWeight value="1" />
+		<network id="facebook">
+			<application id="151044809337" />
+		</network>
+	</game>
+
+	<game>
+		<name>YoVille</name>
+		<inviteRecommendationWeight value="2" />
+		<network id="facebook">
+			<application id="21526880407" />
+		</network>
+	</game>
+
+	<game>
+		<name>Baking Life</name>
+		<inviteRecommendationWeight value="1" />
+		<network id="facebook">
+			<application id="338051018849" />
+		</network>
+	</game>
+	
+	<page ref="wwf">
+		<name>WWF</name>
+		<inviteRecommendationWeight value="2"/>
+		 <network id="facebook">
+		 	<id value="20373776304" />
+		</network>	
+	</page>
+	
+</marina>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<hideeni-feed-gifts completionReward="717280646" completionRewardName="Adventurer Outfit" setHash="1836731406" setName="Hideeni Sets 12">
+	<bribe itemHash="2186927458" name="Hideeni Cake Bribe" />
+	<gift id="1">
+		<giftName>Electricity Badge</giftName>
+		<itemHash>814388792</itemHash>
+		<frequency>1</frequency>
+	</gift>
+	<gift id="2">
+		<giftName>Sailing Badge</giftName>
+		<itemHash>1389700611</itemHash>
+		<frequency>1</frequency>
+	</gift>
+	<gift id="3">
+		<giftName>Artist Badge</giftName>
+		<itemHash>2508059364</itemHash>
+		<frequency>1</frequency>
+	</gift>
+	<gift id="4">
+		<giftName>Scholar Badge</giftName>
+		<itemHash>1445750083</itemHash>
+		<frequency>1</frequency>
+	</gift>
+	<gift id="5">
+		<giftName>Pet Care Badge</giftName>
+		<itemHash>4166196041</itemHash>
+		<frequency>1</frequency>
+	</gift>
+	<gift id="6">
+		<giftName>First Aid Badge</giftName>
+		<itemHash>3826516447</itemHash>
+		<frequency>1</frequency>
+	</gift>
+	<gift id="7">
+		<giftName>Archery Badge</giftName>
+		<itemHash>1705521268</itemHash>
+		<frequency>1</frequency>
+	</gift>
+	<gift id="8">
+		<giftName>Safety Badge</giftName>
+		<itemHash>1061410842</itemHash>
+		<frequency>1</frequency>
+	</gift>
+	<gift id="9">
+		<giftName>Scouting Badge</giftName>
+		<itemHash>3800423301</itemHash>
+		<frequency>1</frequency>
+	</gift>
+</hideeni-feed-gifts>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PetsQuest>	
+	<Quest id="45" name ="Color In The Right Places!" startDate="2013-02-04" endDate="2013-02-13" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-02-11" rewardItem="2820506342" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="A Friendly Gesture" 		value="5" 		itemHash="0"				xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="1" />
+		  <subquest id ="2" activity="Lost and Found" 			value="4" 		itemHash="0"				xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Go Crafting" 				value="1" 		itemHash="2937007343" 		xp="75"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="4" activity="Ask a friend"				value="3" 		itemHash="2454582043" 		xp="50"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="5" activity="Item Collector" 			value="1" 		itemHash="2015455955" 		xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="6" activity="Team Work" 				value="1" 		itemHash="2007083537" 		xp="75" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="3" />
+	</Quest>
+	<Quest id="46" name ="Love Is In The Air!" startDate="2013-02-11" endDate="2013-02-20" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-02-18" rewardItem="246304876" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="Lost and Found" 			value="2" 		itemHash="0"				xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="2" activity="Go Crafting" 				value="1" 		itemHash="3626772172"		xp="75"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="3" activity="A Friendly Gesture" 		value="6" 		itemHash="0" 				xp="50"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="1" />
+		  <subquest id ="4" activity="Team Work"				value="1" 		itemHash="2697744884" 		xp="75"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="5" activity="Eat, sleep, Recycle!" 	value="7500" 	itemHash="0" 				xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="6" activity="Item Collector" 			value="1" 		itemHash="1497254416" 		xp="50" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="2" />
+	</Quest>
+	<Quest id="47" name ="Delicious Science!" startDate="2013-02-18" endDate="2013-02-27" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-02-25" rewardItem="1885056083" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="A Friendly Gesture" 		value="4" 		itemHash="0"				xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="1" />
+		  <subquest id ="2" activity="Lost and Found" 			value="4" 		itemHash="0"				xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Go Crafting" 				value="1" 		itemHash="3650899052" 		xp="75"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="4" activity="Item Collector"			value="1" 		itemHash="528763650" 		xp="50"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="5" activity="Ask a friend" 			value="3" 		itemHash="124481310" 		xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="6" activity="Steppin it Up" 			value="25" 		itemHash="0" 				xp="100" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="3" />
+	</Quest>
+	<Quest id="48" name ="Shifus Guidance" startDate="2013-02-25" endDate="2013-03-06" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-03-04" rewardItem="1290013695" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="A Friendly Gesture" 		value="4" 		itemHash="3201832190"		xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="1" />
+		  <subquest id ="2" activity="Run till you drop!" 		value="4" 		itemHash="0"				xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Lost and Found" 			value="3" 		itemHash="0" 				xp="50"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="4" activity="Something Fishy"			value="5" 		itemHash="0" 				xp="50"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="5" activity="Eat, sleep, Recycle!" 	value="12500" 	itemHash="0" 				xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="6" activity="Item Collector" 			value="1" 		itemHash="3890578792" 		xp="50" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="2" />
+	</Quest>
+	<Quest id="49" name ="Women's Day Special!" startDate="2013-03-04" endDate="2013-03-13" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-03-11" rewardItem="1464644505" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="Ask a friend" 		value="4" 		itemHash="2635568042"		xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="2" activity="Lost and Found" 		value="4" 		itemHash="0"				xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Team Work" 			value="1" 		itemHash="4237768268" 		xp="75"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="4" activity="Go Crafting"			value="1" 		itemHash="129756350" 		xp="75"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="5" activity="Something Fishy" 		value="4" 		itemHash="0" 				xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="6" activity="Steppin it Up" 		value="30" 		itemHash="0" 				xp="100" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="3" />
+	</Quest>
+	<Quest id="50" name ="Irish Spirit!" startDate="2013-03-11" endDate="2013-03-20" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-03-18" rewardItem="124899140" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="A Friendly Gesture" 	value="3" 		itemHash="2635568042"		xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="1" />
+		  <subquest id ="2" activity="Lost and Found" 		value="4" 		itemHash="0"				xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Something Fishy" 		value="5" 		itemHash="0" 				xp="50"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="4" activity="Eat, sleep, Recycle!"	value="15000" 	itemHash="0" 				xp="50"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="5" activity="Team Work" 			value="1" 		itemHash="4066532937" 		xp="75"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="6" activity="Item Collector" 		value="1" 		itemHash="3267821123" 		xp="50" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="2" />
+	</Quest>
+	<Quest id="51" name ="In The Nest" startDate="2013-03-18" endDate="2013-03-27" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-03-25" rewardItem="3949208178" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="A Friendly Gesture" 	value="4" 		itemHash="0"				xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="1" />
+		  <subquest id ="2" activity="Lost and Found" 		value="3" 		itemHash="0"				xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Something Fishy" 		value="5" 		itemHash="0" 				xp="50"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="4" activity="Item Collector"		value="1" 		itemHash="935789653" 		xp="50"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="5" activity="Ask a friend" 		value="4" 		itemHash="3124175000" 		xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="6" activity="Steppin it Up" 		value="35" 		itemHash="0" 				xp="100" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="3" />
+	</Quest>
+	<Quest id="52" name ="Down The Rabbit Hole" startDate="2013-03-25" endDate="2013-04-03" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-04-01" rewardItem="2054941883" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="Lost and Found" 		value="4" 		itemHash="0"				xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="2" activity="Something Fishy" 		value="3" 		itemHash="0"				xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Go Crafting" 			value="1" 		itemHash="4213221816" 		xp="75"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="4" activity="Team Work"			value="1" 		itemHash="3175427241" 		xp="75"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="5" activity="Ask a friend" 		value="2" 		itemHash="1299859488" 		xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="6" activity="Item Collector" 		value="1" 		itemHash="4065786966" 		xp="50" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="3" />
+	</Quest>
+	<Quest id="53" name ="A Veggie Surprise" startDate="2013-04-01" endDate="2013-04-10" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-04-08" rewardItem="2924803876" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="A Friendly Gesture" 	value="3" 		itemHash="0"				xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="1" />
+		  <subquest id ="2" activity="Lost and Found" 		value="3" 		itemHash="0"				xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Item Collector" 		value="1" 		itemHash="437077702" 		xp="50"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="4" activity="Team Work"			value="1" 		itemHash="1812639617" 		xp="75"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="5" activity="Run till you drop!" 	value="3" 		itemHash="0" 				xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="6" activity="Eat, sleep, Recycle!" value="15000" 	itemHash="0" 				xp="50" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="3" />
+	</Quest>
+	<Quest id="54" name ="Back To The Past!" startDate="2013-04-08" endDate="2013-04-17" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-04-15" rewardItem="2987310988" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="Ask a friend" 		value="3" 		itemHash="3312924482"		xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="2" activity="Go Crafting" 			value="1" 		itemHash="615405911"		xp="75"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="3" activity="Item Collector" 		value="1" 		itemHash="1827224504" 		xp="50"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="4" activity="Lost and Found"		value="3" 		itemHash="0" 				xp="50"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="5" activity="Something Fishy" 		value="3" 		itemHash="0" 				xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="6" activity="Team Work" 			value="1" 		itemHash="37796843" 		xp="75" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="3" />
+	</Quest>
+	<Quest id="55" name ="A Fishy Life" startDate="2013-04-15" endDate="2013-07-15" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-07-13" rewardItem="4199340179" itemHashRequired="0" requiredLevel="0" requiredQuest="0" previewFinalItem="0" isNew="true">
+		  <subquest id ="1" activity="A Friendly Gesture" 		value="4" 		itemHash="0"			xp="50"  	collectableSet="cs13" 	requiredSubQuest="0" 	properties="cash" 	cost="1" />
+		  <subquest id ="2" activity="Lost and Found" 			value="4" 		itemHash="0"			xp="50"  	collectableSet="cs14" 	requiredSubQuest="0" 	properties="cash" 	cost="2" />
+		  <subquest id ="3" activity="Team Work" 				value="1" 		itemHash="391657550" 	xp="75"  	collectableSet="cs15" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="4" activity="Go Crafting"				value="1" 		itemHash="754313982" 	xp="75"  	collectableSet="cs16" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="5" activity="Eat, sleep, Recycle!" 	value="7500" 	itemHash="0" 			xp="50"  	collectableSet="cs17" 	requiredSubQuest="0" 	properties="cash" 	cost="3" />
+		  <subquest id ="6" activity="Item Collector" 			value="1" 		itemHash="4178402806" 	xp="50" 	collectableSet="cs18" 	requiredSubQuest="1" 	properties="cash" 	cost="2" />
+	</Quest>
+	
+</PetsQuest>

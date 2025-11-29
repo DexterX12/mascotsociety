@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<prefs>
+	<!-- Game prefs -->
+	<pref name="roomNoScrollWidth" 				value="75" 		type="Number" />
+	<pref name="mouseNoScrollMargin"			value="100"		type="Number" />
+	<pref name="maxScrollSpeed"					value="300"		type="Number" />
+	<pref name="saveIntervalMedium"				value="45"		type="Number" />	<!-- Time until save is triggered after performing a medium priority action, -1 means default (15s) -->
+	<pref name="saveIntervalLow"				value="90"		type="Number" />	<!-- Time until save is triggered after performing a low priority action, -1 means default (60s) -->
+	<pref name="hideWorldNetworkButtons" 		value="true" />						<!-- Setting this to true will hide the WORLD and NETWORK tabs in the friends bar -->
+	<pref name="disableCafe"					value="false" />					<!-- Setting this to true will disable the Cafe, defaults to false if not present -->
+	<pref name="reportLinkUrl"					value="http://www.playfish.com/reportabuse/index.php" />
+	<pref name="disableReporting"				value="false" />					<!-- Setting this to true will disable abuse reporting buttons, defaults to false if not present -->
+	<pref name="disableLocalisation"			value="false" />					<!-- Setting this to true will disable localisation, defaults to, defaults to false if not present -->
+	<pref name="showSprintVerizonWarning"		value="false" />					<!-- Setting this to true will show a warning in payment dialogue for Paymo for US users, defaults to false if not present -->
+	
+	<pref name="intervalForInvitePopup"			value="30"  type="Number" />		<!-- The interval of invite friend popup -->
+	
+	<pref name="chanceForInvitePopup"			value="20"	type="Number" />		<!-- Chance (1 / n format) that a popup will come up on game start about inviting friends, defaults to 20 if not present, 0 = disabled -->
+	<pref name="chanceForSurvey"				value="600"	type="Number" /> 		<!-- Chance (1 / n format) that a net promoter survey will show up, defaults to 3500 if not present. 0 means disabled -->
+	<pref name="chanceForRandomNPC"				value="0"	type="Number" />		<!-- Chance (1 / n format) that a random NPC will show up, defaults to 1000 if not present. 0 means disabled -->
+	<pref name="chanceForAlbumReminder"			value="1"	type="Number" />		<!-- Chance (1 / n format) that a sticker album reminder for empty album will be shown, defaults to 1 if not present. 0 means disabled -->
+	<pref name="chanceForFeedGift"				value="1"	type="Number" />		<!-- Chance (1 / n format) that a popup will come up when players finish the spin of lottery wheel to share coins with friends, defaults to 1 if not present, 0 = disabled -->
+	<pref name="chanceForCoinSaleDialogue"		value="3"	type="Number" />		<!-- Chance (1 / n format) that a coin sale popup will come up. 0 means disabled -->
+	
+	<pref name="frequencyOfBookmarkPopupSkip"	value="1"	type="Number" />		<!-- How often in days a bookmark reminder will pop up -->
+	<pref name="frequencyOfBookmarkPopupDone"	value="2"	type="Number" />		<!-- How often in days a bookmark reminder will pop up -->
+	
+	<pref name="disableActivePetCoinBonus"		value="false" />					<!-- Disable bonus for visiting active friends (played in last 24 hours) -->
+	<pref name="disableCrafting"				value="false" />					<!-- Disable crafting feature -->
+	
+	<pref name="disableAnalytics"				value="false" />					<!-- Disable load profiling and upload to google analytics -->
+	<pref name="disableCounter"					value="false" />						<!-- Disable the updating of Facebook counter -->
+	<pref name="disableCollaborative"			value="false" />						<!-- Disable collaborative item UI -->
+	<pref name="disableDigging"					value="false" />					<!-- Disable access to Digging feature -->
+	<pref name="disableDiggingAdPopup"			value="true" />						<!-- Disable the advertising popup for Digging -->
+	<pref name="disableInteractionWithCafePets" value="false"  />					<!-- Disable gifting / messaging / adding as friend for cafe users -->
+	<pref name="disableCollectionPopup"			value="true" />						<!-- Disable the advertising popup for Item Collections -->
+	<pref name="currentCollectionUI"			value="" />							<!-- Class name for collection UI launched from inside room. Use empty string to disable. -->
+	<pref name="currentCollectionId"			value="2" type="Number" />			<!-- ID of current collection to display in-room and promote using pop-up -->
+	
+	<pref name="bitmapCacheStaticItems"			value="true" />
+	<pref name="bitmapCacheAnimatedItems"		value="true" />
+	
+	<pref name="disableFreeGift"				value="false" />
+	
+	<!-- Facebook specific game prefs -->
+	<pref name="serverTimePollInterval"			value="900"		type="Number" />	<!-- The maximum interval between requests for server time. Requests are also sent with other RPC requests -->
+	<pref name="disableTakePhoto"				value="false" />					<!-- Disable button to take photo for upload to Facebook photo album -->
+	<pref name="disableGettingOnlinePresence"	value="true" />						<!-- Disable Facebook API calls to get online friend presence -->
+	<pref name="disableShowingOnlinePresence"	value="true" />						<!-- Disable showing online presence -->
+	<pref name="disableOnlinePetCoinBonus"		value="true" />						<!-- Disable bonus for visiting online friends -->
+	<pref name="getFriendsPollInterval"			value="300"		type="Number" />	<!-- How often to make the Facebook FQL query to get online friends. Overrides code default -->
+	<pref name="disableStickers"				value="false" />					<!-- Disable sticker buttons -->
+	<pref name="publishNews"					value="true" />						<!-- Publish to dashboard local news -->
+	<pref name="multiCloseFriendInviter"		value="true" />						<!-- Use multifriend inviter instead of notification for close friends -->
+	<pref name="enableRequestEmailButton"		value="true" />					<!-- When clicked the permissions screen is opened -->
+	
+	<!-- Feeds -->
+	<pref name="enableFeedBits"					value="31" />						<!-- Bits: 1 = status, 2 = tutorial, 3 = mystery, 4 = wwf, 5 = MySpace gift, 6 = FB gift, 7 = stadium, 8 = trophy, 9 = feed gift -->
+	<pref name="feedImageDirectory"				value="feed/32" />						<!-- Change each time an image changes to break Facebook cache -->
+	
+	<!-- message center -->	
+	<pref name="enableMessageCentre"					value="true" />
+	<pref name="messageCentreSendingTargetType"			value="externalPage" />
+	
+	<!--  collaborative request -->
+	<pref name="enableTabbedCollaborativeRequest"					value="true" />
+	
+	<!-- like button -->
+	<pref name="enableLikeButton"					value="true" />
+	
+	<!-- WIP -->
+	<pref name="disableLiveChat"				value="true" />						<!-- Disable button to open live chat popup --> 
+
+	<!-- AB Testing -->
+	<pref name="ShopTrackingName"					value="ShopTracking" />
+	<pref name="limitedItemDisplayABTestName"		value="limitedItemDisplayABTest" />
+	<pref name="diggingSessionFinishedEventName"	value="diggingSessionFinished" />
+	<pref name="diggingBuyShovelsEventName"			value="diggingBuyShovels2_cost_fixed" />
+	<pref name="diggingFindTreasureEventName"		value="diggingFindTreasure" />
+	<pref name="diggingGameStartedEventName"		value="diggingGameStarted" />
+	<pref name="diggingExitGameEventName"			value="diggingExitGame" />
+	<pref name="HideeniTrackingName"				value="HideeniTracker" />
+	<pref name="FeedTrackingName"					value="FeedTracker" />
+	<pref name="SessionTrackingName"				value="SessionTracker" />
+	<pref name="MysteryTrackingName"				value="MysteryTracker" />
+	<pref name="BuyInFriendRoomTrackingName"		value="BuyInFriendRoomTracker" />
+	<pref name="MagicTrackingName"					value="MagicTracker" />
+	<pref name="JapaneseSchoolUniformBundleTrackingName"		value="JapaneseSchoolUniformBundleTracker" />
+	<pref name="MayorTrackingName"					value="MayorTracker" />
+	<pref name="LanguageTracking"					value="LanguageTracking" />
+	<pref name="ItemCountTrackingName"				value="ItemCountTracking" />
+	<pref name="OutsideTrackingName"				value="OutsideFeatureTracking" />
+	<pref name="LoadingTimeTrackingName"			value="LoadingTimeTracking" />
+	<pref name="DynamicLoadingTrackingName"			value="DynamicLoadingTracking" />
+	<pref name="AchivementTrackingName"				value="PostAchivement" />
+	<pref name="CraftTrackingName"					value="CraftTracker" />
+	<pref name="MiniGameTrackingName"				value="MiniGameTracker" />
+	<pref name="WeeklyQuestEventName"				value="WeeklyQuestTracker" />
+	<pref name="CollectableBuyEventName"			value="CollectableBuyTracker" />
+	<pref name="CollectableBuyValueEventName"		value="CollectableBuyValueTracker" />
+	<pref name="BuyOnTimerRunningEventName"			value="BuyBuilderQuestOnAskTracker" />
+	<pref name="BuyWhenAskClickedEventName"			value="BuyBuilderQuestBuildTracker" />
+	<pref name="BuilderQuestBuyEventName"			value="BuyBuilderQuestAskTracker" />
+	<pref name="CollectableCompletedThoughNotification"	value="CollectableCompleteThroughNotificationTracker" />
+	<pref name="CollectableCompletedThoughWallpost"	value="CollectableCompleteThroughWallpostTracker" />
+	<pref name="TotalCollectablesGainedForQuest"  	value="CollectableRewardOnBuilderQuestTracker" />
+	<pref name="TotalCollectablesGainedForSubQuest"	value="CollectableRewardOnSubQuestTracker" />
+	<pref name="NumberOfUsersOnEachStage"	  value="NumberOfUsersOnEachStageTracker" />
+	<pref name="TotalTimeTakenToCompleteBuilderQuest"	value="TimeCompleteBuilderQuestTracker" />
+	<pref name="TotalTimeTakenToCompleteSubQuest"	value="TimeCompleteSubQuestTracker" />
+	<pref name="QuestComplettionRate"	value="QuestCompletionRateTracker" />
+	<pref name="SubQuestCompletionRate"	value="SubQuestCompletionRateTracker" />
+	<pref name="NumberOfUsersCompletingSubQuest"	value="NumberOfUsersCompletingSubQuestTracker" />
+	<pref name="NumberOfUsersStartingSubQuest"	value="NumberOfUsersStartingSubQuestTracker" />
+	<pref name="NumberOfUsersInitiatingQuest"	value="NumberOfUsersInitiatingQuestTracker" />
+	<pref name="NumberOfUsersCompletingQuest"	value="NumberOfUsersCompletingQuestTracker" />
+	<!-- Debug prefs -->
+    <pref name="forceStreet"			value="false"/>
+    <pref name="forceWorld"				value="false"/>
+    <pref name="forceCreator"			value="false"/>
+    <pref name="debugTestAnimations"	value="false"/>
+	<pref name="useWalkKeys"			value="false" />
+	<pref name="debugViewports"			value="false" />
+	<pref name="debugPetState"			value="false" />
+	<pref name="debugMouseEnabled"		value="false" />
+	<pref name="debugCollidable"		value="false" />
+	<pref name="debugCollisionBoxes"	value="false" />
+	<pref name="debugCenterPoints"		value="false" />
+	<pref name="debugOnScreen"			value="false" />
+	<pref name="debugPositions"			value="false" />
+	<pref name="debugDrawPriorities"	value="false" />
+	<pref name="debugStreetCollision"	value="false" />
+	<pref name="debugHouseNumbers"		value="false" />						<!-- Show numbers on houses in street -->
+	<pref name="debugSounds"			value="false" />
+	<pref name="debugTimings"			value="false" />
+	<pref name="resetProfile"			value="false" />
+	<pref name="setCredits"				value="-1" 		type="Number" />	<!-- If zero or greater then sets start credits -->
+	<pref name="hardwareCursor"			value="true" />
+	<pref name="disableTutorial"		value="false" />
+	<pref name="disableIntro"			value="false" />
+	<pref name="showResetProfileButton"	value="false" />
+	<pref name="showSaveProfileButton"	value="false" />
+	<pref name="generateItemsQuery"		value="false" />
+	<pref name="showCursorDebugText" 	value="false" />						<!-- Shows some debug text about the cursor in debug mode -->
+	<pref name="simulateSaveFailRate"	value="-1" 		type="Number" />
+	<pref name="simulateSaveDuration"	value="-1" 		type="Number" />
+	
+	<!-- CashPromotion -->
+	<pref name="CashPromotion"    value="false"/>
+	<pref name="CashPromotion_StartData" value="2013-03-14 11:59:59"/>
+	<pref name="CashPromotion_EndtData"  value="2013-03-15 23:59:00"/>
+	<!-- 2nd CashPromotion -->	
+	<pref name="CashPromotion_StartData2" value="2013-03-24 00:00:00"/>
+	<pref name="CashPromotion_EndtData2"  value="2013-03-25 00:00:00"/>
+	
+	
+	
+	<!-- CashPromotion -->
+	<pref name="SpecialDailyLoginBonous"				value="true"/>
+	<pref name="SpecialDailyLoginBonous_StartData"		value="2012-08-06"/>
+	<pref name="SpecialDailyLoginBonous_EndtData"		value="2012-08-11"/>	
+	<!-- CraftPromotion -->
+	<pref name="CraftPromotion"				value="false"/>
+	<pref name="CraftPromotion_StartData"	value="2012-03-15"/>
+	<pref name="CraftPromotion_EndtData"	value="2012-04-02"/>
+	<pref name="GardenLightsCraftPromotion_StartData"	value="2012-03-15"/>
+	<pref name="GardenLightsCraftPromotion_EndtData"	value="2012-04-02"/>
+	<pref name="GardenGrandEntranceCraftPromotion_StartData"	value="2012-03-15"/>
+	<pref name="GardenGrandEntranceCraftPromotion_EndtData"	value="2012-03-24"/>
+	<pref name="GardenParadiseDiggingCraftPromotion_StartData"	value="2012-03-15"/>
+	<pref name="GardenParadiseDiggingCraftPromotion_EndtData"	value="2012-04-02"/>
+	<pref name="chanceForCraftPromotion"	value="1"	type="Number" />		<!-- Chance (1 / n format) that a popup will come up on game start about inviting friends, defaults to 20 if not present, 0 = disabled -->
+</prefs>
+
+<!--
+    Each setting takes the form:
+        <pref name="myVariableName" type="myClassName" value="myValue" />
+        
+    This creates a variable in Preferences.data().
+    
+    Type is optional. If not specified then the variable will be a String
+    unless the value is "true" or "false" in which case it will be a Boolean.
+    
+e.g.    
+    <prefs>
+        <pref name="appName" value="Test Prefs" />
+        <pref name="showVersion" value="True" />
+        <pref name="version" type="Number" value="0.1" />
+    </prefs>
+    
+    Then, in code:
+    
+        trace(Preferences.data().appName);
+        if (Preferences.data().showVersion)
+            trace("Version: " + Preferences.data().version);
+            
+        if (Preferences.data().version == 0.1)      // Variable can be treated as a number
+            trace("Top Secret Pre-Release. Playfish Eyes Only");
+    
+    Outputs:
+        Test Prefs
+        Version: 0.1
+        Top Secret Pre-Release. Playfish Eyes Only
+        
+-->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PetsShoppingQuest>
+	<ShoppingQuest id="1" name ="Get one item, by buying more :)" startDate="2012-05-07" endDate="2012-05-24" graceHours="48" graceTimeCost="5"  properties="cash" userEndDate="2012-05-22" rewardItem="123456779" itemHashRequired="0" requiredLevel="0" requiredQuest="0">
+		<ShoppingActivity id="1" name="Buy some" maxItemsRequired="3" collectableSet="cs1" property="coin" cost="23452">
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+		</ShoppingActivity>
+		<ShoppingActivity id="2" name="spend some" maxItemsRequired="2" collectableSet="cs2" property="coin" cost="23452">
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+		</ShoppingActivity>
+		<ShoppingActivity id="3" name="ahhhhh" maxItemsRequired="1" collectableSet="cs3" property="cash" cost="18">
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+		</ShoppingActivity>
+		<ShoppingActivity id="4" name="Spend Spend Spend" maxItemsRequired="5" collectableSet="cs4" property="cash" cost="125">
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+			<shoppingitem name="abcfdsfasda" itemHash="123456789"/>
+		</ShoppingActivity>
+	</ShoppingQuest>
+</PetsShoppingQuest>

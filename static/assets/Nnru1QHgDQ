@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipes>
+	<recipe id="0" recipehash="4132055311" producthash="425616336" duration="10" cookingpointsreq="0" devicecontainedtype="210">
+		<ingredient hash="2974615186" />
+		<ingredient hash="4110934775" />
+		<ingredient hash="377913982" />
+	</recipe>
+	<recipe id="1" recipehash="4188806685" producthash="1068753671" duration="120" cookingpointsreq="0" devicecontainedtype="210">
+		<ingredient hash="3671986214" />
+		<ingredient hash="3601992029" />
+		<ingredient hash="3814355992" />
+	</recipe>
+	<recipe id="2" recipehash="3604508005" producthash="2591770211" duration="1440" cookingpointsreq="0" devicecontainedtype="210">
+		<ingredient hash="3906597987" />
+		<ingredient hash="555801654" />
+		<ingredient hash="929000141" />
+	</recipe>
+	<recipe id="3" recipehash="1179154133" producthash="2298325656" duration="480" cookingpointsreq="5" devicecontainedtype="210">
+		<ingredient hash="3750124699" />
+		<ingredient hash="4064379758" />
+		<ingredient hash="4179078610" />
+	</recipe>
+	<recipe id="4" recipehash="4183037500" producthash="4031167577" duration="720" cookingpointsreq="10" devicecontainedtype="210">
+		<ingredient hash="3833186565" />
+		<ingredient hash="1979861055" />
+		<ingredient hash="838194209" />
+	</recipe>
+	<recipe id="5" recipehash="1442164519" producthash="2766494365" duration="60" cookingpointsreq="30" devicecontainedtype="210">
+		<ingredient hash="715052713" />
+		<ingredient hash="4064379758" />
+		<ingredient hash="651516230" />
+	</recipe>
+	<recipe id="6" recipehash="3075944631" producthash="1711710564" duration="240" cookingpointsreq="70" devicecontainedtype="210">
+		<ingredient hash="2899387034" />
+		<ingredient hash="2128507252" />
+		<ingredient hash="4047355101" />
+	</recipe>
+	<recipe id="7" recipehash="3328520497" producthash="2673516796" duration="480" cookingpointsreq="135" devicecontainedtype="210">
+		<ingredient hash="4034289997" />
+		<ingredient hash="1301178970" />
+		<ingredient hash="1557035507" />
+	</recipe>
+	<recipe id="8" recipehash="2425525783" producthash="2985074844" duration="30" cookingpointsreq="230" devicecontainedtype="210">
+		<ingredient hash="51691025" />
+		<ingredient hash="831392071" />
+		<ingredient hash="827567426" />
+	</recipe>
+	<recipe id="9" recipehash="3871989971" producthash="78648022" duration="1440" cookingpointsreq="355" devicecontainedtype="210">
+		<ingredient hash="167237875" />
+		<ingredient hash="109366881" />
+		<ingredient hash="377913982" />
+	</recipe>
+	<recipe id="10" recipehash="3940682713" producthash="3077175653" duration="240" cookingpointsreq="510" devicecontainedtype="210">
+		<ingredient hash="3906597987" />
+		<ingredient hash="696700617" />
+		<ingredient hash="2600026746" />
+	</recipe>
+	<recipe id="11" recipehash="3938256268" producthash="503940" duration="720" cookingpointsreq="710" devicecontainedtype="210">
+		<ingredient hash="2136744708" />
+		<ingredient hash="2401726975" />
+		<ingredient hash="2062617525" />
+	</recipe>
+	<recipe id="12" recipehash="3580531881" producthash="1411153797" duration="60" cookingpointsreq="955" devicecontainedtype="210">
+		<ingredient hash="3898149272" />
+		<ingredient hash="132174043" />
+		<ingredient hash="2330252706" />
+	</recipe>
+	<recipe id="13" recipehash="2068930062" producthash="1686393262" duration="2880" cookingpointsreq="1245" devicecontainedtype="210">
+		<ingredient hash="3877014970" />
+		<ingredient hash="2772171079" />
+		<ingredient hash="3321279141" />
+	</recipe>
+	<recipe id="14" recipehash="2899159270" producthash="932954531" duration="720" cookingpointsreq="1595" devicecontainedtype="210">
+		<ingredient hash="1029958354" />
+		<ingredient hash="1911179812" />
+		<ingredient hash="3906597987" />
+	</recipe>
+	<recipe id="15" recipehash="1578727026" producthash="2786066213" duration="60" cookingpointsreq="2005" devicecontainedtype="210">
+		<ingredient hash="2207887433" />
+		<ingredient hash="3576828376" />
+		<ingredient hash="4228610202" />
+	</recipe>
+	<recipe id="16" recipehash="542447079" producthash="3150221466" duration="240" cookingpointsreq="2485" devicecontainedtype="210">
+		<ingredient hash="1911179812" />
+		<ingredient hash="555801654" />
+		<ingredient hash="100849927" />
+	</recipe>
+	<recipe id="17" recipehash="2805040590" producthash="1886010994" duration="1080" cookingpointsreq="3035" devicecontainedtype="210">
+		<ingredient hash="3535454372" />
+		<ingredient hash="997123779" />
+		<ingredient hash="1876781781" />
+	</recipe>
+	<recipe id="18" recipehash="1917832" producthash="2324059978" duration="720" cookingpointsreq="3685" devicecontainedtype="210">
+		<ingredient hash="3583861869" />
+		<ingredient hash="2974615186" />
+		<ingredient hash="1782569091" />
+	</recipe>
+	<recipe id="19" recipehash="548092493" producthash="542002970" duration="720" cookingpointsreq="4405" devicecontainedtype="210">
+		<ingredient hash="3203504151" />
+		<ingredient hash="2879989940" />
+		<ingredient hash="523078707" />
+	</recipe>
+	<recipe id="20" recipehash="3792361928" producthash="4093970036" duration="480" cookingpointsreq="5255" devicecontainedtype="210">
+		<ingredient hash="3189908021" />
+		<ingredient hash="4047355101" />
+		<ingredient hash="825217595" />
+	</recipe>
+	<recipe id="21" recipehash="3472801890" producthash="3488140913" duration="240" cookingpointsreq="6255" devicecontainedtype="210">
+		<ingredient hash="555801654" />
+		<ingredient hash="2578399090" />
+		<ingredient hash="2284162960" />
+	</recipe>
+	<recipe id="22" recipehash="3246585226" producthash="5141160" duration="480" cookingpointsreq="0" devicecontainedtype="210">
+		<ingredient hash="3576828376" />
+		<ingredient hash="929000141" />
+		<ingredient hash="3906597987" />
+	</recipe>
+	<recipe id="23" recipehash="3041553919" producthash="3409097147" duration="240" cookingpointsreq="10" devicecontainedtype="210">
+		<ingredient hash="1876781781" />
+		<ingredient hash="3189908021" />
+		<ingredient hash="3583861869" />
+	</recipe>
+	<recipe id="24" recipehash="3995791822" producthash="2085332021" duration="10" cookingpointsreq="70" devicecontainedtype="210">
+		<ingredient hash="3321279141" />
+		<ingredient hash="611278368" />
+		<ingredient hash="2062617525" />
+	</recipe>
+</recipes>

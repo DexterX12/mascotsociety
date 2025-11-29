@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newsletters>		
+		
+	<newsletter id="522" date="2013-03-27" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Mystery Easter Tree Seed"/>
+		<button id="2" type="buy"			value="Easter Bunny Maker Two Holder"/>
+		<button id="3" type="buy"			value="Bunny Choo Choo" />
+	</newsletter>
+	<newsletter id="523" date="2013-03-28" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Mystery Easter Tree Seed" />
+		<button id="2" type="buy"			value="Bunny Choo Choo" />
+		<button id="3" type="buy"			value="Easter Masterchef Delight" />
+	</newsletter>
+	<newsletter id="524" date="2013-03-29" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Easter Bunny Maker Two Holder" />
+		<button id="2" type="buy"			value="Mystery Evolving Easter Fairy Egg" />
+		<button id="3" type="buy"			value="Be A Bunny Suit Outfit" />
+	</newsletter>	
+	<newsletter id="525" date="2013-03-30" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Be A Bunny Suit Outfit" />
+		<button id="2" type="buy"			value="Mystery Evolving Easter Fairy Egg" />
+		<button id="3" type="buy"			value="Japanese Make Up Kit" />
+	</newsletter>
+	<newsletter id="526" date="2013-03-31" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Easter Bunny Maker Two Holder" />
+		<button id="2" type="buy"			value="Bunny Choo Choo" />
+		<button id="3" type="buy"			value="Splendid Secret Garden"/>
+	</newsletter>
+	
+	<newsletter id="527" date="2013-04-01" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Mystery Evolving Tomato Hat" />
+		<button id="2" type="buy"			value="Cabbage Girl Outfit" />
+		<button id="3" type="buy"			value="New Age Make Up Kit" />
+	</newsletter>
+	<newsletter id="528" date="2013-04-02" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Vegetable Dye Table" />
+		<button id="2" type="buy"			value="Carrot Outfit" />
+		<button id="3" type="buy"			value="Aubergine Surprise Bath Tub" />
+	</newsletter>
+	<newsletter id="529" date="2013-04-03" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Veggie Surprise Fairy"/>
+		<button id="2" type="buy"			value="Cabbage Girl Outfit"/>
+		<button id="3" type="buy"			value="Veggie Surprise Carriage" />
+	</newsletter>
+	<newsletter id="530" date="2013-04-04" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Veggie Surprise Fairy" />
+		<button id="2" type="buy"			value="Veggie Surprise Carriage" />
+		<button id="3" type="buy"			value="Mystery Evolving Haunted Parrot Egg" />
+	</newsletter>
+	<newsletter id="531" date="2013-04-05" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Vegetable Dye Table" />
+		<button id="2" type="buy"			value="Carrot Outfit" />
+		<button id="3" type="buy"			value="Aubergine Surprise Bath Tub" />
+	</newsletter>	
+	<newsletter id="532" date="2013-04-06" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Mystery Veggie Fairy Tree Seed" />
+		<button id="2" type="buy"			value="Aubergine Surprise Bath Tub" />
+		<button id="3" type="buy"			value="Pumpkin Plushie" />
+	</newsletter>
+	<newsletter id="533" date="2013-04-07" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Mystery Veggie Fairy Tree Seed" />
+		<button id="2" type="buy"			value="Mystery Evolving Tomato Hat" />
+		<button id="3" type="buy"			value="Lake House Retreat Secret Garden"/>
+	</newsletter>
+	
+	<newsletter id="534" date="2013-04-08" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Golden Age Mystery Outfits" />
+		<button id="2" type="buy"			value="Golden Age Wig Bundle" />
+		<button id="3" type="buy"			value="Golden Age Hot Wheels" />
+	</newsletter>
+	<newsletter id="535" date="2013-04-09" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Golden Age Wig Bundle" />
+		<button id="2" type="buy"			value="Golden Age Hot Wheels" />
+		<button id="3" type="buy"			value="Sir Rabbit" />
+	</newsletter>
+	<newsletter id="536" date="2013-04-10" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Mon Petit Cheri Golden Girl Outfit"/>
+		<button id="2" type="buy"			value="Golden Age Hot Wheels"/>
+		<button id="3" type="buy"			value="Invisibility Ring" />
+	</newsletter>
+	<newsletter id="537" date="2013-04-11" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Mon Petit Cheri Golden Girl Outfit" />
+		<button id="2" type="buy"			value="Club Squirrel" />
+		<button id="3" type="buy"			value="Golden Age Choo Choo" />
+	</newsletter>
+	<newsletter id="538" date="2013-04-12" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Golden Age Wig Bundle" />
+		<button id="2" type="buy"			value="Golden Age Piano" />
+		<button id="3" type="buy"			value="Golden Age Hot Wheels" />
+	</newsletter>	
+	<newsletter id="539" date="2013-04-13" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Golden Age Mystery Outfits" />
+		<button id="2" type="buy"			value="Golden Age Hot Wheels" />
+		<button id="3" type="buy"			value="Golden Age Piano" />
+	</newsletter>
+	<newsletter id="540" date="2013-04-14" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Golden Age Mystery Outfits" />
+		<button id="2" type="buy"			value="Golden Age Piano" />
+		<button id="3" type="buy"			value="Secret Summer Garden"/>
+	</newsletter>
+	
+	<newsletter id="541" date="2013-04-15" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Aqua Girl Outfit Bundle" />
+		<button id="2" type="buy"			value="Aqua Lobster Summoning Armband" />
+		<button id="3" type="buy"			value="Scene Changing Aqua Window" />
+	</newsletter>
+	<newsletter id="542" date="2013-04-16" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Aqua Girl Outfit Bundle" />
+		<button id="2" type="buy"			value="Aqua Buddy Seat" />
+		<button id="3" type="buy"			value="Aqua Jellyfish Trampoline" />
+	</newsletter>
+	<newsletter id="543" date="2013-04-17" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Coral Aqua Tree Seed"/>
+		<button id="2" type="buy"			value="Aqua Lobster Summoning Armband"/>
+		<button id="3" type="buy"			value="Aqua Sea Bed" />
+	</newsletter>
+	<newsletter id="544" date="2013-04-18" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Coral Aqua Tree Seed" />
+		<button id="2" type="buy"			value="Aqua Jellyfish Trampoline" />
+		<button id="3" type="buy"			value="Treetop Retreat" />
+	</newsletter>
+	<newsletter id="545" date="2013-04-19" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Aqua Wig Box" />
+		<button id="2" type="buy"			value="Aqua Lobster Summoning Armband" />
+		<button id="3" type="buy"			value="Scene Changing Aqua Window" />
+	</newsletter>	
+	<newsletter id="546" date="2013-04-20" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Aqua Wig Box" />
+		<button id="2" type="buy"			value="Aqua Buddy Seat" />
+		<button id="3" type="buy"			value="Elven Kingdom Furniture Set" />
+	</newsletter>
+	<newsletter id="547" date="2013-04-21" panelLinks="null,null,null">
+		<button id="1" type="buy"			value="Aqua Wig Box" />
+		<button id="2" type="buy"			value="Scene Changing Aqua Window" />
+		<button id="3" type="buy"			value="Aqua Lobster Summoning Armband"/>
+	</newsletter>
+</newsletters>
+
+
+
+

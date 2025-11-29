@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PetsBuilderQuest>
+		<BuilderQuest id="22" name ="Deep Blue Sea " startDate="2013-04-15" endDate="2013-06-15" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-06-12" rewardItem="3108487696" previewFinalItem="89769730" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+				<BuilderActivity id="1" name="Dive Underwater">
+					<BuilderCollectable id="1" 	name="Key"				count="2" 	xp="15"	/>					
+					<BuilderCollectable id="2" 	name="Pencil" 			count="1" 	xp="15"	/>
+					<BuilderCollectable id="3" 	name="Feathers"			count="2" 	xp="15"	/>
+					<BuilderCollectable id="4" 	name="Flower Button"	count="3" 	xp="20"	/>
+					<BuilderCollectable id="5" 	name="Butterfly" 		count="1" 	xp="10"	/>
+					<BuilderCollectable id="6" 	name="Phone" 			count="1" 	xp="10"	/>				
+				</BuilderActivity>
+				<BuilderActivity id="2" name="Explore The Sea">
+					<BuilderCollectable id="1" 	name="Love Potion"		count="2" 	xp="25"	/>
+					<BuilderCollectable id="2" 	name="Milk" 			count="2" 	xp="10"	/>
+					<BuilderCollectable id="3" 	name="Hourglass" 		count="1" 	xp="25"	/>
+					<BuilderCollectable id="4" 	name="Bubble Gum"		count="1" 	xp="20"	/>
+					<BuilderCollectable id="5" 	name="Excalibur"		count="1" 	xp="35"	/>
+					<BuilderCollectable id="6" 	name="Book"				count="2" 	xp="30"	/>					
+				</BuilderActivity>
+				<BuilderActivity id="3" name="Examine Coral">
+					<BuilderCollectable id="1" 	name="Sapling" 			count="2" 	xp="35"/>
+					<BuilderCollectable id="2" 	name="Medallion" 		count="1" 	xp="35"/>
+					<BuilderCollectable id="3" 	name="Autumn Leaves" 	count="1" 	xp="40"	/>
+					<BuilderCollectable id="4" 	name="Building Screw" 	count="2" 	xp="55"	/>
+					<BuilderCollectable id="5" 	name="Doorbell" 		count="1" 	xp="15"	/>
+					<BuilderCollectable id="6" 	name="Bow" 				count="2" 	xp="40"	/>
+				</BuilderActivity>
+				<BuilderActivity id="4" name="Find The Cave">
+					<BuilderCollectable id="1" 	name="Flowers" 			count="2" 	xp="35"	/>
+					<BuilderCollectable id="2" 	name="Valour" 			count="2" 	xp="40"	/>
+					<BuilderCollectable id="3" 	name="Flame"			count="2" 	xp="55"	/>
+					<BuilderCollectable id="4" 	name="Tote"				count="2" 	xp="60"	/>
+					<BuilderCollectable id="5" 	name="Clippers" 		count="2" 	xp="70"	/>
+					<BuilderCollectable id="6" 	name="Red Chilies" 		count="2" 	xp="75"	/>				
+				</BuilderActivity>
+				<BuilderActivity id="5" name="Make Sure It's Safe">
+					<BuilderCollectable id="1" 	name="Hammer"			count="2" 	xp="75"	/>
+					<BuilderCollectable id="2" 	name="Glasses" 			count="2" 	xp="45"	/>
+					<BuilderCollectable id="3" 	name="Love Letter" 		count="2" 	xp="70"	/>
+					<BuilderCollectable id="4" 	name="Friendship"		count="3" 	xp="85"	/>
+					<BuilderCollectable id="5" 	name="Water Drop"		count="1" 	xp="50"	/>
+					<BuilderCollectable id="6" 	name="Choco Stick"		count="1" 	xp="50"	/>					
+				</BuilderActivity>
+				<BuilderActivity id="6" name="Enjoy The View">
+					<BuilderCollectable id="1" 	name="Pumpkin" 			count="1" 	xp="50" />
+					<BuilderCollectable id="2" 	name="Roses" 			count="2" 	xp="100" />
+					<BuilderCollectable id="3" 	name="Love" 			count="1" 	xp="100" />
+					<BuilderCollectable id="4" 	name="Backpack" 		count="3" 	xp="55"	/>
+					<BuilderCollectable id="5" 	name="Wings" 			count="2" 	xp="100" />
+					<BuilderCollectable id="6" 	name="Sugar Cube" 		count="2" 	xp="75"	/>
+				</BuilderActivity>	
+		</BuilderQuest>
+		<BuilderQuest id="21" name ="Hats Off!" startDate="2013-04-04" endDate="2013-04-22" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-04-19" rewardItem="1236282774" previewFinalItem="1883514929" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+				<BuilderActivity id="1" name="You're Invited!">
+					<BuilderCollectable id="1" 	name="Feathers" 		count="2" 	xp="15"	/>
+					<BuilderCollectable id="2" 	name="Flower Button" 	count="2" 	xp="20"	/>
+					<BuilderCollectable id="3" 	name="Love Potion"		count="2" 	xp="25"	/>
+					<BuilderCollectable id="4" 	name="Night Light"		count="1" 	xp="25"	/>
+					<BuilderCollectable id="5" 	name="Bubble Gum" 		count="1" 	xp="20"	/>
+					<BuilderCollectable id="6" 	name="Hourglass" 		count="1" 	xp="25"	/>				
+				</BuilderActivity>
+				<BuilderActivity id="2" name="Dress Up">
+					<BuilderCollectable id="1" 	name="Autumn Leaves"	count="1" 	xp="40"	/>
+					<BuilderCollectable id="2" 	name="Shopping Tag" 	count="1" 	xp="40"	/>
+					<BuilderCollectable id="3" 	name="Excalibur" 		count="1" 	xp="35"	/>
+					<BuilderCollectable id="4" 	name="Pencil"			count="3" 	xp="15"	/>
+					<BuilderCollectable id="5" 	name="Book"				count="2" 	xp="30"	/>
+					<BuilderCollectable id="6" 	name="Key"				count="3" 	xp="15"	/>					
+				</BuilderActivity>
+				<BuilderActivity id="3" name="Find The Perfect Hat">
+					<BuilderCollectable id="1" 	name="Wings" 			count="2" 	xp="100"/>
+					<BuilderCollectable id="2" 	name="Heart" 			count="2" 	xp="100"/>
+					<BuilderCollectable id="3" 	name="Red Chilies" 		count="1" 	xp="75"	/>
+					<BuilderCollectable id="4" 	name="Bow" 				count="2" 	xp="45"	/>
+					<BuilderCollectable id="5" 	name="Love Letter" 		count="2" 	xp="70"	/>
+					<BuilderCollectable id="6" 	name="Hammer" 			count="2" 	xp="75"	/>
+				</BuilderActivity>	
+		</BuilderQuest>
+		<BuilderQuest id="20" name ="Where Are The Easter Eggs?" startDate="2013-03-25" endDate="2013-04-18" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-04-15" rewardItem="1476000501" previewFinalItem="1604790183" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+				<BuilderActivity id="1" name="Look Around">
+					<BuilderCollectable id="1" 	name="Key" 				count="2" 	xp="15"	/>
+					<BuilderCollectable id="2" 	name="Pencil" 			count="1" 	xp="10"	/>
+					<BuilderCollectable id="3" 	name="Milk"				count="2" 	xp="10"	/>
+					<BuilderCollectable id="4" 	name="Feathers"			count="2" 	xp="15"	/>
+					<BuilderCollectable id="5" 	name="Phone" 			count="2" 	xp="10"	/>
+					<BuilderCollectable id="6" 	name="Butterfly" 		count="2" 	xp="10"	/>				
+				</BuilderActivity>
+				<BuilderActivity id="2" name="Find The Rabbit">
+					<BuilderCollectable id="1" 	name="Night Light"		count="1" 	xp="25"	/>
+					<BuilderCollectable id="2" 	name="Sapling" 			count="1" 	xp="35"	/>
+					<BuilderCollectable id="3" 	name="Bubble Gum" 		count="1" 	xp="20"	/>
+					<BuilderCollectable id="4" 	name="Hourglass"		count="1" 	xp="25"	/>
+					<BuilderCollectable id="5" 	name="Book"				count="1" 	xp="30"	/>
+					<BuilderCollectable id="6" 	name="Doorbell"			count="1" 	xp="15"	/>					
+				</BuilderActivity>
+				<BuilderActivity id="3" name="Chase The Rabbit">
+					<BuilderCollectable id="1" 	name="Gems" 			count="1" 	xp="10"	/>
+					<BuilderCollectable id="2" 	name="Flower Button" 	count="2" 	xp="20"	/>
+					<BuilderCollectable id="3" 	name="Love Potion" 		count="2" 	xp="25"	/>
+					<BuilderCollectable id="4" 	name="Water Drop" 		count="1" 	xp="50"	/>
+					<BuilderCollectable id="5" 	name="Flowers" 			count="2" 	xp="35"	/>
+					<BuilderCollectable id="6" 	name="Excalibur" 		count="2" 	xp="35"	/>
+				</BuilderActivity>	
+				<BuilderActivity id="4" name="Follow Him Down The Rabbit Hole">
+					<BuilderCollectable id="1" name="Autumn Leaves"		count="1" 	xp="40"	/>
+					<BuilderCollectable id="2" 	name="Shopping Tag"		count="1" 	xp="40"	/>
+					<BuilderCollectable id="3" 	name="Tote" 			count="2" 	xp="60"	/>
+					<BuilderCollectable id="4" 	name="Clippers"			count="2" 	xp="70"	/>
+					<BuilderCollectable id="5" 	name="Love Letter"		count="2" 	xp="70"	/>
+					<BuilderCollectable id="6" 	name="Medallion" 		count="1" 	xp="35"/>
+				</BuilderActivity>
+				<BuilderActivity id="5" name="Find The Easter Eggs">
+					<BuilderCollectable id="1" name="Valour"			count="2" 	xp="40"	/>
+					<BuilderCollectable id="2" 	name="Hat"				count="2" 	xp="45"	/>
+					<BuilderCollectable id="3" 	name="Choco Stick" 		count="2" 	xp="50"	/>
+					<BuilderCollectable id="4" 	name="Backpack"			count="2" 	xp="55"	/>
+					<BuilderCollectable id="5" 	name="Bow"				count="2" 	xp="45"	/>
+					<BuilderCollectable id="6" 	name="Glasses" 			count="2" 	xp="45"/>
+				</BuilderActivity>
+				<BuilderActivity id="6" name="Eat An Easter Egg">
+					<BuilderCollectable id="1" name="Friendship"		count="2" 	xp="85"	/>
+					<BuilderCollectable id="2" 	name="Hammer"			count="2" 	xp="75"	/>
+					<BuilderCollectable id="3" 	name="Musical Notes" 	count="1" 	xp="50"	/>
+					<BuilderCollectable id="4" 	name="Sugar Cube"		count="1" 	xp="75"	/>
+					<BuilderCollectable id="5" 	name="Heart"			count="2" 	xp="100"	/>
+					<BuilderCollectable id="6" 	name="Love" 			count="1" 	xp="100"/>
+				</BuilderActivity>
+		</BuilderQuest>
+		<BuilderQuest id="19" name ="Splash With The Birds" startDate="2013-03-14" endDate="2013-03-28" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-03-25" rewardItem="1767817333" previewFinalItem="2164817811" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+			<BuilderActivity id="1" name="Build The Fountain">
+				<BuilderCollectable id="1" 	name="Doorbell" 		count="1" 	xp="15"	/>
+				<BuilderCollectable id="2" 	name="Bubble Gum" 		count="1" 	xp="20"	/>
+				<BuilderCollectable id="3" 	name="Hourglass"		count="1" 	xp="25"	/>
+				<BuilderCollectable id="4" 	name="Book"				count="1" 	xp="30"	/>
+				<BuilderCollectable id="5" 	name="Sapling" 			count="1" 	xp="35"	/>
+				<BuilderCollectable id="6" 	name="Night Light" 		count="1" 	xp="25"	/>				
+			</BuilderActivity>
+			<BuilderActivity id="2" name="Start The Water">
+				<BuilderCollectable id="1" 	name="Phone"			count="2" 	xp="10"	/>
+				<BuilderCollectable id="2" 	name="Butterfly" 		count="2" 	xp="10"	/>
+				<BuilderCollectable id="3" 	name="Gems" 			count="2" 	xp="10"	/>
+				<BuilderCollectable id="4" 	name="Milk"				count="2" 	xp="10"	/>
+				<BuilderCollectable id="5" 	name="Feathers"			count="2" 	xp="15"	/>
+				<BuilderCollectable id="6" 	name="Flower Button"	count="2" 	xp="20"	/>
+				
+			</BuilderActivity>
+			<BuilderActivity id="3" name="Call The Birds">
+				<BuilderCollectable id="1" 	name="Flowers" 			count="2" 	xp="35"	/>
+				<BuilderCollectable id="2" 	name="Valour" 			count="2" 	xp="40"	/>
+				<BuilderCollectable id="3" 	name="Hat" 				count="1" 	xp="45"	/>
+				<BuilderCollectable id="4" 	name="Musical Notes" 	count="1" 	xp="50" />
+				<BuilderCollectable id="5" 	name="Glasses" 			count="1" 	xp="45"	/>
+				<BuilderCollectable id="6" 	name="Water Drop" 		count="2" 	xp="50" />
+			</BuilderActivity>	
+					
+		</BuilderQuest>
+		
+		<BuilderQuest id="18" name ="Birds Day Out!" startDate="2013-03-14" endDate="2013-04-01" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-03-29" rewardItem="401906527" previewFinalItem="2572435249" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+			<BuilderActivity id="1" name="Get The Wood">
+				<BuilderCollectable id="1" 	name="Key" 				count="2" 	xp="15"	/>
+				<BuilderCollectable id="2" 	name="Pencil" 			count="1" 	xp="10"	/>
+				<BuilderCollectable id="3" 	name="Love Potion"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="4" 	name="Phone"			count="1" 	xp="10"	/>
+				<BuilderCollectable id="5" 	name="Milk" 			count="2" 	xp="10"	/>
+				<BuilderCollectable id="6" 	name="Feathers" 		count="1" 	xp="15"	/>				
+			</BuilderActivity>
+			<BuilderActivity id="2" name="Build The Clubhouse">
+				<BuilderCollectable id="1" 	name="Medallion"		count="1" 	xp="35"	/>
+				<BuilderCollectable id="2" 	name="Excalibur" 		count="1" 	xp="35"	/>
+				<BuilderCollectable id="3" 	name="Autumn Leaves" 	count="1" 	xp="40"	/>
+				<BuilderCollectable id="4" 	name="Doorbell"			count="2" 	xp="15"	/>
+				<BuilderCollectable id="5" 	name="Flower Button"	count="2" 	xp="20"	/>
+				<BuilderCollectable id="6" 	name="Night Light"		count="1" 	xp="25"	/>
+				
+			</BuilderActivity>
+			<BuilderActivity id="3" name="Let Them Fly">
+				<BuilderCollectable id="1" 	name="Tote" 			count="2" 	xp="60"	/>
+				<BuilderCollectable id="2" 	name="Bow" 				count="2" 	xp="45"	/>
+				<BuilderCollectable id="3" 	name="Flame" 			count="2" 	xp="55"	/>
+				<BuilderCollectable id="4" 	name="Red Chilies" 		count="2" 	xp="75"	/>
+				<BuilderCollectable id="5" 	name="Friendship" 		count="2" 	xp="85"	/>
+				<BuilderCollectable id="6" 	name="Hammer" 			count="2" 	xp="75"	/>
+			</BuilderActivity>	
+					
+		</BuilderQuest>
+		
+		<BuilderQuest id="17" name ="An Irish Haven" startDate="2013-03-11" endDate="2013-03-27" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-03-24" rewardItem="181355731" previewFinalItem="2461359299" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+			<BuilderActivity id="1" name="Pack Your Bags!">
+				<BuilderCollectable id="1" 	name="Gems" 			count="2" 	xp="10"	/>
+				<BuilderCollectable id="2" 	name="Pencil" 			count="2" 	xp="15"	/>
+				<BuilderCollectable id="3" 	name="Love Potion"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="4" 	name="Sapling"			count="1" 	xp="35"	/>
+				<BuilderCollectable id="5" 	name="Medallion" 		count="1" 	xp="35"	/>
+				<BuilderCollectable id="6" 	name="Excalibur" 		count="1" 	xp="35"	/>				
+			</BuilderActivity>
+			<BuilderActivity id="2" name="Find Your Haven">
+				<BuilderCollectable id="1" 	name="Night Light"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="2" 	name="Book" 			count="1" 	xp="30"	/>
+				<BuilderCollectable id="3" 	name="Autumn Leaves" 	count="1" 	xp="40"	/>
+				<BuilderCollectable id="4" 	name="Shopping Tag"		count="2" 	xp="40"	/>
+				<BuilderCollectable id="5" 	name="Bow"				count="2" 	xp="45"	/>
+				<BuilderCollectable id="6" 	name="Building Screw"	count="2" 	xp="55"	/>
+				
+			</BuilderActivity>
+			<BuilderActivity id="3" name="Enjoy The Night Sky">
+				<BuilderCollectable id="1" 	name="Water Drop" 		count="2" 	xp="50"	/>
+				<BuilderCollectable id="2" 	name="Hat" 				count="2" 	xp="45"	/>
+				<BuilderCollectable id="3" 	name="Envy" 			count="1" 	xp="75"	/>
+				<BuilderCollectable id="4" 	name="Heart" 			count="1" 	xp="100" />
+				<BuilderCollectable id="5" 	name="Tote" 			count="2" 	xp="60"	/>
+				<BuilderCollectable id="6" 	name="Wings" 			count="2" 	xp="100" />
+			</BuilderActivity>	
+					
+		</BuilderQuest>
+		
+		<BuilderQuest id="16" name ="To The Dojo!" startDate="2013-02-25" endDate="2013-03-14" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-03-11" rewardItem="3220633877" previewFinalItem="4161004633" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+			<BuilderActivity id="1" name="Find The Dojo">
+				<BuilderCollectable id="1" 	name="Feathers" 		count="3" 	xp="15"	/>
+				<BuilderCollectable id="2" 	name="Gems" 			count="1" 	xp="10"	/>
+				<BuilderCollectable id="3" 	name="Night Light"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="4" 	name="Sapling"			count="2" 	xp="35"	/>
+				<BuilderCollectable id="5" 	name="Medallion" 		count="1" 	xp="35"	/>
+				<BuilderCollectable id="6" 	name="Book" 			count="2" 	xp="30"	/>				
+			</BuilderActivity>
+			<BuilderActivity id="2" name="Meet Your Comrades">
+				<BuilderCollectable id="1" 	name="Hourglass"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="2" 	name="Pencil" 			count="2" 	xp="15"	/>
+				<BuilderCollectable id="3" 	name="Excalibur" 		count="2" 	xp="35"	/>
+				<BuilderCollectable id="4" 	name="Bow"				count="2" 	xp="45"	/>
+				<BuilderCollectable id="5" 	name="Autumn Leaves"	count="1" 	xp="40"	/>
+				<BuilderCollectable id="6" 	name="Choco Stick"		count="2" 	xp="50"	/>
+				
+			</BuilderActivity>
+			<BuilderActivity id="3" name="Meet Your Sensei">
+				<BuilderCollectable id="1" 	name="Love Letter" 		count="3" 	xp="70"	/>
+				<BuilderCollectable id="2" 	name="Hammer" 			count="2" 	xp="75"	/>
+				<BuilderCollectable id="3" 	name="Leisure" 			count="2" 	xp="95"	/>
+				<BuilderCollectable id="4" 	name="Shopping Tag" 	count="1" 	xp="40"	/>
+				<BuilderCollectable id="5" 	name="Glasses" 			count="2" 	xp="45"	/>
+				<BuilderCollectable id="6" 	name="Pumpkin" 			count="1" 	xp="50"	/>
+			</BuilderActivity>	
+					
+		</BuilderQuest>
+
+		<BuilderQuest id="15" name ="The Ice Cream Land!" startDate="2013-02-18" endDate="2013-03-18" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-03-15" rewardItem="3685768790" previewFinalItem="3582229091" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+			<BuilderActivity id="1" name="Find the land of ice cream!">
+				<BuilderCollectable id="1" 	name="Phone" 			count="1" 	xp="10"	/>
+				<BuilderCollectable id="2" 	name="Feathers" 		count="2" 	xp="15"	/>
+				<BuilderCollectable id="3" 	name="Butterfly"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="4" 	name="Flower Button"	count="2" 	xp="20"	/>
+				<BuilderCollectable id="5" 	name="Gems" 			count="1" 	xp="10"	/>
+				<BuilderCollectable id="6" 	name="Love Potion" 		count="2" 	xp="10"	/>				
+			</BuilderActivity>
+			<BuilderActivity id="2" name="Add Ice Cream Scoops!">
+				<BuilderCollectable id="1" 	name="Key"				count="2" 	xp="15"	/>
+				<BuilderCollectable id="2" 	name="Doorbell" 		count="2" 	xp="35"	/>
+				<BuilderCollectable id="3" 	name="Sapling" 			count="2" 	xp="35"	/>
+				<BuilderCollectable id="4" 	name="Hourglass"		count="1" 	xp="25"	/>
+				<BuilderCollectable id="5" 	name="Bubble Gum"		count="1" 	xp="20"	/>
+				<BuilderCollectable id="6" 	name="Pencil"			count="1" 	xp="15"	/>
+				
+			</BuilderActivity>
+			<BuilderActivity id="3" name="Build Houses">
+				<BuilderCollectable id="1" 	name="Book" 			count="2" 	xp="15"	/>
+				<BuilderCollectable id="2" 	name="Night Light" 		count="2" 	xp="35"	/>
+				<BuilderCollectable id="3" 	name="Medallion" 		count="1" 	xp="35"	/>
+				<BuilderCollectable id="4" 	name="Excalibur" 		count="2" 	xp="15"	/>
+				<BuilderCollectable id="5" 	name="Autumn Leaves" 	count="1" 	xp="30"	/>
+				<BuilderCollectable id="6" 	name="Flowers" 			count="2" 	xp="35"	/>
+			</BuilderActivity>	
+			<BuilderActivity id="4" name="Build a Sundae House">
+				<BuilderCollectable id="1" name="Milk"				count="3" 	xp="25"	/>
+				<BuilderCollectable id="2" 	name="Shopping Tag"		count="1" 	xp="45"	/>
+				<BuilderCollectable id="3" 	name="Bow" 				count="2" 	xp="40"	/>
+				<BuilderCollectable id="4" 	name="Hat"				count="2" 	xp="70"	/>
+				<BuilderCollectable id="5" 	name="Musical Notes"	count="1" 	xp="65"	/>
+				<BuilderCollectable id="6" 	name="Backpack" 		count="2" 	xp="100"/>
+			</BuilderActivity>
+			<BuilderActivity id="5" name="Add Chocolate Chips">
+				<BuilderCollectable id="1" name="Valour"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="2" 	name="Tote"			count="2" 	xp="45"	/>
+				<BuilderCollectable id="3" 	name="Clippers" 	count="2" 	xp="40"	/>
+				<BuilderCollectable id="4" 	name="Clown"		count="1" 	xp="70"	/>
+				<BuilderCollectable id="5" 	name="Pumpkin"		count="2" 	xp="65"	/>
+				<BuilderCollectable id="6" 	name="Toy" 			count="1" 	xp="100"/>
+			</BuilderActivity>
+			<BuilderActivity id="6" name="More Ice Cream">
+				<BuilderCollectable id="1" name="Sugar Cube"	count="2" 	xp="25"	/>
+				<BuilderCollectable id="2" 	name="Fun"			count="2" 	xp="45"	/>
+				<BuilderCollectable id="3" 	name="Envy" 		count="2" 	xp="40"	/>
+				<BuilderCollectable id="4" 	name="Compass"		count="2" 	xp="70"	/>
+				<BuilderCollectable id="5" 	name="Leisure"		count="2" 	xp="65"	/>
+				<BuilderCollectable id="6" 	name="Red Chilies" 	count="2" 	xp="100"/>
+			</BuilderActivity>
+		
+	</BuilderQuest>
+	<BuilderQuest id="14" name ="The Angels Are Here" startDate="2013-02-07" endDate="2013-02-27" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-02-24" rewardItem="2955506247" previewFinalItem="444429602" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+			<BuilderActivity id="1" name="Find The Bundle">
+				<BuilderCollectable id="1" 	name="Phone" 			count="1" 	xp="10"	/>
+				<BuilderCollectable id="2" 	name="Milk"				count="2" 	xp="15"	/>
+				<BuilderCollectable id="3" 	name="Feathers" 		count="2" 	xp="15"	/>
+				<BuilderCollectable id="4" 	name="Butterfly"		count="1" 	xp="25"	/>
+				<BuilderCollectable id="5" 	name="Pencil"			count="1" 	xp="15"	/>
+				<BuilderCollectable id="6" 	name="Key"				count="2" 	xp="15"	/>
+			</BuilderActivity>
+			<BuilderActivity id="2" name="Cupid, where are you?">
+				<BuilderCollectable id="1" 	name="Doorbell" 		count="2" 	xp="35"	/>
+				<BuilderCollectable id="2" 	name="Book" 			count="2" 	xp="15"	/>
+				<BuilderCollectable id="3" 	name="Gems" 			count="2" 	xp="10"	/>
+				<BuilderCollectable id="4" 	name="Flower Button"	count="2" 	xp="20"	/>
+				<BuilderCollectable id="5" 	name="Night Light"		count="1" 	xp="15"	/>
+				<BuilderCollectable id="6" 	name="Bubble Gum"		count="1" 	xp="20"	/>
+			</BuilderActivity>
+			<BuilderActivity id="3" name="An angel in love">
+				<BuilderCollectable id="1" 	name="Hourglass"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="2" 	name="Sapling" 			count="3" 	xp="35"	/>
+				<BuilderCollectable id="3" 	name="Medallion" 		count="1" 	xp="35"	/>
+				<BuilderCollectable id="4" 	name="Excalibur" 		count="2" 	xp="15"	/>
+				<BuilderCollectable id="5" 	name="Autumn Leaves" 	count="1" 	xp="30"	/>
+				<BuilderCollectable id="6" 	name="Flowers" 			count="1" 	xp="35"	/>
+			</BuilderActivity>	
+			<BuilderActivity id="4" name="The three angels!">
+				<BuilderCollectable id="1" name="Choco Stick"		count="2" 	xp="25"	/>
+				<BuilderCollectable id="2" 	name="Glasses"			count="1" 	xp="45"	/>
+				<BuilderCollectable id="3" 	name="Shopping Tag" 	count="1" 	xp="40"	/>
+				<BuilderCollectable id="4" 	name="Clippers"			count="2" 	xp="70"	/>
+				<BuilderCollectable id="5" 	name="Compass"			count="1" 	xp="65"	/>
+				<BuilderCollectable id="6" 	name="Wings" 			count="2" 	xp="100"/>
+			</BuilderActivity>
+		
+	</BuilderQuest>
+	
+	<BuilderQuest id="13" name ="Hey There, Cupid!" startDate="2013-02-07" endDate="2013-02-24" graceHours="24" graceTimeCost="5"  properties="cash" userEndDate="2013-02-21" rewardItem="2872684057" previewFinalItem="1261012849" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+		<BuilderActivity id="1" name="Build The Base">
+			<BuilderCollectable id="1" 	name="Love Potion" 		count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Gems" 			count="1" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Night Light"		count="1" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Book"				count="1" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Doorbell" 		count="1" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Pencil"			count="1" 	xp="15"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Build Pet Cupid">
+			<BuilderCollectable id="1" 	name="Gems" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Bubble Gum"		count="1" 	xp="20"	/>
+			<BuilderCollectable id="3" 	name="Hourglass"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Sapling" 			count="2" 	xp="35"	/>
+			<BuilderCollectable id="5" 	name="Valour" 			count="2" 	xp="40"	/>
+			<BuilderCollectable id="6" 	name="Hat" 				count="1" 	xp="45"	/>			
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Needs a Bow And Arrow!">
+			<BuilderCollectable id="1" 	name="Red Chilies"		count="2" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Autumn Leaves" 	count="1" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Shopping Tag"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Musical Notes" 	count="1" 	xp="30"	/>
+			<BuilderCollectable id="5" 	name="Water Drop" 		count="1" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Heart"			count="1" 	xp="100" />			
+		</BuilderActivity>
+		
+	</BuilderQuest>	
+	<BuilderQuest id="12" name ="A Hammock For You!" startDate="2013-01-31" endDate="2013-02-11" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-02-08" rewardItem="383413101" previewFinalItem="1859612802" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+		<BuilderActivity id="1" name="Plant The Trees">
+			<BuilderCollectable id="1" 	name="Phone" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Milk"				count="2" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Key" 				count="2" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Feathers" 		count="1" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Pencil"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Bubble Gum"		count="1" 	xp="25"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Go Green">
+			<BuilderCollectable id="1" 	name="Hourglass" 		count="1" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Butterfly"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="3" 	name="Night Light"		count="1" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Book" 			count="2" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Doorbell" 		count="2" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Sapling"			count="2" 	xp="10"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Tie The Hammock">
+			<BuilderCollectable id="1" 	name="Flowers"			count="2" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Excalibur" 		count="1" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Medallion"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Autumn Leaves" 	count="1" 	xp="30"	/>
+			<BuilderCollectable id="5" 	name="Backpack" 		count="1" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Valour"			count="2" 	xp="30"	/>
+		</BuilderActivity>
+		
+	</BuilderQuest>
+	
+	<BuilderQuest id="11" name ="Sketch It Up" startDate="2013-01-31" endDate="2013-02-14" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-02-11" rewardItem="2907924842" previewFinalItem="3247583708" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+		<BuilderActivity id="1" name="Build The Frame">
+			<BuilderCollectable id="1" 	name="Gems" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Flower Button"	count="2" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Love Potion" 		count="2" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Doorbell" 		count="1" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Book"				count="2" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Phone"			count="2" 	xp="25"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Fix The Wheels">
+			<BuilderCollectable id="1" 	name="Bubble Gum" 		count="1" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Hat"				count="1" 	xp="25"	/>
+			<BuilderCollectable id="3" 	name="Musical Notes"	count="1" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Shopping Tag" 	count="1" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Bow" 				count="1" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Excalibur"		count="1" 	xp="10"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Build The Interiors">
+			<BuilderCollectable id="1" 	name="Compass"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Flame" 			count="2" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Building Screw"	count="1" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Clippers" 		count="2" 	xp="30"	/>
+			<BuilderCollectable id="5" 	name="Love Letter" 		count="1" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Fun"				count="1" 	xp="30"	/>
+		</BuilderActivity>
+		
+	</BuilderQuest>
+	
+	
+	<BuilderQuest id="10" name ="Party Like A Butterfly!" startDate="2013-01-14" endDate="2013-01-31" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-01-28" rewardItem="1769759502" previewFinalItem="3962691756" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+		<BuilderActivity id="1" name="Build The Base">
+			<BuilderCollectable id="1" 	name="Butterfly" 		count="1" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Key"				count="2" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Gems" 			count="1" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Feathers" 		count="2" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Flower Button"	count="1" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Love Potion"		count="1" 	xp="25"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Take A Seat!">
+			<BuilderCollectable id="1" 	name="Milk" 			count="1" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Night Light"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="3" 	name="Doorbell"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Pencil" 			count="1" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Sapling" 			count="1" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Phone"			count="1" 	xp="10"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Mirror On The Wall!">
+			<BuilderCollectable id="1" 	name="Feathers"			count="2" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Flower Button" 	count="1" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Love Potion"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Bubble Gum" 		count="1" 	xp="30"	/>
+			<BuilderCollectable id="5" 	name="Book" 			count="1" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Hourglass"		count="1" 	xp="30"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Wings To Fly!">
+			<BuilderCollectable id="1" 	name="Excalibur"		count="1" 	xp="60"	/>
+			<BuilderCollectable id="2" 	name="Night Light" 		count="2" 	xp="45"	/>
+			<BuilderCollectable id="3" 	name="Sapling"			count="1" 	xp="50"	/>
+			<BuilderCollectable id="4" 	name="Flame" 			count="1" 	xp="55"	/>
+			<BuilderCollectable id="5" 	name="Autumn Leaves" 	count="1" 	xp="40"	/>
+			<BuilderCollectable id="6" 	name="Medallion"		count="1" 	xp="50"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Light It Up!" >
+			<BuilderCollectable id="1" 	name="Flowers"			count="1" 	xp="100"/>
+			<BuilderCollectable id="2" 	name="Valour" 			count="1" 	xp="75"	/>
+			<BuilderCollectable id="3" 	name="Bow"				count="1" 	xp="70" />
+			<BuilderCollectable id="4" 	name="Building Screw" 	count="1" 	xp="85" />
+			<BuilderCollectable id="5" 	name="Hat" 				count="1" 	xp="75"	/>
+			<BuilderCollectable id="6" 	name="Musical Notes"	count="1" 	xp="120"/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Doll Up!">
+			<BuilderCollectable id="1" 	name="Gluttony" 			count="1" 	xp="50"	/>
+			<BuilderCollectable id="2" 	name="Friendship"			count="1" 	xp="70"	/>
+			<BuilderCollectable id="3" 	name="Shopping Tag" 			count="1" 	xp="20"	/>
+			<BuilderCollectable id="4" 	name="Pumpkin"  			count="1" 	xp="55" />
+			<BuilderCollectable id="5" 	name="Tote"				count="1" 	xp="100"/>
+			<BuilderCollectable id="6" 	name="Clippers"				count="1" 	xp="75"/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="9" name ="Finding Shangri la" startDate="2013-01-03" endDate="2013-01-31" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-01-28" rewardItem="3504766138" previewFinalItem="1691404229" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+		<BuilderActivity id="1" name="Find Open Valley">
+			<BuilderCollectable id="1" 	name="Phone" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Milk"				count="3" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Butterfly" 		count="2" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Pencil" 			count="2" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Feathers"			count="3" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Book"				count="2" 	xp="30"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Wait For Sunrise">
+			<BuilderCollectable id="1" 	name="Bubble Gum" 		count="2" 	xp="20"	/>
+			<BuilderCollectable id="2" 	name="Love Potion"		count="3" 	xp="25"	/>
+			<BuilderCollectable id="3" 	name="Sapling"			count="3" 	xp="35"	/>
+			<BuilderCollectable id="4" 	name="Night Light" 		count="2" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Doorbell" 		count="2" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Gems"				count="2" 	xp="10"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Plant Seeds">
+			<BuilderCollectable id="1" 	name="Hourglass"		count="2" 	xp="25"	/>
+			<BuilderCollectable id="2" 	name="Medallion" 		count="1" 	xp="35"	/>
+			<BuilderCollectable id="3" 	name="Flowers"			count="2" 	xp="35"	/>
+			<BuilderCollectable id="4" 	name="Valour" 			count="3" 	xp="40"	/>
+			<BuilderCollectable id="5" 	name="Autumn Leaves" 	count="1" 	xp="40"	/>
+			<BuilderCollectable id="6" 	name="Key"				count="3" 	xp="15"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Water The Plants">
+			<BuilderCollectable id="1" 	name="Tote"				count="1" 	xp="60"	/>
+			<BuilderCollectable id="2" 	name="Hat" 				count="1" 	xp="45"	/>
+			<BuilderCollectable id="3" 	name="Musical Notes"	count="1" 	xp="50"	/>
+			<BuilderCollectable id="4" 	name="Gluttony" 		count="2" 	xp="80"	/>
+			<BuilderCollectable id="5" 	name="Flame" 			count="2" 	xp="55"	/>
+			<BuilderCollectable id="6" 	name="Water Drop"		count="2" 	xp="50"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Watch Them Grow" >
+			<BuilderCollectable id="1" 	name="Roses"			count="1" 	xp="100"/>
+			<BuilderCollectable id="2" 	name="Hammer" 			count="2" 	xp="75"	/>
+			<BuilderCollectable id="3" 	name="Love Letter"		count="3" 	xp="70" />
+			<BuilderCollectable id="4" 	name="Friendship" 		count="2" 	xp="85" />
+			<BuilderCollectable id="5" 	name="Sugar Cube" 		count="2" 	xp="75"	/>
+			<BuilderCollectable id="6" 	name="Bright Spark"		count="2" 	xp="120"/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Enjoy Scenery">
+			<BuilderCollectable id="1" 	name="Pumpkin" 			count="2" 	xp="50"	/>
+			<BuilderCollectable id="2" 	name="Clippers"			count="3" 	xp="70"	/>
+			<BuilderCollectable id="3" 	name="Pillow" 			count="3" 	xp="20"	/>
+			<BuilderCollectable id="4" 	name="Building Screw" 	count="2" 	xp="55" />
+			<BuilderCollectable id="5" 	name="Love"				count="1" 	xp="100"/>
+			<BuilderCollectable id="6" 	name="Red Chilies"		count="2" 	xp="75"/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="8" name ="Shadows Of Christmas" startDate="2012-12-06" endDate="2013-01-04" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2013-01-01" rewardItem="1900613052" previewFinalItem="2092531466" itemHashRequired="0" requiredLevel="0" requiredQuest="0" >
+		<BuilderActivity id="1" name="Find the light!">
+			<BuilderCollectable id="1" 	name="Feathers" 		count="2" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Pencil"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Milk" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Night Light" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Book"				count="2" 	xp="30"	/>
+			<BuilderCollectable id="6" 	name="Phone"			count="1" 	xp="10"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Peek outside!">
+			<BuilderCollectable id="1" 	name="Love Potion" 		count="2" 	xp="25"	/>
+			<BuilderCollectable id="2" 	name="Hourglass"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="3" 	name="Doorbell"			count="3" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Key" 				count="2" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Gems" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="6" 	name="Valour"			count="1" 	xp="40"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Spot the ghost!">
+			<BuilderCollectable id="1" 	name="Medallion"		count="1" 	xp="35"	/>
+			<BuilderCollectable id="2" 	name="Bubble Gum" 		count="2" 	xp="20"	/>
+			<BuilderCollectable id="3" 	name="Butterfly"		count="3" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Sapling" 			count="2" 	xp="35"	/>
+			<BuilderCollectable id="5" 	name="Tote" 			count="1" 	xp="60"	/>
+			<BuilderCollectable id="6" 	name="Backpack"			count="2" 	xp="55"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Find Holy Water!">
+			<BuilderCollectable id="1" 	name="Flowers"			count="3" 	xp="35"	/>
+			<BuilderCollectable id="2" 	name="Gluttony" 		count="2" 	xp="80"	/>
+			<BuilderCollectable id="3" 	name="Bow"				count="2" 	xp="45"	/>
+			<BuilderCollectable id="4" 	name="Water Drop" 		count="1" 	xp="50"	/>
+			<BuilderCollectable id="5" 	name="Choco Stick" 		count="2" 	xp="50"	/>
+			<BuilderCollectable id="6" 	name="Autumn Leaves"	count="2" 	xp="40"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Exorcise the ghost!" >
+			<BuilderCollectable id="1" 	name="Compass"			count="1" 	xp="65"	/>
+			<BuilderCollectable id="2" 	name="Hammer" 			count="2" 	xp="75"	/>
+			<BuilderCollectable id="3" 	name="Hat"				count="2" 	xp="45"/>
+			<BuilderCollectable id="4" 	name="Musical Notes" 	count="2" 	xp="50"/>
+			<BuilderCollectable id="5" 	name="Pillow" 			count="2" 	xp="20"	/>
+			<BuilderCollectable id="6" 	name="Bright Spark"		count="1" 	xp="120"/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Enjoy the room!">
+			<BuilderCollectable id="1" 	name="Leisure" 			count="2" 	xp="95"	/>
+			<BuilderCollectable id="2" 	name="Glasses"			count="2" 	xp="45"	/>
+			<BuilderCollectable id="3" 	name="Love Letter" 		count="3" 	xp="70"	/>
+			<BuilderCollectable id="4" 	name="Pumpkin" 			count="2" 	xp="50"/>
+			<BuilderCollectable id="5" 	name="Friendship"		count="2" 	xp="85" />
+			<BuilderCollectable id="6" 	name="Roses"			count="1" 	xp="100"/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="7" name ="Space Expedition" startDate="2012-11-12" endDate="2012-12-06" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2012-12-03" rewardItem="3076458500" previewFinalItem="1729204063" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="true" >
+		<BuilderActivity id="1" name="Prepare for Take off! ">
+			<BuilderCollectable id="1" 	name="Milk" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Doorbell"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Phone" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Key" 				count="2" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Pencil"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Bubble Gum"		count="1" 	xp="20"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Buckle Up">
+			<BuilderCollectable id="1" 	name="Sapling" 			count="2" 	xp="35"	/>
+			<BuilderCollectable id="2" 	name="Book"				count="1" 	xp="30"	/>
+			<BuilderCollectable id="3" 	name="Butterfly"		count="2" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Night Light" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Flower Button" 	count="2" 	xp="20"	/>
+			<BuilderCollectable id="6" 	name="Autumn Leaves"	count="2" 	xp="40"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Exit Earth's Atmosphere">
+			<BuilderCollectable id="1" 	name="Gems"				count="1" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Excalibur" 		count="2" 	xp="35"	/>
+			<BuilderCollectable id="3" 	name="Hourglass"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Medallion" 		count="2" 	xp="35"	/>
+			<BuilderCollectable id="5" 	name="Flowers" 			count="2" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Backpack"			count="1" 	xp="55"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Head to Mars!">
+			<BuilderCollectable id="1" 	name="Hat"				count="2" 	xp="45"	/>
+			<BuilderCollectable id="2" 	name="Bow" 				count="2" 	xp="45"	/>
+			<BuilderCollectable id="3" 	name="Flame"			count="2" 	xp="55"	/>
+			<BuilderCollectable id="4" 	name="Shopping Tag" 	count="2" 	xp="40"	/>
+			<BuilderCollectable id="5" 	name="Gluttony" 		count="2" 	xp="80"	/>
+			<BuilderCollectable id="6" 	name="Musical Notes"	count="2" 	xp="50"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Prepare for Landing" >
+			<BuilderCollectable id="1" 	name="Choco Stick"		count="2" 	xp="50"	/>
+			<BuilderCollectable id="2" 	name="Musical Notes" 	count="2" 	xp="50"	/>
+			<BuilderCollectable id="3" 	name="Compass"			count="1" 	xp="65"/>
+			<BuilderCollectable id="4" 	name="Pillow" 			count="1" 	xp="20"/>
+			<BuilderCollectable id="5" 	name="Building Screw" 	count="2" 	xp="55"	/>
+			<BuilderCollectable id="6" 	name="Friendship"		count="2" 	xp="85"	/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="First Step">
+			<BuilderCollectable id="1" 	name="Clippers" 		count="3" 	xp="70"	/>
+			<BuilderCollectable id="2" 	name="Leisure"			count="2" 	xp="95"	/>
+			<BuilderCollectable id="3" 	name="Love Letter" 		count="2" 	xp="70"	/>
+			<BuilderCollectable id="4" 	name="Roses" 			count="1" 	xp="100"	/>
+			<BuilderCollectable id="5" 	name="Water Drop"		count="2" 	xp="50" />
+			<BuilderCollectable id="6" 	name="Hammer"			count="1" 	xp="75"/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="6" name ="The Midnight Haunt!" startDate="2012-10-22" endDate="2012-11-13" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2012-11-10" rewardItem="3024016282" previewFinalItem="3464279989" itemHashRequired="0" requiredLevel="0" requiredQuest="0" >
+		<BuilderActivity id="1" name="Enter The Graveyard!">
+			<BuilderCollectable id="1" 	name="Butterfly" 		count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Key"				count="2" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Phone" 			count="1" 	xp="10"	/>
+			<BuilderCollectable id="4" 	name="Feathers" 		count="2" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Bubble Gum"		count="1" 	xp="20"	/>
+			<BuilderCollectable id="6" 	name="Flower Button"	count="2" 	xp="20"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Find The Moon!" >
+			<BuilderCollectable id="1" 	name="Gems" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Milk"				count="1" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Love Potion"		count="3" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Book" 			count="1" 	xp="30"	/>
+			<BuilderCollectable id="5" 	name="Sapling" 			count="2" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Excalibur"		count="2" 	xp="35"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Name The Constellations!" >
+			<BuilderCollectable id="1" 	name="Pencil"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Hourglass" 		count="2" 	xp="25"	/>
+			<BuilderCollectable id="3" 	name="Valour"			count="2" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Night Light" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Doorbell" 		count="3" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Flowers"			count="2" 	xp="35"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Build The Family Crypt!" >
+			<BuilderCollectable id="1" 	name="Backpack"			count="2" 	xp="55"	/>
+			<BuilderCollectable id="2" 	name="Compass" 			count="1" 	xp="65"	/>
+			<BuilderCollectable id="3" 	name="Bow"				count="2" 	xp="45"	/>
+			<BuilderCollectable id="4" 	name="Gluttony" 		count="2" 	xp="80"	/>
+			<BuilderCollectable id="5" 	name="Glasses" 			count="2" 	xp="45"	/>
+			<BuilderCollectable id="6" 	name="Autumn Leaves"	count="2" 	xp="40"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Place The Tombstones!" >
+			<BuilderCollectable id="1" 	name="Hammer"			count="2" 	xp="75"	/>
+			<BuilderCollectable id="2" 	name="Love Letter" 		count="2" 	xp="70"	/>
+			<BuilderCollectable id="3" 	name="Roses"			count="1" 	xp="100"/>
+			<BuilderCollectable id="4" 	name="Fun" 				count="1" 	xp="100"/>
+			<BuilderCollectable id="5" 	name="Envy" 			count="1" 	xp="75"	/>
+			<BuilderCollectable id="6" 	name="Tote"				count="2" 	xp="60"	/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Plant The Haunted Tree ">
+			<BuilderCollectable id="1" 	name="Clippers" 		count="3" 	xp="70"	/>
+			<BuilderCollectable id="2" 	name="Building Screw"	count="3" 	xp="55"	/>
+			<BuilderCollectable id="3" 	name="Pumpkin" 			count="2" 	xp="50"	/>
+			<BuilderCollectable id="4" 	name="Friendship" 		count="2" 	xp="85"	/>
+			<BuilderCollectable id="5" 	name="Flame"			count="3" 	xp="55" />
+			<BuilderCollectable id="6" 	name="Love"				count="1" 	xp="100"/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="1" name ="Build your Room/Garden" startDate="2012-07-23" endDate="2012-08-31" graceHours="48" graceTimeCost="5"  properties="cash" userEndDate="2012-08-31" rewardItem="1105700856" previewFinalItem="1934130420" itemHashRequired="0" requiredLevel="0" requiredQuest="0" isNew="false" >
+		<BuilderActivity id="1" name="Discover The Mystical Land">
+			<BuilderCollectable id="1" 	name="Phone" 					count="3" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Milk"						count="1" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Doorbell" 				count="2" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Bubble Gum" 				count="1" 	xp="20"	/>
+			<BuilderCollectable id="5" 	name="Valour"					count="1" 	xp="40"	/>
+			<BuilderCollectable id="6" 	name="Musical Notes"			count="1" 	xp="50"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Prep It Up!">
+			<BuilderCollectable id="1" 	name="Milk" 			count="1" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Doorbell"			count="2" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Bubble Gum"		count="1" 	xp="20"	/>
+			<BuilderCollectable id="4" 	name="Hourglass" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Hat" 				count="1" 	xp="45"	/>
+			<BuilderCollectable id="6" 	name="Backpack"			count="1" 	xp="55"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Grow Some Trees">
+			<BuilderCollectable id="1" 	name="Book"				count="2" 	xp="30"	/>
+			<BuilderCollectable id="2" 	name="Hourglass" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="3" 	name="Valour"			count="1" 	xp="40"	/>
+			<BuilderCollectable id="4" 	name="Musical Notes" 	count="1" 	xp="50"	/>
+			<BuilderCollectable id="5" 	name="Hat" 				count="1" 	xp="45"	/>
+			<BuilderCollectable id="6" 	name="Toy"				count="1" 	xp="20"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Plant A Few Ferns">
+			<BuilderCollectable id="1" 	name="Bubble Gum"		count="3" 	xp="20"	/>
+			<BuilderCollectable id="2" 	name="Flowers" 			count="1" 	xp="35"	/>
+			<BuilderCollectable id="3" 	name="Tote"				count="1" 	xp="60"	/>
+			<BuilderCollectable id="4" 	name="Compass" 			count="1" 	xp="65"	/>
+			<BuilderCollectable id="5" 	name="Envy" 			count="1" 	xp="75"	/>
+			<BuilderCollectable id="6" 	name="Fun"				count="1" 	xp="70"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Sprinkle Fresh Snow">
+			<BuilderCollectable id="1" 	name="Book"			count="2" 	xp="30"	/>
+			<BuilderCollectable id="2" 	name="Valour" 		count="1" 	xp="40"	/>
+			<BuilderCollectable id="3" 	name="Tote"			count="1" 	xp="60"	/>
+			<BuilderCollectable id="4" 	name="Toy" 			count="1" 	xp="20"	/>
+			<BuilderCollectable id="5" 	name="Gluttony" 	count="1" 	xp="80"	/>
+			<BuilderCollectable id="6" 	name="Friendship"	count="2" 	xp="85"	/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Dig Those Plots!">
+			<BuilderCollectable id="1" 	name="Bubble Gum" 		count="3" 	xp="20"	/>
+			<BuilderCollectable id="2" 	name="Toy"				count="2" 	xp="20"	/>
+			<BuilderCollectable id="3" 	name="Harmony" 			count="1" 	xp="90"	/>
+			<BuilderCollectable id="4" 	name="Leisure" 			count="2" 	xp="95"	/>
+			<BuilderCollectable id="5" 	name="Love"				count="1" 	xp="100"/>
+			<BuilderCollectable id="6" 	name="Bright Spark"		count="2" 	xp="120"	/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="2" name ="Angelic Sleepy Hollow" startDate="2012-08-31" endDate="2012-09-17" graceHours="0" graceTimeCost="5"  properties="cash" userEndDate="2012-09-17" rewardItem="1433130088" previewFinalItem="3875477330" itemHashRequired="0" requiredLevel="0" requiredQuest="0" >
+		<BuilderActivity id="1" name="Touch The Sky!">
+			<BuilderCollectable id="1" 	name="Phone" 					count="3" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Milk"						count="1" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Doorbell" 				count="1" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Bubble Gum" 				count="1" 	xp="20"	/>
+			<BuilderCollectable id="5" 	name="Hourglass"				count="1" 	xp="25"	/>
+			<BuilderCollectable id="6" 	name="Valour"					count="1" 	xp="40"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Predict Cloudy Weather!">
+			<BuilderCollectable id="1" 	name="Phone" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Doorbell"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Bubble Gum"		count="2" 	xp="20"	/>
+			<BuilderCollectable id="4" 	name="Hourglass" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Hat" 				count="1" 	xp="45"	/>
+			<BuilderCollectable id="6" 	name="Musical Notes"	count="1" 	xp="50"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Place The Pebbles!">
+			<BuilderCollectable id="1" 	name="Milk"				count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Book" 			count="2" 	xp="30"	/>
+			<BuilderCollectable id="3" 	name="Hourglass"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Hat" 				count="1" 	xp="45"	/>
+			<BuilderCollectable id="5" 	name="Backpack" 		count="1" 	xp="55"	/>
+			<BuilderCollectable id="6" 	name="Clown"				count="1" 	xp="20"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Wait For Day Break!">
+			<BuilderCollectable id="1" 	name="Hourglass"		count="3" 	xp="25"	/>
+			<BuilderCollectable id="2" 	name="Book" 			count="2" 	xp="30"	/>
+			<BuilderCollectable id="3" 	name="Hat"				count="1" 	xp="45"	/>
+			<BuilderCollectable id="4" 	name="Tote" 			count="1" 	xp="60"	/>
+			<BuilderCollectable id="5" 	name="Friendship" 		count="1" 	xp="85"	/>
+			<BuilderCollectable id="6" 	name="Clown"				count="1" 	xp="20"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Make The Sun Rise!">
+			<BuilderCollectable id="1" 	name="Doorbell"			count="2" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Bubble Gum" 		count="2" 	xp="20"	/>
+			<BuilderCollectable id="3" 	name="Flowers"			count="1" 	xp="35"	/>
+			<BuilderCollectable id="4" 	name="Compass" 			count="1" 	xp="65"	/>
+			<BuilderCollectable id="5" 	name="Fun" 				count="1" 	xp="70"	/>
+			<BuilderCollectable id="6" 	name="Harmony"			count="1" 	xp="90"	/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Find The Angels!">
+			<BuilderCollectable id="1" 	name="Backpack" 		count="1" 	xp="55"	/>
+			<BuilderCollectable id="2" 	name="Envy"				count="1" 	xp="75"	/>
+			<BuilderCollectable id="3" 	name="Gluttony" 		count="1" 	xp="80"	/>
+			<BuilderCollectable id="4" 	name="Leisure" 			count="1" 	xp="95"	/>
+			<BuilderCollectable id="5" 	name="Love"				count="1" 	xp="100"/>
+			<BuilderCollectable id="6" 	name="Bright Spark"		count="1" 	xp="120"	/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="3" name ="Start a Winery!" startDate="2012-09-17" endDate="2012-10-08" graceHours="0" graceTimeCost="5"  properties="cash" userEndDate="2012-10-08" rewardItem="343545181" previewFinalItem="1411705216" itemHashRequired="0" requiredLevel="0" requiredQuest="0">
+		<BuilderActivity id="1" name="Find An Open Field!">
+			<BuilderCollectable id="1" 	name="Phone" 			count="3" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Book"				count="1" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Milk" 			count="2" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Doorbell" 		count="1" 	xp="20"	/>
+			<BuilderCollectable id="5" 	name="Hourglass"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="6" 	name="Valour"			count="2" 	xp="40"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Plant The Grape Seeds!">
+			<BuilderCollectable id="1" 	name="Backpack" 		count="1" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Doorbell"			count="2" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Bubble Gum"		count="1" 	xp="20"	/>
+			<BuilderCollectable id="4" 	name="Hourglass" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Phone" 			count="3" 	xp="45"	/>
+			<BuilderCollectable id="6" 	name="Hat"				count="1" 	xp="50"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Water The Harvest!">
+			<BuilderCollectable id="1" 	name="Milk"				count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Pillow" 			count="1" 	xp="30"	/>
+			<BuilderCollectable id="3" 	name="Hourglass"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Bubble Gum" 		count="2" 	xp="45"	/>
+			<BuilderCollectable id="5" 	name="Musical Notes" 	count="1" 	xp="55"	/>
+			<BuilderCollectable id="6" 	name="Hat"				count="1" 	xp="20"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Watch It Grow!" >
+			<BuilderCollectable id="1" 	name="Friendship"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="2" 	name="Book" 			count="2" 	xp="30"	/>
+			<BuilderCollectable id="3" 	name="Envy"				count="1" 	xp="45"	/>
+			<BuilderCollectable id="4" 	name="Hat" 				count="3" 	xp="60"	/>
+			<BuilderCollectable id="5" 	name="Hourglass" 		count="1" 	xp="85"	/>
+			<BuilderCollectable id="6" 	name="Compass"			count="1" 	xp="20"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Pick The Grapes!">
+			<BuilderCollectable id="1" 	name="Love"				count="1" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Bubble Gum" 		count="3" 	xp="20"	/>
+			<BuilderCollectable id="3" 	name="Fun"				count="1" 	xp="35"	/>
+			<BuilderCollectable id="4" 	name="Pillow" 			count="1" 	xp="65"	/>
+			<BuilderCollectable id="5" 	name="Flowers" 			count="2" 	xp="70"	/>
+			<BuilderCollectable id="6" 	name="Doorbell"			count="2" 	xp="90"	/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Enjoy The Scenery!">
+			<BuilderCollectable id="1" 	name="Bright Spark" 	count="1" 	xp="55"	/>
+			<BuilderCollectable id="2" 	name="Backpack"			count="2" 	xp="75"	/>
+			<BuilderCollectable id="3" 	name="Leisure" 			count="1" 	xp="80"	/>
+			<BuilderCollectable id="4" 	name="Harmony" 			count="1" 	xp="95"	/>
+			<BuilderCollectable id="5" 	name="Gluttony"			count="2" 	xp="100"/>
+			<BuilderCollectable id="6" 	name="Tote"				count="2" 	xp="120"/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="4" name ="Backyard Utopia!" startDate="2012-10-08" endDate="2012-10-23" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2012-10-20" rewardItem="2732031438" previewFinalItem="1328016543" itemHashRequired="0" requiredLevel="0" requiredQuest="0">
+		<BuilderActivity id="1" name="Define Your Utopia!">
+			<BuilderCollectable id="1" 	name="Butterfly" 		count="1" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Gems"				count="1" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Key" 				count="1" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Pencil" 			count="1" 	xp="15"	/>
+			<BuilderCollectable id="5" 	name="Feathers"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Phone"			count="1" 	xp="10"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Find The Best Back Yard!" >
+			<BuilderCollectable id="1" 	name="Gems" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Milk"				count="1" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Flower Button"	count="1" 	xp="20"	/>
+			<BuilderCollectable id="4" 	name="Night Light" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Love Potion" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="6" 	name="Sapling"			count="1" 	xp="35"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Know What You Want!" >
+			<BuilderCollectable id="1" 	name="Flower Button"	count="1" 	xp="20"	/>
+			<BuilderCollectable id="2" 	name="Love Potion" 		count="2" 	xp="25"	/>
+			<BuilderCollectable id="3" 	name="Medallion"		count="1" 	xp="35"	/>
+			<BuilderCollectable id="4" 	name="Excalibur" 		count="1" 	xp="35"	/>
+			<BuilderCollectable id="5" 	name="Book" 			count="1" 	xp="30"	/>
+			<BuilderCollectable id="6" 	name="Butterfly"		count="2" 	xp="10"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Find Your Utopia!" >
+			<BuilderCollectable id="1" 	name="Key"				count="2" 	xp="15"	/>
+			<BuilderCollectable id="2" 	name="Pencil" 			count="2" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Autumn Leaves"	count="1" 	xp="40"	/>
+			<BuilderCollectable id="4" 	name="Shopping Tag" 	count="1" 	xp="40"	/>
+			<BuilderCollectable id="5" 	name="Doorbell" 		count="2" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Bow"				count="1" 	xp="45"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Customize It To Your Liking!" >
+			<BuilderCollectable id="1" 	name="Glasses"			count="1" 	xp="45"	/>
+			<BuilderCollectable id="2" 	name="Flame" 			count="1" 	xp="55"	/>
+			<BuilderCollectable id="3" 	name="Night Light"		count="2" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Building Screw" 	count="1" 	xp="55"	/>
+			<BuilderCollectable id="5" 	name="Feathers" 		count="2" 	xp="15"	/>
+			<BuilderCollectable id="6" 	name="Clippers"			count="1" 	xp="70"	/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Enjoy Pardise!">
+			<BuilderCollectable id="1" 	name="Sapling" 			count="2" 	xp="35"	/>
+			<BuilderCollectable id="2" 	name="Hammer"			count="1" 	xp="75"	/>
+			<BuilderCollectable id="3" 	name="Medallion" 		count="1" 	xp="35"	/>
+			<BuilderCollectable id="4" 	name="Love Letter" 		count="1" 	xp="25"	/>
+			<BuilderCollectable id="5" 	name="Excalibur"		count="1" 	xp="35"/>
+			<BuilderCollectable id="6" 	name="Roses"			count="1" 	xp="100"/>
+		</BuilderActivity>
+	</BuilderQuest>
+	<BuilderQuest id="5" name ="Take a bow!" startDate="2012-10-08" endDate="2012-11-02" graceHours="24" graceTimeCost="10"  properties="cash" userEndDate="2012-10-30" rewardItem="2124564772" previewFinalItem="264926911" itemHashRequired="0" requiredLevel="0" requiredQuest="0" >
+		<BuilderActivity id="1" name="Paint It Red!">
+			<BuilderCollectable id="1" 	name="Phone" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Milk"				count="1" 	xp="10"	/>
+			<BuilderCollectable id="3" 	name="Doorbell" 		count="1" 	xp="15"	/>
+			<BuilderCollectable id="4" 	name="Bubble Gum" 		count="1" 	xp="20"	/>
+			<BuilderCollectable id="5" 	name="Hourglass"		count="1" 	xp="25"	/>
+			<BuilderCollectable id="6" 	name="Butterfly"		count="2" 	xp="10"	/>
+		</BuilderActivity>
+		<BuilderActivity id="2" name="Add The Carpeting" >
+			<BuilderCollectable id="1" 	name="Gems" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="2" 	name="Doorbell"			count="1" 	xp="15"	/>
+			<BuilderCollectable id="3" 	name="Book"				count="1" 	xp="30"	/>
+			<BuilderCollectable id="4" 	name="Flowers" 			count="1" 	xp="35"	/>
+			<BuilderCollectable id="5" 	name="Valour" 			count="1" 	xp="40"	/>
+			<BuilderCollectable id="6" 	name="Bubble Gum"		count="2" 	xp="20"	/>
+		</BuilderActivity>
+		<BuilderActivity id="3" name="Hang The Drapes" >
+			<BuilderCollectable id="1" 	name="Musical Notes"	count="1" 	xp="50"	/>
+			<BuilderCollectable id="2" 	name="Backpack" 		count="1" 	xp="55"	/>
+			<BuilderCollectable id="3" 	name="Hourglass"		count="3" 	xp="25"	/>
+			<BuilderCollectable id="4" 	name="Hat" 				count="1" 	xp="45"	/>
+			<BuilderCollectable id="5" 	name="Milk" 			count="2" 	xp="10"	/>
+			<BuilderCollectable id="6" 	name="Book"				count="2" 	xp="30"	/>
+		</BuilderActivity>
+		<BuilderActivity id="4" name="Install The Lighting" >
+			<BuilderCollectable id="1" 	name="Pillow"			count="1" 	xp="20"	/>
+			<BuilderCollectable id="2" 	name="Tote" 			count="2" 	xp="60"	/>
+			<BuilderCollectable id="3" 	name="Compass"			count="1" 	xp="65"	/>
+			<BuilderCollectable id="4" 	name="Fun" 				count="1" 	xp="70"	/>
+			<BuilderCollectable id="5" 	name="Flowers" 			count="2" 	xp="35"	/>
+			<BuilderCollectable id="6" 	name="Envy"				count="1" 	xp="75"	/>
+		</BuilderActivity>
+		<BuilderActivity id="5" name="Adjust The Lights" >
+			<BuilderCollectable id="1" 	name="Gluttony"			count="1" 	xp="80"	/>
+			<BuilderCollectable id="2" 	name="Backpack" 		count="2" 	xp="55"	/>
+			<BuilderCollectable id="3" 	name="Leisure"			count="1" 	xp="95"	/>
+			<BuilderCollectable id="4" 	name="Valour" 			count="2" 	xp="40"	/>
+			<BuilderCollectable id="5" 	name="Clown" 			count="1" 	xp="20"	/>
+			<BuilderCollectable id="6" 	name="Tote"				count="2" 	xp="60"	/>
+		</BuilderActivity>
+		<BuilderActivity id="6" name="Add A Touch Of Velvet">
+			<BuilderCollectable id="1" 	name="Toy" 				count="2" 	xp="20"	/>
+			<BuilderCollectable id="2" 	name="Pillow"			count="1" 	xp="20"	/>
+			<BuilderCollectable id="3" 	name="Harmony" 			count="1" 	xp="90"	/>
+			<BuilderCollectable id="4" 	name="Love" 			count="1" 	xp="100"	/>
+			<BuilderCollectable id="5" 	name="Friendship"		count="2" 	xp="85"/>
+			<BuilderCollectable id="6" 	name="Bright Spark"		count="1" 	xp="120"/>
+		</BuilderActivity>
+	</BuilderQuest>
+	
+
+</PetsBuilderQuest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<colours>
+	<colourGroup	name="default">
+		<colour	name="" primary="0xFFF100" secondary="0xE76E33" />
+		<colour	name="" primary="0x00ACEE" secondary="0xFF52B6" />
+		<colour	name="" primary="0x00C621" secondary="0x006837" />
+		<colour	name="" primary="0xB4B4B4" secondary="0xFF52B6" />
+		<colour	name="" primary="0xF5BB60" secondary="0xFF52B6" />
+		<colour	name="" primary="0x746458" secondary="0xE76E33" />
+		<colour	name="" primary="0xFFDFEF" secondary="0xFF52B6" />
+		<colour	name="" primary="0xC69B6E" secondary="0xD16C39" />
+		<colour	name="" primary="0x67308F" secondary="0xFF52B6" />
+		<colour	name="" primary="0x6C4A35" secondary="0xFFBDD8" />
+		
+		<colour	name="" primary="0xC88844" secondary="0xFCD27E" />
+		<colour	name="" primary="0xEB8915" secondary="0xFFE9AB" />
+		<colour	name="" primary="0xFFCC2E" secondary="0xE28D9D" />
+		<colour	name="" primary="0xFF986D" secondary="0xC6737F" />
+		<colour	name="" primary="0xE34E3F" secondary="0xFFE9AB" />
+		<colour	name="" primary="0xB7512A" secondary="0xFFBC9F" />
+		<colour	name="" primary="0xF5F4EA" secondary="0xFFBDD8" />
+		<colour	name="" primary="0x405B8B" secondary="0xC6737F" />
+		<colour	name="" primary="0x6C5EA7" secondary="0xFCD27E" />
+		<colour	name="" primary="0xC0A0F8" secondary="0xFFF7D4" />
+		
+		<colour	name="" primary="0xAB6DCE" secondary="0x7A4599" />
+		<colour	name="" primary="0xF2A4DA" secondary="0xFFF7D4" />
+		<colour	name="" primary="0xEE6B93" secondary="0xC64A71" />
+		<colour	name="" primary="0xA4CD19" secondary="0xFFE9AB" />
+		<colour	name="" primary="0xAEDF5D" secondary="0xFFDEE7" />
+		<colour	name="" primary="0xE7D3AF" secondary="0xFFDEE7" />
+		<colour	name="" primary="0xD0E483" secondary="0xFFE8C0" />
+		<colour	name="" primary="0x50D2E1" secondary="0xFFE9AB" />
+		<colour	name="" primary="0x77D9A0" secondary="0xFFE9AB" />
+		<colour	name="" primary="0x4280F0" secondary="0x2F5893" />
+		
+		<colour	name="" primary="0x33ABD7" secondary="0x2D7696" />
+		<colour	name="" primary="0x424242" secondary="0x808080" />
+		<colour	name="" primary="0x000000" secondary="0x808080" />
+		<colour	name="" primary="0xB1E2E5" secondary="0xFFDED9" />
+		<colour	name="" primary="0xF1ADC7" secondary="0xFFDED9" />
+	</colourGroup>
+
+	<colourGroup	name="Rainbow Body Paint Kit Colours"	preRequisiteItem="Rainbow Body Paint Kit" itemHash="4014847207" >
+		<colour	name="" primary="0xA772B2" secondary="0xE1B5EA" />
+		<colour	name="" primary="0xFFB3BE" secondary="0xDD7886" />
+		<colour	name="" primary="0xBDDEF4" secondary="0x6BA3BF" />
+		<colour	name="" primary="0xFFCFA4" secondary="0xE2906F" />
+		<colour	name="" primary="0x7BCFBF" secondary="0xCEF1EC" />
+		<colour	name="" primary="0xEEE1FF" secondary="0xCFBCE8" />
+		<colour	name="" primary="0xD3F0F2" secondary="0x9DC6C6" />
+	</colourGroup>
+
+	<colourGroup	name="Cyber Body Paint Kit Colours"	preRequisiteItem="Cyber Body Paint Kit" itemHash="3434428335" >
+		<colour	name="" primary="0xFF4ACC" secondary="0x2B373A" />
+		<colour	name="" primary="0x05FF13" secondary="0x2B373A" />
+		<colour	name="" primary="0xFFF533" secondary="0x2B373A" />
+		<colour	name="" primary="0x39F6FF" secondary="0x2B373A" />
+		<colour	name="" primary="0x2B373A" secondary="0x45E5FF" />
+	</colourGroup>
+	
+	<colourGroup	name="Color Splash Body Paint Kit Colours"	preRequisiteItem="Color Splash Body Paint Kit" itemHash="869961438" >
+		<colour	name="" primary="0x2981cb" secondary="0x3b9bec" />
+		<colour	name="" primary="0x55be44" secondary="0x6ae556" />
+		<colour	name="" primary="0xbd0b18" secondary="0xec1828" />
+		<colour	name="" primary="0x8d50c7" secondary="0xa662e7" />
+		<colour	name="" primary="0xee6c15" secondary="0xff944c" />
+	</colourGroup>
+	
+	
+	
+</colours>

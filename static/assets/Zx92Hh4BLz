@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<randomisedItems>
+
+	<item name="Special Bird Plushie" itemHash="3968617107" >
+		<bodyPart id="1" name="Body" numberOfVariations="1" colour="bodyColours" />
+		<colour id="2" name="bodyColours" numberOfVariations="10" />
+		<bodyPart id="3" name="Eyes" numberOfVariations="13"/>
+		<bodyPart id="4" name="Mouth" numberOfVariations="5" />
+		<bodyPart id="5" name="Tail" numberOfVariations="4" />
+		<bodyPart id="6" name="Hair" numberOfVariations="15" />
+		<bodyPart id="7" name="Accessory" numberOfVariations="4" />
+
+
+	</item>
+
+	<item name="Special Pony Plushie 2" itemHash="2842156143" >
+		<bodyPart id="1" name="Eyes" numberOfVariations="1"  colour="eyeColours" />
+		<bodyPart id="2" name="Extras" numberOfVariations="10" colour="extrasColours" />
+		<bodyPart id="3" name="HairOL" numberOfVariations="6" colour="hairColours" />
+		<bodyPart id="4" name="Head" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="5" name="HairIB" numberOfVariations="6" colour="hairColours" />
+		<bodyPart id="6" name="Marks" numberOfVariations="7" />
+		<bodyPart id="7" name="Body" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="8" name="Tail" numberOfVariations="6" colour="hairColours" />
+		<bodyPart id="9" name="HairUL" numberOfVariations="6" colour="hairColours" />
+		<colour id="10" name="hairColours" numberOfVariations="10" />
+		<colour id="11" name="bodyColours" numberOfVariations="10" />
+		<colour id="12" name="eyeColours" numberOfVariations="10" />
+		<colour id="13" name="extrasColours" numberOfVariations="2" />
+	</item>
+	
+	<item name="Special Kitty Plushie" itemHash="2747995270" >
+		<bodyPart id="1" name="HeadDecoration" numberOfVariations="8" colour="headDecorationColours" />
+		<bodyPart id="2" name="Mouth" numberOfVariations="5" />
+		<bodyPart id="3" name="Eyes" numberOfVariations="9" />
+		<bodyPart id="4" name="EyeShadow" numberOfVariations="13" colour="eyeShadowColours" />
+		<bodyPart id="5" name="Head" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="6" name="NeckDecoration" numberOfVariations="4" colour="neckColours" />
+		<bodyPart id="7" name="Body" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="8" name="Tail" numberOfVariations="5" colour="bodyColours" />
+		<colour id="9" name="bodyColours" numberOfVariations="12" />
+		<colour id="10" name="neckColours" numberOfVariations="7" />
+		<colour id="11" name="eyeShadowColours" numberOfVariations="13" />
+		<colour id="12" name="headDecorationColours" numberOfVariations="7" />
+	</item>
+	
+	<item name="Special Pony Plushie" itemHash="2563791616" >
+		<bodyPart id="1" name="Eyes" numberOfVariations="8" />
+		<bodyPart id="2" name="Accessory" numberOfVariations="7" />
+		<bodyPart id="3" name="HairOL" numberOfVariations="6" colour="hairColours" />
+		<bodyPart id="4" name="Head" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="5" name="HairIB" numberOfVariations="6" colour="hairColours" />
+		<bodyPart id="6" name="Tattoo" numberOfVariations="6" />
+		<bodyPart id="7" name="Body" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="8" name="Tail" numberOfVariations="6" colour="hairColours" />
+		<bodyPart id="9" name="HairUL" numberOfVariations="6" colour="hairColours" />
+		<colour id="10" name="hairColours" numberOfVariations="10" />
+		<colour id="11" name="bodyColours" numberOfVariations="10" />
+	</item>
+	
+	<item name="Special Dragon Plushie" itemHash="582174516" >
+		<bodyPart id="1" name="Mouth" numberOfVariations="7" />
+		<bodyPart id="2" name="Crystal" numberOfVariations="14" />
+		<bodyPart id="3" name="Eyes" numberOfVariations="11" />
+		<bodyPart id="4" name="Horns" numberOfVariations="6" colour="secondaryColours" />
+		<bodyPart id="5" name="Head" numberOfVariations="1" colour="primaryColours" />
+		<bodyPart id="6" name="Ears" numberOfVariations="4" colour="primaryColours" />
+		<bodyPart id="7" name="Arms" numberOfVariations="1" colour="primaryColours" />
+		<bodyPart id="8" name="Accessory" numberOfVariations="10" />
+		<bodyPart id="9" name="Paws" numberOfVariations="1" colour="secondaryColours" />
+		<bodyPart id="10" name="Legs" numberOfVariations="1" colour="primaryColours" />
+		<bodyPart id="11" name="Body" numberOfVariations="1" colour="secondaryColours" />
+		<bodyPart id="12" name="Wings" numberOfVariations="5" colour="primaryColours" />
+		<bodyPart id="13" name="Tail" numberOfVariations="4" colour="primaryColours" />
+		<bodyPart id="16" name="HornMeat" numberOfVariations="1" colour="primaryColours" />
+		<colour id="14" name="primaryColours" numberOfVariations="8" />
+		<colour id="15" name="secondaryColours" numberOfVariations="4" />
+	</item>
+	
+	<item name="Special Zombie Plushie" itemHash="1684223045" >
+		<bodyPart id="1" name="Body" numberOfVariations="10" />
+		<bodyPart id="2" name="ArmLeft" numberOfVariations="8" />
+		<bodyPart id="3" name="ArmRight" numberOfVariations="8" />
+		<bodyPart id="4" name="LegLeft" numberOfVariations="8" />
+		<bodyPart id="5" name="LegRight" numberOfVariations="8" />
+		<bodyPart id="6" name="Head" numberOfVariations="1" colour="headColour" />
+		<bodyPart id="7" name="Ears" numberOfVariations="4" colour="headColour" />
+		<bodyPart id="8" name="Eyes" numberOfVariations="9" />
+		<bodyPart id="9" name="Mouth" numberOfVariations="7" />
+		<bodyPart id="10" name="Hat" numberOfVariations="12" />
+		<bodyPart id="11" name="Neck" numberOfVariations="7" />
+		<bodyPart id="12" name="Wing" numberOfVariations="11" />
+		<colour id="15" name="headColour" numberOfVariations="8" />
+	</item>
+	
+	<item name="Easter Bunny Plushie" itemHash="1726460628" >
+		<bodyPart id="1" name="Body" numberOfVariations="3" colour="bodyColour" />
+		<bodyPart id="2" name="HeadDecoration" numberOfVariations="4" colour="HeadDecorationColour" />
+		<bodyPart id="3" name="NeckBow" numberOfVariations="1" colour="NeckBowColour" />
+		<bodyPart id="4" name="Eyes" numberOfVariations="5" />
+		<bodyPart id="5" name="Mouth" numberOfVariations="6" />
+		<colour id="6" name="bodyColour" numberOfVariations="12" />
+		<colour id="7" name="NeckBowColour" numberOfVariations="7" />
+		<colour id="8" name="HeadDecorationColour" numberOfVariations="7" />
+		<colour id="9" name="bodyColour" numberOfVariations="12" />
+	</item>
+	<item name="Fables Magical Plant" itemHash="1833831164" >
+		<bodyPart id="1" name="GlowingStamen" numberOfVariations="5" colour="GlowingStamenColour" />
+		<bodyPart id="2" name="TopPetal" numberOfVariations="5" />
+		<bodyPart id="3" name="LowerPetal" numberOfVariations="5" />
+		<bodyPart id="4" name="Stems" numberOfVariations="5" />
+		<bodyPart id="5" name="Aura" numberOfVariations="4" />
+		<colour id="6" name="GlowingStamenColour" numberOfVariations="3" />
+	</item>
+	<item name="Homegrown Fables Magical Plant" itemHash="3933808868" >
+		<bodyPart id="1" name="GlowingStamen" numberOfVariations="5" colour="GlowingStamenColour" />
+		<bodyPart id="2" name="TopPetal" numberOfVariations="5" />
+		<bodyPart id="3" name="LowerPetal" numberOfVariations="5" />
+		<bodyPart id="4" name="Stems" numberOfVariations="5" />
+		<bodyPart id="5" name="Aura" numberOfVariations="4" />
+		<colour id="6" name="GlowingStamenColour" numberOfVariations="3" />
+	</item>
+	<item name="Special Pony Plushie 3" itemHash="1778811185" >
+		<bodyPart id="1" name="Eyes" numberOfVariations="8" />
+		<bodyPart id="2" name="Accessory" numberOfVariations="7" colour="AccessoryColours" />
+		<bodyPart id="3" name="HairOL" numberOfVariations="7" colour="hairColours" />
+		<bodyPart id="4" name="Head" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="5" name="HairIB" numberOfVariations="6" colour="hairColours" />
+		<bodyPart id="6" name="Tattoo" numberOfVariations="7" />
+		<bodyPart id="7" name="Body" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="8" name="Tail" numberOfVariations="7" colour="hairColours" />
+		<bodyPart id="9" name="HairUL" numberOfVariations="8" colour="hairColours" />
+		<colour id="10" name="hairColours" numberOfVariations="10" />
+		<colour id="11" name="bodyColours" numberOfVariations="10" />
+		<colour id="12" name="AccessoryColours" numberOfVariations="7" />
+	</item>
+	<item name="Pumpkin Plushie" itemHash="483382699" >
+		<bodyPart id="1" name="Eyes" numberOfVariations="7" />
+		<bodyPart id="2" name="Mouth" numberOfVariations="7" />
+		<bodyPart id="3" name="BodyDecoration" numberOfVariations="3" colour="bodyDecorationColours"  />
+		<bodyPart id="4" name="HeadDecoration" numberOfVariations="7" />
+		<bodyPart id="5" name="Shirt" numberOfVariations="7" />  
+		<bodyPart id="6" name="Body" numberOfVariations="1" />		
+		<colour   id="7" name="bodyDecorationColours" numberOfVariations="7" />
+    </item>
+
+	<item name="Rudolf Plushie" itemHash="1133906951" >
+		<bodyPart id="1" name="Eyes" numberOfVariations="11" />
+		<bodyPart id="2" name="Mouth" numberOfVariations="10" />
+		<bodyPart id="3" name="Horns" numberOfVariations="10" />
+		<bodyPart id="4" name="HeadDecoration" numberOfVariations="6" />
+		<bodyPart id="5" name="NeckBows" numberOfVariations="10" />  
+		<bodyPart id="6" name="Body" numberOfVariations="1" colour="bodyDecorationColours"/>		
+		<colour   id="7" name="bodyDecorationColours" numberOfVariations="10" />
+    </item>
+	<item name="Special Pony Plushie Four" itemHash="2876894221" >
+		<bodyPart id="1" name="Eyes" numberOfVariations="1" colour="eyeColours" />
+		<bodyPart id="2" name="Accessory" numberOfVariations="18" />
+		<bodyPart id="3" name="HairOL" numberOfVariations="7" colour="hairColours" />
+		<bodyPart id="4" name="Head" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="5" name="Tattoo" numberOfVariations="8" />
+		<bodyPart id="6" name="Body" numberOfVariations="1" colour="bodyColours" />
+		<bodyPart id="7" name="Tail" numberOfVariations="7" colour="hairColours" />
+		<bodyPart id="8" name="HairUL" numberOfVariations="7" colour="hairColours" />
+		<colour id="9" 	 name="hairColours" numberOfVariations="11" />
+		<colour id="10"  name="bodyColours" numberOfVariations="11" />
+		<colour id="11"  name="eyeColours" numberOfVariations="9" />
+	</item>
+	<item name="Easter Bunny Plushie Two" itemHash="519899785" >
+		<bodyPart id="1" name="Eyes" numberOfVariations="12" />
+		<bodyPart id="2" name="HeadDecoration" numberOfVariations="6" colour="decorationColors"/>
+		<bodyPart id="3" name="Holdable" numberOfVariations="6" colour="holdableColours" />
+		<bodyPart id="4" name="Mouth" numberOfVariations="12" />
+		<bodyPart id="5" name="Body" numberOfVariations="4" colour="bodyColours" />
+		<colour id="6" 	 name="decorationColors" numberOfVariations="5" />
+		<colour id="7"  name="bodyColours" numberOfVariations="12" />
+		<colour id="8"  name="holdableColours" numberOfVariations="5" />
+	</item>
+	
+</randomisedItems>
+
+<!--	Rare element template	<rareElement index="x" weight="y" />			-->

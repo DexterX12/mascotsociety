@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<giftList>
+	<Gift giftType="freegift_standard" giftId="1" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Red Panda Plushie</giftName>
+		<itemHash>3660470844</itemHash>
+		<frequency>0</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="2" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pink Gift Basket</giftName>
+		<itemHash>1049963248</itemHash>
+		<frequency>0</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="3" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pink Ribbon Egg</giftName>
+		<itemHash>326297192</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="4" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>White Ribbon Egg</giftName>
+		<itemHash>2545152683</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="5" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Daffodils Bouquet</giftName>
+		<itemHash>780340935</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="6" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Blue Robin Plushie</giftName>
+		<itemHash>3508245568</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="7" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Silver Easter Bells</giftName>
+		<itemHash>3626691110</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="8" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Cute Hamster Plushie</giftName>
+		<itemHash>424681884</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="9" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pink Pig Plushie</giftName>
+		<itemHash>2211105962</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="10" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pens Pouch</giftName>
+		<itemHash>2909221783</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="11" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Blue Wind Chime</giftName>
+		<itemHash>1340849625</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="12" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Blue Pig Plushie</giftName>
+		<itemHash>1059077600</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="13" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Apple Room Scent</giftName>
+		<itemHash>3773692156</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="14" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Green Pig Plushie</giftName>
+		<itemHash>1862537236</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="15" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Cream Teddy Plushie</giftName>
+		<itemHash>3686645539</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="16" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pastry Headband</giftName>
+		<itemHash>302527232</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="17" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Bad Wolf Plushie</giftName>
+		<itemHash>3165510558</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="18" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Poppy Flower Crown</giftName>
+		<itemHash>2388323910</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="19" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>CMYK Paw Print Set</giftName>
+		<itemHash>1245464353</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="20" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pink Flowerbed</giftName>
+		<itemHash>132926978</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="21" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pink Sparkling Ribbon</giftName>
+		<itemHash>3305565148</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="22" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Angel Bear Plushie</giftName>
+		<itemHash>378781878</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="23" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Bear Princess Plushie</giftName>
+		<itemHash>2891928704</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="24" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pug Plushie</giftName>
+		<itemHash>1843309701</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="25" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Classy Bunny Plushie</giftName>
+		<itemHash>1787310014</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="26" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Colorful Flower Seed</giftName>
+		<itemHash>2534552886</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="27" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Bright Rose Wedding Headpiece</giftName>
+		<itemHash>4231779448</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="28" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pink Swan Plushie</giftName>
+		<itemHash>40137281</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="29" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pink Fish Lucky Charm</giftName>
+		<itemHash>865012009</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="30" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Mouse Plushie</giftName>
+		<itemHash>1293880546</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="31" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Tropical Flamingo Cocktail</giftName>
+		<itemHash>1018433665</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="32" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Holiday Bear Plushie</giftName>
+		<itemHash>3447076963</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="33" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Eagle Plushie</giftName>
+		<itemHash>2487564415</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="34" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Romantic Pink Ribbon</giftName>
+		<itemHash>3662483732</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="35" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Beaver Plushie</giftName>
+		<itemHash>508519346</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="36" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Retro Teapot Telephone</giftName>
+		<itemHash>1157689060</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="37" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Blue Marie Antoinette Ribbon</giftName>
+		<itemHash>780835113</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="38" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Sweet Purple Dress</giftName>
+		<itemHash>2960554522</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="39" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Strawberry Cone Hat</giftName>
+		<itemHash>2147294457</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="40" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pelican Plushie</giftName>
+		<itemHash>2010666582</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="41" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Tarzan Headband</giftName>
+		<itemHash>1565590622</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="42" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Jungle Hut Decor</giftName>
+		<itemHash>3958834619</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="43" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Pet Tissue Box</giftName>
+		<itemHash>4090402636</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="44" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Platypus Plushie</giftName>
+		<itemHash>1737081808</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="45" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Wizard Bear Plushie</giftName>
+		<itemHash>2272682434</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="46" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Button Headband</giftName>
+		<itemHash>1764561861</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="47" availableFrom="2010-01-01" availableUntil="2010-01-02" >
+		<giftName>Strawberry Cream Cake</giftName>
+		<itemHash>3557888808</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="48" availableFrom="2010-08-26" availableUntil="2010-08-27" >
+		<giftName>Bear In A Box</giftName>
+		<itemHash>1893134666</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="49" availableFrom="2010-09-02" availableUntil="2010-09-03" >
+		<giftName>White Chocolate Cookies</giftName>
+		<itemHash>2331691869</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="50" availableFrom="2010-09-09" availableUntil="2010-09-10" >
+		<giftName>Pet Geisha Toy</giftName>
+		<itemHash>1927428445</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="51" availableFrom="2010-09-16" availableUntil="2010-09-17" >
+		<giftName>Small Japanese Garden Fence</giftName>
+		<itemHash>564616465</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="52" availableFrom="2010-09-23" availableUntil="2010-09-24" >
+		<giftName>Green Double Ribbon Headband</giftName>
+		<itemHash>1916542379</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="53" availableFrom="2010-09-30" availableUntil="2010-12-23" >
+		<giftName>Cute Black Halloween Cap</giftName>
+		<itemHash>4000091286</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="54" availableFrom="2010-10-07" availableUntil="2010-12-30" >
+		<giftName>Cute Black Halloween Top</giftName>
+		<itemHash>2334980431</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="55" availableFrom="2010-10-14" availableUntil="2011-01-06" >
+		<giftName>Cute Black Halloween Pants</giftName>
+		<itemHash>1992877248</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="56" availableFrom="2010-10-21" availableUntil="2011-01-13" >
+		<giftName>Cute Black Halloween Shoes</giftName>
+		<itemHash>175374435</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="57" availableFrom="2010-10-28" availableUntil="2011-01-13" >
+		<giftName>Yellow Country Pillow</giftName>
+		<itemHash>2508755947</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="58" availableFrom="2010-11-04" availableUntil="2011-01-13" >
+		<giftName>Arabian Market Shelf</giftName>
+		<itemHash>152090038</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="59" availableFrom="2010-11-11" availableUntil="2011-01-13" >
+		<giftName>Cute Sailor Girl Hat</giftName>
+		<itemHash>3938780651</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="60" availableFrom="2010-11-18" availableUntil="2011-01-13" >
+		<giftName>Cute Sailor Girl Dress</giftName>
+		<itemHash>3714115653</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="61" availableFrom="2010-11-25" availableUntil="2011-01-13" >
+		<giftName>Cute Sailor Girl Wristband</giftName>
+		<itemHash>4039210740</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="62" availableFrom="2010-12-02" availableUntil="2011-01-13" >
+		<giftName>Cute Sailor Girl Shoes</giftName>
+		<itemHash>1370142987</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="63" availableFrom="2010-12-09" availableUntil="2011-01-13" >
+		<giftName>Cute Sailor Boy Hat</giftName>
+		<itemHash>3842665041</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="64" availableFrom="2010-12-16" availableUntil="2011-01-13" >
+		<giftName>Cute Sailor Boy Top</giftName>
+		<itemHash>502515538</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="65" availableFrom="2010-12-23" availableUntil="2011-01-20" >
+		<giftName>Cute Sailor Boy Pants</giftName>
+		<itemHash>231719165</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="66" availableFrom="2010-12-30" availableUntil="2011-01-27" >
+		<giftName>Cute Sailor Boy Shoes</giftName>
+		<itemHash>811285711</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="67" availableFrom="2011-01-06" availableUntil="2011-02-03" >
+		<giftName>Opera House Red Curtain</giftName>
+		<itemHash>2887523408</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="68" availableFrom="2011-01-13" availableUntil="2011-02-10" >
+		<giftName>Rapunzel Vanity Seat</giftName>
+		<itemHash>730102981</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="69" availableFrom="2011-01-20" availableUntil="2011-02-10" >
+		<giftName>Vintage Vases Collection</giftName>
+		<itemHash>1821929603</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="70" availableFrom="2011-01-27" availableUntil="2011-02-17" >
+		<giftName>Rabbit Red Packet</giftName>
+		<itemHash>3998539076</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="71" availableFrom="2011-02-03" availableUntil="2011-02-24" >
+		<giftName>Valentine White Ribbon Shelf</giftName>
+		<itemHash>3932924509</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="72" availableFrom="2011-02-10" availableUntil="2011-03-03" >
+		<giftName>Archaeologist Hat with Bow</giftName>
+		<itemHash>2431268798</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="73" availableFrom="2011-02-10" >
+		<giftName>3 x Shovels</giftName>
+		<itemHash>1858596471</itemHash>
+		<frequency>1</frequency>
+		<amount>3</amount>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="74" availableFrom="2011-02-17" availableUntil="2011-03-17" >
+		<giftName>Floridas Natural Home Squeezed Style Lemonade</giftName>
+		<itemHash>4223465647</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="75" availableFrom="2011-02-24" availableUntil="2011-03-10" >
+		<giftName>Carnival Duck Headband</giftName>
+		<itemHash>1482271901</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="76" availableFrom="2011-03-03" availableUntil="2011-03-17" >
+		<giftName>Baton of Spades</giftName>
+		<itemHash>2656797320</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="77" availableFrom="2011-03-10" availableUntil="2011-04-14" >
+		<giftName>Old Candle Holder</giftName>
+		<itemHash>772589774</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="78" availableFrom="2011-03-17" availableUntil="2011-04-21" >
+		<giftName>Bakery Fish Bait</giftName>
+		<itemHash>3403264777</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="79" availableFrom="2011-03-17" availableUntil="2011-03-24" >
+		<giftName>Striped Shell Perfume</giftName>
+		<itemHash>2974852765</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="80" availableFrom="2011-03-24" availableUntil="2011-03-31" >
+		<giftName>Rose Perfume</giftName>
+		<itemHash>3939499751</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="81" availableFrom="2011-03-31" availableUntil="2011-04-07" >
+		<giftName>Tourmaline Perfume</giftName>
+		<itemHash>4070701987</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="82" availableFrom="2011-04-07" availableUntil="2011-04-28" >
+		<giftName>Alien Fanatic Room Blinds</giftName>
+		<itemHash>2928526899</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="83" availableFrom="2011-04-14" availableUntil="2011-05-12" >
+		<giftName>Spring Patio Stool</giftName>
+		<itemHash>16321537</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="84" availableFrom="2011-04-21" availableUntil="2011-05-05" >
+		<giftName>Golden Fish Bait</giftName>
+		<itemHash>482524012</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="85" availableFrom="2011-04-28" availableUntil="2011-05-19" >
+		<giftName>Rock Star Headset</giftName>
+		<itemHash>3903797497</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="86" availableFrom="2011-05-05" availableUntil="2011-05-26" >
+		<giftName>Heavenly Scepter</giftName>
+		<itemHash>1369459815</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="87" availableFrom="2011-05-12" availableUntil="2011-06-09" >
+		<giftName>Flowers in Wooden Vase</giftName>
+		<itemHash>3260766697</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="88" availableFrom="2011-05-19" availableUntil="2011-06-02" >
+		<giftName>Rainbow Fish Bait</giftName>
+		<itemHash>2766228073</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="89" availableFrom="2011-05-26" availableUntil="2011-06-16" >
+		<giftName>Gray Wizard Plushie</giftName>
+		<itemHash>3200823498</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="90" availableFrom="2011-06-02" availableUntil="2011-06-09" >
+		<giftName>Small Marby Snail</giftName>
+		<itemHash>1582824802</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="91" availableFrom="2011-06-09" availableUntil="2011-06-16" >
+		<giftName>Little Anto Ladybug</giftName>
+		<itemHash>3793435535</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="93" availableFrom="2011-06-09" availableUntil="2011-06-30" >
+		<giftName>Charmed Castle Vase of Flowers</giftName>
+		<itemHash>2739393463</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="92" availableFrom="2011-06-16" availableUntil="2011-06-23" >
+		<giftName>Buzzing Erik Bee</giftName>
+		<itemHash>310280613</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="94" availableFrom="2011-06-16" availableUntil="2011-06-30" >
+		<giftName>Bag of Rainbow Candy</giftName>
+		<itemHash>2763571539</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="95" availableFrom="2011-06-23" availableUntil="2011-07-07" >
+		<giftName>Jar of Cookies</giftName>
+		<itemHash>280324474</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="96" availableFrom="2011-06-30" availableUntil="2011-07-14" >
+		<giftName>Flying Envelope</giftName>
+		<itemHash>2171501883</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="97" availableFrom="2011-06-30" availableUntil="2011-07-21" >
+		<giftName>Five Elements Fish Bait</giftName>
+		<itemHash>4051477733</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="98" availableFrom="2011-07-07" availableUntil="2011-07-28" >
+		<giftName>Dog Wizard Plushie</giftName>
+		<itemHash>1426886979</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="99" availableFrom="2011-07-14" availableUntil="2011-08-04" >
+		<giftName>Professor Wizard Plushie</giftName>
+		<itemHash>462158703</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="100" availableFrom="2011-07-21" availableUntil="2011-08-11" >
+		<giftName>Spinning Peppermint Candy Wall Decor</giftName>
+		<itemHash>3825633909</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="101" availableFrom="2011-07-28" availableUntil="2011-08-18" >
+		<giftName>Luxury Cruise Life Saver</giftName>
+		<itemHash>1198166838</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="102" availableFrom="2011-08-04" availableUntil="2011-08-18" >
+		<giftName>Pet Society Third Birthday Balloon</giftName>
+		<itemHash>1333202975</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="103" availableFrom="2011-08-11" availableUntil="2011-08-25" >
+		<giftName>No Place Like Home Sign</giftName>
+		<itemHash>72058046</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="104" availableFrom="2011-08-18" availableUntil="2011-09-01" >
+		<giftName>Cream Rococo Teapot</giftName>
+		<itemHash>1623546861</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="105" availableFrom="2011-08-18" availableUntil="2011-09-08" >
+		<giftName>Mystery Peacock Flower Seed</giftName>
+		<itemHash>3080853419</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="106" availableFrom="2011-08-25" availableUntil="2011-09-15" >
+		<giftName>Preserved Flower</giftName>
+		<itemHash>3327734403</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="107" availableFrom="2011-09-01" availableUntil="2011-09-22" >
+		<giftName>Bohemian Princess Candle</giftName>
+		<itemHash>3222282672</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="108" availableFrom="2011-09-08" availableUntil="2011-09-22" >
+		<giftName>Medieval Goblet</giftName>
+		<itemHash>167921539</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="109" availableFrom="2011-09-15" availableUntil="2011-09-29" >
+		<giftName>Royal Gothic Plushie</giftName>
+		<itemHash>4256427636</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="110" availableFrom="2011-09-22" availableUntil="2011-10-06" >
+		<giftName>The Sims Social Plumb Bob</giftName>
+		<itemHash>42147112</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="111" availableFrom="2011-09-22" availableUntil="2011-10-13" >
+		<giftName>Fairyfish Bait</giftName>
+		<itemHash>3201632851</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="112" availableFrom="2011-09-29" availableUntil="2011-10-20" >
+		<giftName>Mini Sarcophagus</giftName>
+		<itemHash>3600360672</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="113" availableFrom="2011-10-06" availableUntil="2011-10-27" >
+		<giftName>All Hallows Eve Tall Candelabra</giftName>
+		<itemHash>2956732827</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="114" availableFrom="2011-10-13" availableUntil="2011-11-03" >
+		<giftName>Skull with Candle</giftName>
+		<itemHash>625855214</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="115" availableFrom="2011-10-20" availableUntil="2011-11-10" >
+		<giftName>Skeletal Bat</giftName>
+		<itemHash>405811076</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="116" availableFrom="2011-10-27" availableUntil="2011-11-17" >
+		<giftName>Day of the Dead Blue Chair</giftName>
+		<itemHash>3359169462</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="117" availableFrom="2011-11-03" availableUntil="2011-11-24" >
+		<giftName>Prehistoric Glasses</giftName>
+		<itemHash>120908520</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="118" availableFrom="2011-11-10" availableUntil="2011-12-01" >
+		<giftName>Snow White Fish Bait</giftName>
+		<itemHash>2737520983</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="119" availableFrom="2011-11-17" availableUntil="2011-12-08" >
+		<giftName>Mustard Green Leaf Sticker</giftName>
+		<itemHash>2540322085</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="120" availableFrom="2011-11-24" availableUntil="2011-12-15" >
+		<giftName>Harajuku Umbrella Stand</giftName>
+		<itemHash>2795156018</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="121" availableFrom="2011-12-01" availableUntil="2011-12-22" >
+		<giftName>Ice Cluster</giftName>
+		<itemHash>2120446054</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="122" availableFrom="2011-12-08" availableUntil="2011-12-29" >
+		<giftName>Twisted Christmas Wreath</giftName>
+		<itemHash>162575462</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="123" availableFrom="2011-12-15" availableUntil="2012-01-05" >
+		<giftName>Polka Dot Stocking</giftName>
+		<itemHash>1877589041</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="124" availableFrom="2011-12-22" availableUntil="2012-01-12" >
+		<giftName>Happy 2012 Banner</giftName>
+		<itemHash>4001564564</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="125" availableFrom="2011-12-29" availableUntil="2012-01-19" >
+		<giftName>Japanese New Year Packet</giftName>
+		<itemHash>1019768078</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="126" availableFrom="2012-01-05" availableUntil="2012-01-26" >
+		<giftName>Red Imperial Palace Candlestick</giftName>
+		<itemHash>3281653041</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="127" availableFrom="2012-01-12" availableUntil="2012-02-02" >
+		<giftName>White Cupcake Wall Decor</giftName>
+		<itemHash>1034343475</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="128" availableFrom="2012-01-19" availableUntil="2012-02-09" >
+		<giftName>Old West Red Armchair</giftName>
+		<itemHash>1523266710</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="129" availableFrom="2012-01-26" availableUntil="2012-02-16" >
+		<giftName>Nursery Sippy Cup</giftName>
+		<itemHash>2589943589</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="130" availableFrom="2012-02-02" availableUntil="2012-02-23" >
+		<giftName>Stack of Plays</giftName>
+		<itemHash>1328005970</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="131" availableFrom="2012-02-09" availableUntil="2012-03-01" >
+		<giftName>Balloons And Flowers</giftName>
+		<itemHash>1891543540</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="132" availableFrom="2012-02-16" availableUntil="2012-03-08" >
+		<giftName>Retro Hat</giftName>
+		<itemHash>2946840883</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="133" availableFrom="2012-02-23" availableUntil="2012-03-15" >
+		<giftName>Dark Swan Plushie</giftName>
+		<itemHash>2219597560</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="134" availableFrom="2012-03-01" availableUntil="2012-03-22" >
+		<giftName>Feather Fan</giftName>
+		<itemHash>577216023</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="135" availableFrom="2012-03-08" availableUntil="2012-03-29" >
+		<giftName>Fluffy Sunglasses</giftName>
+		<itemHash>797770372</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="136" availableFrom="2012-03-15" availableUntil="2012-04-05" >
+		<giftName>Racoon Plushie</giftName>
+		<itemHash>1874941596</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="137" availableFrom="2012-03-22" availableUntil="2012-04-12" >
+		<giftName>Heart Soldier Plushie</giftName>
+		<itemHash>3967557756</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="138" availableFrom="2012-03-29" availableUntil="2012-04-19" >
+		<giftName>Easter Eggs Basket</giftName>
+		<itemHash>1471885976</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="141" availableFrom="2012-04-05" availableUntil="2012-04-26" >
+		<giftName>Chinese Poster</giftName>
+		<itemHash>3391745584</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="142" availableFrom="2012-04-12" availableUntil="2012-05-03" >
+		<giftName>Orange Plushie</giftName>
+		<itemHash>3325254737</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="143" availableFrom="2012-04-19" availableUntil="2012-05-10" >
+		<giftName>Glow In The Dark Wall Clock</giftName>
+		<itemHash>3820748914</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="144" availableFrom="2012-04-26" availableUntil="2012-05-17" >
+		<giftName>Fable Carpet</giftName>
+		<itemHash>2432774831</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="145" availableFrom="2012-05-03" availableUntil="2012-05-24" >
+		<giftName>Designer Dressing Chair</giftName>
+		<itemHash>297926571</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="146" availableFrom="2012-05-10" availableUntil="2012-05-31" >
+		<giftName>Blocks Rug</giftName>
+		<itemHash>1885638033</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="147" availableFrom="2012-05-17" availableUntil="2012-06-07" >
+		<giftName>Detective Hat</giftName>
+		<itemHash>394302568</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="148" availableFrom="2012-05-24" availableUntil="2012-06-14" >
+		<giftName>Bearcat Plushie</giftName>
+		<itemHash>954974623</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="149" availableFrom="2012-05-31" availableUntil="2012-06-21" >
+		<giftName>Venus Hat</giftName>
+		<itemHash>1099891338</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="150" availableFrom="2012-06-07" availableUntil="2012-06-28" >
+		<giftName>Pawitched Ghoul Mask</giftName>
+		<itemHash>3780543799</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="151" availableFrom="2012-06-14" availableUntil="2012-07-05" >
+		<giftName>White Lily Chair</giftName>
+		<itemHash>1384229634</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="152" availableFrom="2012-06-21" availableUntil="2012-07-12" >
+		<giftName>Olympus Lamp</giftName>
+		<itemHash>3563909550</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="153" availableFrom="2012-06-28" availableUntil="2012-07-19" >
+		<giftName>Wardrobe Voyages Board</giftName>
+		<itemHash>2965256665</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="154" availableFrom="2012-07-05" availableUntil="2012-07-26" >
+		<giftName>Modular Pinwheel</giftName>
+		<itemHash>4115543608</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="155" availableFrom="2012-07-12" availableUntil="2012-08-02" >
+		<giftName>Air Aviator Goggles</giftName>
+		<itemHash>1241204962</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="156" availableFrom="2012-07-19" availableUntil="2012-08-09" >
+		<giftName>Pawlympic Blue Stool</giftName>
+		<itemHash>28857014</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="157" availableFrom="2012-07-26" availableUntil="2012-08-16" >
+		<giftName>Honey Clock</giftName>
+		<itemHash>3258488081</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="158" availableFrom="2012-08-02" availableUntil="2012-08-23" >
+		<giftName>Vanilla Rabbit Plushie</giftName>
+		<itemHash>527906032</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="159" availableFrom="2012-08-09" availableUntil="2012-08-30" >
+		<giftName>Dragon Candlestand</giftName>
+		<itemHash>2613165675</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="160" availableFrom="2012-08-16" availableUntil="2012-09-06" >
+		<giftName>Beach Ceiling Lamp</giftName>
+		<itemHash>937854764</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="161" availableFrom="2012-08-23" availableUntil="2012-09-13" >
+		<giftName>Green Tube Plushie</giftName>
+		<itemHash>3472568622</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="162" availableFrom="2012-08-30" availableUntil="2012-09-20" >
+		<giftName>Horror Carnival Plushie</giftName>
+		<itemHash>4148849824</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="163" availableFrom="2012-09-06" availableUntil="2012-09-27" >
+		<giftName>Wine Holder</giftName>
+		<itemHash>1563429029</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="164" availableFrom="2012-09-13" availableUntil="2012-10-04" >
+		<giftName>Angelic Halo</giftName>
+		<itemHash>132100733</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="165" availableFrom="2012-09-20" availableUntil="2012-10-11" >
+		<giftName>Victorian Photo Frame</giftName>
+		<itemHash>3624901046</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="166" availableFrom="2012-09-27" availableUntil="2012-10-18" >
+		<giftName>Lavish Vase</giftName>
+		<itemHash>1827608810</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="167" availableFrom="2012-10-04" availableUntil="2012-10-25" >
+		<giftName>Film Reel</giftName>
+		<itemHash>3779049859</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="168" availableFrom="2012-10-11" availableUntil="2012-11-01" >
+		<giftName>Haunted Pirate Binocular</giftName>
+		<itemHash>1397331655</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="169" availableFrom="2012-10-18" availableUntil="2012-11-08" >
+		<giftName>Pumpkin Head Plushie</giftName>
+		<itemHash>4125823748</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="170" availableFrom="2012-10-25" availableUntil="2012-11-15" >
+		<giftName>Mysterious Crystal Ball</giftName>
+		<itemHash>3687577677</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="171" availableFrom="2012-11-01" availableUntil="2012-11-22" >
+		<giftName>Tiki Puppet Decor</giftName>
+		<itemHash>1351136326</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="172" availableFrom="2012-11-08" availableUntil="2012-11-29" >
+		<giftName>Martian Weapon</giftName>
+		<itemHash>2613203174</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="173" availableFrom="2012-11-15" availableUntil="2012-12-06" >
+		<giftName>Autumn Leaves Headband</giftName>
+		<itemHash>3785232520</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="174" availableFrom="2012-11-22" availableUntil="2012-12-13" >
+		<giftName>Pandora Feathered Headgear</giftName>
+		<itemHash>671664042</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="175" availableFrom="2012-11-29" availableUntil="2012-12-20" >
+		<giftName>Friendly Snail</giftName>
+		<itemHash>2666638563</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="176" availableFrom="2012-12-06" availableUntil="2012-12-27" >
+		<giftName>Brown Winter Snowboard</giftName>
+		<itemHash>1132957038</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="177" availableFrom="2012-12-13" availableUntil="2013-01-03" >
+		<giftName>Evil Skull Decor</giftName>
+		<itemHash>1869302522</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="178" availableFrom="2012-12-20" availableUntil="2013-01-10" >
+		<giftName>Christmas Candy Cane</giftName>
+		<itemHash>774087868</itemHash>
+		<frequency>2</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="179" availableFrom="2012-12-27" availableUntil="2013-01-17" >
+		<giftName>Happy New Year Banner</giftName>
+		<itemHash>3742591647</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="180" availableFrom="2013-01-03" availableUntil="2013-01-24" >
+		<giftName>Sweet Polka Cushion</giftName>
+		<itemHash>645602789</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="181" availableFrom="2013-01-10" availableUntil="2013-01-31" >
+		<giftName>Butterfly Leaf Banner</giftName>
+		<itemHash>2642028017</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="182" availableFrom="2013-01-17" availableUntil="2013-02-07" >
+		<giftName>Into the Wild Poster</giftName>
+		<itemHash>404115859</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="183" availableFrom="2013-01-24" availableUntil="2013-02-14" >
+		<giftName>Patch Carpet</giftName>
+		<itemHash>2975341819</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="184" availableFrom="2013-01-31" availableUntil="2013-02-21" >
+		<giftName>Sketch Skateboard</giftName>
+		<itemHash>2454582043</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="185" availableFrom="2013-02-07" availableUntil="2013-02-28" >
+		<giftName>Cupid Bouquet</giftName>
+		<itemHash>3017257639</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="186" availableFrom="2013-02-14" availableUntil="2013-03-07" >
+		<giftName>Scientists Only Poster</giftName>
+		<itemHash>124481310</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="187" availableFrom="2013-02-21" availableUntil="2013-03-14" >
+		<giftName>Plumpy Peacock Plushie</giftName>
+		<itemHash>3201832190</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="188" availableFrom="2013-02-28" availableUntil="2013-03-21" >
+		<giftName>Queen Of The Nile Plushie</giftName>
+		<itemHash>2635568042</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="189" availableFrom="2013-03-07" availableUntil="2013-03-28" >
+		<giftName>Irish Photo Frame</giftName>
+		<itemHash>1236904601</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="190" availableFrom="2013-03-14" availableUntil="2013-04-04" >
+		<giftName>Birdie Baby Boo</giftName>
+		<itemHash>3124175000</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="191" availableFrom="2013-03-21" availableUntil="2013-04-11" >
+		<giftName>Bunny Greeting Card</giftName>
+		<itemHash>1299859488</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="192" availableFrom="2013-03-28" availableUntil="2013-04-18" >
+		<giftName>Cauliflower Sheep Plushie</giftName>
+		<itemHash>2417755577</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="193" availableFrom="2013-04-04" availableUntil="2014-04-25" >
+		<giftName>Golden Age Lamp</giftName>
+		<itemHash>3312924482</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+	<Gift giftType="freegift_standard" giftId="194" availableFrom="2013-04-11" availableUntil="2014-05-02" >
+		<giftName>Aqua Fishie Bowl</giftName>
+		<itemHash>1152536290</itemHash>
+		<frequency>1</frequency>
+	</Gift>
+</giftList>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rooms>
+	<roomType type="regularRoom" maxNum="16">
+		<room roomIndex="0" level="1" />
+		<room roomIndex="1" level="3" />
+		<room roomIndex="2" level="5" />
+		<room roomIndex="3" level="11" />
+		<room roomIndex="4" level="17" />
+		<room roomIndex="5" level="23" />
+		<room roomIndex="6" level="29" />
+		<room roomIndex="7" level="35" />
+		<room roomIndex="8" level="41" />
+		<room roomIndex="9" level="47" />
+		<room roomIndex="10" level="70" />
+		<room roomIndex="11" level="100" />
+	</roomType>
+	
+	
+	<roomType type="garden" maxNum="2" newMaxNum="12" >
+		<room roomIndex="50" number="1" toolTip="FrontGarden" plots="9"  />
+		<room roomIndex="51" number="2" toolTip="BackGarden" plots="9" />
+	</roomType>
+	<roomType type="cashRoom" maxNum="12">
+		<room roomIndex="201" />
+		<room roomIndex="202" />
+		<room roomIndex="203" />
+		<room roomIndex="204" />
+		<room roomIndex="205" />
+		<room roomIndex="206" />
+		<room roomIndex="207" />
+		<room roomIndex="208" />
+		<room roomIndex="209" />
+		<room roomIndex="210" />
+		<room roomIndex="211" />
+		<room roomIndex="212" />
+	</roomType>
+	
+	<roomType type="secretRoom" maxNum="34">
+		<room roomIndex="152" toolTip="TreeHouse" roomName="TreeHouse" perk="TreeHouse" />
+		<room roomIndex="153" toolTip="BeanstalkRealm" roomName="Beanstalk" perk="Beanstalk" />
+		<room roomIndex="154" toolTip="DisplayRoom" roomName="DisplayRoom" perk="DisplayRoom" />
+		<room roomIndex="155" toolTip="Manhole" roomName="ManholeSecretRoom" perk="Manhole" />	
+		<room roomIndex="156" toolTip="Playhouse" roomName="Playhouse" perk="Playhouse" />
+		<room roomIndex="157" toolTip="Grotto" roomName="WWFUnderwaterGrotto" perk="Grotto" />
+		<room roomIndex="159" toolTip="TreetopRetreat" roomName="TreetopRetreat" perk="TreetopRetreat" />
+		<room roomIndex="160" toolTip="WalkInCloset" roomName="WalkInCloset" perk="WalkInCloset" />
+		<room roomIndex="161" toolTip="OversizedWalkInCloset" roomName="OversizedWalkInCloset" perk="OversizedWalkInCloset" width="1200" />
+		<room roomIndex="162" toolTip="SpookyRoom" roomName="SpookyRoom" perk="SpookyRoom" width="1200" />
+		<room roomIndex="164" toolTip="RestaurantKitchen" roomName="RestaurantKitchenandPantry" perk="RestaurantKitchenandPantry" width="2330" />
+		<room roomIndex="165" toolTip="Igloo" roomName="Igloo" perk="Igloo" />
+		<room roomIndex="166" toolTip="PupTent" roomName="PupTent" perk="PupTent" />
+		<room roomIndex="167" toolTip="ValentineSuite" roomName="ValentineSuite" perk="ValentineSuite" />
+		<room roomIndex="168" toolTip="GrandBallroom" roomName="GrandBallroom" perk="GrandBallroom" />
+		<room roomIndex="169" toolTip="GrandGallery" roomName="GrandGallery" perk="GrandGallery" width="2330" />
+		<room roomIndex="170" toolTip="StairwaytoHeaven" roomName="StairwaytoHeaven" perk="StairwaytoHeaven" />
+		<room roomIndex="171" toolTip="GatesoftheUnderworld" roomName="GatesoftheUnderworld" perk="GatesoftheUnderworld" />
+		<room roomIndex="173" toolTip="WizardSchoolRoom" roomName="WizardSchoolRoom" perk="WizardSchoolRoom" width="1500" />
+		<room roomIndex="175" toolTip="HallofMirrors" roomName="HallofMirrors" perk="HallofMirrors" width="1200" />
+		<room roomIndex="176" toolTip="BohemianPrincessCaravanRoom" roomName="BohemianPrincessCaravanRoom" perk="BohemianPrincessCaravanRoom" />
+		<room roomIndex="192" toolTip="ParisStageDoor" roomName="ParisStageDoor" perk="ParisStageDoor" width="755" />
+		<room roomIndex="177" toolTip="BohemianPrinceCaravanRoom" roomName="BohemianPrinceCaravanRoom" perk="BohemianPrinceCaravanRoom" />
+		<room roomIndex="180" toolTip="GhostlyManorDoor" roomName="GhostlyManorDoor" perk="GhostlyManorDoor" width="1600" />
+		<room roomIndex="182" toolTip="HarajukuWalkInCloset" roomName="HarajukuWalkInCloset" perk="HarajukuWalkInCloset" width="1600" />
+		<room roomIndex="183" toolTip="PolarParadiseDoor" roomName="PolarParadiseDoor" perk="PolarParadiseDoor" width="1600" />
+		<room roomIndex="184" toolTip="SantasGrotto" roomName="SantasGrotto" perk="SantasGrotto"/>
+		<room roomIndex="186" toolTip="BallerinaGreenRoomCloset" roomName="BallerinaGreenRoomCloset" perk="BallerinaGreenRoomCloset" width="1600"/>
+		<room roomIndex="187" toolTip="VenusAndMars" 	 roomName="VenusAndMars" 	 perk="VenusAndMars" 	 width="2330"/>
+		<room roomIndex="189" toolTip="BeachWeddingSecretRoom" 	 roomName="BeachWeddingSecretRoom" 	 perk="BeachWeddingSecretRoom" 	 width="1200"/>
+		<room roomIndex="190" toolTip="AngelicSlumberRoomDoor"  roomName="AngelicSlumberRoomDoor" 	 perk="AngelicSlumberRoomDoor" 	 width="2330"/>
+                
+	</roomType>
+	
+	<roomType type="secretGarden" maxNum="16">
+		<room roomIndex="151" toolTip="SecretGarden" roomName="SecretGarden" perk="ProGardener" plots="2" />
+		<room roomIndex="158" toolTip="SummerGarden" roomName="SecretSummerGarden" perk="SummerGarden" plots="2" />
+		<room roomIndex="163" toolTip="AutumnGarden" roomName="AutumnGarden" perk="AutumnGarden" plots="2" />
+		<room roomIndex="172" toolTip="RomanticGarden" roomName="RomanticGarden" perk="RomanticGarden" plots="3" />
+		<room roomIndex="174" toolTip="SplendidSecretGarden" roomName="SplendidSecretGarden" perk="SplendidSecretGarden" plots="5" width="1200" />
+		<room roomIndex="178" toolTip="PeacefulSanctuaryGateway" roomName="PeacefulSanctuaryGateway" perk="PeacefulSanctuaryGateway" plots="3" width="1200"/>
+		<room roomIndex="179" toolTip="SpookyCemeteryGateway" roomName="SpookyCemeteryGateway" perk="SpookyCemeteryGateway" plots="3" width="1200"/>
+		<room roomIndex="181" toolTip="LakeHouseRetreatSecretGarden" roomName="LakeHouseRetreatSecretGarden" perk="LakeHouseRetreatSecretGarden" plots="4" width="1200" />
+		<room roomIndex="185" toolTip="JapaneseNewYearGarden" roomName="JapaneseNewYearGarden" perk="JapaneseNewYearGarden" plots="3" />
+		<room roomIndex="188" toolTip="WardrobeChronicleDoor" roomName="WardrobeChronicleDoor" perk="WardrobeChronicleDoor" plots="6" width="1600" />
+		<room roomIndex="191" toolTip="VineyardFieldGateway"  roomName="VineyardFieldGateway" 	 perk="VineyardFieldGateway" plots="6" 	 width="1600"/>
+
+	</roomType>	
+	
+
+	
+	<roomType type="newCashRoom" maxNum="12">
+		<room roomIndex="501" />
+		<room roomIndex="502" />
+		<room roomIndex="503" />
+		<room roomIndex="504" />
+		<room roomIndex="505" />
+		<room roomIndex="506" />
+		<room roomIndex="507" />
+		<room roomIndex="508" />
+		<room roomIndex="509" />
+	</roomType>
+	
+		
+	<roomType type="newSecretRoom" maxNum="34">
+		<room roomIndex="623" toolTip="LavishAngelFigurine" roomName="LavishAngelFigurine" perk="LavishAngelFigurine"/>
+		<room roomIndex="604" toolTip="AwardBoulevardRoom" roomName="AwardBoulevardRoom" perk="AwardBoulevardRoom" width="1600" />
+		<room roomIndex="605" toolTip="RedCarpetStatue" roomName="RedCarpetStatue" perk="RedCarpetStatue" width="1600" />	
+		<room roomIndex="606" toolTip="HalloweenCollectionPillar" roomName="HalloweenCollectionPillar" perk="HalloweenCollectionPillar" width="1200" />
+		<room roomIndex="607" toolTip="RedPlanetSpaceship" roomName="RedPlanetSpaceship" perk="RedPlanetSpaceship" width="1200"/>
+		<room roomIndex="609" toolTip="MoonlightArch" roomName="MoonlightArch" perk="MoonlightArch" width="1600" />
+		<room roomIndex="610" toolTip="ShadowsOfChristmasArch" roomName="ShadowsOfChristmasArch" perk="ShadowsOfChristmasArch" width="1200" />
+		<room roomIndex="611" toolTip="ShangriLaKey" roomName="ShangriLaKey" perk="ShangriLaKey" width="1200" />
+		<room roomIndex="614" toolTip="IceCreamKey" roomName="IceCreamKey" perk="IceCreamKey" width="1860" />
+		<room roomIndex="615" toolTip="WildPenthouseKey" roomName="WildPenthouseKey" perk="WildPenthouseKey"  width="1200" />
+		<room roomIndex="616" toolTip="Aqua Cave Room" roomName="AquaCaveKey" perk="AquaCaveKey" width="1600" />
+
+	</roomType>
+	
+	<roomType type="newSecretGarden" maxNum="16">
+		<room roomIndex="608" toolTip="GhoulishGraveyardStatue" roomName="GhoulishGraveyardStatue" perk="GhoulishGraveyardStatue" plots="4" width="1200" />
+		<room roomIndex="613" toolTip="LandOfTheLostGarden" roomName="LandOfTheLostGarden" perk="LandOfTheLostGarden" plots="6" width="1600" />
+		<room roomIndex="602" toolTip="NewRomanticGarden" roomName="NewRomanticGarden" perk="NewRomanticGarden" plots="0" />
+		<room roomIndex="624" toolTip="NewSplendidSecretGarden" roomName="NewSplendidSecretGarden" perk="NewSplendidSecretGarden" plots="0" width="1200" />
+		<room roomIndex="628" toolTip="NewPeacefulSanctuaryGateway" roomName="NewPeacefulSanctuaryGateway" perk="NewPeacefulSanctuaryGateway" plots="0" width="1200"/>
+		<room roomIndex="629" toolTip="NewSpookyCemeteryGateway" roomName="NewSpookyCemeteryGateway" perk="NewSpookyCemeteryGateway" plots="0" width="1200"/>
+		<room roomIndex="631" toolTip="NewLakeHouseRetreatSecretGarden" roomName="NewLakeHouseRetreatSecretGarden" perk="NewLakeHouseRetreatSecretGarden" plots="0" width="1200" />
+		<room roomIndex="635" toolTip="NewJapaneseNewYearGarden" roomName="NewJapaneseNewYearGarden" perk="NewJapaneseNewYearGarden" plots="0" />
+	</roomType>
+	
+	<roomType type="newCashGarden" maxNum="6">
+		<room roomIndex="701"  toolTip="Garden 1" plots="9" />
+		<room roomIndex="702" toolTip="Garden 2" plots="9" />
+		<room roomIndex="703"  toolTip="Garden 3" plots="9" />
+		<room roomIndex="704"  toolTip="Garden 4" plots="9" />
+		<room roomIndex="705"  toolTip="Garden 5" plots="9" />
+		<room roomIndex="706"  toolTip="Garden 6" plots="9" />
+	</roomType>
+	
+</rooms>
