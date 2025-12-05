@@ -1,11 +1,9 @@
-from __future__ import annotations
-
 import io
 import struct
 from datetime import datetime, timezone
 from typing import Any, BinaryIO, Callable, Dict, List, Optional, Union
 
-from ..datatypes.base import ReadableDatatype  # type: ignore[attr-defined]
+from ..datatypes.base import ReadableDatatype
 
 ByteSource = Union[BinaryIO, bytes, bytearray, memoryview]
 
@@ -17,12 +15,9 @@ class InputDataStream:
         if isinstance(source, (bytes, bytearray, memoryview)):
             self._input: BinaryIO = io.BytesIO(bytes(source))
         elif hasattr(source, "read"):
-            self._input = source  # type: ignore[assignment]
+            self._input = source
         else:
             raise TypeError("Unsupported source type for InputDataStream")
-
-    # ------------------------------------------------------------------
-    # Primitive readers
 
     def read_uint8(self) -> int:
         data = self._input.read(1)
@@ -121,9 +116,6 @@ class InputDataStream:
         if seconds == 0:
             return None
         return datetime.fromtimestamp(seconds, tz=timezone.utc)
-
-    # ------------------------------------------------------------------
-    # Composite helpers
 
     def read_array(self, reader: Callable[[], Any]) -> List[Any]:
         length = self.read_uintvar32()

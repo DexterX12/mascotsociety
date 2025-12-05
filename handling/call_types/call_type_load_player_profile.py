@@ -1,9 +1,9 @@
 from datetime import datetime, timezone
-from py_as.datastream.output_data_stream import OutputDataStream
-from py_as.pets.rpc_request import RpcRequest
-from py_as.pets.rpc_response import InputDataStream
-from py_as.pets.types import DailyBonusInfo
-from py_as.pets.user_info import UserInfo
+from utils.datastream.output_data_stream import OutputDataStream
+from utils.pets.rpc_request import RpcRequest
+from utils.pets.rpc_response import InputDataStream
+from utils.pets.types import DailyBonusInfo
+from utils.pets.user_info import UserInfo
 
 def handle_load_player_profile(stream:InputDataStream, context={}) -> bytes:
     response = OutputDataStream()

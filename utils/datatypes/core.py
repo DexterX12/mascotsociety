@@ -152,7 +152,7 @@ class SplitMultiTypeMap:
 
 
 class MapDatatype(Datatype):
-    UINT31_UINT31_MAP: "MapDatatype"  # assigned after class definition
+    UINT31_UINT31_MAP: "MapDatatype"
     UINT31_STRING_MAP: "MapDatatype"
     UINT31_BOOLEAN_MAP: "MapDatatype"
 
@@ -182,7 +182,7 @@ class MapDatatype(Datatype):
 
 
 class MultiTypeMapDatatype(Datatype):
-    RPC_DATATYPE: Datatype  # assigned after class definition
+    RPC_DATATYPE: Datatype
 
     def read(self, stream: "InputDataStream") -> MultiTypeMap:
         uint_map = stream.readValue(MapDatatype.UINT31_UINT31_MAP)

@@ -11,7 +11,7 @@ if __package__ in (None, ""):
 	package_root = Path(__file__).resolve().parent.parent
 	if str(package_root) not in sys.path:
 		sys.path.insert(0, str(package_root))
-	from py_as.profile_handler import ProfileHandler
+	from utils.profile_handler import ProfileHandler
 else:
 	from .profile_handler import ProfileHandler
 

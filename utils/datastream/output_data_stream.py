@@ -1,11 +1,9 @@
-from __future__ import annotations
-
 import io
 import struct
 from datetime import datetime, timezone
 from typing import Any, BinaryIO, Callable, Mapping, Sequence, Union
 
-from ..datatypes.base import WriteableDatatype  # type: ignore[attr-defined]
+from ..datatypes.base import WriteableDatatype
 
 ByteSink = Union[BinaryIO, bytearray, io.BytesIO]
 
@@ -21,12 +19,9 @@ class OutputDataStream:
         elif isinstance(sink, io.BytesIO):
             self._output = sink
         elif hasattr(sink, "write"):
-            self._output = sink  # type: ignore[assignment]
+            self._output = sink
         else:
             raise TypeError("Unsupported sink type for OutputDataStream")
-
-    # ------------------------------------------------------------------
-    # Primitive writers
 
     def write_uint8(self, value: int) -> None:
         if not 0 <= value <= 0xFF:
@@ -92,9 +87,6 @@ class OutputDataStream:
             seconds = int(value.astimezone(timezone.utc).timestamp())
         self.write_uintvar32(seconds)
 
-    # ------------------------------------------------------------------
-    # Composite helpers
-
     def write_array(self, values: Sequence[Any], writer: Callable[[Any], None]) -> None:
         self.write_uintvar32(len(values))
         for item in values:
@@ -127,8 +119,6 @@ class OutputDataStream:
 
     def write_value(self, datatype: WriteableDatatype, value: Any) -> None:
         datatype.write(self, value)
-
-    # ------------------------------------------------------------------
 
     def getvalue(self) -> bytes:
         if isinstance(self._output, io.BytesIO):

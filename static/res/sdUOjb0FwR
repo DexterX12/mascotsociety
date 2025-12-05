@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <config>
 <paths>
-<path src="http://localhost:80/assets/" name="2"/>
-<path src="http://localhost:80/assets/" name="1"/>
-<path src="http://localhost:80/assets/" name="0"/>
-<path src="http://localhost:80/new/" name="3"/>
+<path src="http://localhost:8881/assets/" name="2"/>
+<path src="http://localhost:8881/assets/" name="1"/>
+<path src="http://localhost:8881/assets/" name="0"/>
+<path src="http://localhost:8881/new/" name="3"/>
 </paths>
 <resources path="2">
 <resource length="48562" src="q38F1tq54g" name="defaultTheme"/>

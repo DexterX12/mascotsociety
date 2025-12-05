@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 from typing import Any, Dict, List, Optional
 
 from ..datastream.input_data_stream import InputDataStream
@@ -7,6 +5,8 @@ from ..datatypes import MultiTypeMap, MultiTypeMapDatatype
 from ..games.pets.builderquest import BuilderCollectable
 from ..share import BitSet, NetworkUid
 from .types import (
+    AuditChange,
+    AuditChangeBatch,
     FeedLink,
     FeedLinkRecipient,
     LimitedItem,
@@ -168,6 +168,44 @@ class RpcResponse:
             MultiTypeMapDatatype.RPC_DATATYPE
         )
         return item
+
+    def readAuditChangeBatch(self) -> AuditChangeBatch:
+        change_batch = AuditChangeBatch()
+
+        change_batch.saveVersion = self._stream.readUintvar31()
+        change_batch.auditChanges = self._stream.readArray(self.readAuditChange)
+        change_batch.visitedUids = self._stream.readArray(self.readNetworkUid)
+
+        return change_batch
+
+    def readAuditChange(self) -> AuditChange:
+        s = self._stream
+        change = AuditChange()
+
+        change.action = s.readUint8()
+        change.newCredits = s.readUintvar31()
+        change.newRecyclePoints = s.readUintvar31()
+        change.newStickerPoints = s.readUintvar31()
+        change.creditsDelta = s.readIntvar32()
+        change.token = s.readString()
+        change.newItemId = s.readIntvar32()
+        change.itemId = s.readIntvar32()
+        change.itemHash = s.readUintvar32()
+        change.active = s.readBoolean()
+        change.roomIndex = s.readUintvar31()
+        change.positionX = s.readIntvar32()
+        change.positionY = s.readIntvar32()
+        change.positionZ = s.readIntvar32()
+        change.createTime = s.readDate()
+        change.containedItem = s.readUintvar32()
+        change.containedType = s.readUintvar31()
+        change.containedAmount = s.readUintvar31()
+        change.sender = self.readNetworkUid()
+        change.message = s.readString()
+        change.accompanyingItemId = s.readIntvar32()
+        change.csum = s.readUint8()
+
+        return change
 
     def readFeedLink(self) -> FeedLink:
         link = FeedLink()

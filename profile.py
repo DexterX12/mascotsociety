@@ -1,17 +1,14 @@
-from __future__ import annotations
-
 from pathlib import Path
 from typing import Dict, List, Optional, Union
 
-from py_as.datastream.input_data_stream import InputDataStream
-from py_as.pets.rpc_response import RpcResponse
-from py_as.pets.types import RpcOwnedItem
-from py_as.pets.user_info import UserInfo
-from py_as.share.network_uid import NetworkUid
+from utils.datastream.input_data_stream import InputDataStream
+from utils.pets.rpc_response import RpcResponse
+from utils.pets.types import RpcOwnedItem
+from utils.pets.user_info import UserInfo
+from utils.share.network_uid import NetworkUid
 
 
 class ProfileHandler:
-    """Utility that mirrors the ActionScript ProfileHandler load routine."""
 
     def __init__(self) -> None:
         self.cash: int = 0
@@ -24,8 +21,6 @@ class ProfileHandler:
         self.save_number: int = 0
 
     def load_from_file(self, file_path: Union[str, Path, bytes, bytearray]) -> None:
-        """Load a serialized profile from disk following the original AS3 format."""
-
         self.save_number = 0
 
         if isinstance(file_path, (bytes, bytearray)):
@@ -47,8 +42,6 @@ class ProfileHandler:
 
         self._refresh_owned_items_cache()
 
-    # ------------------------------------------------------------------
-    # Internal helpers
 
     def _refresh_owned_items_cache(self) -> None:
         self.owned_items_cache = {}

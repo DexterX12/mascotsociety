@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Dict, List, Optional
@@ -7,59 +5,8 @@ from typing import Dict, List, Optional
 from ..datatypes import MultiTypeMap
 from ..share import NetworkUid
 
-
 @dataclass
 class AuditChange:
-    BUY_ITEM_COINS: int = 1
-    SELL_ITEM: int = 2
-    SPAWN_ITEM: int = 3
-    OPEN_COINS: int = 5
-    OPEN_ITEM: int = 6
-    DELETE_ITEM: int = 7
-    DEBUG_CREDIT_CHANGE: int = 8
-    DEBUG_SPAWN_ITEM: int = 9
-    RECYCLE_SELL: int = 16
-    RECYCLE_BUY: int = 17
-    STICKER_SELL: int = 18
-    STICKER_BUY: int = 19
-    OPEN_LOTTERY_ITEM: int = 20
-    OPEN_SHOVELS: int = 21
-    CHANGE_ITEM: int = 10
-    CREDIT_CHANGE_TUTORIAL_INITIAL: int = 129
-    CREDIT_CHANGE_LEVEL_UP_AWARD: int = 130
-    CREDIT_CHANGE_TROPHY_AWARD: int = 131
-    CREDIT_CHANGE_STADIUM_HURDLES_RACE_WIN: int = 132
-    CREDIT_CHANGE_STADIUM_REMOVE_BANANA: int = 133
-    CREDIT_CHANGE_STADIUM_HURDLES_BET_PLACED: int = 134
-    CREDIT_CHANGE_STADIUM_HURDLES_BET_WIN: int = 135
-    CREDIT_CHANGE_VISIT_FRIEND: int = 136
-    CREDIT_CHANGE_SHAKE_TREE: int = 137
-    CREDIT_CHANGE_STYLIST: int = 138
-    CREDIT_CHANGE_FEED_FRIEND: int = 139
-    CREDIT_CHANGE_PETTING: int = 140
-    CREDIT_CHANGE_MINIGAME_SKIPPING_ROPE: int = 141
-    CREDIT_CHANGE_MINIGAME_BALL: int = 142
-    CREDIT_CHANGE_MINIGAME_FRISBEE: int = 143
-    CREDIT_CHANGE_TASK_REWARD: int = 144
-    CREDIT_CHANGE_PRO_HURDLES_RACE_WIN: int = 145
-    COOKING_LEARN_RECIPE: int = 147
-    COOK_RECIPE: int = 148
-    FINISH_COOKING: int = 149
-    FEED_PEET: int = 151
-    PEET_POO: int = 152
-    EVOLVE_PEET: int = 153
-    PEET_RUNAWAY: int = 154
-    PEET_FINDS_TREASURE: int = 155
-    UNBURN_FOOD: int = 156
-    TUTORIAL_AUTOCOMPLETE: int = 157
-    CATCH_FISH: int = 160
-    POT_PLANT: int = 161
-    UNPOT_PLANT: int = 162
-    CLEAR_POT: int = 163
-    EXCHANGE_ITEM: int = 164
-    PUT_ITEM_IN_ORNAMENTAL_CONTAINER: int = 165
-    CREDIT_CHANGE_LAPSED_FRIEND: int = 166
-
     action: int = 0
     newCredits: int = 0
     newRecyclePoints: int = 0
@@ -142,7 +89,6 @@ class FeedLinkRecipient:
     def __str__(self) -> str:  # pragma: no cover - debugging helper
         return f"[FeedLinkRecipient: recipient={self.recipient} clickedDate={self.clickedDate}\"]"
 
-
 @dataclass
 class FeedLink:
     creationDate: Optional[datetime] = None
@@ -156,13 +102,11 @@ class FeedLink:
             f"recipients={self.recipients} rewardClaimed={self.rewardClaimed}\"]"
         )
 
-
 @dataclass
 class DailyBonusInfo:
     isDailyBonusEnabled: bool = False
     canClaimDailyBonus: bool = False
     dailyBonusDay: int = 0
-
 
 @dataclass
 class LimitedItem:

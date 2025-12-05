@@ -12,7 +12,7 @@ class ReadableDatatype(ABC):
     """Protocol for datatypes that know how to read themselves from a stream."""
 
     @abstractmethod
-    def read(self, stream: "InputDataStream") -> Any:  # noqa: D401
+    def read(self, stream: "InputDataStream") -> Any:
         """Read a value from the provided data stream."""
         raise NotImplementedError
 
@@ -21,7 +21,7 @@ class WriteableDatatype(ABC):
     """Protocol for datatypes that know how to write themselves to a stream."""
 
     @abstractmethod
-    def write(self, stream: "OutputDataStream", value: Any) -> None:  # noqa: D401
+    def write(self, stream: "OutputDataStream", value: Any) -> None:
         """Write a value to the provided data stream."""
         raise NotImplementedError
 

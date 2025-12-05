@@ -3,7 +3,7 @@ from typing import final
 from flask import Flask, request, render_template
 from io import BytesIO
 from datetime import datetime
-from py_as.datastream.input_data_stream import InputDataStream
+from utils.datastream.input_data_stream import InputDataStream
 from handling.handler import handle_message
 from profile import ProfileHandler
 import logging
@@ -12,7 +12,7 @@ app = Flask(__name__, static_folder="./static", static_url_path="/", template_fo
 logging.getLogger('werkzeug').disabled = True
 
 profile_handler = ProfileHandler()
-profile_handler.load_from_file('profile.pet')
+profile_handler.load_from_file('Coco.nofil')
 
 @app.route("/", methods=["GET"])
 def index():
@@ -26,7 +26,7 @@ def handle_rpc():
         encapsulation_type = request_body.read_uint8()
         msg_type = request_body.read_uint8()
         session_id = request_body.read_string()
-        
+
         print(f"Encapsulation: {encapsulation_type}, Msg Type: {msg_type}")
         
         context = {'session_id': session_id, "profile": profile_handler}

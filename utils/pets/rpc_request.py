@@ -177,37 +177,6 @@ class RpcRequest:
         self.writeNetworkUid(event.senderID)
         self._stream.writeString(event.eventData)
 
-    def writeAuditChangeBatch(self, batch: AuditChangeBatch) -> None:
-        s = self._stream
-        s.writeUintvar31(batch.saveVersion)
-        s.writeArray(batch.auditChanges, self.writeAuditChange)
-        s.writeArray(batch.visitedUids, self.writeNetworkUid)
-
-    def writeAuditChange(self, change: AuditChange) -> None:
-        s = self._stream
-        s.writeUint8(change.action)
-        s.writeUintvar31(change.newCredits)
-        s.writeUintvar31(change.newRecyclePoints)
-        s.writeUintvar31(change.newStickerPoints)
-        s.writeIntvar32(change.creditsDelta)
-        s.writeString(change.token)
-        s.writeIntvar32(change.newItemId)
-        s.writeIntvar32(change.itemId)
-        s.writeUintvar32(change.itemHash)
-        s.writeBoolean(change.active)
-        s.writeUintvar31(change.roomIndex)
-        s.writeIntvar32(change.positionX)
-        s.writeIntvar32(change.positionY)
-        s.writeIntvar32(change.positionZ)
-        s.writeDate(change.createTime)
-        s.writeUintvar32(change.containedItem)
-        s.writeUintvar31(change.containedType)
-        s.writeUintvar31(change.containedAmount)
-        self.writeNetworkUid(change.sender)
-        s.writeString(change.message)
-        s.writeIntvar32(change.accompanyingItemId)
-        s.writeUint8(change.csum)
-
     def writePurchaseDetails(self, details: Sequence[Any]) -> None:
         s = self._stream
         s.writeString(str(details[0]))

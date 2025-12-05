@@ -1,9 +1,9 @@
-from py_as.datastream.input_data_stream import InputDataStream
-from py_as.datastream.output_data_stream import OutputDataStream
-from py_as.pets.rpc_response import RpcResponse
-from py_as.pets.rpc_request import RpcRequest
+from utils.datastream.input_data_stream import InputDataStream
+from utils.datastream.output_data_stream import OutputDataStream
+from utils.pets.rpc_response import RpcResponse
+from utils.pets.rpc_request import RpcRequest
 
-def handle_init(stream:InputDataStream, context={}):
+def handle_init(stream:InputDataStream, context={}) -> bytes:
     response = OutputDataStream()
     server_string = stream.read_string()
     url_vars = stream.read_string()

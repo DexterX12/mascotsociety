@@ -1,38 +1,35 @@
+from datetime import datetime, timezone
 from .call_types.call_type_init import handle_init
 from .call_types.call_type_load_player_profile import handle_load_player_profile
 from .call_types.call_type_save_player_profile import handle_save_player_profile
 from .call_types.call_type_get_new_home_extra_rooms_data import handle_get_new_home_extra_rooms_data
 from .call_types.call_type_get_users_via_profile_fields import handle_get_users_via_profile_fields
-from py_as.datastream.output_data_stream import OutputDataStream
-from py_as.datastream.input_data_stream import InputDataStream
+from utils.datastream.output_data_stream import OutputDataStream
+from utils.datastream.input_data_stream import InputDataStream
 from constants import CALL_TYPES
 from constants import type_to_int
 
-def handle_batch(stream:InputDataStream, context: dict) -> bytes:
-    batch_mod = stream.read_uint8()
-    count = stream.read_uintvar32()
-    print(f"Batch Mod: {batch_mod}, Count: {count}")
-    
-    # Batch Response: [Count] + ( [Type] [ByteArray(Body)] ) * Count
-    response_body = OutputDataStream()
-    response_body.write_uintvar32(count)
-    
-    for i in range(count):
-        try:
-            sub_request_type = stream.read_uint8()
-            sub_request_body = stream.read_byte_array()
-            print(f"  [{i}] Processing SubRequest Type: {sub_request_type}, Size: {len(sub_request_body)}")
-            
-            sub_request_response = handle_message(sub_request_type, InputDataStream(sub_request_body), context)
-            
-            response_body.write_uint8(sub_request_type)
-            response_body.write_byte_array(sub_request_response)
-            
-        except EOFError as e:
-            print(f"  [{i}] Error: {e}")
-            break
+def handle_batch(stream: InputDataStream, context: dict) -> bytes:
+    batch_mode = stream.read_uint8()
+    request_count = stream.read_uintvar32()
 
-    return response_body.getvalue()
+    response = OutputDataStream()
+    response.write_uintvar32(request_count)
+
+    for index in range(request_count):
+        sub_type = stream.read_uint8()
+        payload = stream.read_byte_array()
+        try:
+            body = handle_message(sub_type, InputDataStream(payload), context) or b""
+            response.write_uint8(sub_type)
+            response.write_byte_array(body)
+        except Exception as exc:
+            print(f"[batch] sub-request {index} (type {sub_type}) failed: {exc}")
+            response.write_uint8(ERROR_RESPONSE)
+            response.write_byte_array(b"")
+            # Optional: skip executing the remaining requests for BATCHMODE_CONDITIONAL
+
+    return response.getvalue()
 
 def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     if not CALL_TYPES.get(msg_type):
@@ -47,6 +44,11 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
 
     elif msg_type == type_to_int(CALL_TYPES, "CALL_TYPE_INIT"):
         return handle_init(stream, context)
+    
+    elif msg_type == type_to_int(CALL_TYPES, "CALL_TYPE_GET_SERVER_TIME"):
+        response = OutputDataStream()
+        response.writeDate(datetime.now(timezone.utc))
+        return response.getvalue()
 
     elif msg_type == type_to_int(CALL_TYPES, "CALL_TYPE_RECORD_GAME_EVENT"):
         return b''
