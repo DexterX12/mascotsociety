@@ -1,61 +1,63 @@
 from datetime import datetime, time, timezone
-from utils.datastream.output_data_stream import OutputDataStream
-from utils.datastream.input_data_stream import InputDataStream
-from utils.datatypes import MultiTypeMapDatatype
-from utils.pets.rpc_request import RpcRequest
-from utils.pets.rpc_response import RpcResponse
-from constants import EVENTS, type_to_int
-from utils.pets.types import DailyBonusInfo
-from utils.datatypes import MultiTypeMapDatatype
+from ...utils.datastream.output_data_stream import OutputDataStream
+from ...utils.datastream.input_data_stream import InputDataStream
+from ...utils.datatypes import MultiTypeMapDatatype
+from ...utils.pets.rpc_request import RpcRequest
+from ...utils.pets.rpc_response import RpcResponse
+from ...constants import Events
+from ...utils.pets.types import DailyBonusInfo
+from ...utils.datatypes import MultiTypeMapDatatype
+from ..audit import handle_audit
+from ... import profile_handler
 
 def place_data_in_profile(client_info: RpcResponse, context:dict):
-    context["profile"].user.petName = client_info.readString()
-    context["profile"].user.credits = client_info.readUintvar31()
-    context["profile"].user.recyclePoints = client_info.readUintvar31()
-    context["profile"].user.totalRecyclePoints = client_info.readUintvar31()
-    context["profile"].user.stickerPoints = client_info.readUintvar31()
-    context["profile"].user.totalStickerPoints = client_info.readUintvar31()
-    context["profile"].user.status = client_info.readString()
-    context["profile"].user.petPoints = client_info.readUintvar31()
-    context["profile"].user.petLevel = client_info.readUint8()
-    context["profile"].user.health = client_info.readUint8()
-    context["profile"].user.happiness = client_info.readUint8()
-    context["profile"].user.hygiene = client_info.readUint8()
-    context["profile"].user.primaryColour = client_info.readUintvar31()
-    context["profile"].user.preferencesMask = client_info.readUint8()
-    context["profile"].user.achievementsMask = client_info.readBitSet()
-    context["profile"].user.tutorialMask = client_info.readBitSet()
-    context["profile"].user.newsletterIndex = client_info.readUintvar31()
-    context["profile"].user.highScoreBall = client_info.readUintvar31()
-    context["profile"].user.highScoreFrisbee = client_info.readUintvar31()
-    context["profile"].user.highScoreJumpRope = client_info.readUintvar31()
-    context["profile"].user.numHatsBought = client_info.readUintvar31()
-    context["profile"].user.numShirtsBought = client_info.readUintvar31()
-    context["profile"].user.numTrousersBought = client_info.readUintvar31()
-    context["profile"].user.numShoesBought = client_info.readUintvar31()
-    context["profile"].user.numArmAccessoriesBought = client_info.readUintvar31()
-    context["profile"].user.numGiftsSent = client_info.readUintvar31()
-    context["profile"].user.numCoinsSpent = client_info.readUintvar31()
-    context["profile"].user.numVisit = client_info.readUintvar31()
-    context["profile"].user.numArenaHurdlesRaceWins = client_info.readUintvar31()
-    context["profile"].user.numArenaHurdlesBetWins = client_info.readUintvar31()
-    context["profile"].user.numArenaHurdlesRacesLeftToday = client_info.readUintvar31()
-    context["profile"].user.numProHurdlesRaceWins = client_info.readUintvar31()
-    context["profile"].user.numProHurdlesRacesLeftToday = client_info.readUintvar31()
-    context["profile"].user.dailyArenaHurdlesBetProfit = client_info.readUintvar31()
-    context["profile"].user.numPlantsGrown = client_info.readUintvar31()
-    context["profile"].user.checkoutVersion = client_info.readUintvar31()
-    context["profile"].user.extraRooms = client_info.readUint8()
-    context["profile"].user.defaultRoomIndex = client_info.readUint8()
-    context["profile"].user.lastBookmarkPopupTime = client_info.readDate()
-    context["profile"].user.cookingPoints = client_info.readUintvar31()
-    context["profile"].user.recipesMask = client_info.readBitSet()
-    context["profile"].user.petBirthday = client_info.readDate()
-    context["profile"].user.playCount = client_info.readUintvar31()
-    context["profile"].user.coinShovels = client_info.readUintvar31()
-    context["profile"].user.cashShovels = client_info.readUintvar31()
-    context["profile"].user.userProperties = client_info.readValue(MultiTypeMapDatatype.RPC_DATATYPE)
-    context["profile"].user.lastSaveTime = datetime.now(timezone.utc)
+    profile_handler.user.petName = client_info.readString()
+    profile_handler.user.credits = client_info.readUintvar31()
+    profile_handler.user.recyclePoints = client_info.readUintvar31()
+    profile_handler.user.totalRecyclePoints  = client_info.readUintvar31()
+    profile_handler.user.stickerPoints = client_info.readUintvar31()
+    profile_handler.user.totalStickerPoints = client_info.readUintvar31()
+    profile_handler.user.status = client_info.readString()
+    profile_handler.user.petPoints = client_info.readUintvar31()
+    profile_handler.user.petLevel = client_info.readUint8()
+    profile_handler.user.health = client_info.readUint8()
+    profile_handler.user.happiness = client_info.readUint8()
+    profile_handler.user.hygiene = client_info.readUint8()
+    profile_handler.user.primaryColour = client_info.readUintvar31()
+    profile_handler.user.preferencesMask = client_info.readUint8()
+    profile_handler.user.achievementsMask = client_info.readBitSet()
+    profile_handler.user.tutorialMask = client_info.readBitSet()
+    profile_handler.user.newsletterIndex = client_info.readUintvar31()
+    profile_handler.user.highScoreBall = client_info.readUintvar31()
+    profile_handler.user.highScoreFrisbee = client_info.readUintvar31()
+    profile_handler.user.highScoreJumpRope = client_info.readUintvar31()
+    profile_handler.user.numHatsBought = client_info.readUintvar31()
+    profile_handler.user.numShirtsBought = client_info.readUintvar31()
+    profile_handler.user.numTrousersBought = client_info.readUintvar31()
+    profile_handler.user.numShoesBought = client_info.readUintvar31()
+    profile_handler.user.numArmAccessoriesBought = client_info.readUintvar31()
+    profile_handler.user.numGiftsSent = client_info.readUintvar31()
+    profile_handler.user.numCoinsSpent = client_info.readUintvar31()
+    profile_handler.user.numVisit = client_info.readUintvar31()
+    profile_handler.user.numArenaHurdlesRaceWins = client_info.readUintvar31()
+    profile_handler.user.numArenaHurdlesBetWins = client_info.readUintvar31()
+    profile_handler.user.numArenaHurdlesRacesLeftToday = client_info.readUintvar31()
+    profile_handler.user.numProHurdlesRaceWins = client_info.readUintvar31()
+    profile_handler.user.numProHurdlesRacesLeftToday = client_info.readUintvar31()
+    profile_handler.user.dailyArenaHurdlesBetProfit = client_info.readUintvar31()
+    profile_handler.user.numPlantsGrown = client_info.readUintvar31()
+    profile_handler.user.checkoutVersion = client_info.readUintvar31()
+    profile_handler.user.extraRooms = client_info.readUint8()
+    profile_handler.user.defaultRoomIndex = client_info.readUint8()
+    profile_handler.user.lastBookmarkPopupTime = client_info.readDate()
+    profile_handler.user.cookingPoints = client_info.readUintvar31()
+    profile_handler.user.recipesMask = client_info.readBitSet()
+    profile_handler.user.petBirthday = client_info.readDate()
+    profile_handler.user.playCount = client_info.readUintvar31()
+    profile_handler.user.coinShovels = client_info.readUintvar31()
+    profile_handler.user.cashShovels = client_info.readUintvar31()
+    profile_handler.user.userProperties = client_info.readValue(MultiTypeMapDatatype.RPC_DATATYPE)
+    profile_handler.user.lastSaveTime = datetime.now(timezone.utc)
 
 def handle_save_player_profile(stream:InputDataStream, context={}) -> bytes:
     client_info = RpcResponse(stream)
@@ -69,17 +71,9 @@ def handle_save_player_profile(stream:InputDataStream, context={}) -> bytes:
     client_info.readUint8()
 
     audited_changes = client_info.readArray(client_info.readAuditChangeBatch)
+    handle_audit(audited_changes)
 
-    print("Changes to audit: ", len(audited_changes))
-    for batch_change in audited_changes:
-        print("Batch of audit changes:", len(batch_change.auditChanges))
-        for change in batch_change.auditChanges:
-            print(change, "\n")
-        print(audited_changes[0].saveVersion, "\n\n\n\n")
-
-
-
-    response.writeUintvar31(type_to_int(EVENTS, "SAVE_STATUS_OK"))
+    response.writeUintvar31(Events.SAVE_STATUS_OK)
     response.writeUintvar32(0)
     response.writeBoolean(0)
     response.writeDailyBonusInfo(DailyBonusInfo())

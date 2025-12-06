@@ -2,6 +2,8 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import List, Optional
 
+from ...utils.pets.types import RpcOwnedItem
+
 from ..datatypes import MultiTypeMap
 from ..share import BitSet, NetworkUid
 
@@ -105,6 +107,12 @@ class UserInfo:
             if (profile_fields & flag) != flag:
                 return False
         return True
+        
+    def getItemIndexById(self, itemId:int) -> int:
+        for i in range(len(self.ownedItems)):
+            if not self.ownedItems[i].itemId == itemId: continue
+            return i
+        return -1
 
     def __str__(self) -> str:  # pragma: no cover - debugging helper
         parts = [f"[UserInfo: id={self.id} profileClass={self.profileFields} unavailable={self.unavailable}"]

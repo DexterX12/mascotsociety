@@ -80,7 +80,6 @@ class RpcOwnedItem:
             "sender={self.sender} message=\"{self.message} itemProperties={self.itemProperties}\"]"
         ).format(self=self)
 
-
 @dataclass
 class FeedLinkRecipient:
     recipient: Optional[NetworkUid] = None
