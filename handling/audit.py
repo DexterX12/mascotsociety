@@ -13,7 +13,6 @@ def handle_audit(audit_batch:list[AuditChangeBatch]) -> None:
 def handle_audit_action(audit:AuditChange) -> None:
     action:int = audit.action
 
-    #print(audit)    
     if audit.itemId < 0:
         audit.itemId *= -1
     
@@ -23,7 +22,6 @@ def handle_audit_action(audit:AuditChange) -> None:
     if (action == Actions.SPAWN_ITEM or
         action == Actions.BUY_ITEM_COINS):
 
-        item_pos = profile_handler.user.getItemIndexById(audit.newItemId)
         item_db = database_handler.findItemByToken(audit.token)
 
         new_item = RpcOwnedItem()
