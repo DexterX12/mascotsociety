@@ -10,9 +10,6 @@ class BitSet:
     def __init__(self) -> None:
         self._bits = bytearray()
 
-    # ------------------------------------------------------------------
-    # Core operations
-
     def get(self, index: int) -> bool:
         byte_index = index // 8
         bit_offset = 7 - index % 8
@@ -64,9 +61,6 @@ class BitSet:
     def setArray(self, data: bytes | bytearray) -> None:
         self._bits = bytearray(data)
 
-    # ------------------------------------------------------------------
-    # Helpers and representation
-
     def getBitString(self) -> str:
         bits = []
         for byte in self._bits:
@@ -75,10 +69,8 @@ class BitSet:
             )
         return "".join(bits)
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         return f"[bits={self.getBitString()}]"
-
-    # ------------------------------------------------------------------
 
     @property
     def bits(self) -> bytes:

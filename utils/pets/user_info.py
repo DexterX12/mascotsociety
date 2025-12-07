@@ -114,7 +114,7 @@ class UserInfo:
             return i
         return -1
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         parts = [f"[UserInfo: id={self.id} profileClass={self.profileFields} unavailable={self.unavailable}"]
         if UserInfo.containsAnyProfileField(self.profileFields, UserInfo.FACEBOOK_INFO):
             parts.append(

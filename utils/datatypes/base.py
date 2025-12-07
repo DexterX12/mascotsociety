@@ -3,7 +3,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import TYPE_CHECKING, Any
 
-if TYPE_CHECKING:  # pragma: no cover
+if TYPE_CHECKING:
     from ..datastream.input_data_stream import InputDataStream
     from ..datastream.output_data_stream import OutputDataStream
 

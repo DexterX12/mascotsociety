@@ -24,14 +24,8 @@ class RpcRequest:
     def __init__(self, stream: OutputDataStream) -> None:
         self._stream = stream
 
-    # ------------------------------------------------------------------
-    # Stream forwarding helpers
-
     def __getattr__(self, name: str) -> Any:
         return getattr(self._stream, name)
-
-    # ------------------------------------------------------------------
-    # High level writers
 
     def writeUserInfo(self, user_info: UserInfo) -> None:
         s = self._stream
@@ -187,9 +181,6 @@ class RpcRequest:
         s.writeIntvar32(int(details[5]))
         s.writeIntvar32(int(details[6]))
         s.writeIntvar32(int(details[7]))
-
-    # ------------------------------------------------------------------
-    # Support methods mirroring RpcRequestBase
 
     def writeNetworkUid(self, uid: NetworkUid | None) -> None:
         s = self._stream

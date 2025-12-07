@@ -27,14 +27,10 @@ class RpcResponse:
     def __init__(self, stream: InputDataStream) -> None:
         self._stream = stream
 
-    # ------------------------------------------------------------------
-    # Stream forwarding helpers
 
     def __getattr__(self, name: str) -> Any:
         return getattr(self._stream, name)
 
-    # ------------------------------------------------------------------
-    # High level readers
 
     def readUserInfo(self) -> UserInfo:
         info = UserInfo()
@@ -372,12 +368,7 @@ class RpcResponse:
                         merged.append(entry)
         return merged
 
-    # ------------------------------------------------------------------
-    # Support methods mirroring RpcResponseBase
-
     def _read_relaxed_boolean(self, default: bool = False) -> bool:
-        """Read a boolean sentinel, tolerating non-standard encodings."""
-
         stream = self._stream
         if stream is None:
             return default

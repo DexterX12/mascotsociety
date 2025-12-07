@@ -5,7 +5,7 @@ from typing import TYPE_CHECKING, Any, Dict, Mapping
 
 from .base import Datatype
 
-if TYPE_CHECKING:  # pragma: no cover - used for static analysis only
+if TYPE_CHECKING:
     from ..datastream.input_data_stream import InputDataStream
     from ..datastream.output_data_stream import OutputDataStream
 
@@ -53,7 +53,6 @@ class NullableDatatype(Datatype):
         if value is not None:
             stream.writeValue(self._datatype, value)
 
-
 @dataclass
 class TypedData:
     type: Datatype
@@ -65,7 +64,7 @@ class TypedData:
     def getType(self) -> Datatype:
         return self.type
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         return f"Value : {self.getValue()}, type: {self.getType()}"
 
 
@@ -119,7 +118,7 @@ class MultiTypeMap:
     def getSplitMultiTypeMap(self) -> "SplitMultiTypeMap":
         return SplitMultiTypeMap(self._map)
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         lines = ["MultiTypeMap"]
         for key, data in self._map.items():
             lines.append(f" key: {key}, data: {data}")
@@ -208,7 +207,6 @@ class Datatypes:
     NULLABLE_STRING: Datatype
 
 
-# Static initialisation mirroring the AS3 constants
 Datatypes.UINT31 = Uint31Datatype()
 Datatypes.BOOLEAN = BooleanDatatype()
 Datatypes.STRING = StringDatatype()

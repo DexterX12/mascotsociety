@@ -44,6 +44,6 @@ class NetworkUid:
             seed_value = seed_value * 23 + ord(char)
         return seed_value & 0xFFFFFFFF
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         return f"{self._network}:{self._networkUid}"
 

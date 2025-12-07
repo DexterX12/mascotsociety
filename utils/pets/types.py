@@ -30,7 +30,7 @@ class AuditChange:
     message: str = ""
     csum: int = 0
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         return (
             f"[AuditChange: action={self.action} newCredits={self.newCredits} "
             f"creditsDelta={self.creditsDelta} newRecyclePoints={self.newRecyclePoints} "
@@ -70,7 +70,7 @@ class RpcOwnedItem:
     containedItemProperties: Optional[MultiTypeMap] = None
     containedItem2Properties: Optional[MultiTypeMap] = None
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         return (
             "[OwnedItem: itemId={self.itemId} itemHash={self.itemHash} "
             "active={self.active} roomIndex={self.roomIndex} positionX={self.positionX} "
@@ -85,7 +85,7 @@ class FeedLinkRecipient:
     recipient: Optional[NetworkUid] = None
     clickedDate: Optional[datetime] = None
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         return f"[FeedLinkRecipient: recipient={self.recipient} clickedDate={self.clickedDate}\"]"
 
 @dataclass
@@ -95,7 +95,7 @@ class FeedLink:
     recipients: List[FeedLinkRecipient] = field(default_factory=list)
     rewardClaimed: bool = False
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         return (
             f"[FeedLink: itemHash={self.itemHash} creationDate={self.creationDate} "
             f"recipients={self.recipients} rewardClaimed={self.rewardClaimed}\"]"
@@ -116,7 +116,7 @@ class LimitedItem:
     dailyPurchaseLimit: int = 0
     isCashItem: bool = False
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         return (
             "LimitedItem: itemHash: {self.itemHash}, amountSold: {self.amountSold}, "
             "amountForSale: {self.amountForSale}, soldDate: {self.soldDate}, "
@@ -148,7 +148,7 @@ class RpcCollaborativeBuildItem:
     def getCount(self, component_id: int) -> int:
         return self._componentCount.get(str(component_id), 0)
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         parts = [f"CollaborativeItem: itemID: {self.itemID}"]
         for key, value in self._componentCount.items():
             parts.append(f"comp: {key}, count: {value}")
@@ -176,7 +176,7 @@ class RpcMiniGame:
     def getElementValue(self, element_id: int) -> float:
         return self._elementData.get(str(element_id), 0.0)
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         parts = [f"MiniGame: itemID: {self.gameID}"]
         for key, value in self._elementData.items():
             parts.append(f"element: {key}, value: {value}")
@@ -207,7 +207,7 @@ class RpcDIYBuildItem:
     def getTimeStamp(self, component_id: int) -> float:
         return self._componentCount.get(str(component_id), 0.0)
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         parts = [f"CollaborativeItem: itemID: {self.itemID}"]
         for key, value in self._componentCount.items():
             parts.append(f"comp: {key}, count: {value}")
@@ -249,7 +249,7 @@ class RpcWeeklyQuest:
     def getSubQuestReward(self, subquest_id: int) -> str:
         return self._subQuestRewards.get(str(subquest_id), "")
 
-    def __str__(self) -> str:  # pragma: no cover - debugging helper
+    def __str__(self) -> str:
         parts = [
             f"WeeklyQuest: ID: {self.questID}",
             f", reward : {self.reward}",
