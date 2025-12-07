@@ -7,7 +7,7 @@ from . import database_handler
 import logging
 
 app = Flask(__name__, static_folder="./static", static_url_path="/", template_folder="static")
-logging.getLogger('werkzeug').disabled = False
+logging.getLogger('werkzeug').disabled = True
 
 @app.route("/", methods=["GET"])
 def index():

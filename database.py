@@ -1,6 +1,6 @@
+import os
 import zlib
 from xml.etree import ElementTree
-import os
 
 class Database:
     def __init__(self) -> None:
@@ -14,14 +14,17 @@ class Database:
             self._populate_items(xml_root)
     
     def _populate_items(self, root=None) -> None:
+        if root is None:
+            return
         for child in root:
             if not root.tag == "itemgroup":
                 self._populate_items(child)
-            
-            self.items.append(child.attrib)
+            else:
+                if "min" in child.tag: continue
+                self.items.append(child.attrib)
 
     def findItemByToken(self, token:str) -> dict:
         for item in self.items:
-            if item['token'] == token:
+            if "token" in item and item["token"] == token:
                 return item
         return {}

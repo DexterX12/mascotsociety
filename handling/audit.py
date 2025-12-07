@@ -1,9 +1,8 @@
-from datetime import datetime, timezone
-
-import profile
 from ..utils.pets.types import AuditChange, AuditChangeBatch, RpcOwnedItem
 from ..constants import Actions
 from .. import profile_handler
+from .. import database_handler
+from ..utils.hash import hashInt32
 
 def handle_audit(audit_batch:list[AuditChangeBatch]) -> None:
     for audit in audit_batch:
@@ -14,32 +13,35 @@ def handle_audit(audit_batch:list[AuditChangeBatch]) -> None:
 def handle_audit_action(audit:AuditChange) -> None:
     action:int = audit.action
 
-    print(audit)    
+    #print(audit)    
     if audit.itemId < 0:
         audit.itemId *= -1
+    
+    if audit.newItemId < 0:
+        audit.newItemId *= -1
 
-    if action == Actions.SPAWN_ITEM:
+    if (action == Actions.SPAWN_ITEM or
+        action == Actions.BUY_ITEM_COINS):
+
         item_pos = profile_handler.user.getItemIndexById(audit.newItemId)
-        if item_pos != -1 and profile_handler.user.ownedItems[item_pos].itemHash == audit.itemHash: return # Already exists (probably)!
+        item_db = database_handler.findItemByToken(audit.token)
 
-        newItem = RpcOwnedItem()
+        new_item = RpcOwnedItem()
+        new_item.itemId = audit.newItemId
 
-        newItem.itemId = audit.newItemId
-        newItem.itemHash = 94802198
-        newItem.active = audit.active
-        newItem.roomIndex = audit.roomIndex
-        newItem.positionX = audit.positionX
-        newItem.positionY = audit.positionY
-        newItem.positionZ = audit.positionZ
-        newItem.containedAmount = audit.containedAmount
-        newItem.containedType = audit.containedType
-        newItem.containedItem = audit.containedItem
-        newItem.createTime = audit.createTime
-        newItem.message = audit.message
-        newItem.sender = audit.sender
-        newItem.roomIndex = audit.roomIndex
+        # THIS NEEDS TO BE HASHED THE SAME WAY AS THE CLIENT ACTIONSCRIPT HASH
+        new_item.itemHash = hashInt32(item_db["name"])
 
-        profile_handler.user.ownedItems.append(newItem)
+        new_item.active = audit.active
+        new_item.containedType = audit.containedType
+        new_item.createTime = audit.createTime
+        new_item.message = audit.message
+        new_item.positionX = audit.positionX
+        new_item.positionY = audit.positionY
+        new_item.positionZ = audit.positionZ
+        new_item.roomIndex = audit.roomIndex
+
+        profile_handler.user.ownedItems.append(new_item)
 
     if action == Actions.DELETE_ITEM:
         item_pos = profile_handler.user.getItemIndexById(audit.itemId)
@@ -47,7 +49,6 @@ def handle_audit_action(audit:AuditChange) -> None:
     
     if action == Actions.CHANGE_ITEM:
         item_pos = profile_handler.user.getItemIndexById(audit.itemId)
-
         if item_pos == -1: return
 
         profile_handler.user.ownedItems[item_pos].active = audit.active
@@ -55,12 +56,9 @@ def handle_audit_action(audit:AuditChange) -> None:
         profile_handler.user.ownedItems[item_pos].positionX = audit.positionX
         profile_handler.user.ownedItems[item_pos].positionY = audit.positionY
         profile_handler.user.ownedItems[item_pos].positionZ = audit.positionZ
-        # profile_handler.user.ownedItems[item_pos].containedAmount = audit.containedAmount
         profile_handler.user.ownedItems[item_pos].containedType = audit.containedType
-        # profile_handler.user.ownedItems[item_pos].containedItem = audit.containedItem
         profile_handler.user.ownedItems[item_pos].createTime = audit.createTime
         profile_handler.user.ownedItems[item_pos].message = audit.message
-        # profile_handler.user.ownedItems[item_pos].sender = audit.sender
 
         
 

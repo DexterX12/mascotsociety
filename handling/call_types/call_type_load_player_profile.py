@@ -30,5 +30,11 @@ def handle_load_player_profile(stream:InputDataStream, context={}) -> bytes:
     rpc_req.writeVersionArray(0, [], rpc_req.writeRpcCounterEvent)
 
     rpc_req.writeArray([], rpc_req.writeFeedLink)
+    
+    ojitos = profile_handler.user.getItemIndexById(139889)
+    if ojitos != -1:
+        print("OJOOOOOOOOOO, SE ENCONTROOOOOOOOOOOOOOO, SI EXISTE PERO NO LQUIERE MOSTRAR!\n\n\n")
+    else:
+        print("NO ESTA, O SEA QUE NO SE GUARDAAAAAAAAAAAAAAAAAA\n\n\n")
 
     return response.getvalue()
