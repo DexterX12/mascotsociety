@@ -7,6 +7,7 @@ from .call_types.call_type_get_new_home_extra_rooms_data import handle_get_new_h
 from .call_types.call_type_get_users_via_profile_fields import handle_get_users_via_profile_fields
 from .call_types.call_type_purchase_cash_item import handle_purchase_cash_item
 from .call_types.call_type_purchase_mystery_box import handle_purchase_mystery_box
+from .call_types.call_type_get_cafe_users import handle_get_cafe_users
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
 from ..constants import CallTypes
@@ -97,6 +98,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     
     elif msg_type == CallTypes.CALL_TYPE_GET_USERS_VIA_PROFILE_FIELDS:
         return handle_get_users_via_profile_fields(stream, context)
+    
+    elif msg_type == CallTypes.CALL_TYPE_GET_CAFE_USERS:
+        return handle_get_cafe_users(stream)
     else:
         print(command_name, " is an existing but unhandled request!")
         print("Skipping...")
