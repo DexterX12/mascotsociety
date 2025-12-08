@@ -1,7 +1,5 @@
 from ...utils.datastream.input_data_stream import InputDataStream
 from ...utils.datastream.output_data_stream import OutputDataStream
-from ...utils.pets.rpc_response import RpcResponse
-from ...utils.pets.rpc_request import RpcRequest
 
 def handle_init(stream:InputDataStream, context={}) -> bytes:
     response = OutputDataStream()

@@ -6,6 +6,7 @@ from .call_types.call_type_save_player_profile import handle_save_player_profile
 from .call_types.call_type_get_new_home_extra_rooms_data import handle_get_new_home_extra_rooms_data
 from .call_types.call_type_get_users_via_profile_fields import handle_get_users_via_profile_fields
 from .call_types.call_type_purchase_cash_item import handle_purchase_cash_item
+from .call_types.call_type_purchase_mystery_box import handle_purchase_mystery_box
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
 from ..constants import CallTypes
@@ -65,8 +66,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
         return response.getvalue()
 
     elif msg_type == CallTypes.CALL_TYPE_INBOX_GET_LETTERS:
-        return b''
-        # response_body = write_array([], None)
+        response = OutputDataStream()
+        response.writeArray([], lambda x: None)
+        return response.getvalue()
 
     elif msg_type == CallTypes.CALL_TYPE_GET_EMAIL_PERMISSIONS:
         return b''
@@ -80,6 +82,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
         
     elif msg_type == CallTypes.CALL_TYPE_PURCHASE_CASH_ITEM:
         return handle_purchase_cash_item(stream)
+
+    elif msg_type == CallTypes.CALL_TYPE_PURCHASE_MYSTERY_BOX:
+        return handle_purchase_mystery_box(stream)
 
     elif msg_type == CallTypes.CALL_TYPE_LOAD_PLAYER_PROFILE:
         return handle_load_player_profile(stream, context)
