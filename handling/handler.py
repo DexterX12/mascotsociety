@@ -9,6 +9,7 @@ from .call_types.call_type_purchase_cash_item import handle_purchase_cash_item
 from .call_types.call_type_purchase_mystery_box import handle_purchase_mystery_box
 from .call_types.call_type_get_cafe_users import handle_get_cafe_users
 from .call_types.call_type_redeem_voucher import handle_redeem_voucher
+from .call_types.call_type_purchase_extra_room import handle_purchase_extra_room
 
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
@@ -85,6 +86,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
         
     elif msg_type == CallTypes.CALL_TYPE_PURCHASE_CASH_ITEM:
         return handle_purchase_cash_item(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_PURCHASE_EXTRA_ROOM:
+        return handle_purchase_extra_room(stream)
 
     elif msg_type == CallTypes.CALL_TYPE_PURCHASE_MYSTERY_BOX:
         return handle_purchase_mystery_box(stream)
