@@ -1,5 +1,5 @@
-from ast import Call
 from datetime import datetime, timezone
+
 from .call_types.call_type_init import handle_init
 from .call_types.call_type_load_player_profile import handle_load_player_profile
 from .call_types.call_type_save_player_profile import handle_save_player_profile
@@ -8,6 +8,8 @@ from .call_types.call_type_get_users_via_profile_fields import handle_get_users_
 from .call_types.call_type_purchase_cash_item import handle_purchase_cash_item
 from .call_types.call_type_purchase_mystery_box import handle_purchase_mystery_box
 from .call_types.call_type_get_cafe_users import handle_get_cafe_users
+from .call_types.call_type_redeem_voucher import handle_redeem_voucher
+
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
 from ..constants import CallTypes
@@ -86,6 +88,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
 
     elif msg_type == CallTypes.CALL_TYPE_PURCHASE_MYSTERY_BOX:
         return handle_purchase_mystery_box(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_REDEEM_VOUCHER:
+        return handle_redeem_voucher(stream)
 
     elif msg_type == CallTypes.CALL_TYPE_LOAD_PLAYER_PROFILE:
         return handle_load_player_profile(stream, context)
