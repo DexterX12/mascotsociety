@@ -47,7 +47,7 @@ def handle_purchase_mystery_box(stream:InputDataStream) -> bytes:
         mystery_items = getattr(Mystery, purchased_item["name"].upper().replace(" ", "_"))
         
         # The decompiled client has the original implementation for this
-        # The 'randomness' is based of item rarity, which is calculated
+        # The 'randomness' is based on item rarity, which is calculated
         # in a certain way. For simplicity, each one will have roughly the same
         # probability
         random_mystery_item = choice(mystery_items)
