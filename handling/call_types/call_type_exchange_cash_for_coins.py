@@ -1,8 +1,6 @@
 from ...utils.datastream.output_data_stream import OutputDataStream
 from ...utils.pets.rpc_request import RpcRequest
 from ...utils.pets.rpc_response import InputDataStream, RpcResponse
-from ...utils.pets.types import RpcOwnedItem
-from ...utils.hash import hashInt32
 from ... import profile_handler
 from ... import database_handler
 from ...constants import Events

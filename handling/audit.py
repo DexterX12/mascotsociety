@@ -1,4 +1,5 @@
 import profile
+from sys import addaudithook
 from ..utils.pets.types import AuditChange, AuditChangeBatch, RpcOwnedItem
 from ..constants import Actions
 from .. import profile_handler
@@ -50,7 +51,14 @@ def handle_audit_action(audit:AuditChange) -> None:
 
     if action == Actions.DELETE_ITEM:
         item_pos = profile_handler.user.getItemIndexById(audit.itemId)
+        print("Deleting item with ID =", audit.itemId, "and hash =", profile_handler.user.ownedItems[item_pos].itemHash)
         profile_handler.user.ownedItems.pop(item_pos)
+    
+    if action == Actions.SELL_ITEM:
+        item_pos = profile_handler.user.getItemIndexById(audit.itemId)
+        print("Selling item with ID =", audit.itemId, "and hash =", profile_handler.user.ownedItems[item_pos].itemHash)
+        profile_handler.user.ownedItems.pop(item_pos)
+        profile_handler.user.credits = audit.newCredits
     
     if action == Actions.CHANGE_ITEM:
         item_pos = profile_handler.user.getItemIndexById(audit.itemId)
