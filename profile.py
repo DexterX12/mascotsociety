@@ -37,20 +37,35 @@ class Profile:
 
     
     def _detect_duplicates(self) -> None:
+        if not self.user or not self.user.ownedItems:
+            return
+
         max_item_id = max(item.itemId for item in self.user.ownedItems)
+        seen_ids = set()
 
         for item in self.user.ownedItems:
-            for item_inner in self.user.ownedItems:
-                if item == item_inner: continue
-                if item.itemId != item_inner.itemId: continue
+            item_id = item.itemId
 
-                item_inner.itemId = max_item_id + 1
+            if item_id not in seen_ids:
+                seen_ids.add(item_id)
+                continue
+
+            max_item_id += 1
+            while max_item_id in seen_ids:
                 max_item_id += 1
 
+            item.itemId = max_item_id
+            seen_ids.add(max_item_id)
+
     def save_file(self) -> None:
+        if self.user is None or self.loaded_file is None:
+            raise ValueError("Profile data is not loaded; cannot save.")
+
+        new_house_data = self.new_house_data if self.new_house_data is not None else {}
+
         user_data = RpcRequest(OutputDataStream())
         user_data.writeUintvar31(self.cash)
-        user_data.writeNewHouseData(self.new_house_data)
+        user_data.writeNewHouseData(new_house_data)
         user_data.writeUserInfo(self.user)
         user_data.writeArray(self.friends, user_data.writeUserInfo)
 
