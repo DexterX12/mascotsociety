@@ -9,7 +9,7 @@ ByteSource = Union[BinaryIO, bytes, bytearray, memoryview]
 
 
 class InputDataStream:
-    """Binary reader that mirrors the semantics of the ActionScript implementation."""
+    """Binary reader mirroring Playfish's AS3 implementation"""
 
     def __init__(self, source: ByteSource) -> None:
         if isinstance(source, (bytes, bytearray, memoryview)):

@@ -9,7 +9,7 @@ ByteSink = Union[BinaryIO, bytearray, io.BytesIO]
 
 
 class OutputDataStream:
-    """Binary writer that stays compatible with the ActionScript data format."""
+    """Binary writer mirroring Playfish's AS3 implementation"""
 
     def __init__(self, sink: ByteSink | None = None) -> None:
         if sink is None:

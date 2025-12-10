@@ -19,7 +19,7 @@ from .user_info import UserInfo
 
 
 class RpcRequest:
-    """Python translation of the ActionScript RpcRequest helper."""
+    """Helper methods to write bytes using user data"""
 
     def __init__(self, stream: OutputDataStream) -> None:
         self._stream = stream

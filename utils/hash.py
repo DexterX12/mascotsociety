@@ -46,6 +46,8 @@ def word(code_units: list[int], offset: int) -> int:
     )
 
 def hashInt32(string: str) -> int:
+    """ Jenkin 32-bit hash implementation present in Playfish's AS3 implementation """
+    
     if string is None:
         string = ""
     elif not isinstance(string, str):

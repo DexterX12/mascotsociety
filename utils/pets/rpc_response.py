@@ -22,7 +22,7 @@ from .user_info import UserInfo
 
 
 class RpcResponse:
-    """Python translation of the ActionScript RpcResponse helper."""
+    """Helper methods to read bytes regarding user data"""
 
     def __init__(self, stream: InputDataStream) -> None:
         self._stream = stream
