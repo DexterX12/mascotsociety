@@ -73,6 +73,8 @@ def handle_save_player_profile(stream:InputDataStream, context={}) -> bytes:
     audited_changes = client_info.readArray(client_info.readAuditChangeBatch)
     handle_audit(audited_changes)
 
+    profile_handler.save_file()
+
     response.writeUintvar31(Events.SAVE_STATUS_OK)
     response.writeUintvar32(0)
     response.writeBoolean(0)

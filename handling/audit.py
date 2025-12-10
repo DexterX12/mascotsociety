@@ -1,5 +1,3 @@
-import profile
-from sys import addaudithook
 from ..utils.pets.types import AuditChange, AuditChangeBatch, RpcOwnedItem
 from ..constants import Actions
 from .. import profile_handler
@@ -10,7 +8,6 @@ def handle_audit(audit_batch:list[AuditChangeBatch]) -> None:
     for audit in audit_batch:
         for audit_changes in audit.auditChanges:
             handle_audit_action(audit_changes)
-
 
 def set_item_data(new_item:RpcOwnedItem, audit: AuditChange):
     new_item.active = audit.active
@@ -51,14 +48,16 @@ def handle_audit_action(audit:AuditChange) -> None:
 
     if action == Actions.DELETE_ITEM:
         item_pos = profile_handler.user.getItemIndexById(audit.itemId)
-        print("Deleting item with ID =", audit.itemId, "and hash =", profile_handler.user.ownedItems[item_pos].itemHash)
         profile_handler.user.ownedItems.pop(item_pos)
+
+        print("Deleting item with ID =", audit.itemId, "and hash =", profile_handler.user.ownedItems[item_pos].itemHash)
     
     if action == Actions.SELL_ITEM:
         item_pos = profile_handler.user.getItemIndexById(audit.itemId)
-        print("Selling item with ID =", audit.itemId, "and hash =", profile_handler.user.ownedItems[item_pos].itemHash)
         profile_handler.user.ownedItems.pop(item_pos)
         profile_handler.user.credits = audit.newCredits
+
+        print("Selling item with ID =", audit.itemId, "and hash =", profile_handler.user.ownedItems[item_pos].itemHash)
     
     if action == Actions.CHANGE_ITEM:
         item_pos = profile_handler.user.getItemIndexById(audit.itemId)
@@ -73,10 +72,15 @@ def handle_audit_action(audit:AuditChange) -> None:
         item_pos = profile_handler.user.getItemIndexById(audit.itemId)
         if item_pos == -1: return
 
-        profile_handler.user.ownedItems[item_pos].itemId = audit.newItemId
-        profile_handler.user.ownedItems[item_pos].itemHash = audit.itemHash
+        new_item = RpcOwnedItem()
+        new_item.itemId = audit.newItemId
+        new_item.itemHash = audit.itemHash
 
-        set_item_data(profile_handler.user.ownedItems[item_pos], audit)
+        set_item_data(new_item, audit)
+
+        profile_handler.user.ownedItems.append(new_item)
+        profile_handler.user.ownedItems.pop(item_pos)
+
         
 
     

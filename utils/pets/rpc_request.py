@@ -197,5 +197,13 @@ class RpcRequest:
         else:
             self._stream.writeByteArray(bitset.bits)
 
+    def writeNewHouseData(self, new_house_data: dict) -> None:
+        self._stream.writeUintvar31(100)
+        self._stream.writeBoolean(False)
+        self._stream.writeUintvar31(new_house_data["cashRoomsCount"])
+        self._stream.writeUintvar31(new_house_data["cashGardensCount"])
+        self._stream.writeUintvar32(new_house_data["itemHash"])
+        
+
     def getvalue(self) -> bytes:
         return self._stream.getvalue()
