@@ -25,7 +25,7 @@ def handle_redeem_voucher(stream:InputDataStream) -> bytes:
     })
 
     voucher_item = database_handler.findItemByHash(voucher_owned_item.itemHash)
-    voucher_rewards = getattr(Redeemable, voucher_item["name"].replace(" ", "_").upper(), [])
+    voucher_rewards = getattr(Redeemable, voucher_item["name"].upper().replace(" ", "_"), [])
 
     for reward in voucher_rewards:
         item_reward = database_handler.findItemByName(reward)
