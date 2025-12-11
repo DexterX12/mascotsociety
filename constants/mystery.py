@@ -1052,7 +1052,7 @@ class Redeemable:
 
     TRADITIONAL_IRISH_OUTFIT = ["Traditional Irish Dress","Traditional Irish Tiara","Traditional Irish LadyHat","Traditional Irish Shoes","Traditional Irish Wig"]
 
-    TRADITIONAL_LADY_OUTFIT = ["Traditional Irish Lady Dress", "Traditional Irish Lady Stockings", "Traditional Irish Lady Shoes", "Traditional Irish Lady Wig"]
+    TRADITIONAL_IRISH_LADY_OUTFIT = ["Traditional Irish Lady Dress", "Traditional Irish Lady Stockings", "Traditional Irish Lady Shoes", "Traditional Irish Lady Wig"]
 
     AFRICAN_KAFTAN = ["African Kaftan Dress","African Kaftan Hat","African Kaftan Shoes"]
 

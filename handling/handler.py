@@ -13,6 +13,9 @@ from .call_types.call_type_redeem_voucher import handle_redeem_voucher
 from .call_types.call_type_purchase_extra_room import handle_purchase_extra_room
 from .call_types.call_type_exchange_cash_for_coins import handle_exchange_cash_for_coins
 from .call_types.call_type_handle_fishing_action import handle_fishing_action
+from .call_types.call_type_reset_map import handle_reset_map
+from .call_types.call_type_save_digging_game import handle_save_digging_game
+from .call_types.call_type_get_collaborative_build_items import handle_get_collaborative_build_items
 
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
@@ -122,6 +125,15 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     
     elif msg_type == CallTypes.CALL_TYPE_HANDLE_FISHING_ACTION:
         return handle_fishing_action(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_RESET_MAP:
+        return handle_reset_map(stream)
+
+    elif msg_type == CallTypes.CALL_TYPE_SAVE_DIGGING_GAME:
+        return handle_save_digging_game(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_GET_COLLABORATIVE_BUILD_ITEMS:
+        return handle_get_collaborative_build_items(stream)
 
     else:
         print(command_name, " is an existing but unhandled request!")

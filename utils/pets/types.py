@@ -125,18 +125,6 @@ class LimitedItem:
 
 
 class RpcCollaborativeBuildItem:
-    ERROR: int = 600
-    ITEM_DOES_NOT_EXIST: int = 601
-    COMPONENT_DOES_NOT_EXIST: int = 602
-    COMPONENT_PURCHASED: int = 603
-    ITEM_PURCHASED: int = 604
-    COMPONENT_ALREADY_COMPLETED: int = 605
-    ITEM_ALREADY_COMPLETED: int = 606
-    NOT_ENOUGH_CREDITS: int = 607
-    ITEM_INFO_FOUND: int = 608
-    ITEM_CLAIMED: int = 609
-    UNABLE_TO_CLAIM_ITEM: int = 610
-    ERROR_ADDING_CLAIMED_ITEM: int = 611
 
     def __init__(self) -> None:
         self.itemID: int = 0

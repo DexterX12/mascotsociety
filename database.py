@@ -46,5 +46,13 @@ class Database:
             if "itemHash" in item and item["itemHash"] == item_hash:
                 return item
         return {}
+    
+    def getNonBuyableItems(self) -> list[dict]:
+        non_buyable_items = []
+        for item in self.items:
+            if "properties" in item and "nonBuyable" in item["properties"]:
+                non_buyable_items.append(item)
+        
+        return non_buyable_items
 
 
