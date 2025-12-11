@@ -1,3 +1,4 @@
+import profile
 from ..utils.pets.types import AuditChange, AuditChangeBatch, RpcOwnedItem
 from ..constants import Actions
 from .. import profile_handler
@@ -9,15 +10,19 @@ def handle_audit(audit_batch:list[AuditChangeBatch]) -> None:
         for audit_changes in audit.auditChanges:
             handle_audit_action(audit_changes)
 
-def set_item_data(new_item:RpcOwnedItem, audit: AuditChange):
-    new_item.active = audit.active
-    new_item.containedType = audit.containedType
-    new_item.createTime = audit.createTime
-    new_item.message = audit.message
-    new_item.positionX = audit.positionX
-    new_item.positionY = audit.positionY
-    new_item.positionZ = audit.positionZ
-    new_item.roomIndex = audit.roomIndex
+def set_item_data(audit: AuditChange):
+    item_data = {}
+
+    item_data["active"] = audit.active
+    item_data["containedType"] = audit.containedType
+    item_data["createTime"] = audit.createTime
+    item_data["message"] = audit.message
+    item_data["positionX"] = audit.positionX
+    item_data["positionY"] = audit.positionY
+    item_data["positionZ"] = audit.positionZ
+    item_data["roomIndex"] = audit.roomIndex
+
+    return item_data
 
 
 def handle_audit_action(audit:AuditChange) -> None:
@@ -29,69 +34,53 @@ def handle_audit_action(audit:AuditChange) -> None:
     if audit.newItemId < 0:
         audit.newItemId *= -1
 
-    print(audit)
-
     if (action == Actions.SPAWN_ITEM or
         action == Actions.BUY_ITEM_COINS):
                     
         item_db = database_handler.findItemByToken(audit.token)
+        item_data = set_item_data(audit)
+        item_data["itemId"] = audit.newItemId
 
-        new_item = RpcOwnedItem()
-        new_item.itemId = audit.newItemId
+        # The hashing has to be done the same way as the AS3 script does it
+        item_data["itemHash"] = hashInt32(item_db["name"])
 
-        # THIS NEEDS TO BE HASHED THE SAME WAY AS THE CLIENT ACTIONSCRIPT HASH
-        new_item.itemHash = hashInt32(item_db["name"])
-
-        set_item_data(new_item, audit)
-
-        profile_handler.user.ownedItems.append(new_item)
+        profile_handler.create_item(item_data)
 
     if action == Actions.DELETE_ITEM:
-        item_pos = profile_handler.user.getItemIndexById(audit.itemId)
+        item_data = set_item_data(audit)
+        item_data["itemId"] = audit.itemId
 
-        if item_pos == -1:
-            print("Item not found with id = ", audit.itemId)
-            return
+        profile_handler.delete_item(item_data)
 
-        print("Deleting item with ID =", audit.itemId, "and hash =", profile_handler.user.ownedItems[item_pos].itemHash)
-        
-        profile_handler.user.ownedItems.pop(item_pos)
+        print("Deleting item with ID =", audit.itemId)
 
-    
     if action == Actions.SELL_ITEM:
-        item_pos = profile_handler.user.getItemIndexById(audit.itemId)
+        item_data = set_item_data(audit)
+        item_data["itemId"] = audit.itemId
 
-        if item_pos == -1:
-            print("Item not found with id = ", audit.itemId)
-            return
+        profile_handler.delete_item(item_data)
 
-        print("Selling item with ID =", audit.itemId, "and hash =", profile_handler.user.ownedItems[item_pos].itemHash)
-        
-        profile_handler.user.ownedItems.pop(item_pos)
+        print("Selling item with ID =", audit.itemId)
+
         profile_handler.user.credits = audit.newCredits
 
     
     if action == Actions.CHANGE_ITEM:
-        item_pos = profile_handler.user.getItemIndexById(audit.itemId)
-        if item_pos == -1: return
+        item_data = set_item_data(audit)
+        item_data["itemId"] = audit.itemId
 
-        updated_item = profile_handler.user.ownedItems[item_pos]
-
-        set_item_data(updated_item, audit)
+        profile_handler.update_item(item_data)
     
     if action == Actions.OPEN_ITEM:
+        item_data = set_item_data(audit)
+        item_data["itemId"] = audit.newItemId
+        item_data["itemHash"] = audit.itemHash
 
-        item_pos = profile_handler.user.getItemIndexById(audit.itemId)
-        if item_pos == -1: return
+        profile_handler.create_item(item_data)
 
-        new_item = RpcOwnedItem()
-        new_item.itemId = audit.newItemId
-        new_item.itemHash = audit.itemHash
-
-        set_item_data(new_item, audit)
-
-        profile_handler.user.ownedItems.append(new_item)
-        profile_handler.user.ownedItems.pop(item_pos)
+        profile_handler.delete_item({
+            "itemId": audit.itemId
+        })
 
         
 

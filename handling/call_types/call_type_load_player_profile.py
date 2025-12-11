@@ -12,6 +12,7 @@ def handle_load_player_profile(stream:InputDataStream, context={}) -> bytes:
     rpc_req = RpcRequest(response)
 
     profile_handler.detect_duplicates()
+    profile_handler.duplicate_cache = {}
 
     rpc_req.writeUintvar31(Events.LOAD_SUCCESS)
 

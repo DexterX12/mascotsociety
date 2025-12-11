@@ -1,11 +1,12 @@
 from pathlib import Path
-from typing import Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional, Union
 
 from .utils.pets.rpc_request import RpcRequest
 from .utils.datastream.output_data_stream import OutputDataStream
 from .utils.datastream.input_data_stream import InputDataStream
 from .utils.pets.rpc_response import RpcResponse
 from .utils.pets.user_info import UserInfo
+from .utils.pets.types import RpcOwnedItem
 
 class Profile:
     def __init__(self) -> None:
@@ -14,6 +15,9 @@ class Profile:
         self.user: Optional[UserInfo] = None
         self.friends: List[UserInfo] = []
         self.loaded_file: Optional[Path] = None
+
+        # if the client wants to create a duplicated ID, just map it to a new item
+        self.duplicate_cache: dict[int, int] = {}
 
     def load_from_file(self, file_path: Union[str, Path, bytes, bytearray]) -> None:
 
@@ -56,6 +60,146 @@ class Profile:
             item.itemId = max_item_id
             seen_ids.add(max_item_id)
 
+    def _getItemIndexById(self, itemId:int) -> int:
+        for i in range(len(self.user.ownedItems)):
+            if not self.user.ownedItems[i].itemId == itemId: continue
+            return i
+        return -1
+    
+    def _scoreItemsByProperties(self, item1:RpcOwnedItem, item2:RpcOwnedItem) -> int:
+        score = 0
+
+        if item1.itemHash and item2.itemHash and item1.itemHash == item2.itemHash:
+            score += 24
+
+        if item1.active == item2.active:
+            score += 16
+
+        if item1.roomIndex == item2.roomIndex:
+            score += 10
+        else:
+            score -= 5
+
+        # On most (and currently seen) cases, the item's position gives a lot
+        # of clues if the item to change is the correct one
+        if item1.positionX == item2.positionX:
+            score += 12
+        else:
+            score -= 24
+
+        if item1.positionY == item2.positionY:
+            score += 12
+        else:
+            score -= 24
+
+        if item1.positionZ == item2.positionZ:
+            score += 12
+        else:
+            score -= 24
+
+        if item1.containedType == item2.containedType:
+            score += 2
+
+        return score
+    
+    def _mapItem(self, item:RpcOwnedItem, data:dict[str, Any]) -> None:
+        if "itemId" in data:
+            item.itemId = data["itemId"]
+
+        if "itemHash" in data:
+            item.itemHash = data["itemHash"]
+        
+        if "active" in data:
+            item.active = data["active"]
+        
+        if "roomIndex" in data:
+            item.roomIndex = data["roomIndex"]
+        
+        if "positionX" in data:
+            item.positionX = data["positionX"]
+        
+        if "positionY" in data:
+            item.positionY = data["positionY"]
+        
+        if "positionZ" in data:
+            item.positionZ = data["positionZ"]
+        
+        if "containedType" in data:
+            item.containedType = data["containedType"]
+        
+        if "containedType2" in data:
+            item.containedItem2 = data["containedType2"]
+
+        if "containedItem" in data:
+            item.containedItem = data["containedItem"]
+        
+        if "containtedItem2" in data:
+            item.containedItem2 = data["containeditem2"]
+
+    def _selectItemToMutate(self, itemAudit: RpcOwnedItem) -> int:
+        if itemAudit.itemId in self.duplicate_cache.keys():
+            item_dup_index = self._getItemIndexById(self.duplicate_cache[itemAudit.itemId])
+            item_dup = self.user.ownedItems[item_dup_index]
+
+            item_orig_index = self._getItemIndexById(itemAudit.itemId)
+            item_orig = self.user.ownedItems[item_orig_index]
+
+            item_orig_score = self._scoreItemsByProperties(item_orig, itemAudit)
+            item_dup_score = self._scoreItemsByProperties(item_dup, itemAudit)
+
+            if item_orig_score > item_dup_score: return item_orig_index
+            else: return item_dup_index
+        else:
+            return self._getItemIndexById(itemAudit.itemId)
+    
+    def create_item(self, data:dict[str, Any]) -> RpcOwnedItem:
+        new_item = RpcOwnedItem()
+        max_id = max(item.itemId for item in self.user.ownedItems)
+
+        self._mapItem(new_item, data)
+
+        if "itemId" in data:
+            item_exists = self._getItemIndexById(data["itemId"]) != -1
+
+            if item_exists:
+                new_item_id = max_id + 1
+                self.duplicate_cache[data["itemId"]] = new_item_id
+                new_item.itemId = new_item_id
+        else:
+            new_item.itemId = max_id + 1
+        
+        self.user.ownedItems.append(new_item)
+
+        return new_item
+
+    def delete_item(self, data:dict[str, Any]) -> RpcOwnedItem:
+        item = RpcOwnedItem()
+        self._mapItem(item, data)
+
+        item_index = self._selectItemToMutate(item)
+
+        if item_index != self._getItemIndexById(item.itemId):
+            del self.duplicate_cache[item.itemId]
+
+        return self.user.ownedItems.pop(item_index)
+        
+
+
+    def update_item(self, data:dict[str, Any]) -> None:
+        item = RpcOwnedItem()
+        self._mapItem(item, data)
+
+        item_index = self._selectItemToMutate(item)
+
+        self.user.ownedItems[item_index].active = item.active
+        self.user.ownedItems[item_index].containedType = item.containedType
+        self.user.ownedItems[item_index].createTime = item.createTime
+        self.user.ownedItems[item_index].message = item.message
+        self.user.ownedItems[item_index].positionX = item.positionX
+        self.user.ownedItems[item_index].positionY = item.positionY
+        self.user.ownedItems[item_index].positionZ = item.positionZ
+        self.user.ownedItems[item_index].roomIndex = item.roomIndex
+        
     def save_file(self) -> None:
         if self.user is None or self.loaded_file is None:
             raise ValueError("Profile data is not loaded; cannot save.")

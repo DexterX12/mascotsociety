@@ -16,18 +16,16 @@ def handle_fishing_action(stream:InputDataStream, context={}) -> bytes:
         "baitItemId": rpc_res.readIntvar32()
     }
 
-    max_item_id = max(item.itemId for item in profile_handler.user.ownedItems)
-    bait_item_pos = profile_handler.user.getItemIndexById(fishing_data["baitItemId"])
-    caught_item = RpcOwnedItem()
-    caught_item.itemHash = fishing_data["fishItemHash"]
-    caught_item.itemId = max_item_id + 1
+    profile_handler.delete_item({
+        "itemId": fishing_data["baitItemId"],
+        "itemHash": fishing_data["baitItemHash"]
+    })
 
-    profile_handler.user.ownedItems.append(caught_item)
-    profile_handler.user.ownedItems.pop(bait_item_pos)
+    caught_item = profile_handler.create_item({
+        "itemHash": fishing_data["fishItemHash"]
+    })
 
     rpc_req.writeUintvar31(Events.FISHING_SUCCESS)
     rpc_req.writeIntvar32(caught_item.itemId)
-
-    print(fishing_data)
 
     return response.getvalue()

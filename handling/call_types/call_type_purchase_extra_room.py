@@ -19,12 +19,9 @@ def handle_purchase_extra_room(stream:InputDataStream) -> bytes:
     purchased_item = database_handler.findItemByToken(purchase_data["token"])
     profile_handler.cash -= int(purchased_item["cost"])
 
-    rpc_item = RpcOwnedItem()
-    max_item_id = max(item.itemId for item in profile_handler.user.ownedItems)
-    rpc_item.itemId = max_item_id + 1
-    rpc_item.itemHash = hashInt32(purchased_item["name"])
-
-    profile_handler.user.ownedItems.append(rpc_item)
+    profile_handler.create_item({
+        "itemHash" : hashInt32(purchased_item["name"])
+    })
     
     rpc_req.writeUintvar31(Events.PURCHASE_CASH_OK)
     rpc_req.writeUintvar31(profile_handler.cash)

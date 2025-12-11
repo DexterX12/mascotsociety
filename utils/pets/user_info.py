@@ -107,12 +107,6 @@ class UserInfo:
             if (profile_fields & flag) != flag:
                 return False
         return True
-        
-    def getItemIndexById(self, itemId:int) -> int:
-        for i in range(len(self.ownedItems)):
-            if not self.ownedItems[i].itemId == itemId: continue
-            return i
-        return -1
 
     def __str__(self) -> str:
         parts = [f"[UserInfo: id={self.id} profileClass={self.profileFields} unavailable={self.unavailable}"]

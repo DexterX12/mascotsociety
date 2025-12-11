@@ -17,24 +17,20 @@ def handle_purchase_cash_item(stream:InputDataStream, context={}) -> bytes:
         "wrapperToken": rpc_res.readString(),
         "token": rpc_res.readString(),
         "itemId": rpc_res.readIntvar32(),
-        "contaimedItemHash": rpc_res.readUintvar32()
+        "containedItemHash": rpc_res.readUintvar32()
     }
 
     purchased_item = database_handler.findItemByToken(purchase_data["token"])
     profile_handler.cash -= int(purchased_item["cost"])
 
-    rpc_item = RpcOwnedItem()
-    rpc_item.containedItem = purchase_data["contaimedItemHash"]
-    rpc_item.itemId = abs(purchase_data["itemId"])
-    rpc_item.itemHash = hashInt32(purchased_item["name"])
+    bought_item = profile_handler.create_item({
+        "itemId" : abs(purchase_data["itemId"]),
+        "itemHash" : hashInt32(purchased_item["name"]),
+        "containedItem": purchase_data["containedItemHash"]
+    })
 
-    # Manually pushing item
-    # Playfish currency is handled "carefully" server-side, probably idk
-
-    profile_handler.user.ownedItems.append(rpc_item)
-    
     rpc_req.writeUintvar31(Events.PURCHASE_CASH_OK)
     rpc_req.writeUintvar31(profile_handler.cash)
-    rpc_req.writeOwnedItem(rpc_item)
+    rpc_req.writeOwnedItem(bought_item)
 
     return response.getvalue()
