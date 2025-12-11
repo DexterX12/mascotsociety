@@ -358,6 +358,22 @@ class RpcResponse:
             "startTime": self._stream.readFloat64(),
             "endTime": self._stream.readFloat64(),
         }
+    
+    def readPurchaseDetails(self) -> Dict[str, Any]:
+        _ = self._stream
+        purchase_details = {
+            "wrapperToken": _.readString(),
+            "token": _.readString(),
+            "itemId": _.readIntvar32(),
+            "description": _.readString(),
+            "containedItemHash": _.readUintvar32(),
+            "positionX": _.readIntvar32(),
+            "positionY": _.readIntvar32(),
+            "positionZ": _.readIntvar32()
+        }
+
+        return purchase_details
+
 
     def mergeBuildQuestData(self, *sources: List[Any]) -> List[Any]:
         merged: List[Any] = []

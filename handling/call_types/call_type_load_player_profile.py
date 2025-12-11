@@ -11,6 +11,8 @@ def handle_load_player_profile(stream:InputDataStream, context={}) -> bytes:
     response = OutputDataStream()
     rpc_req = RpcRequest(response)
 
+    profile_handler.detect_duplicates()
+
     rpc_req.writeUintvar31(Events.LOAD_SUCCESS)
 
     user_info = profile_handler.user or UserInfo()

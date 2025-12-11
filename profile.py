@@ -29,14 +29,13 @@ class Profile:
         self.cash = response.readUintvar31()
         self.new_house_data = response.readNewHouseData()
         self.user = response.readUserInfo()
-        self._detect_duplicates()
         try:
             self.friends = response.readArray(response.readUserInfo)
         except (EOFError, ValueError):
             self.friends = []
 
     
-    def _detect_duplicates(self) -> None:
+    def detect_duplicates(self) -> None:
         if not self.user or not self.user.ownedItems:
             return
 

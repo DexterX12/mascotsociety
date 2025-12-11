@@ -171,17 +171,6 @@ class RpcRequest:
         self.writeNetworkUid(event.senderID)
         self._stream.writeString(event.eventData)
 
-    def writePurchaseDetails(self, details: Sequence[Any]) -> None:
-        s = self._stream
-        s.writeString(str(details[0]))
-        s.writeString(str(details[1]))
-        s.writeIntvar32(int(details[2]))
-        s.writeString(str(details[3]))
-        s.writeUintvar32(int(details[4]))
-        s.writeIntvar32(int(details[5]))
-        s.writeIntvar32(int(details[6]))
-        s.writeIntvar32(int(details[7]))
-
     def writeNetworkUid(self, uid: NetworkUid | None) -> None:
         s = self._stream
         if uid is None:

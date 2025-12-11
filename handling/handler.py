@@ -6,6 +6,7 @@ from .call_types.call_type_save_player_profile import handle_save_player_profile
 from .call_types.call_type_get_new_home_extra_rooms_data import handle_get_new_home_extra_rooms_data
 from .call_types.call_type_get_users_via_profile_fields import handle_get_users_via_profile_fields
 from .call_types.call_type_purchase_cash_item import handle_purchase_cash_item
+from .call_types.call_type_purchase_multiple_cash_or_coin_items import handle_purchase_multiple_cash_or_coin_items
 from .call_types.call_type_purchase_mystery_box import handle_purchase_mystery_box
 from .call_types.call_type_get_cafe_users import handle_get_cafe_users
 from .call_types.call_type_redeem_voucher import handle_redeem_voucher
@@ -92,6 +93,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     elif msg_type == CallTypes.CALL_TYPE_PURCHASE_CASH_ITEM:
         return handle_purchase_cash_item(stream)
     
+    elif msg_type == CallTypes.CALL_TYPE_PURCHASE_MULTIPLE_CASH_OR_COIN_ITEMS:
+        return handle_purchase_multiple_cash_or_coin_items(stream)
+    
     elif msg_type == CallTypes.CALL_TYPE_PURCHASE_EXTRA_ROOM:
         return handle_purchase_extra_room(stream)
 
@@ -118,6 +122,7 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     
     elif msg_type == CallTypes.CALL_TYPE_HANDLE_FISHING_ACTION:
         return handle_fishing_action(stream)
+
     else:
         print(command_name, " is an existing but unhandled request!")
         print("Skipping...")
