@@ -22,7 +22,7 @@ def handle_purchase_mystery_box(stream:InputDataStream) -> bytes:
         "amount": rpc_res.readUintvar31()
     }
 
-    purchased_item = database_handler.findItemByToken(purchase_data["token"])
+    purchased_item = database_handler.find_item_by_token(purchase_data["token"])
 
     if not purchased_item:
         print("Purchased item has not been found by its token. Token =",purchase_data["token"])

@@ -13,6 +13,7 @@ from .types import (
     FeedLinkRecipient,
     RpcCounterEvent,
     RpcOwnedItem,
+    RpcQuestReward,
     RpcQuestTracker,
 )
 from .user_info import UserInfo
@@ -156,6 +157,16 @@ class RpcRequest:
         if info.isDailyBonusEnabled:
             s.writeBoolean(info.canClaimDailyBonus)
             s.writeUint8(info.dailyBonusDay)
+
+    def writeQuestReward(self, reward: RpcQuestReward) -> None:
+        s = self._stream
+        
+        s.writeUintvar31(reward.coins);
+        s.writeUintvar31(reward.itemId);
+        s.writeUintvar32(reward.itemHash);
+        s.writeUintvar31(reward.containedType);
+        s.writeUintvar32(reward.containedItem);
+        s.writeUintvar31(reward.xp);
 
     def writeVersionArray(self, version: int, values: Sequence[Any], writer: Callable[[Any], None]) -> None:
         self._stream.writeUintvar31(version)

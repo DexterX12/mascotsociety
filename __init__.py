@@ -11,5 +11,3 @@ save_path = os.path.dirname(__file__)
 for _file in os.listdir(save_path):
     if _file.startswith("profile"):
         profile_handler.load_from_file(os.path.join(save_path, Path(f"./{_file}")))
-
-

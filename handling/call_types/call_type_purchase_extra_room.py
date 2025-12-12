@@ -16,7 +16,7 @@ def handle_purchase_extra_room(stream:InputDataStream) -> bytes:
         "token": rpc_res.readString()
     }
 
-    purchased_item = database_handler.findItemByToken(purchase_data["token"])
+    purchased_item = database_handler.find_item_by_token(purchase_data["token"])
     profile_handler.cash -= int(purchased_item["cost"])
 
     profile_handler.create_item({

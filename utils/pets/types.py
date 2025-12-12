@@ -248,6 +248,15 @@ class RpcWeeklyQuest:
                 f"subQuestID: {key}, value: {self._subQuestData[key]}, reward = {self._subQuestRewards.get(key)}"
             )
         return " ".join(parts)
+    
+@dataclass
+class RpcQuestReward:
+    coins: int = 0
+    itemId: int = 0
+    itemHash: int = 0
+    containedType: int = 0
+    containedItem: int = 0
+    xp: int = 0
 
 
 @dataclass

@@ -34,10 +34,12 @@ def handle_audit_action(audit:AuditChange) -> None:
     if audit.newItemId < 0:
         audit.newItemId *= -1
 
+    print(audit)
+
     if (action == Actions.SPAWN_ITEM or
         action == Actions.BUY_ITEM_COINS):
                     
-        item_db = database_handler.findItemByToken(audit.token)
+        item_db = database_handler.find_item_by_token(audit.token)
         item_data = set_item_data(audit)
         item_data["itemId"] = audit.newItemId
 

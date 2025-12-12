@@ -26,7 +26,7 @@ def handle_purchase_multiple_cash_or_coin_items(stream:InputDataStream) -> bytes
 
     for i in range(len(item_group)):
         for item in item_group[i]:
-            purchased_item = database_handler.findItemByToken(item["token"])
+            purchased_item = database_handler.find_item_by_token(item["token"])
 
             new_rpc_item = profile_handler.create_item({
                 "itemId": abs(item["itemId"]),

@@ -20,7 +20,7 @@ def handle_purchase_cash_item(stream:InputDataStream, context={}) -> bytes:
         "containedItemHash": rpc_res.readUintvar32()
     }
 
-    purchased_item = database_handler.findItemByToken(purchase_data["token"])
+    purchased_item = database_handler.find_item_by_token(purchase_data["token"])
     profile_handler.cash -= int(purchased_item["cost"])
 
     bought_item = profile_handler.create_item({

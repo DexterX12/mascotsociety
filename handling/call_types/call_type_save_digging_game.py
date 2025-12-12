@@ -31,12 +31,12 @@ def handle_save_digging_game(stream:InputDataStream) -> bytes:
         map_treasures = Treasure.MAPPING[digging_details["mapId"]]
 
         if len(map_treasures) == 0:
-            map_treasures = database_handler.getNonBuyableItems()
+            map_treasures = database_handler.get_non_buyable_items()
             reward_name = choice(map_treasures)["name"]
         else:
             reward_name = choice(map_treasures)
             
-        reward_data = database_handler.findItemByName(reward_name)
+        reward_data = database_handler.find_item_by_name(reward_name)
 
         reward_item = profile_handler.create_item({
             "itemHash": reward_data["itemHash"],

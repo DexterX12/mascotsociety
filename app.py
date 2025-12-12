@@ -3,7 +3,6 @@ from io import BytesIO
 from .utils.datastream.input_data_stream import InputDataStream
 from .handling.handler import handle_message
 from .constants import Server
-from . import database_handler
 import logging
 import os
 from pathlib import Path
@@ -43,8 +42,5 @@ def handle_rpc():
         return "Error", 500
 
 if __name__ == '__main__':
-
-    # run() method of Flask class runs the application 
-    # on the local development server.
     app.run(port=Server.LISTENING_PORT)
     

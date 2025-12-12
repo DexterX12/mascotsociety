@@ -14,7 +14,7 @@ def handle_exchange_cash_for_coins(stream:InputDataStream) -> bytes:
         "token": rpc_res.readString()
     }
 
-    purchased_coinbag = database_handler.findItemByToken(purchase_data["token"])
+    purchased_coinbag = database_handler.find_item_by_token(purchase_data["token"])
     profile_handler.cash -= int(purchased_coinbag["cost"])
     profile_handler.user.credits += int(purchased_coinbag["sellValue"])
     
