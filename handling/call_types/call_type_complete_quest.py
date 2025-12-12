@@ -61,7 +61,6 @@ def handle_complete_quest(stream:InputDataStream) -> bytes:
         complete_reward.containedItem = created_reward.containedItem
 
         rpc_req.writeQuestReward(complete_reward)
-        print(complete_reward)
     else:
         rpc_req.writeQuestReward(RpcQuestReward())
 

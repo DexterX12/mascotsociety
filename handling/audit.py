@@ -1,6 +1,5 @@
-import profile
-from ..utils.pets.types import AuditChange, AuditChangeBatch, RpcOwnedItem
-from ..constants import Actions
+from ..utils.pets.types import AuditChange, AuditChangeBatch
+from ..constants import Actions, Recipes
 from .. import profile_handler
 from .. import database_handler
 from ..utils.hash import hashInt32
@@ -84,6 +83,31 @@ def handle_audit_action(audit:AuditChange) -> None:
             "itemId": audit.itemId
         })
 
+    if action == Actions.FINISH_COOKING:
+        item_data = set_item_data(audit)
+        item_data["itemId"] = audit.newItemId
+        item_data["itemHash"] = audit.itemHash
+
+        profile_handler.create_item(item_data)
+
+        profile_handler.update_item({
+            "itemId": audit.itemId,
+            "containedType": 0,
+            "containedItem": 0,
+            "createTime": None
+        })
+
+        # Since the game does not send delete actions
+        # for some reason after cooking, manually delete
+        # all cooking items from current recipe
+
+        cooking_items = Recipes.MATERIALS_MAPPING[Recipes.HASHES.index(audit.itemHash)]
+
+        for cooking_item_hash in cooking_items:
+            profile_handler.delete_item({
+                "itemId": -1,
+                "itemHash": cooking_item_hash
+            })
         
 
     

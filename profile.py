@@ -66,6 +66,12 @@ class Profile:
             return i
         return -1
     
+    def _getItemIndexByHash(self, itemHash:int) -> int:
+        for i in range(len(self.user.ownedItems)):
+            if not self.user.ownedItems[i].itemHash == itemHash: continue
+            return i
+        return -1
+    
     def _scoreItemsByProperties(self, item1:RpcOwnedItem, item2:RpcOwnedItem) -> int:
         score = 0
 
@@ -136,6 +142,9 @@ class Profile:
         if "containtedItem2" in data:
             item.containedItem2 = data["containeditem2"]
 
+        if "createTime" in data:
+            item.createTime = data["createTime"]
+
     def _selectItemToMutate(self, itemAudit: RpcOwnedItem) -> int:
         if itemAudit.itemId in self.duplicate_cache.keys():
             item_dup_index = self._getItemIndexById(self.duplicate_cache[itemAudit.itemId])
@@ -150,7 +159,14 @@ class Profile:
             if item_orig_score > item_dup_score: return item_orig_index
             else: return item_dup_index
         else:
-            return self._getItemIndexById(itemAudit.itemId)
+            itemId = self._getItemIndexById(itemAudit.itemId)
+
+            if itemId != -1:
+                return itemId
+
+            # what if no itemId is provided? (delete by Hash)
+            return self._getItemIndexByHash(itemAudit.itemHash)
+
     
     def create_item(self, data:dict[str, Any]) -> RpcOwnedItem:
         new_item = RpcOwnedItem()
@@ -178,28 +194,31 @@ class Profile:
 
         item_index = self._selectItemToMutate(item)
 
-        if item_index != self._getItemIndexById(item.itemId):
+        if item_index != self._getItemIndexById(item.itemId) and item.itemId != -1:
             del self.duplicate_cache[item.itemId]
 
         return self.user.ownedItems.pop(item_index)
         
-
-
     def update_item(self, data:dict[str, Any]) -> None:
         item = RpcOwnedItem()
         self._mapItem(item, data)
+        item_index = 0
 
-        item_index = self._selectItemToMutate(item)
+        # This assumes duplicate ID data do not come
+        # from updating outside of audits, only creating
+        #
+        # This is important due to not having to re-fill
+        # existing items manually
 
-        self.user.ownedItems[item_index].active = item.active
-        self.user.ownedItems[item_index].containedType = item.containedType
-        self.user.ownedItems[item_index].createTime = item.createTime
-        self.user.ownedItems[item_index].message = item.message
-        self.user.ownedItems[item_index].positionX = item.positionX
-        self.user.ownedItems[item_index].positionY = item.positionY
-        self.user.ownedItems[item_index].positionZ = item.positionZ
-        self.user.ownedItems[item_index].roomIndex = item.roomIndex
+        if "audit" in data and data["audit"] == False: 
+            item_index = self._getItemIndexById(data["itemId"])
+        else:
+            item_index = self._selectItemToMutate(item)
+
+        item = self.user.ownedItems[item_index]
+        self._mapItem(item, data)
         
+
     def save_file(self) -> None:
         if self.user is None or self.loaded_file is None:
             raise ValueError("Profile data is not loaded; cannot save.")

@@ -144,15 +144,6 @@ class RpcCollaborativeBuildItem:
 
 
 class RpcMiniGame:
-    MINI_GAME_DATA_DOES_NOT_EXIST: int = 6000
-    MINI_GAME_DATA_PURCHASED: int = 6001
-    MINI_GAME_DATA_INFO_FOUND: int = 6002
-    MINI_GAME_ERROR_ADDING_DATA: int = 6003
-    MINI_GAME_DATA_ERROR: int = 6004
-    MINI_GAME_DATA_NOT_ENOUGH_CREDITS: int = 6005
-    MINI_GAME_DATA_SAVED: int = 6006
-    MINI_GAME_DATA_NOT_ENOUGH_GAME_SPECIFIC_CASH: int = 5906
-
     def __init__(self) -> None:
         self.gameID: int = 0
         self.triesLeft: int = 0
@@ -172,19 +163,6 @@ class RpcMiniGame:
 
 
 class RpcDIYBuildItem:
-    DIY_ITEM_DOES_NOT_EXIST: int = 5900
-    DIY_COMPONENT_DOES_NOT_EXIST: int = 5901
-    DIY_COMPONENT_PURCHASED: int = 5902
-    DIY_ITEM_PURCHASED: int = 5903
-    DIY_COMPONENT_ALREADY_COMPLETED: int = 5904
-    DIY_ITEM_ALREADY_COMPLETED: int = 5905
-    DIY_NOT_ENOUGH_CREDITS: int = 5906
-    DIY_ITEM_INFO_FOUND: int = 5907
-    DIY_ITEM_CLAIMED: int = 5908
-    DIY_UNABLE_TO_CLAIM_ITEM: int = 5909
-    DIY_ERROR_ADDING_CLAIMED_ITEM: int = 5910
-    DIY_ERROR: int = 5911
-
     def __init__(self) -> None:
         self.itemID: int = 0
         self._componentCount: Dict[str, float] = {}
@@ -203,21 +181,6 @@ class RpcDIYBuildItem:
 
 
 class RpcWeeklyQuest:
-    PETS_QUEST_DATA_DOES_NOT_EXIST: int = 6010
-    PETS_QUEST_DATA_PURCHASED: int = 6011
-    PETS_QUEST_DATA_INFO_FOUND: int = 6012
-    PETS_QUEST_ERROR_ADDING_DATA: int = 6013
-    PETS_QUEST_DATA_ERROR: int = 6014
-    PETS_QUEST_DATA_NOT_ENOUGH_CREDITS: int = 6015
-    PETS_QUEST_ACTIVITY_SAVED: int = 6016
-    PETS_QUEST_STAGE_SAVED: int = 6017
-    PETS_SUBQUEST_DATA_DOES_NOT_EXIST: int = 6018
-    PETS_QUEST_UNABLE_TO_CLAIM_ITEM: int = 6019
-    PETS_QUEST_ITEM_CLAIMED: int = 6020
-    PETS_QUSET_ERROR_ADDING_CLAIMED_ITEM: int = 6021
-    PETS_QUEST_ACTIVITY_PURCHASED: int = 6024
-    PETS_QUEST_GRACE_HOURS_ADDED: int = 6025
-
     def __init__(self) -> None:
         self.questID: int = 0
         self.reward: int = 0

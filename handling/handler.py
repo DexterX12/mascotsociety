@@ -17,6 +17,7 @@ from .call_types.call_type_reset_map import handle_reset_map
 from .call_types.call_type_save_digging_game import handle_save_digging_game
 from .call_types.call_type_get_collaborative_build_items import handle_get_collaborative_build_items
 from .call_types.call_type_complete_quest import handle_complete_quest
+from .call_types.call_type_cook_recipe import handle_cook_recipe
 
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
@@ -138,6 +139,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     
     elif msg_type == CallTypes.CALL_TYPE_COMPLETE_QUEST:
         return handle_complete_quest(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_COOK_RECIPE:
+        return handle_cook_recipe(stream)
 
     else:
         print(command_name, " is an existing but unhandled request!")
