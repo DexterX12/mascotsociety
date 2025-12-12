@@ -5,8 +5,12 @@ from .handling.handler import handle_message
 from .constants import Server
 from . import database_handler
 import logging
+import os
+from pathlib import Path
 
-app = Flask(__name__, static_folder="./static", static_url_path="/", template_folder="static")
+static_path = os.path.join(os.path.dirname(__file__), Path("./static"))
+
+app = Flask(__name__, static_folder=static_path, static_url_path="/", template_folder=static_path)
 logging.getLogger('werkzeug').disabled = True
 
 @app.route("/", methods=["GET"])
@@ -37,9 +41,6 @@ def handle_rpc():
         import traceback
         traceback.print_exc()
         return "Error", 500
-    
-with app.app_context():
-    database_handler.load()
 
 if __name__ == '__main__':
 

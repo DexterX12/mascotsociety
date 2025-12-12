@@ -2,10 +2,11 @@ import os
 import zlib
 from xml.etree import ElementTree
 from .utils.hash import hashInt32
+from pathlib import Path
 
 class Database:
     def __init__(self) -> None:
-        self._db_path:str = os.path.join(os.path.dirname(__file__), "static/assets/YMtWIOks1W")
+        self._db_path:str = os.path.join(os.path.dirname(__file__), Path("./static/assets/YMtWIOks1W"))
         self.items:list[dict] = []
         self.redeemable:list[dict] = []
 
