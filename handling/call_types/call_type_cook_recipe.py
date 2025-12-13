@@ -27,7 +27,5 @@ def handle_cook_recipe(stream:InputDataStream) -> bytes:
         "containedItem": Recipes.HASHES[recipe_details["recipeId"]]
     })
 
-    print(recipe_details)
-
     rpc_req.writeUintvar31(Events.START_CRAFTING_STATUS_OK)
     return response.getvalue()

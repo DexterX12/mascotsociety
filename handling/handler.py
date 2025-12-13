@@ -22,6 +22,7 @@ from .call_types.call_type_buy_collaborative_item import handle_buy_collaborativ
 from .call_types.call_type_complete_quest import handle_complete_quest
 from .call_types.call_type_cook_recipe import handle_cook_recipe
 from .call_types.call_type_claim_collaborative_item import handle_claim_collaborative_item
+from .call_types.call_type_purchase_plot_extension import handle_purchase_plot_extension
 
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
@@ -104,6 +105,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     
     elif msg_type == CallTypes.CALL_TYPE_PURCHASE_MULTIPLE_CASH_OR_COIN_ITEMS:
         return handle_purchase_multiple_cash_or_coin_items(stream)
+
+    elif msg_type == CallTypes.CALL_TYPE_PURCHASE_PLOT_EXTENSION:
+        return handle_purchase_plot_extension(stream)
     
     elif msg_type == CallTypes.CALL_TYPE_PURCHASE_EXTRA_ROOM:
         return handle_purchase_extra_room(stream)
