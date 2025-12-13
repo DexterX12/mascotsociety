@@ -15,6 +15,7 @@ from .types import (
     RpcOwnedItem,
     RpcQuestReward,
     RpcQuestTracker,
+    RpcCollaborativeBuildItem
 )
 from .user_info import UserInfo
 
@@ -167,6 +168,17 @@ class RpcRequest:
         s.writeUintvar31(reward.containedType);
         s.writeUintvar32(reward.containedItem);
         s.writeUintvar31(reward.xp);
+
+    def writeCollaborativeBuildItem(self, item: RpcCollaborativeBuildItem) -> None:
+        s = self._stream
+        s.writeUintvar31(1)
+        s.writeBoolean(False)
+        s.writeUintvar32(item.itemID)
+        components = sorted(item.iterComponentCounts(), key=lambda pair: pair[0])
+        s.writeUintvar31(len(components))
+        for component_id, count in components:
+            s.writeUintvar32(component_id)
+            s.writeUintvar31(count)
 
     def writeVersionArray(self, version: int, values: Sequence[Any], writer: Callable[[Any], None]) -> None:
         self._stream.writeUintvar31(version)

@@ -107,23 +107,6 @@ class DailyBonusInfo:
     canClaimDailyBonus: bool = False
     dailyBonusDay: int = 0
 
-@dataclass
-class LimitedItem:
-    itemHash: int = 0
-    amountSold: int = 0
-    amountForSale: int = 0
-    soldDate: Optional[datetime] = None
-    dailyPurchaseLimit: int = 0
-    isCashItem: bool = False
-
-    def __str__(self) -> str:
-        return (
-            "LimitedItem: itemHash: {self.itemHash}, amountSold: {self.amountSold}, "
-            "amountForSale: {self.amountForSale}, soldDate: {self.soldDate}, "
-            "isCashItem: {self.isCashItem}, dailyPurchaseLimit: {self.dailyPurchaseLimit}"
-        ).format(self=self)
-
-
 class RpcCollaborativeBuildItem:
 
     def __init__(self) -> None:
@@ -136,81 +119,15 @@ class RpcCollaborativeBuildItem:
     def getCount(self, component_id: int) -> int:
         return self._componentCount.get(str(component_id), 0)
 
-    def __str__(self) -> str:
-        parts = [f"CollaborativeItem: itemID: {self.itemID}"]
+    def iterComponentCounts(self):
         for key, value in self._componentCount.items():
-            parts.append(f"comp: {key}, count: {value}")
-        return "\n".join(parts)
-
-
-class RpcMiniGame:
-    def __init__(self) -> None:
-        self.gameID: int = 0
-        self.triesLeft: int = 0
-        self._elementData: Dict[str, float] = {}
-
-    def setElementValue(self, element_id: int, value: float) -> None:
-        self._elementData[str(element_id)] = float(value)
-
-    def getElementValue(self, element_id: int) -> float:
-        return self._elementData.get(str(element_id), 0.0)
-
-    def __str__(self) -> str:
-        parts = [f"MiniGame: itemID: {self.gameID}"]
-        for key, value in self._elementData.items():
-            parts.append(f"element: {key}, value: {value}")
-        return "\n".join(parts)
-
-
-class RpcDIYBuildItem:
-    def __init__(self) -> None:
-        self.itemID: int = 0
-        self._componentCount: Dict[str, float] = {}
-
-    def setTimeStamp(self, component_id: int, value: float) -> None:
-        self._componentCount[str(component_id)] = float(value)
-
-    def getTimeStamp(self, component_id: int) -> float:
-        return self._componentCount.get(str(component_id), 0.0)
+            yield int(key), int(value)
 
     def __str__(self) -> str:
         parts = [f"CollaborativeItem: itemID: {self.itemID}"]
         for key, value in self._componentCount.items():
             parts.append(f"comp: {key}, count: {value}")
         return "\n".join(parts)
-
-
-class RpcWeeklyQuest:
-    def __init__(self) -> None:
-        self.questID: int = 0
-        self.reward: int = 0
-        self.graceHours: int = 0
-        self._subQuestData: Dict[str, int] = {}
-        self._subQuestRewards: Dict[str, str] = {}
-
-    def setSubQuestInfo(self, subquest_id: int, value: int) -> None:
-        self._subQuestData[str(subquest_id)] = int(value)
-
-    def setSubQuestReward(self, subquest_id: int, reward: str) -> None:
-        self._subQuestRewards[str(subquest_id)] = reward
-
-    def getSubQuestInfo(self, subquest_id: int) -> int:
-        return self._subQuestData.get(str(subquest_id), 0)
-
-    def getSubQuestReward(self, subquest_id: int) -> str:
-        return self._subQuestRewards.get(str(subquest_id), "")
-
-    def __str__(self) -> str:
-        parts = [
-            f"WeeklyQuest: ID: {self.questID}",
-            f", reward : {self.reward}",
-            f", graceHours : {self.graceHours}",
-        ]
-        for key in self._subQuestData:
-            parts.append(
-                f"subQuestID: {key}, value: {self._subQuestData[key]}, reward = {self._subQuestRewards.get(key)}"
-            )
-        return " ".join(parts)
     
 @dataclass
 class RpcQuestReward:

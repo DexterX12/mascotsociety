@@ -38,6 +38,7 @@ class Treasure:
 
     MAPPING = {
         1: TOWN_FOREST,
+        2: ENCHANTED_FOREST,
         3: ANCIENT_EGYPT,
         4: DEEP_OCEAN,
         5: THE_MOON,

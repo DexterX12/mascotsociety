@@ -9,17 +9,11 @@ from .types import (
     AuditChangeBatch,
     FeedLink,
     FeedLinkRecipient,
-    LimitedItem,
-    RpcCollaborativeBuildItem,
-    RpcDIYBuildItem,
-    RpcMiniGame,
     RpcOwnedItem,
     RpcQuestTracker,
     RpcRewardTracker,
-    RpcWeeklyQuest,
 )
 from .user_info import UserInfo
-
 
 class RpcResponse:
     """Helper methods to read bytes regarding user data"""
@@ -217,19 +211,6 @@ class RpcResponse:
         recipient.clickedDate = self._stream.readDate()
         return recipient
 
-    def readLimitedItem(self) -> Optional[LimitedItem]:
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        item = LimitedItem()
-        item.itemHash = self._stream.readUintvar32()
-        item.amountSold = self._stream.readUintvar31()
-        item.amountForSale = self._stream.readUintvar31()
-        item.soldDate = self._stream.readDate()
-        item.dailyPurchaseLimit = self._stream.readUintvar31()
-        item.isCashItem = self._stream.readBoolean()
-        return item
-
     def readNewHouseData(self) -> Optional[Dict[str, Any]]:
         _ = self._stream.readUintvar31()
         is_null = self._read_relaxed_boolean(default=False)
@@ -240,20 +221,6 @@ class RpcResponse:
             "cashGardensCount": self._stream.readUintvar31(),
             "itemHash": self._stream.readUintvar32(),
         }
-
-    def readCollaborativeBuildItem(self) -> Optional[RpcCollaborativeBuildItem]:
-        _ = self._stream.readUintvar31()
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        item = RpcCollaborativeBuildItem()
-        item.itemID = self._stream.readUintvar32()
-        count = self._stream.readUintvar31()
-        for _ in range(count):
-            component_id = self._stream.readUintvar32()
-            component_count = self._stream.readUintvar31()
-            item.setCount(component_id, component_count)
-        return item
 
     def readDailyBonusInformation(self) -> Dict[str, int]:
         return {
@@ -266,99 +233,6 @@ class RpcResponse:
             "questCollectable": self._stream.readUintvar31(),
         }
 
-    def readMiniGameItem(self) -> Optional[RpcMiniGame]:
-        _ = self._stream.readUintvar31()
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        mini_game = RpcMiniGame()
-        mini_game.gameID = self._stream.readUintvar32()
-        mini_game.triesLeft = self._stream.readUintvar32()
-        count = self._stream.readUintvar31()
-        for _ in range(count):
-            element_id = self._stream.readUintvar32()
-            value = self._stream.readUintvar32()
-            mini_game.setElementValue(element_id, value)
-        return mini_game
-
-    def readDIYBuildItem(self) -> Optional[RpcDIYBuildItem]:
-        _ = self._stream.readUintvar31()
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        diy_item = RpcDIYBuildItem()
-        diy_item.itemID = self._stream.readUintvar32()
-        count = self._stream.readUintvar31()
-        for _ in range(count):
-            component_id = self._stream.readUintvar32()
-            timestamp = self._stream.readFloat64()
-            diy_item.setTimeStamp(component_id, timestamp)
-        return diy_item
-
-    def readWeeklyQuestData(self) -> Optional[RpcWeeklyQuest]:
-        _ = self._stream.readUintvar31()
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        quest = RpcWeeklyQuest()
-        quest.questID = self._stream.readUintvar32()
-        quest.reward = self._stream.readUintvar32()
-        quest.graceHours = self._stream.readUintvar32()
-        return quest
-
-    def readQuestActivityData(self) -> Optional[Dict[str, Any]]:
-        _ = self._stream.readUintvar31()
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        return {
-            "questID": self._stream.readUintvar32(),
-            "subQuestID": self._stream.readUintvar32(),
-            "count": self._stream.readUintvar32(),
-            "reward": self._stream.readString(),
-        }
-
-    def readBuilderQuestActivity(self) -> Optional[Dict[str, Any]]:
-        _ = self._stream.readUintvar31()
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        quest_data: Dict[str, Any] = {}
-        quest_data["questID"] = self._stream.readUintvar32()
-        quest_data["activityID"] = self._stream.readUintvar32()
-        collectable = BuilderCollectable()
-        collectable.id = self._stream.readUintvar32()
-        collectable.currentCount = self._stream.readUintvar32()
-        quest_data["activityStatus"] = self._stream.readUintvar32()
-        collectable.requestDate = self._stream.readDate()
-        collectable.activityStatus = quest_data["activityStatus"]
-        quest_data["collectable"] = collectable
-        return quest_data
-
-    def readBuilderQuestData(self) -> Optional[Dict[str, Any]]:
-        _ = self._stream.readUintvar31()
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        return {
-            "questID": self._stream.readUintvar32(),
-            "reward": self._stream.readUintvar32(),
-            "graceHours": self._stream.readUintvar32(),
-        }
-
-    def readBuildProgressData(self) -> Optional[Dict[str, Any]]:
-        _ = self._stream.readUintvar31()
-        is_null = self._stream.readBoolean()
-        if is_null:
-            return None
-        return {
-            "questID": self._stream.readUintvar32(),
-            "activityID": self._stream.readUintvar32(),
-            "collectableID": self._stream.readUintvar32(),
-            "startTime": self._stream.readFloat64(),
-            "endTime": self._stream.readFloat64(),
-        }
-    
     def readPurchaseDetails(self) -> Dict[str, Any]:
         _ = self._stream
         purchase_details = {

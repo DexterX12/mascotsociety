@@ -7,13 +7,20 @@ from pathlib import Path
 class Database:
     def __init__(self) -> None:
         self._db_path:str = os.path.join(os.path.dirname(__file__), Path("./static/assets/YMtWIOks1W"))
+        self._collaborative_path:str = os.path.join(os.path.dirname(__file__), Path("./static/assets/A5Ktfpl8gu"))
         self.items:list[dict] = []
+        self.collaborative_items:dict[int, list] = {}
 
     def load(self) -> None:
         with open(self._db_path, "rb") as f:
             decompressed = zlib.decompress(f.read())
             xml_root = ElementTree.fromstring(decompressed.decode('utf-8'))
             self._populateItems(xml_root)
+
+        with open(self._collaborative_path, "rb") as f:
+            decompressed = zlib.decompress(f.read())
+            xml_root = ElementTree.fromstring(decompressed.decode('utf-8'))
+            self._populateCollaborative(xml_root)
     
     def _populateItems(self, root=None) -> None:
         if root is None:
@@ -28,6 +35,21 @@ class Database:
                     child.attrib["itemHash"] = hashInt32(child.attrib["name"])
 
                 self.items.append(child.attrib)
+
+    def _populateCollaborative(self, root=None) -> None:
+        if root is None:
+            return
+
+        for child in root:
+            if not root.tag == "item":
+                self._populateCollaborative(child)
+            else:
+                item_hash = int(root.attrib["itemHash"])
+                component_id = int(child.attrib["id"])
+                if not item_hash in self.collaborative_items:
+                    self.collaborative_items[item_hash] = []
+
+                self.collaborative_items[item_hash].append(component_id)
 
     def find_item_by_token(self, token:str) -> dict:
         for item in self.items:

@@ -1,3 +1,4 @@
+from ast import Call
 from datetime import datetime, timezone
 
 from .call_types.call_type_init import handle_init
@@ -16,8 +17,11 @@ from .call_types.call_type_handle_fishing_action import handle_fishing_action
 from .call_types.call_type_reset_map import handle_reset_map
 from .call_types.call_type_save_digging_game import handle_save_digging_game
 from .call_types.call_type_get_collaborative_build_items import handle_get_collaborative_build_items
+from .call_types.call_type_get_collaborative_items import handle_get_collaborative_items
+from .call_types.call_type_buy_collaborative_item import handle_buy_collaborative_item
 from .call_types.call_type_complete_quest import handle_complete_quest
 from .call_types.call_type_cook_recipe import handle_cook_recipe
+from .call_types.call_type_claim_collaborative_item import handle_claim_collaborative_item
 
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
@@ -136,6 +140,15 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     
     elif msg_type == CallTypes.CALL_TYPE_GET_COLLABORATIVE_BUILD_ITEMS:
         return handle_get_collaborative_build_items(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_GET_COLLABORATIVE_ITEMS:
+        return handle_get_collaborative_items(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_BUY_COLLABORATIVE_ITEM:
+        return handle_buy_collaborative_item(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_CLAIM_COLLABORATIVE_ITEM:
+        return handle_claim_collaborative_item(stream)
     
     elif msg_type == CallTypes.CALL_TYPE_COMPLETE_QUEST:
         return handle_complete_quest(stream)

@@ -231,4 +231,4 @@ class Profile:
         user_data.writeUserInfo(self.user)
         user_data.writeArray(self.friends, user_data.writeUserInfo)
 
-        self.loaded_file.write_bytes(user_data.getvalue())
+        #self.loaded_file.write_bytes(user_data.getvalue())
