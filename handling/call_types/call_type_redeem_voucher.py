@@ -1,4 +1,3 @@
-import profile
 from ...utils.datastream.output_data_stream import OutputDataStream
 from ...utils.pets.rpc_request import RpcRequest
 from ...utils.pets.rpc_response import InputDataStream, RpcResponse
@@ -6,7 +5,6 @@ from ... import profile_handler
 from ... import database_handler
 from ...constants import Events
 from ...constants.mystery import Redeemable
-from ...utils.pets.types import RpcOwnedItem
 
 def handle_redeem_voucher(stream:InputDataStream) -> bytes:
     response = OutputDataStream()
@@ -18,7 +16,7 @@ def handle_redeem_voucher(stream:InputDataStream) -> bytes:
     itemContainedType = []
     itemContainedType2 = []
 
-    item_id = abs(rpc_res.readIntvar32())
+    item_id = abs(rpc_res.readIntvar32()) # <- sometimes it is a NON voucher item :/
     
     voucher_owned_item = profile_handler.delete_item({
         "itemId": item_id

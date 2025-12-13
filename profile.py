@@ -145,6 +145,15 @@ class Profile:
         if "createTime" in data:
             item.createTime = data["createTime"]
 
+        if "message" in data:
+            item.message = data["message"]
+
+        if "containedAmount" in data:
+            item.containedAmount = data["containedAmount"]
+
+        if "sender" in data:
+            item.sender = data["sender"]
+
     def _selectItemToMutate(self, itemAudit: RpcOwnedItem) -> int:
         if itemAudit.itemId in self.duplicate_cache.keys():
             item_dup_index = self._getItemIndexById(self.duplicate_cache[itemAudit.itemId])

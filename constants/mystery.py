@@ -1128,6 +1128,8 @@ class Redeemable:
 
     VAMPIRE_BOY_OUTFIT_BUNDLE = ["Vampire Boy Cat Doll","Vampire Boy Top","Vampire Boy Pants","Vampire Boy Crown","Vampire Boy Boots","Vampire Boy Wig"]
 
+    VAMPIRE_GIRL__OUTFIT_BUNDLE = ["Vampire Girl Cat Doll","Vampire Girl Top","Vampire Girl Pants", "Vampire Girl Shoes","Vampire Girl Wig"]
+
     FLOWER_POWER_OUTFIT = ["Flower Power Dress","Flower Power Tank Top Blue","Flower Power Tank Top Purple","Flower Power Tank Top Black","Flower Power Tank Top Red","Flower Power Tank Top Yellow","Flower Power Tank Top White","Flower Power Tank Top Pink","Flower Power Shoes","Flower Power Tambourine","Flower Power Purse","Flower Power Wig"]
 
     SUNSHINE_OUTFIT = ["Sunshine Dress","Sunshine Shoes","Sunshine Sunglasses","Sunshine Wig"]
@@ -1368,12 +1370,40 @@ class Redeemable:
 
     ADVENTURER_OUTFIT = ["Adventurer Backpack","Adventurer Well","Adventurer Top","Adventurer Pants","Adventurer Hat","Adventurer Boots"]
 
-    PRINCESS_AND_THE_PEA_BUNDLE = ["Princess And The Pea Bed"]
+    PRINCESS_AND_THE_PEA_BUNDLE = ["Spoilt Princess Wig", "Spoilt Princess Tiara", "Spoilt Princess Dress", "Spoilt Princess Shoes"]
+
+    RED_SHOES_BUNDLE = ["Ballerina Hairband", "Ballerina Dress", "Red Ballerina Shoes"]
+
+    UGLY_DUCKLING_BUNDLE = ["Basic Bob Wig", "Black Feathers Dress", "Black Stringed Boots"]
 
     LITTLE_PRINCE_BUNDLE = ["Little Prince Top","Little Prince Pants","Little Prince Crown"]
 
     RAPUNZEL_BUNDLE = ["Rapunzel Dress","Rapunzel Shoes","Rapunzel Wig"]
 
+    ROYAL_WEDDING_GUEST_DUKE_OUTFIT = ["Duke Top Hat", "Duke Cane", "Duke Top", "Duke Pants", "Duke Shoes"]
+
+    ROYAL_WEDDING_GUEST_DUCHESS_OUTFIT = ["Duchess Hat", "Duchess Dress", "Duchess Shoes", "Duchess Handbag"]
+
+    THE_QUEEN_OUTFIT = ["Royal Hat", "Royal Wig", "Royal Dress", "Royal Handbag", "Royal Shoes"]
+    
+    MOSS_LADY_FAIRY = ["Moss Lady Fairy"]
+
+    PEACH_LADY_FAIRY = ["Peach Lady Fairy"]
+
+    LAVENDER_LADY_FAIRY = ["Lavender Lady Fairy"]
+
+    GRAPE_GIRL_FAIRY = ["Grape Girl Fairy"]
+
+    RASPBERRY_GIRL_FAIRY = ["Raspberry Girl Fairy"]
+
+    LEMON_GIRL_FAIRY = ["Lemon Girl Fairy"]
+
+    LIME_GIRL_FAIRY = ["Lime Girl Fairy"]
+
+    STRAWBERRY_BABY_FAIRY = ["Strawberry Baby Fairy"]
+
+    BLUEBERRY_BABY_FAIRY = ["Blueberry Baby Fairy"]
+    
     PUMPKIN_KING_OUTFIT = ["Pumpkin King Top","Pumpkin King Pants","Pumpkin King Boots","Pumpkin King Jack O Lantern","Pumpkin King Mask"]
 
     PETTLEGEUSE_OUTFIT = ["Pettlegeuse Top","Pettlegeuse Groom Top","Pettlegeuse Guide Top","Pettlegeuse Pants","Pettlegeuse Groom Pants","Pettlegeuse Guide Pants","Pettlegeuse Guide Cap","Pettlegeuse Guide Shoes","Pettlegeuse Boots","Pettlegeuse Groom Shoes","Pettlegeuse Wig","Pettlegeuse Groom Wig"]
@@ -1409,6 +1439,18 @@ class Redeemable:
     GOLDEN_POO_COSTUME = ["Golden Poo Mask"]
 
     WWF_TIGER_COSTUME_SET = ["WWF Tiger Costume Top","WWF Tiger Costume Hat","WWF Tiger Costume Pants"]
+
+    CABBAGE_GIRL_OUTFIT = ["Cabbage Girl Dress", "Cabbage Girl Hairclip", "Cabbage Girl Wig", "Cabbage Girl Shoes"]
+
+    CARROT_OUTFIT = ["Carrot Top", "Carrot Pants", "Carrot Boots", "Carrot Headgear"]
+
+    AQUA_LADY_FISHIE_OUTFIT = ["Aqua Lady Fishie Wig"]
+
+    BE_A_BUNNY_SUIT_OUTFIT = ["Be A Bunny Mask", "Be A Bunny Top", "Be A Bunny Plushie", "Be A Bunny Pant", "Be A Bunny Shoes"]
+
+    GREEN_FINGERS_GIRL_OUTFIT = ["Green Fingers Girls Dress", "Green Fingers Girls Hat", "Green Fingers Girls Shoes"]
+
+    GOLDEN_AGE_WORKER_GIRL_OUTFIT = ["Golden Age Worker Girl Dress", "Golden Age Worker Girl Shoes"]
 
     ALPHABET_BLOCK_BUNDLE_01 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
 
