@@ -93,6 +93,7 @@ def handle_audit_action(audit:AuditChange) -> None:
         item_data["itemHash"] = audit.itemHash
 
         profile_handler.create_item(item_data)
+        profile_handler.user.cookingPoints += 1
 
         profile_handler.update_item({
             "itemId": audit.itemId,
