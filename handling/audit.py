@@ -14,6 +14,8 @@ def set_item_data(audit: AuditChange):
 
     item_data["active"] = audit.active
     item_data["containedType"] = audit.containedType
+    item_data["containedItem"] = audit.containedItem
+    item_data["containedAmount"] = audit.containedAmount
     item_data["createTime"] = audit.createTime
     item_data["message"] = audit.message
     item_data["positionX"] = audit.positionX
@@ -72,7 +74,9 @@ def handle_audit_action(audit:AuditChange) -> None:
 
         profile_handler.update_item(item_data)
     
-    if action == Actions.OPEN_ITEM:
+    if (action == Actions.OPEN_ITEM or
+        action == Actions.EVOLVE_PEET):
+        
         item_data = set_item_data(audit)
         item_data["itemId"] = audit.newItemId
         item_data["itemHash"] = audit.itemHash
