@@ -16,13 +16,14 @@ def handle_redeem_voucher(stream:InputDataStream) -> bytes:
     itemContainedType = []
     itemContainedType2 = []
 
-    item_id = abs(rpc_res.readIntvar32()) # <- sometimes it is a NON voucher item :/
+    item_hash = abs(rpc_res.readUintvar32())
     
-    voucher_owned_item = profile_handler.delete_item({
-        "itemId": item_id
+    profile_handler.delete_item({
+        "itemId": -1,
+        "itemHash": item_hash
     })
 
-    voucher_item = database_handler.find_item_by_hash(voucher_owned_item.itemHash)
+    voucher_item = database_handler.find_item_by_hash(item_hash)
     voucher_rewards = getattr(Redeemable, voucher_item["name"].upper().replace(" ", "_"), [])
 
     for reward in voucher_rewards:
