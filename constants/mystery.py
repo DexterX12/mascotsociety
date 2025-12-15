@@ -936,538 +936,1160 @@ class Mystery:
     MYSTERY_EVOLVING_PATCH_TABLE = ["Patch Table", "Patch Breakfast Table", "Patch Tea Table"]
 
 class Redeemable:
-    PUMPKIN_WITCH_OUTFIT_BUNDLE = ["Pumpkin Witch Dress","Pumpkin Witch Stockings","Pumpkin Witch Hat","Pumpkin Witch Boots","Pumpkin Witch Cute Wig"]
+    AQUA_LADY_FISHIE_OUTFIT = ['Aqua Lady Fishie Wig']
 
-    PUMPKIN_PRINCE_OUTFIT_BUNDLE = ["Pumpkin Prince Shirt","Pumpkin Prince Shorts","Pumpkin Prince Crown","Pumpkin Prince Shoes","Pumpkin Prince Cape","Pumpkin Prince Sleek Wig"]
+    GOLDEN_AGE_WORKER_GIRL_OUTFIT = ['Golden Age Worker Girl Shoes', 'Golden Age Worker Girl Dress']
 
-    GAKURAN_UNIFORM = ["Gakuran Uniform Top","Gakuran Uniform Pants","Gakuran Uniform Shoes","Gakuran Uniform Glasses"]
+    GREEN_FINGERS_GIRL_OUTFIT = ['Green Fingers Girls Shoes', 'Green Fingers Girls Dress', 'Green Fingers Girls Hat']
 
-    JAPANESE_WINTER_UNIFORM = ["Japanese Winter Uniform Dress","Japanese Winter Uniform Shoes","Japanese Winter Uniform French Horn"]
+    CARROT_OUTFIT = ['Carrot Boots', 'Carrot Headgear', 'Carrot Pants', 'Carrot Top']
 
-    JAPANESE_TAN_UNIFORM = ["Japanese Tan Uniform Dress","Japanese Tan Uniform Shoes","Japanese Tan Uniform Schoolbag"]
+    CABBAGE_GIRL_OUTFIT = ['Cabbage Girl Shoes', 'Cabbage Girl Hairclip', 'Cabbage Girl Dress', 'Cabbage Girl Wig']
 
-    JAPANESE_PINK_UNIFORM = ["Japanese Pink Uniform Dress","Japanese Pink Uniform Shoes","Japanese Pink Uniform Purse"]
+    EASTER_BAKER_GIRLS_OUTFIT = ['Easter Baker Girls Shoes', 'Easter Baker Girls Stockings', 'Easter Baker Girls Dress', 'Easter Baker Girls Hat']
 
-    JAPANESE_COFFEE_UNIFORM = ["Japanese Coffee Uniform Dress","Japanese Coffee Uniform Shoes","Japanese Coffee Uniform Mobile Phone"]
+    BE_A_BUNNY_SUIT_OUTFIT = ['Be A Bunny Shoes', 'Be A Bunny Plushie', 'Be A Bunny Top', 'Be A Bunny Pant', 'Be A Bunny Mask']
 
-    FRANKENSTEIN_COSTUME = ["Frankenstein Top", "Frankenstein Pants","Frankenstein Headpiece", "Frankenstein Shoes", "Frankenstein Mask"]
+    BIRDIE_GIRL_OUTFIT = ['Birdie Girl Shoes', 'Birdie Girl Headband', 'Birdie Girl Dress']
 
-    WEREWOLF_COSTUME = ["Werewolf Top","Werewolf Legs","Werewolf Mask"]
+    PINK_BIRDIE_BOO_OUTFIT = ['Pink Birdie Boo Shoes', 'Pink Birdie Boo Stockings', 'Pink Birdie Boo Wings', 'Pink Birdie Boo Dress', 'Pink Birdie Boo Headgear']
 
-    MAD_SCIENTIST_COSTUME = ["Mad Scientist Top","Mad Scientist Bottoms","Mad Scientist Brain Cap","Mad Scientist Glove","Mad Scientist Wings","Mad Scientist Goggles"]
+    TRADITIONAL_IRISH_LADY_OUTFIT = ['Traditional Irish Lady Stockings', 'Traditional Irish Lady Dress', 'Traditional Irish Lady Wig', 'Traditional Irish Lady Shoes', 'Traditional Irish LadyHat']
 
-    SCARY_CLOWN_COSTUME = ["Scary Clown Top","Scary Clown Pants","Scary Clown Shoes","Scary Clown Mask"]
+    IRISH_GIRL_OUTFIT = ['Irish Girl Shoes', 'Irish Girl Hat', 'Irish Girl Dress']
 
-    ZOMBIE_GIRL_COSTUME = ["Zombie Girl Bunny Doll","Zombie Girl Dress","Zombie Girl Shoes","Zombie Girl Mask","Zombie Girl Wig"]
+    FAIR_LADY_OUTFIT = ['Fair Lady Tiara', 'Fair Lady Headband', 'Fair Lady Hat', 'Fair Lady Shoes', 'Fair Lady Beret', 'Fair Lady Dress']
 
-    SPRING_LAMB_OUTFIT = ["Spring Lamb Top","Spring Lamb Pants","Spring Lamb Hood"]
+    SHIFUS_HORN_OUTFIT = ['Shifus Horn Kimono', 'Shifus Horn Boots', 'Shifus Horn Stick', 'Shifus Horn Headgear', 'Shifus Glasses']
 
-    GRAY_WIZARD_OUTFIT = ["Gray Wizard Cloak","Gray Wizard Hat","Gray Wizard Shoes","Gray Wizard Staff","Gray Wizard Cape","Gray Wizard Wig"]
+    SHIFUS_GIRLY_COUTURE = ['Shifus Girly Boots', 'Shifus Girly Hat', 'Shifus Girly Dress']
 
-    PRINCE_ADAM_OUTFIT = ["Prince Adam Top","Prince Adam Pants","Prince Adam Shoes","Prince Adam Rose","Prince Adam Wig"]
+    SHIFUS_EVENING_OUTFIT = ['Shifus Evening Boots', 'Shifus Evening Pants', 'Shifus Evening Tail', 'Shifus Evening Top']
 
-    CONCEITED_SUITOR_OUTFIT = ["Conceited Suitor Top","Conceited Suitor Pants","Conceited Suitor Shoes","Conceited Suitor Glove","Conceited Suitor Wig"]
+    SHIFUS_PEASANT_OUTFIT = ['Shifus Peasant Sandals', 'Shifus Peasant Stick', 'Shifus Peasant Socks', 'Shifus Peasant Kimono']
 
-    BELLE_OUTFIT = ["Belle Dress", "Belle Tiara","Belle Shoes","Belle Glove","Belle Wig"]
+    CHOCOLATE_DONUT_OUTFIT = ['Chocolate Donut Handbag', 'Chocolate Donut Shoes', 'Chocolate Donut Dress', 'Chocolate Donut Wig']
 
-    CHARMED_TEAPOT_OUTFIT = ["Charmed Teapot Dress","Charmed Teapot Mask","Charmed Teapot Shoes","Charmed Teapot Glove"]
+    GEEK_GIRL_OUTFIT = ['Geek Girl Shoes', 'Geek Girl Pants', 'Geek Girl Top']
 
-    CHARMED_CLOCK_OUTFIT = ["Charmed Clock Costume","Charmed Clock Mask","Charmed Clock Shoes"]
+    SCIENCE_GIRL_OUTFIT = ['Science Girl Shoes', 'Science Girl Dress', 'Science Girl Wig']
 
-    BUNNY_SWEETHEART_OUTFIT = ["Bunny Sweetheart Dress","Bunny Sweetheart Hair Bow","Bunny Sweetheart Shoes","Bunny Sweetheart Wig"]
+    CUPID_GIRL_OUTFIT = ['Cupid Girl Shoes', 'Cupid Girl Hairclip', 'Cupid Girl Dress', 'Cupid Girl Wig']
 
-    GEEK_CHIC_OUTFIT = ["Geek Chic Shirt","Geek Chic Pants","Geek Chic Shoes","Geek Chic Watch","Geek Chic Glasses","Geek Chic Wig"]
+    MAMA_MIA_SKETCH_GIRL_OUTFIT_BUNDLE = ['Mama Mia Sketch Girl Dress', 'Mama Mia Sketch Girl Wig', 'Mama Mia Sketch Girl Shoes', 'Mama Mia Sketch Girl Clutch', 'Mama Mia Sketch Girl Hairclip']
 
-    BOLLYWOOD_BOY_OUTFIT = ["Bollywood Boy Top","Bollywood Boy Pants","Bollywood Boy Turban","Bollywood Boy Shoes"]
+    SKETCH_GIRL_OUTFIT_BUNDLE = ['Sketch Girl Hairband', 'Sketch Girl Shoes', 'Sketch Girl Dress']
 
-    LONDON_BOY_OUTFIT = ["London Boy Top","London Boy Pants","London Boy Shoes","London Boy Flag"]
+    PATCH_GIRL_OUTFIT = ['Patch Girl Shoes', 'Patch Girl Dress']
 
-    VENETIAN_CARNEVALE_OUTFIT = ["Venetian Carnevale Dress","Venetian Carnevale Headpiece","Venetian Carnevale Shoes","Venetian Carnevale Fan","Venetian Carnevale Mask"]
+    WILD_SAFARI_GIRL_OUTFIT = ['Wild Safari Girl Shoes', 'Wild Safari Girl Shorts', 'Wild Safari Girl Top', 'Wild Safari Girl Hat']
 
-    VENETIAN_GONDOLIER_OUTFIT = ["Venetian Gondolier Top","Venetian Gondolier Pants","Venetian Gondolier Hat","Venetian Gondolier Shoes"]
+    MEADOW_GIRL_OUTFIT = ['Meadow Girl Shoes', 'Meadow Girl Dress']
 
-    CLEVER_BEAVER_BUNDLE = ["Clever Beaver Ears","Clever Beaver Paw","Clever Beaver Tail"]
+    BUTTERFLY_LADY_OUTFIT_BUNDLE = ['Butterfly Lady Shoes', 'Butterfly Lady Armband', 'Butterfly Lady Bag', 'Butterfly Lady Dress', 'Butterfly Lady Hairclip', 'Butterfly Lady Wig']
 
-    BOY_CANDY_FACTORY_HELPER_OUTFIT = ["Boy Candy Factory Helper Overalls","Boy Candy Factory Helper Pants","Boy Candy Factory Helper Shoes","Boy Candy Factory Helper Glove","Boy Candy Factory Helper Lolly","Boy Candy Factory Helper Wig"]
+    SWEET_GIRL_OUTFIT = ['Sweet Girl Shoes', 'Sweet Girl Dress', 'Sweet Girl Headgear']
 
-    TIDE_BUNDLE = ["Tide Bottle","Tide Washer","Tide T Shirt","Tide Super Clean Summer Dress","Tide Super Clean Polo Shirt","Tide Super Clean Blue Pants","Tide Super Clean Blue Jeans","Tide Super Clean Blue Hair Bow","Tide Super Clean Summer Shoes","Tide Super Clean Summer Sneakers","Tide Summer Bangles"]
+    HOT_CHILI_OUTFIT_BUNDLE = ['Hot Chili Glove Left', 'Hot Chili Glove Right', 'Hot Chili Shoes', 'Hot Chili Dress', 'Hot Chili Hat', 'Hot Chili Wig']
 
-    SATYR_OUTFIT = ["Satyr Belly","Satyr Legs","Satyr Horns","Satyr Panpipe","Satyr Goatee","Satyr Wig"]
+    NEW_YEAR_BASH_GIRL_OUTFIT_BUNDLE = ['New Year Bash Girl Shoes', 'New Year Bash Girl Dress']
 
-    CAT_GODDESS_COSTUME = ["Cat Goddess Dress","Cat Goddess Shoes","Cat Goddess Armlet","Cat Goddess Mask"]
+    CHRISTMAS_CASTLE_GIRL_OUTFIT_BUNDLE = ['Christmas Castle Girl Dress', 'Christmas Castle Girl Shoes', 'Christmas Castle Girl Hat']
 
-    HALLOWEEN_TOWN_MAYOR_OUTFIT = ["Halloween Town Mayor Top","Halloween Town Mayor Pants","Halloween Town Mayor Hat","Halloween Town Mayor Shoes","Halloween Town Mayor Happy Mask","Halloween Town Mayor Sad Mask"]
+    WINTER_ESKIMO_GIRL_OUTFIT_BUNDLE = ['Winter Eskimo Girl Boots', 'Winter Eskimo Girl Dress', 'Winter Eskimo Girl Hat']
 
-    DWARF_OUTFIT = ["Dwarf Top","Dwarf Pants","Dwarf Hat","Dwarf Shoes","Dwarf Pickaxe","Dwarf Beard"]
+    EVIL_CHRISTMAS_GIRL_OUTFIT_BUNDLE = ['Evil Christmas Girl Shoes', 'Evil Christmas Girl hat', 'Evil Christmas Girl Dress']
 
-    ICE_PALACE_JESTER_OUTFIT = ["Ice Palace Jester Top","Ice Palace Jester Tights","Ice Palace Jester Hat","Ice Palace Jester Shoes"]
+    DARK_CHRISTMAS_GIRL_OUTFIT_BUNDLE = ['Dark Christmas Girl Shoes', 'Dark Christmas Girl Wig', 'Dark Christmas Girl Stockings', 'Dark Christmas Girl Glove', 'Dark Christmas Girl Hat', 'Dark Christmas Girl Dress']
 
-    SWEETHEART_MASQUERADE_OUTFIT = ["Sweetheart Masquerade Dress","Sweetheart Masquerade Shoes","Sweetheart Masquerade Glove","Sweetheart Masquerade Mask","Sweetheart Masquerade Wig"]
+    WINTER_GIRL_OUTFIT = ['Winter Girl Boots', 'Winter Girl Glove', 'Winter Girl Tights', 'Winter Girl Dress']
 
-    REGAL_MASQUERADE_OUTFIT = ["Regal Masquerade Dress","Regal Masquerade Shoes","Regal Masquerade Mask","Regal Masquerade Wig"]
+    ODYSSEY_GIRL_OUTFIT = ['Odyssey Girl shoes', 'Odyssey Girl Socks', 'Odyssey Girl Dress', 'Odyssey Girl Mask']
 
-    ELEGANT_MASQUERADE_OUTFIT = ["Elegant Masquerade Dress","Elegant Masquerade Shoes","Elegant Masquerade Mask","Elegant Masquerade Wig"]
+    PANDORA_AIR_GIRL_OUTFIT = ['Pandora Air Girl Headband', 'Pandora Air Girl Shoes', 'Pandora Air Girl Pants', 'Pandora Air Girl Top']
 
-    RAVEN_MASQUERADE_OUTFIT = ["Raven Masquerade Dress","Raven Masquerade Shoes","Raven Masquerade Mask","Raven Masquerade Wig"]
+    PANDORA_WARRIOR_GIRL_OUTFIT_BUNDLE = ['Pandora Warrior Girl Sword', 'Pandora Warrior Girl Tiara', 'Pandora Warrior Girl Anklet', 'Pandora Warrior Girl Dress', 'Pandora Warrior Girl Wig']
 
-    CASANOVA_MASQUERADE_OUTFIT = ["Casanova Masquerade Top","Casanova Masquerade Pants","Casanova Masquerade Shoes","Casanova Masquerade Mask","Casanova Masquerade Wig"]
+    NATIVE_GIRL_OUTFIT = ['Native Girl Shoes', 'Native Girl Headband', 'Native Girl Pants', 'Native Girl Top', 'Native Girl Wig']
 
-    MARQUIS_MASQUERADE_OUTFIT = ["Marquis Masquerade Top","Marquis Masquerade Pants","Marquis Masquerade Shoes","Marquis Masquerade Mask","Marquis Masquerade Wig"]
+    MARTIAN_GIRL_OUTFIT = ['Martian Girl Shoes', 'Martian Girl Pants', 'Martian Girl Top', 'Martian Girl Wig']
 
-    STRAWBERRY_CUPCAKE_OUTFIT = ["Strawberry Cupcake Dress","Strawberry Cupcake Stockings","Strawberry Cupcake Bow","Strawberry Cupcake Shoes","Strawberry Cupcake Earrings"]
+    SPACE_SUIT_OUTFIT_BUNDLE = ['Space Suit Shoes', 'Space Suit Pants', 'Space Suit Top', 'Space Suit Helmet']
 
-    DREAMY_KITCHEN_BUNDLE_IMAGE = ["Dreamy Kitchen Table","Dreamy Kitchen Cabinet","Dreamy Kitchen Mixer","Dreamy Kitchen Counter","Dreamy Kitchen Lights","Dreamy Kitchen Wallpaper","Dreamy Kitchen Floor"]
+    TIKI_GIRL_OUTFIT = ['Tiki Girl Shoes', 'Tiki Girl Dress', 'Tiki Girl Hat']
 
-    BIKE_BUNDLE = ["Bike Wheel"]
+    TRIBAL_GIRL_OUTFIT_BUNDLE = ['Tribal Girl Flower Hair Clip', 'Tribal Girl Flower Bracelet', 'Tribal Girl Flower Anklet', 'Tribal Girl Dress', 'Tribal Girl Wig']
 
-    BODACIOUS_BLACK_OUTFIT_BUNDLE = ["Bodacious Black Dress","Bodacious Black Tiara","Bodacious Black Shoes","Bodacious Black Armband","Bodacious Black Mask","Bodacious Black Wig"]
+    TRIBAL_PRINCESS_OUTFIT_BUNDLE = ['Tribal Princess Flower Hairband', 'Tribal Princess Flower Bracelet', 'Tribal Princess Flower Anklet', 'Tribal Princess Dress', 'Tribal Princess Wig']
 
-    SHINY_SHIMMER_OUTFIT_BUNDLE = ["Shiny Shimmer Dress","Shiny Shimmer Pants","Shiny Shimmer Shoes","Shiny Shimmer Armband","Shiny Shimmer Mask","Shiny Shimmer Wig"]
+    MENAGE_GIRL_OUTFIT = ['Menage Girl Shoes', 'Menage Girl Dress', 'Menage Girl Wig']
 
-    PREPPY_PRINCESS_OUTFIT_BUNDLE = ["Preppy Princess Dress","Preppy Princess Shoes","Preppy Princess Bag","Preppy Princess Mask","Preppy Princess Wig"]
+    PUMPKIN_HALLOW_GIRL_OUTFIT = ['Pumpkin Hallow Girl Shoes', 'Pumpkin Hallow Girl Headband', 'Pumpkin Hallow Girl Dress']
 
-    DANCING_DIVA_OUTFIT_BUNDLE = ["Dancing Diva Dress","Dancing Diva Headband","Dancing Diva Shoes","Dancing Diva Mask","Dancing Diva Wig"]
+    HAUNTED_GIRL_OUTFIT = ['Haunted Girl Shoes', 'Haunted Girl Dress', 'Haunted Girl Wig']
 
-    PREPPY_PRINCE_OUTFIT_BUNDLE = ["Preppy Prince Top","Preppy Prince Pants","Preppy Prince Hat","Preppy Prince Boots","Preppy Prince Mask","Preppy Prince Wig"]
+    HAUNTED_DUCHESS_OUTFIT_BUNDLE = ['Haunted Duchess Shoes', 'Haunted Duchess Dress', 'Haunted Duchess Hat']
 
-    ROBUST_RED_OUTFIT_BUNDLE = ["Robust Red Top","Robust Red Pants","Robust Red Hat","Robust Red Boots","Robust Red Mask","Robust Red Wig"]
+    HAUNTED_PIRATE_OUTFIT_BUNDLE = ['Haunted Pirate Shoes', 'Haunted Pirate Sword', 'Haunted Pirate Pants', 'Haunted Pirate Top', 'Haunted Pirate Wig']
 
-    RAINBOW_PATCH_OUTFIT_BUNDLE = ["Rainbow Patch Dress","Rainbow Patch Hairband","Rainbow Patch Shoes","Rainbow Patch Wig"]
+    RED_CARPET_GIRL_OUTFIT = ['Red Carpet Girl Shoes', 'Red Carpet Girl Dress']
 
-    DARK_PATCH_OUTFIT_BUNDLE = ["Dark Patch Dress","Dark Patch Shoes","Dark Patch Wig"]
+    LAZARUS_GIRL_OUTFIT = ['Lazarus Girl Dress', 'Lazarus Girl Sandals']
 
-    PURPLE_PATCHY_OUTFIT_BUNDLE = ["Purple Patchy Dress","Purple Patchy Stockings","Purple Patchy Hat","Purple Patchy Shoes","Purple Patchy Wig"]
+    VICTORIAN_MAIDEN_GIRL_OUTFIT = ['Victorian Maiden Girl Shoes', 'Victorian Maiden Girl Glove', 'Victorian Maiden Girl Dress']
 
-    FLORA_PATCH_OUTFIT_BUNDLE = ["Flora Patch Dress","Flora Patch Shoes","Flora Patch Wig"]
+    SLUMBER_GIRL_OUTFIT = ['Slumber Girl Hairband', 'Slumber Girl Pajama', 'Slumber Girl Shoes', 'Slumber Girl Dress']
 
-    COUNTRY_PATCH_OUTFIT_BUNDLE = ["Country Patch Top","Country Patch Pants","Country Patch Pants New","Country Patch Boots","Country Patch Boots New","Country Patch Wig"]
+    VINEYARD_GIRL_OUTFIT = ['Vineyard Girl Dress', 'Vineyard Girl Boots', 'Vineyard Girl Hat']
 
-    PATCH_PUNK_OUTFIT_BUNDLE = ["Patch Punk Top","Patch Punk Shorts","Patch Punk Boots","Patch Punk Goggles","Patch Punk Wig"]
+    HORROR_CARNIVAL_GIRL_OUTFIT = ['Horror Carnival Girl Shoes', 'Horror Carnival Girl Hair Bow', 'Horror Carnival Girl Stockings', 'Horror Carnival Girl Dress', 'Horror Carnival Girl Wig']
 
-    TRADITIONAL_SWEDISH_OUTFIT = ["Traditional Swedish Dress","Traditional Swedish Socks","Traditional Swedish Headband","Traditional Swedish Shoes","Traditional Swedish Wig"]
+    COLOR_SPLASH_GIRL_OUTFIT = ['Color Splash Girl Boots', 'Color Splash Girl Pants', 'Color Splash Girl Top']
 
-    TRADITIONAL_INDIAN_OUTFIT = ["Traditional Indian Sari","Traditional Indian Shoes","Traditional Indian Bangles Left","Traditional Indian Bangles Right","Traditional Indian Bindi","Traditional Indian Wig"]
+    BEACH_BRIDE_OUTFIT_BUNDLE = ['Beach Bride Clutch', 'Beach Bride Boots', 'Beach Bride Dress', 'Beach Bride Hairclip', 'Beach Bride Wig']
 
-    TRADITIONAL_JAPANESE_OUTFIT = ["Traditional Japanese Kimono","Traditional Japanese Socks","Traditional Japanese Headgear","Traditional Japanese Sandals","Traditional Japanese Hand Bag","Traditional Japanese Wig"]
+    BRIDESMAID_OUTFIT = ['Bridesmaid Boots', 'Bridesmaid Dress', 'Bridesmaid Wig']
 
-    TRADITIONAL_IRISH_OUTFIT = ["Traditional Irish Dress","Traditional Irish Tiara","Traditional Irish LadyHat","Traditional Irish Shoes","Traditional Irish Wig"]
+    VIKING_GIRL_OUTFIT = ['Viking Girl Shield', 'Viking Girl Wig', 'Viking Girl Boots', 'Viking Girl Stockings', 'Viking Girl Dress', 'Viking Girl Head Band']
 
-    TRADITIONAL_IRISH_LADY_OUTFIT = ["Traditional Irish Lady Dress", "Traditional Irish Lady Stockings", "Traditional Irish Lady Shoes", "Traditional Irish Lady Wig"]
+    CHOCO_VANILLA_GIRL_OUTFIT = ['Choco Vanilla Girl Boots', 'Choco Vanilla Girl Dress']
 
-    AFRICAN_KAFTAN = ["African Kaftan Dress","African Kaftan Hat","African Kaftan Shoes"]
+    VANILLA_BIRTHDAY_GIRL_OUTFIT_BUNDLE = ['Vanilla Birthday Girl Boots', 'Vanilla Birthday Girl Dress', 'Vanilla Birthday Girl Wig']
 
-    TRADITIONAL_NORWEGIAN_OUTFIT = ["Traditional Norwegian Dress","Traditional Norwegian Hat","Traditional Norwegian Shoes"]
+    CHOCOLATE_BIRTHDAY_GIRL_OUTFIT_BUNDLE = ['Chocolate Birthday Girl Boots', 'Chocolate Birthday Girl Dress', 'Chocolate Birthday Girl Wig']
 
-    GOLDEN_AGE_POLKA_OUTFIT = ["Golden Age Polka Dress","Golden Age Polka Shoes","Golden Age Polka Wig"]
+    HONEY_GIRL_OUTFIT_BUNDLE = ['Honey Girl Wig', 'Honey Girl Headband', 'Honey Girl Shoes', 'Honey Girl Pants', 'Honey Girl Dress']
 
-    GOLDEN_AGE_PLAID_OUTFIT = ["Golden Age Plaid Dress","Golden Age Plaid Headband","Golden Age Plaid Shoes","Golden Age Plaid Wig"]
+    PAWLYMPICS_GIRL_OUTFIT_BUNDLE = ['Pawlympics Girl Shoes', 'Pawlympics Girl Stockings', 'Pawlympics Girl Dress']
 
-    GOLDEN_AGE_CHIC_OUTFIT = ["Golden Age Chic Dress","Golden Age Chic Hat","Golden Age Chic Shoes","Golden Age Chic Glove Left","Golden Age Chic Glove Right"]
+    BLUSHING_BRIDE_OUTFIT_BUNDLE = ['Blushing Bride Veil', 'Blushing Bride Wig', 'Blushing Bride Shoes', 'Blushing Bride Gown']
 
-    GOLDEN_AGE_EVENING_GLAMOUR_OUTFIT = ["Golden Age Evening Glamour Dress","Golden Age Evening Glamour Shoes","Golden Age Evening Glamour Glove Left","Golden Age Evening Glamour Glove Right","Golden Age Evening Glamour Ornaments","Golden Age Evening Glamour Wig"]
+    ADVENTURE_GIRL_OUTFIT = ['Adventure Girl Wig', 'Adventure Girl Boots', 'Adventure Girl Pants', 'Adventure Girl Dress']
 
-    GOLDEN_AGE_MISTER_OUTFIT = ["Golden Age Mister Top","Golden Age Mister Pants","Golden Age Mister Boots","Golden Age Mister Wig"]
+    TESSELLATION_OUTFIT_BUNDLE = ['Tessellation Boots', 'Tessellation Hat', 'Tessellation Dress']
 
-    GOLDEN_AGE_PETSLEY_OUTFIT = ["Golden Age Petsley Top","Golden Age Petsley Pants","Golden Age Petsley Boots","Golden Age Petsley Wig"]
+    ORANGE_MODULAR_OUTFIT_BUNDLE = ['Orange Modular Boots', 'Orange Modular Dress', 'Orange Modular Wig']
 
-    LADY_POKER_PAW_OUTFIT_BUNDLE = ["Lady Poker Paw Dress","Lady Poker Paw Stockings","Lady Poker Paw Shoes","Lady Poker Paw Star","Lady Poker Paw Wig"]
+    BLUE_TESSELLATION_OUTFIT_BUNDLE = ['Blue Tessellation Boots', 'Blue Tessellation Hairclip', 'Blue Tessellation Dress']
 
-    PET_BERRY_OUTFIT_BUNDLE = ["Pet Berry Dress","Pet Berry Shoes","Pet Berry Bracelet","Pet Berry Wig"]
+    ROSEY_KAMI_OUTFIT = ['Rosey Kami Hairclip', 'Rosey Kami Dress']
 
-    POUTY_PET_OUTFIT_BUNDLE = ["Pouty Pet Dress","Pouty Pet Shoes","Pouty Pet Clutch","Pouty Pet Ornaments","Pouty Pet Wig"]
+    CHRONICLE_GIRL_OUTFIT = ['Chronicle Girl Boots', 'Chronicle Girl Pants', 'Chronicle Girl Wig', 'Chronicle Girl Top']
 
-    PAWLYA_PET_OUTFIT_BUNDLE = ["Pawlya Pet Dress","Pawlya Pet Shoes","Pawlya Pet Bracelet","Pawlya Pet Wig"]
+    OLYMPUS_DIVINE_OUTFIT_BUNDLE = ['Olympus Divine Bracelet', 'Olympus Divine Tiara', 'Olympus Divine Boots', 'Olympus Divine Dress', 'Olympus Divine Wig']
 
-    NEVER_SAY_PAW_OUTFIT_BUNDLE = ["Never Say Paw Top","Never Say Paw Pants","Never Say Paw Boots","Never Say Paw Wig"]
+    OLYMPUS_MONARCH_OUTFIT_BUNDLE = ['Olympus Monarch Wings', 'Olympus Monarch Boots', 'Olympus Monarch Dress', 'Olympus Monarch Wig']
 
-    PAWPIT_OUTFIT_BUNDLE = ["Pawpit Top","Pawpit Pants","Pawpit Boots","Pawpit Wig"]
+    OLYMPUS_DRYAD_OUTFIT_BUNDLE = ['Olympus Dryad Dress', 'Olympus Dryad Wig']
 
-    SWEET_JULIET_OUTFIT = ["Sweet Juliet Dress","Sweet Juliet Headdress","Sweet Juliet Shoes","Sweet Juliet Bottle","Sweet Juliet Wig"]
+    OLYMPUS_WATER_NYMPH_OUTFIT_BUNDLE = ['Olympus Water Nymph Boots', 'Olympus Water Nymph Dress', 'Olympus Water Nymph Wig']
 
-    LOVESICK_OPHELIA_OUTFIT = ["Lovesick Ophelia Dress","Lovesick Ophelia Garland","Lovesick Ophelia Shoes","Lovesick Ophelia Bouquet","Lovesick Ophelia Wig"]
+    OLYMPUS_GIRL_OUTFIT = ['Olympus Girl Boots', 'Olympus Girl Dress', 'Olympus Girl Wig']
 
-    ELIZABETH_I_OUTFIT = ["Elizabeth I Dress","Elizabeth I Crown","Elizabeth I Shoes","Elizabeth I Scepter","Elizabeth I Cape","Elizabeth I Wig"]
+    PINK_LILY_OUTFIT = ['Pink Lily Boots', 'Pink Lily Dress', 'Pink Lily Wig']
 
-    LOVELY_VIOLA_OUTFIT = ["Lovely Viola Dress","Lovely Viola Tiara","Lovely Viola Shoes","Lovely Viola Love Letter","Lovely Viola Wig"]
+    SUMMER_BLOSSOM_GIRL_OUTFIT = ['Summer Blossom Girl Boots', 'Summer Blossom Girl Dress', 'Summer Blossom Girl Dress']
 
-    PLAYFUL_SHAKESPEARE_OUTFIT = ["Playful Shakespeare Top","Playful Shakespeare Pants","Playful Shakespeare Cap","Playful Shakespeare Shoes","Playful Shakespeare Quill","Playful Shakespeare Wig"]
+    PAWITCHED_SORCERESS_OUTFIT = ['Pawitched Sorceress Boots', 'Pawitched Sorceress Dress', 'Pawitched Sorceress Hat']
 
-    HAUNTED_HAMLET_OUTFIT = ["Haunted Hamlet Skull Ghost of King","Haunted Hamlet Top","Haunted Hamlet Pants","Haunted Hamlet Cap","Haunted Hamlet Shoes","Haunted Hamlet Skull","Haunted Hamlet Moustache","Haunted Hamlet Wig"]
+    VENUS_YELLOW_OUTFIT = ['Venus Yellow Boots', 'Venus Yellow Pants', 'Venus Yellow Top']
 
-    VICTORIAN_MAIDEN_OUTFIT_BUNDLE = ["Victorian Maiden Dress","Victorian Maiden Girl Dress","Victorian Maiden Hat","Victorian Maiden Shoes","Victorian Maiden Girl Shoes","Victorian Maiden Girl Glove"]
+    CASINO_GIRL_COSTUME_BUNDLE = ['Casino Girl Shoes', 'Casino Girl Gloves', 'Casino Girl Dress', 'Casino Girl Hat', 'Casino Girl Wig']
 
-    VICTORIAN_QUEEN_OUTFIT_BUNDLE = ["Victorian Queen Dress","Victorian Queen Hat","Victorian Queen Shoes"]
+    FILIPINIANA_OUTFIT = ['Filipiniana Shoes', 'Filipiniana Dress', 'Filipiniana Hairclip', 'Filipiniana Wig', 'Noir Girl Outift', 'Noir Girl Boots', 'Noir Girl Stockings', 'Noir Girl Hat', 'Noir Girl Dress']
 
-    VICTORIAN_DAME_OUTFIT_BUNDLE = ["Victorian Dame Dress","Victorian Dame Hat","Victorian Dame Shoes"]
+    MODERN_PARTY_GIRL_OUTFIT = ['Modern Party Girl Boots', 'Modern Party Girl Dress', 'Modern Party Girl Wig']
 
-    VICTORIAN_PRINCESS_OUTFIT_BUNDLE = ["Victorian Princess Dress","Victorian Princess Hat","Victorian Princess Shoes"]
+    BEAU_MONDE_GIRL_OUTFIT = ['Beau Monde Girl Boots', 'Beau Monde Girl Shorts', 'Beau Monde Girl Dress', 'Beau Monde Girl Goggles']
 
-    VICTORIAN_PRINCE_OUTFIT_BUNDLE = ["Victorian Prince Top","Victorian Prince Pants","Victorian Prince Boots","Victorian Prince Wig"]
+    GRANNY_GIRL_OUTFIT = ['Granny Girl Boots', 'Granny Girl Dress', 'Granny Girl Hat']
 
-    VICTORIAN_KNIGHT_OUTFIT_BUNDLE = ["Victorian Knight Top","Victorian Knight Pants","Victorian Knight Hat","Victorian Knight Boots"]
+    GLOW_IN_THE_DARK_PRINCESS_OUTFIT_BUNDLE = ['Glow Princess Hairclip', 'Glow Princess Boots', 'Glow Princess Dress', 'Glow Princess Wig']
 
-    TUESDAY_OUTFIT_BUNDLE = ["Tuesday Dress","Tuesday Stockings","Tuesday Shoes","Tuesday Doll","Tuesday Wig"]
+    PINK_FRILLS_GIRL_OUTFIT = ['Pink Frills Girl Hairclip', 'Pink Frills Girl Boots', 'Pink Frills Girl Dress', 'Pink Frills Girl Wig']
 
-    GRANDMAMA_OUTFIT_BUNDLE = ["Grandmama Dress","Grandmama Stockings","Grandmama Shoes","Grandmama Wig"]
+    CITRUS_GIRL_OUTFIT = ['Citrus Girl Boots', 'Citrus Girl Dress']
 
-    PETRICIA_OUTFIT_BUNDLE = ["Petricia Dress","Petricia Shoes","Petricia Wig"]
+    CHINESE_WARRIOR_GIRL_OUTFIT = ['Chinese Warrior Girl Pants', 'Chinese Warrior Girl Top', 'Chinese Warrior Girl Boots']
 
-    PAWMINA_OUTFIT_BUNDLE = ["Pawmina Dress","Pawmina Headband","Pawmina Shoes","Pawmina Wig"]
+    RAINBOW_MUFFIN_GIRL_OUTFIT = ['Rainbow Muffin Girl Shoes', 'Rainbow Muffin Girl Stockings', 'Rainbow Muffin Girl Dress', 'Rainbow Muffin Girl Hat']
 
-    PAWMEZ_OUTFIT_BUNDLE = ["Pawmez Top","Pawmez Pants","Pawmez Boots","Pawmez Mustache","Pawmez Wig"]
+    DIAMOND_PRINCESS_OUTFIT = ['Diamond Princess Shoes', 'Diamond Princess Dress', 'Diamond Princess Crown', 'Diamond Princess Wig']
 
-    UNCLE_PESTER_OUTFIT_BUNDLE = ["Uncle Pester Top","Uncle Pester Boots","Uncle Pester Shovel","Uncle Pester Mask"]
+    GARDEN_GIRL_OUTFIT = ['Garden Girl Dress', 'Garden Girl Hat', 'Garden Slippers']
 
-    CHEWING_GUM_GIRL_OUTFIT_BUNDLE = ["Chewing Gum Girl Dress","Chewing Gum Girl Tiara","Chewing Gum Girl Shoes","Chewing Gum Girl Wig"]
+    BETTY_OUTFIT = ['Betty Boots', 'Betty Dress', 'Betty Wig']
 
-    GIRL_ON_FIRE_OUTFIT_BUNDLE = ["Girl On Fire Dress","Girl On Fire Head Ornament","Girl On Fire Shoes","Girl On Fire Wig"]
+    YURI_GIRL_COSTUME = ['Yuri Girl Dress', 'Yuri Girl Bracelets', 'Yuri Girl Boots', 'Yuri Girl Wig With Crown']
 
-    SNOW_GIRL_OUTFIT_BUNDLE = ["Snow Girl Dress","Snow Girl Crown","Snow Girl Shoes","Snow Girl Wig"]
+    BALLERINA_DARK_SWAN_OUTFIT = ['Ballerina Dark Swan Shoes', 'Ballerina Dark Swan Stockings', 'Ballerina Dark Swan Dress', 'Ballerina Dark Swan Wig', 'Ballerina Dark Swan Hairclip']
 
-    SNOW_KING_OUTFIT_BUNDLE = ["Snow King Dress","Snow King Crown","Snow King Shoes","Snow King Wig"]
+    DAISY_GIRL_OUTFIT = ['Daisy Hairclip', 'Daisy Bracelet', 'Daisy Shoes', 'Daisy Dress', 'Daisy Wig']
 
-    VAMPIRE_BOY_OUTFIT_BUNDLE = ["Vampire Boy Cat Doll","Vampire Boy Top","Vampire Boy Pants","Vampire Boy Crown","Vampire Boy Boots","Vampire Boy Wig"]
+    GOLDEN_PRINCESS_BUNDLE = ['Golden Princess Wig', 'Golden Princess Shoes', 'Golden Princess Purse', 'Golden Princess Dress', 'Golden Princess Tiara']
 
-    VAMPIRE_GIRL__OUTFIT_BUNDLE = ["Vampire Girl Cat Doll","Vampire Girl Top","Vampire Girl Pants", "Vampire Girl Shoes","Vampire Girl Wig"]
+    TUBBY_GIRL_OUTFIT = ['Tubby Girl Mask', 'Tubby Girl Legs', 'Tubby Girl Top']
 
-    FLOWER_POWER_OUTFIT = ["Flower Power Dress","Flower Power Tank Top Blue","Flower Power Tank Top Purple","Flower Power Tank Top Black","Flower Power Tank Top Red","Flower Power Tank Top Yellow","Flower Power Tank Top White","Flower Power Tank Top Pink","Flower Power Shoes","Flower Power Tambourine","Flower Power Purse","Flower Power Wig"]
+    OLD_WEST_COWGIRL_OUTFIT = ['Old West Cowgirl Boots', 'Old West Cowgirl Pants', 'Old West Cowgirl Dress', 'Old West Cowgirl Hat']
 
-    SUNSHINE_OUTFIT = ["Sunshine Dress","Sunshine Shoes","Sunshine Sunglasses","Sunshine Wig"]
+    LITTLE_GIRL_BAKER_OUTFIT = ['Little Girl Baker Shoes', 'Little Girl Baker Socks', 'Little Girl Baker Oven Mitt', 'Little Girl Baker Dress', 'Little Girl Baker Hat']
 
-    PINKY_WINKY_OUTFIT = ["Pinky Winky Dress","Pinky Winky Shoes","Pinky Winky Flowers","Pinky Winky Wig"]
+    RUSSIAN_WINTER_OUTFIT = ['Russian Winter Boots', 'Russian Winter Dress', 'Russian Winter Hat']
 
-    JACKIE_BROWN_OUTFIT = ["Jackie Brown Shirt","Jackie Brown Pant","Jackie Brown Shoes","Jackie Brown Guitar","Jackie Brown Moustache","Jackie Brown Wig"]
+    JAPANESE_NEW_YEAR_GIRL_OUTFIT = ['Japanese New Year Girl Kimono', 'Japanese New Year Girl Sandals', 'Japanese New Year Girl Charm']
 
-    AABI_DANCER_COSTUME = ["Aabi Dancer Top","Aabi Dancer Bottom","Aabi Dancer Boots","Aabi Dancer Bracelets","Aabi Dancer Feather Headdress"]
+    JAPANESE_NEW_YEAR_PRINCESS_OUTFIT = ['Japanese New Year Princess Fan', 'Japanese New Year Princess Kinchaku Bag', 'Japanese New Year Princess Sandals', 'Japanese New Year Princess Socks', 'Japanese New Year Princess Kimono', 'Japanese New Year Princess Wig', 'Japanese New Year Princess Hairclip']
 
-    GIANNA_BELLE_COSTUME = ["Gianna Belle Dress","Gianna Belle Boots","Gianna Belle Bracelets","Gianna Belle Wings","Gianna Belle Feather Headdress"]
+    MASQUERADE_GIRL_OUTFIT = ['Masquerade Girl Shoes', 'Masquerade Girl Mask', 'Masquerade Girl Dress']
 
-    CRISTINA_DANCER_COSTUME = ["Cristina Dancer Dress","Cristina Dancer Boots","Cristina Dancer Bracelets","Cristina Dancer Wings","Cristina Dancer Feather Headdress"]
+    WINTER_SKATING_GIRL_OUTFIT = ['Winter Skating Girl Dress', 'Winter Skating Girl Skates', 'Winter Skating Girl Ear Muffs']
 
-    JANGO_BELLE_COSTUME = ["Jango Belle Dress","Jango Belle Boots","Jango Belle Bracelets Left","Jango Belle Bracelets Right","Jango Belle Wings","Jango Belle Feather Headdress"]
+    PEACH_ELF_OUTFIT = ['Peach Elf Boots', 'Peach Elf Glove', 'Peach Elf Dress', 'Peach Elf Wig', 'Peach Elf Hat']
 
-    SOFIA_QUEEN_COSTUME = ["Sofia Queen Dress","Sofia Queen Boots","Sofia Queen Bracelets","Sofia Queen Wings","Sofia Queen Feather Headdress"]
+    ICE_PRINCESS_OUTFIT = ['Ice Princess Shoes', 'Ice Princess Tiara', 'Ice Princess Dress', 'Ice Princess Wig']
 
-    CAIO_FAIRY_COSTUME = ["Caio Fairy Dress","Caio Fairy Boots","Caio Fairy Bracelets","Caio Fairy Wings","Caio Fairy Crown Headdress"]
+    HARAJUKU_GIRL_OUTFIT = ['Harajuku Girl Boots', 'Harajuku Girl Dress', 'Harajuku Girl Cheek Star']
 
-    KIWI_GIRL_COSTUME = ["Kiwi Girl Dress","Kiwi Girl Hairclip","Kiwi Girl Boots","Kiwi Girl Wig"]
+    COZY_COTTAGE_GIRL_OUTFIT = ['Cozy Cottage Girl Ear Muffs', 'Cozy Cottage Girl Tights', 'Cozy Cottage Girl Boots', 'Cozy Cottage Girl Glove', 'Cozy Cottage Girl Sweater']
 
-    ORANGE_SLICE_GIRL_COSTUME = ["Orange Slice Girl Dress","Orange Slice Girl Hairclip","Orange Slice Girl Boots","Orange Slice Girl Wig"]
+    WICKED_WITCH_OUTFIT = ['Wicked Witch Poisoned Apple', 'Wicked Witch Boots', 'Wicked Witch Dress', 'Wicked Witch Hood']
 
-    ORANGE_PEEL_GIRL_COSTUME = ["Orange Peel Girl Dress","Orange Peel Girl Hairclip","Orange Peel Girl Sandals","Orange Peel Girl Wig"]
+    SNOW_WHITE_OUTFIT = ['Snow White Headband', 'Snow White Wig', 'Snow White Shoes', 'Snow White Classic Dress']
 
-    SWEET_LIME_GIRL_COSTUME = ["Sweet Lime Girl Dress","Sweet Lime Girl Hat","Sweet Lime Girl Boots","Sweet Lime Girl Wig"]
+    DAY_OF_THE_DEAD_GIRL_OUTFIT = ['Day of the Dead Girl Shoes', 'Day of the Dead Girl Headdress', 'Day of the Dead Girl Dress', 'Day of the Dead Girl Veil']
 
-    CITRUS_COCKTAIL_GIRL_COSTUME = ["Citrus Cocktail Girl Dress","Citrus Cocktail Girl Hairband","Citrus Cocktail Girl Boots","Citrus Cocktail Girl Wig"]
+    GOTHIC_PRINCESS_OUTFIT = ['Gothic Princess Mirror', 'Gothic Princess Shoes', 'Gothic Princess Stockings', 'Gothic Princess Dress', 'Gothic Princess Wig', 'Gothic Princess Crown']
 
-    CITRUS_COCKTAIL_BOY_COSTUME = ["Citrus Cocktail Boy Top","Citrus Cocktail Boy Pants","Citrus Cocktail Boy Boots","Citrus Cocktail Boy Goggles","Citrus Cocktail Boy Wig"]
+    MEDIEVAL_PRINCESS_BUNDLE = ['Medieval Princess Sceptre', 'Medieval Princess Shoes', 'Medieval Princess Tiara', 'Medieval Princess Wig', 'Medieval Princess Gown']
 
-    RED_HOOD_GIRL_COSTUME = ["Red Hood Girl Dress","Red Hood Girl Stockings","Red Hood Girl Red Hood","Red Hood Girl Boots","Red Hood Girl Cape","Red Hood Girl Wig"]
+    MON_PETIT_CHERIE_DARLING_DEBUTANTE_OUTFIT = ['Mon Petit Cherie Darling Debutante Shoes', 'Mon Petit Cherie Darling Debutante Hair Bows', 'Mon Petit Cherie Darling Debutante Wig', 'Mon Petit Cherie Darling Debutante Dress', 'Mon Petit Cherie Darling Debutante Bag']
 
-    COUNTRY_GIRL_BLUE_COSTUME = ["Country Girl Blue Dress","Country Girl Blue Stockings","Country Girl Blue Hat","Country Girl Blue Boots","Country Girl Blue Wig"]
+    POOLSIDE_GIRL_OUTFIT = ['Poolside Girl Swimsuit', 'Poolside Pink Sandals']
 
-    WOLF_GIRL_COSTUME = ["Wolf Girl Dress","Wolf Girl Socks","Wolf Girl Wolf Hood","Wolf Girl Boots","Wolf Girl Cape"]
+    GIRL_CANDY_WORKER_OUTFIT = ['Girl Candy Worker Shoes', 'Girl Candy Worker Hairbow', 'Girl Candy Worker Dress']
 
-    COUNTY_GIRL_RED_COSTUME = ["County Girl Red Dress","County Girl Red Socks","County Girl Red Bird Clip","County Girl Red Boots","County Girl Red Wig"]
+    WINTER_PROM_GIRL_OUTFIT = ['Winter Prom Pink Shoes', 'Winter Prom Pink Dress']
 
-    RED_CAPE_GIRL_COSTUME = ["Red Cape Girl Dress","Red Cape Girl Socks","Red Cape Girl Hairbow","Red Cape Girl Boots","Red Cape Girl Basket","Red Cape Girl Cape","Red Cape Girl Wig"]
+    GIRL_SCOUT_OUTFIT = ['Girl Scout Shoes', 'Girl Scout Dress', 'Girl Scout Hairbow']
 
-    COUNTRY_BOY_COSTUME = ["Country Boy Top","Country Boy Pants","Country Boy Hat","Country Boy Boots","Country Boy Axe"]
+    RAINBOW_GIRL_OUTFIT = ['Rainbow Girl Shoes', 'Rainbow Girl Leggings', 'Rainbow Girl Hairbow', 'Rainbow Girl Dress']
 
-    EVIL_JESTER_OUTFIT_BUNDLE = ["Evil Jester Top","Evil Jester Pants","Evil Jester Shoes","Evil Jester Mask"]
+    WATERMELON_GIRL_OUTFIT = ['Watermelon Girl Shoes', 'Watermelon Girl Left Bow', 'Watermelon Girl Right Bow', 'Watermelon Girl Dress']
 
-    EVIL_RINGMASTER_OUTFIT_BUNDLE = ["Evil Ringmaster Top","Evil Ringmaster Pants","Evil Ringmaster Hat","Evil Ringmaster Boots","Evil Ringmaster Knife"]
+    PIRATE_GIRL_OUTFIT = ['Pirate Girl Boots', 'Pirate Girl Pants', 'Pirate Girl Shirt', 'Pirate Girl Hat']
 
-    CREEPY_CARNY_OUTFIT_BUNDLE = ["Creepy Carny Top","Creepy Carny Pants","Creepy Carny Hat","Creepy Carny Boots","Creepy Carny Wig"]
+    HEAVENLY_OUTFIT = ['Heavenly Sandals', 'Heavenly Armband', 'Heavenly Wand', 'Heavenly Tunic', 'Heavenly Halo']
 
-    HORROR_NURSE_OUTFIT_BUNDLE = ["Horror Nurse Dress","Horror Nurse Socks","Horror Nurse Shoes","Horror Nurse Eye Patch","Horror Nurse Wig"]
+    UNDERWORLD_OUTFIT = ['Underworld Sandals', 'Underworld Armband', 'Underworld Trident', 'Underworld Tunic', 'Underworld Horns Headband']
 
-    HORROR_CLOWN_OUTFIT_BUNDLE = ["Horror Clown Gate","Horror Clown Jack In The Box","Horror Clown Top","Horror Clown Pants","Horror Clown Hat","Horror Clown Boots","Horror Clown Mask"]
+    PUNK_ROCK_GIRL_OUTFIT = ['Punk Rock Shoes', 'Punk Rock Dress', 'Punk Rock Cap']
 
-    HORROR_CARNY_OUTFIT_BUNDLE = ["Horror Carny Top","Horror Carny Socks","Horror Carny Shoes","Horror Carny Wig"]
+    FLOWER_GIRL_OUTFIT = ['Flower Girl Shoes', 'Flower Girl Stockings', 'Flower Girl Dress', 'Flower Girl Headdress', 'Flower Petals Basket', 'Spring Picnic Girl Outift', 'Spring Picnic Girl Shoes', 'Spring Picnic Girl Glasses', 'Spring Picnic Girl Headband', 'Spring Picnic Girl Dress']
 
-    PINK_MIST_GIRL_COSTUME = ["Pink Mist Girl Dress","Pink Mist Girl Hat","Pink Mist Girl Boots"]
+    MONSTER_CATCHER_DRESS_OUTFIT = ['Monster Catcher Stockings', 'Monster Catcher Heeled Boots', 'Monster Catcher Dress']
 
-    WHITE_POP_GIRL_COSTUME = ["White Pop Girl Dress","White Pop Girl Shorts","White Pop Girl Hairband","White Pop Girl Boots","White Pop Girl Armband","White Pop Girl Goggles","White Pop Girl Wig"]
+    LUXURY_FRIDAY_EVENING_OUTFIT = ['Luxury Friday Evening Leggings', 'Luxury Friday Evening Heels', 'Luxury Friday Evening Hair Bow', 'Luxury Friday Evening Dress']
 
-    CHIC_RUNAWAY_GIRL_COSTUME = ["Chic Runaway Girl Dress","Chic Runaway Girl Boots","Chic Runaway Girl Bracelet","Chic Runaway Girl Scarf","Chic Runaway Girl Wig"]
+    CINDERELLA_HOMEMADE_OUTFIT = ['Cinderella Homemade Shoes', 'Cinderella Homemade Dress']
 
-    SUMMER_FLORAL_GIRL_COSTUME = ["Summer Floral Girl Dress","Summer Floral Girl Hairband","Summer Floral Girl Boots","Summer Floral Girl Wig"]
+    COUNTRY_GIRL_OUTFIT = ['Country Straw Hat', 'Country Red Shoes', 'Country Red Dress']
 
-    GLITZY_PURPLE_BOY_COSTUME = ["Glitzy Purple Boy Top","Glitzy Purple Boy Pants","Glitzy Purple Boy Boots","Glitzy Purple Boy Goggles","Glitzy Purple Boy Wig"]
+    CHRISTINE_OUTFIT = ['Christine Shoes', 'Christine Dress', 'Christine Glove']
 
-    HUNKY_DORY_BOY_COSTUME = ["Hunky Dory Boy Top","Hunky Dory Boy Pants","Hunky Dory Boy Cap","Hunky Dory Boy Boots","Hunky Dory Boy Goggles","Hunky Dory Boy Wig"]
+    SPRING_LAMB_OUTFIT = ['Spring Lamb Hood', 'Spring Lamb Top', 'Spring Lamb Pants']
 
-    VENUS_AQUA_GIRL_OUTFIT = ["Venus Aqua Girl Dress","Venus Aqua Girl Boots","Venus Aqua Girl Wig"]
+    ROMANTIC_AUTUMN_WALK_BY_XTOS_OUTFIT_BUNDLE = ['Romantic Autumn Walk by Xtos Top', 'Romantic Autumn Walk by Xtos Pants', 'Romantic Autumn Walk by Xtos Hat', 'Romantic Autumn Walk by Xtos Boots', 'Romantic Autumn Walk by Xtos Glove', 'Romantic Autumn Walk by Xtos Wig']
 
-    VENUS_PARTY_NIGHT_OUTFIT = ["Venus Party Night Dress","Venus Party Night Boots","Venus Party Night Wig"]
+    GODDESS_OF_CROPS_BY_YAYAFAY_OUTFIT_BUNDLE = ['Goddess of Crops by YaYaFay Dress', 'Goddess of Crops by YaYaFay Tiara', 'Goddess of Crops by YaYaFay Shoes', 'Goddess of Crops by YaYaFay Armband', 'Goddess of Crops by YaYaFay Wings', 'Goddess of Crops by YaYaFay Wig']
 
-    VENUS_ARTIST_OUTFIT = ["Venus Artist Top","Venus Artist Pants","Venus Artist Hat","Venus Artist Boots","Venus Artist Wig"]
+    DREAMCATCHER_GIRL_BY_NARIAMMA_OUTFIT_BUNDLE = ['Dreamcatcher Girl by Nariamma Dress', 'Dreamcatcher Girl by Nariamma Tiara', 'Dreamcatcher Girl by Nariamma Shoes', 'Dreamcatcher Girl by Nariamma Wig']
 
-    VENUS_TROPICAL_ISLAND_OUTFIT = ["Venus Tropical Island Dress","Venus Tropical Island Hat","Venus Tropical Island Boots"]
+    FALL_A_PORTER_BY_TERESA_OUTFIT_BUNDLE = ['Fall a Porter by Teresa Dress', 'Fall a Porter by Teresa Stockings', 'Fall a Porter by Teresa Hat', 'Fall a Porter by Teresa Shoes', 'Fall a Porter by Teresa Clutch', 'Fall a Porter by Teresa Wig']
 
-    MARS_PARTY_NIGHT_OUTFIT = ["Mars Party Night Top","Mars Party Night Pants","Mars Party Night Boots","Mars Party Night Wig"]
+    URBAN_CHIC_OUTFIT = ['Stylish Tee with Vest and Mirror Bangles', 'Harem Pants', 'Stylish Black Sandals', 'Boho Fish Cuff', 'Paperboy Cap']
 
-    MARS_ARTIST_OUTFIT = ["Mars Artist Top","Mars Artist Pants","Mars Artist Boots","Mars Artist Wig"]
+    LORD_OF_THE_BUNNIES_OUTFIT = ['Lord of the Bunnies Top', 'Lord of the Bunnies Pants', 'Lord of the Bunnies Shoes', 'Lord of the Bunnies Top Hat', 'Lord of the Bunnies Monocle', 'Lord of the Bunnies Cane']
 
-    MONARCHIAL_GIRL_OUTFIT = ["Monarchial Girl Dress","Monarchial Girl Boots","Monarchial Girl Wig"]
+    AUTUMN_BLOOM_OUTFIT = ['Autumn Bloom Wig', 'Autumn Bloom Dress', 'Autumn Bloom Shoes', 'Autumn Bloom Hairpiece']
 
-    DIVINE_MAIDEN_OUTFIT = ["Divine Maiden Dress","Divine Maiden Boots","Divine Maiden Wig"]
+    SWEET_STARRY_NIGHT_PAJAMA_OUTFIT = ['Sweet Star Pajama', 'Cute Little Star Hat', 'Cute Little Star Plushie', 'Blue Little Star Wig', 'Cute Calm Moon Balloon']
 
-    CHARMING_PRINCESS_OUTFIT = ["Charming Princess Dress","Charming Princess Boots","Charming Princess Wig"]
+    LE_ROCK_AND_CHIC_ENSEMBLE = ['Le Rock and Chic Wig', 'Le Rock and Chic Top', 'Le Rock and Chic Pants', 'Le Rock and Chic Hat', 'Le Rock and Chic Boots', 'Le Rock and Chic Sunglasses']
 
-    ANGELIC_QUEEN_OUTFIT = ["Angelic Queen Dress","Angelic Queen Tiara","Angelic Queen Boots","Angelic Queen Wig"]
+    NEON_FRILLS_GIRL_OUTFIT_BUNDLE = ['Neon Frills Girl Wig', 'Neon Frills Girl Hairclip', 'Neon Frills Girl Dress', 'Neon Frills Girl Boots']
 
-    COURAGEOUS_PALADIN_OUTFIT = ["Courageous Paladin Top","Courageous Paladin Pants","Courageous Paladin Boots","Courageous Paladin Wig"]
+    EDGAR_ALLAN_PAW_BY_HOUSEOFUSHER_BUNDLE = ['Edgar Allan Paw by HouseofUsher Raven', 'Edgar Allan Paw by HouseofUsher Top', 'Edgar Allan Paw by HouseofUsher Pants', 'Edgar Allan Paw by HouseofUsher Boots', 'Edgar Allan Paw by HouseofUsher Raven Feather', 'Edgar Allan Paw by HouseofUsher Novella', 'Edgar Allan Paw by HouseofUsher Cape', 'Edgar Allan Paw by HouseofUsher Glasses', 'Edgar Allan Paw by HouseofUsher Wig']
 
-    NOBLE_KING_OUTFIT = ["Noble King Top","Noble King Pants","Noble King Boots","Noble King Cape","Noble King Wig"]
+    LYLIAWNA_BY_MAHOGANI_BUNDLE = ['Lyliawna by Mahogani Dress', 'Lyliawna by Mahogani Boots', 'Lyliawna by Mahogani Scepter', 'Lyliawna by Mahogani Earrings', 'Lyliawna by Mahogani Wig', 'Lyliawna by Mahogani Flying Skull']
 
-    CYCLING_OUTFIT_BUNDLE = ["Cycling Champ","Cycling Backpack","Cycling Top","Cycling Shorts","Cycling Helmet","Cycling Shoes","Cycling Goggles"]
+    STITCHES_BY_KITSCH_SLAPPED_BUNDLE = ['Stitches by Kitsch Slapped Top', 'Stitches by Kitsch Slapped Legs', 'Stitches by Kitsch Slapped Needle', 'Stitches by Kitsch Slapped Mask']
 
-    SWIMMING_OUTFIT_BUNDLE = ["Swimming Top","Swimming Shorts","Swimming Pants","Swimming Cap","Swimming Goggles"]
+    PAREIDOLIA_BY_BRYSHEYRA_BUNDLE = ['Pareidolia by Brysheyra Dress', 'Pareidolia by Brysheyra Hair Bow', 'Pareidolia by Brysheyra Shoes', 'Pareidolia by Brysheyra Doll', 'Pareidolia by Brysheyra Spider', 'Pareidolia by Brysheyra Wig']
 
-    HOCKEY_OUTFIT_BUNDLE = ["Hockey Backpack","Hockey Banner","Hockey Girl Dress","Hockey Girl Socks","Hockey Girl Boots","Hockey Stick","Hockey Girl Wig"]
+    SALSA_GIRL_COSTUME_BUNDLE = ['Salsa Girl Dress', 'Salsa Girl Hairclip', 'Salsa Girl Shoes', 'Salsa Girl Wig']
 
-    TENNIS_OUTFIT_BUNDLE = ["Tennis Backpack","Tennis Racket","Tennis Dress","Tennis Socks","Tennis Cap","Tennis Boots"]
+    TAIWANESE_GIRL_COSTUME_BUNDLE = ['Taiwanese Girl Dress', 'Taiwanese Girl Shoes', 'Taiwanese Girl Wig']
 
-    JOCKEY_OUTFIT_BUNDLE = ["Jockey Backpack","Jockey Top","Jockey Pants","Jockey Helmet","Jockey Boots"]
+    LADY_PAULA_BUNDLE = ['Lady Paula Dress', 'Lady Paula Boots', 'Lady Paula Nose With Sunglasses', 'Lady Paula Wig']
 
-    BOXING_OUTFIT_BUNDLE = ["Boxing Backpack","Boxing Top","Boxing Shorts","Boxing Headguard","Boxing Boots","Boxing Glove"]
+    LADY_MADONA_BUNDLE = ['Lady Madona Dress', 'Lady Madona Cage Veil', 'Lady Madona Boots', 'Lady Madona Glove Left', 'Lady Madona Glove Right', 'Lady Madona Nose', 'Lady Madona Wig']
 
-    PURPLE_LEOTARDS_OUTFIT_BUNDLE = ["Purple Leotards Suit","Purple Leotards Stockings"]
+    LADY_BRITTNEY_BUNDLE = ['Lady Brittney Dress', 'Lady Brittney Boots', 'Lady Brittney Gloves', 'Lady Brittney Nose', 'Lady Brittney Wig']
 
-    YELLOW_PURPLE_LEOTARDS_OUTFIT_BUNDLE = ["Yellow Purple Leotards Suit","Yellow Purple Leotards Stockings"]
+    MON_PETIT_CHERI_ROMANTIC_DATE_BUNDLE = ['Mon Petit Cheri Romantic Bag', 'Mon Petit Cheri Romantic Dress', 'Mon Petit Cheri Romantic Glasses', 'Mon Petit Cheri Romantic Shoes']
 
-    PURPLE_YELLOW_LEOTARDS_OUTFIT_BUNDLE = ["Purple Yellow Leotards Suit","Purple Yellow Leotards Stockings"]
+    AQUA_WIG_BOX = ['Aqua Waves Wig', 'Aqua Mohawk Wig', 'Aqua Pig Tail Wig']
 
-    SLEEVED_PURPLE_LEOTARDS_OUTFIT_BUNDLE = ["Sleeved Purple Leotards Suit","Sleeved Purple Leotards Stockings"]
+    GOLDEN_AGE_WIG_BUNDLE = ['Golden Age Outward Curl Wig', 'Golden Age Waves Wig', 'Golden Age Curls Wig']
 
-    GOLDEN_MERMAID_BUNDLE = ["Golden Mermaid Dress","Golden Mermaid Headdress","Golden Mermaid Bracelet","Golden Mermaid Wig"]
+    VICTORIAN_TALE_WIG_BUNDLE = ['Victorian Baroque Wig', 'Victorian Open Curls Wig', 'Victorian Bun Wig']
 
-    MERMAID_PRINCESS_BUNDLE = ["Mermaid Princess Dress","Mermaid Princess Bracelet","Mermaid Princess Flower Barrette","Mermaid Princess Wig"]
+    MON_PETIT_CHERI_VICTORIAN_SWEETHEART_OUTFIT = ['Mon Petit Cheri Victorian Sweetheart Wig', 'Mon Petit Cheri Victorian Sweetheart Dress', 'Mon Petit Cheri Victorian Sweetheart Hair Bow', 'Mon Petit Cheri Victorian Sweetheart Boots', 'Mon Petit Cheri Victorian Sweetheart Hair Stars', 'Mon Petit Cheri Victorian Sweetheart Purse', 'Mon Petit Cheri Victorian Sweetheart Stockings']
 
-    FUCHSIA_MERMAID_BUNDLE = ["Fuchsia Mermaid Dress","Fuchsia Mermaid Bracelet","Fuchsia Mermaid Starfish Barrette","Fuchsia Mermaid Wig"]
+    LUCKY_IRISH_PAL_SET = ['Lucky Oink', 'Lucky Baa', 'Lucky Neigh', 'Lucky Moo']
 
-    KING_OF_THE_SEAS_BUNDLE = ["King of the Seas Tail","King of the Seas Crown","King of the Seas Trident","King of the Seas Wig"]
+    SUGAR_AND_SPICE_PAL_SET = ['Sweet Tooth Pal', 'Sugar Muffin Pal', 'Green Chili Pepper Pal', 'Chili Pepper Pal']
 
-    TRINIDADIAN_CRAB_BUNDLE = ["Trinidadian Crab Top","Trinidadian Crab Pants","Trinidadian Crab Shell","Trinidadian Crab Hood"]
+    DARK_CHRISTMAS_PAL_SET = ['Grouchy Grinch', 'Stealthy Elf', 'Greedy Gingerbread Pet', 'Scary Santa']
 
-    EVIL_SEA_WITCH_BUNDLE = ["Evil Sea Witch Dress","Evil Sea Witch Bracelet","Evil Sea Witch Earrings","Evil Sea Witch Wig"]
+    AUTUMN_FEAST_PAL_SET = ['Fat Uncle Turkey', 'Brother Beaver', 'Grandfather Rhino', 'Sister Cat']
 
-    ALICE_BUNDLE = ["Alice Dress","Alice Blue Dress","Alice Hairband","Alice Blue Bow","Alice Black Shoes","Alice Door Key","Alice Blonde Wig"]
+    ROBO_PAL_SET = ['iBot', 'ZonkBot', 'ShortBot', 'CyBot']
 
-    WHITE_QUEEN_BUNDLE = ["White Queen Dress","White Queen Pearl Tiara","White Queen Shoes","White Queen Wig"]
+    TIKI_FIGURINE_BUNDLE = ['Headstand Tiki Figurine', 'Yodeler Tiki Figurine', 'Attitude Tiki Figurine', 'Drummer Tiki Figurine']
 
-    RED_QUEEN_BUNDLE = ["Red Queen Dress","Red Queen Tiara","Red Queen Shoes","Red Queen Wig"]
+    PRESTIGIOUS_ANIMAL_SET = ['Lady Meow', 'Sir Rabbit', 'Master Oink']
 
-    MAD_HATTER_BUNDLE = ["Mad Hatter Jacket","Mad Hatter Coat","Mad Hatter Pants","Mad Hatter Tights","Mad Hatter Hat","Mad Hatter Top Hat","Mad Hatter Shoes","Mad Hatter Boots","Mad Hatter Cape","Mad Hatter Wig"]
+    SLEEPING_ANGEL_BUNDLE = ['Snoozing Angel', 'Resting Angel', 'Sleepy Angel']
 
-    WHITE_RABBIT_BUNDLE = ["White Rabbit Top","White Rabbit Pants","White Rabbit Ears Headband","White Rabbit Top Hat","White Rabbit Shoes","White Rabbit Trumpet"]
+    PAWLYMPICS_PAL_SET = ['Kickboxing Champ', 'Fencing Champ', 'Weight Lifting Champ', 'Cycling Champ']
 
-    CHESHIRE_CAT_BUNDLE = ["Cheshire Cat Top","Cheshire Cat Pants","Cheshire Cat Tail","Cheshire Cat Hood"]
+    CHRONICLE_PAL_SET = ['Vigilant Centaur', 'Loyal Dwarf', 'Pretty Queen', 'Friendly Faun']
 
-    ROYAL_BRIDE_OUTFIT = ["Royal Bride Dress","Royal Bride Garter Belt","Royal Bride Headdress","Royal Bride Shoes","Royal Bride Gloves","Royal Bride Veil","Royal Bride Wig"]
+    FASHIONISTA_PORTRAIT_BUNDLE = ['Girl Next Door Portrait', 'Sweet Girl Portrait', 'Pop Star Portrait', 'Preppy Girl Portrait']
 
-    ROYAL_GROOM_OUTFIT = ["Royal Groom Top","Royal Groom Pants","Royal Groom Hat","Royal Groom Boots","Royal Groom Gloves","Royal Groom Wig"]
+    KINGDOM_OF_CARDS_PAINTINGS_BUNDLE = ['Spade King Portrait', 'Heart Queen Portrait']
 
-    ROYAL_GUARD_OUTFIT = ["Royal Guard Top","Royal Guard Pants","Royal Guard Hat","Royal Guard Shoes"]
+    KINGDOM_OF_CARDS_ANIMAL_SET_BUNDLE = ['Diamond Puppy', 'Club Squirrel', 'Heart Bunny', 'Spade Monkey']
 
-    PIRATE_PRINCE_OUTFIT = ["Pirate Prince Top","Pirate Prince Pants","Pirate Prince Hat","Pirate Prince Boots","Pirate Prince Compass","Pirate Prince Wig"]
+    BALLERINA_ANIMAL_SET = ['Ballerina Piggy', 'Ballerina Deer', 'Ballerina Bunny', 'Ballerina Kitty']
 
-    PIRATE_PRINCESS_OUTFIT = ["Pirate Princess Dress","Pirate Princess Tiara","Pirate Princess Shoes","Pirate Princess Fan","Pirate Princess Wig"]
+    JOHNSON_5_FIGURINE_BUNDLE = ['May Johnson', 'Jay Johnson', 'Mal Johnson', 'Ran Johnson', 'Tee Johnson']
 
-    PIRATE_SORCERESS_OUTFIT = ["Pirate Sorceress Dress","Pirate Sorceress Bows","Pirate Sorceress Shoes","Pirate Sorceress Voodoo Doll"]
+    PATISSERIE_PALS_SET = ['Caramel Cliff', 'Biscuit Betty', 'Shortcake Susie', 'Cupcake Carly']
 
-    SEA_ADMIRAL_OUTFIT = ["Sea Admiral Top","Sea Admiral Pants","Sea Admiral Hat","Sea Admiral Shoes","Sea Admiral Rapier"]
+    HARAJUKU_ANIMAL_SET = ['Harajuku Pop Star Panda', 'Harajuku Gothic Kitty', 'Harajuku Dolly Spaniel', 'Harajuku Decora Poodle']
 
-    MYTHICAL_PIRATE_CAPTAIN_OUTFIT = ["Mythical Pirate Captain Top","Mythical Pirate Captain Pants","Mythical Pirate Captain Hat","Mythical Pirate Captain Boots","Mythical Pirate Captain Beard"]
+    MINING_DWARF_SET = ['Doc Mining Dwarf Holder', 'Bashful Mining Dwarf Holder', 'Dopey Mining Dwarf Holder', 'Happy Mining Dwarf Holder', 'Grumpy Mining Dwarf Holder', 'Sleepy Mining Dwarf Holder', 'Sneezy Mining Dwarf Holder']
 
-    LADY_PIRATE_OUTFIT = ["Lady Pirate Top","Lady Pirate Pants","Lady Pirate Hat","Lady Pirate Boots","Lady Pirate Rapier"]
+    FAMOUS_PAINTINGS_II_BUNDLE = ['Portrait of Adele Bloch Bauer I', 'American Gothic', 'The Sistine Madonna Cherubs', 'Dancers In Pink']
 
-    WIZARD_PRODIGY_OUTFIT = ["Wizard Prodigy Top","Wizard Prodigy Pants","Wizard Prodigy Shoes","Wizard Prodigy Wand","Wizard Prodigy Golden Ball","Wizard Prodigy Glasses","Wizard Prodigy Wig"]
+    NOIR_THEME_BUNDLE = ['Daring Detective Face Poster', 'Noir Piano', 'Noir Famous Paintings Bundle III']
 
-    GOOFY_WIZARD_OUTFIT = ["Goofy Wizard Top","Goofy Wizard Pants","Goofy Wizard Mouse on Head","Goofy Wizard Shoes","Goofy Wizard Wand","Goofy Wizard Wig"]
+    NOIR_FAMOUS_PAINTINGS_BUNDLE_III = ['Pawqueline With Flowers Painting', 'Night Sky Painting', 'Pawra Maar With Cat Painting', 'Cirque Pet Noir Painting']
 
-    CUTE_WITCH_OUTFIT = ["Cute Witch Jubble","Cute Witch Dress","Cute Witch Skirt","Cute Witch Hat","Cute Witch Barrette","Cute Witch Shoes","Cute Witch Flats","Cute Witch Wand","Cute Witch Wig"]
+    WILD_GIRAFFE_BUNDLE = ['Wild Giraffe Headgear', 'Wild Giraffe Shoes', 'Wild Giraffe Glove Left', 'Wild Giraffe Glove Right', 'Wild Giraffe Tail', 'Wild Giraffe Mask']
 
-    SMART_WITCH_OUTFIT = ["Smart Witch Skirt","Smart Witch Flats","Smart Witch Wand","Smart Witch Spell Book","Smart Witch Wig"]
+    WILD_ZEBRA_BUNDLE = ['Wild Zebra Headgear', 'Wild Zebra Shoes', 'Wild Zebra Glove Left', 'Wild Zebra Glove Right', 'Wild Zebra Tail', 'Wild Zebra Mask']
 
-    LOONY_WITCH_OUTFIT = ["Loony Witch Skirt","Loony Witch Flats","Loony Witch Wand","Loony Witch Earrings","Loony Witch Wig"]
+    WILD_HIPPO_BUNDLE = ['Wild Hippo Headgear', 'Wild Hippo Shoes', 'Wild Hippo Glove Left', 'Wild Hippo Glove Right', 'Wild Hippo Tail', 'Wild Hippo Mask']
 
-    HEADMASTER_WIZARD_OUTFIT = ["Headmaster Wizard Robe","Headmaster Wizard Hat","Headmaster Wizard Shoes","Headmaster Wizard Wand","Headmaster Wizard Glasses","Headmaster Wizard Wig"]
+    WILD_LION_BUNDLE = ['Wild Lion Headgear', 'Wild Lion Shoes', 'Wild Lion Glove Left', 'Wild Lion Glove Right', 'Wild Lion Tail', 'Wild Lion Mask']
 
-    JOURNALIST_WITCH_OUTFIT = ["Journalist Witch Dress","Journalist Witch Boots","Journalist Witch Stylus","Journalist Witch Glasses","Journalist Witch Wig"]
+    WILD_FRIENDS_BUNDLE = ['Sheeba the Seat', 'Sam the Slide', 'Tara the Trampoline']
 
-    FRENCH_WITCH_OUTFIT = ["French Witch Dress","French Witch Hat","French Witch Shoes","French Witch Wand","French Witch Wig"]
+    FUZZY_MONKEY_BUNDLE = ['Fuzzy Monkey Plushie', 'Fuzzy Monkey Ears', 'Fuzzy Monkey Paw', 'Fuzzy Monkey Tail']
 
-    DOG_WIZARD_OUTFIT = ["Dog Wizard Top","Dog Wizard Pants","Dog Wizard Headband","Dog Wizard Shoes","Dog Wizard Wand","Dog Wizard Tail","Dog Wizard Wig"]
+    BEAUTIFUL_BUNNY_BUNDLE = ['Beautiful Bunny Plushie', 'Beautiful Bunny Ears', 'Beautiful Bunny Paw', 'Beautiful Bunny Tail']
 
-    PUNK_WITCH_OUTFIT = ["Punk Witch Top","Punk Witch Pants","Punk Witch Boots","Punk Witch Wand","Punk Witch Pig Nose","Punk Witch Wig"]
+    SMART_SQUIRREL_BUNDLE = ['Smart Squirrel Plushie', 'Smart Squirrel Ears', 'Smart Squirrel Paw', 'Smart Squirrel Tail']
 
-    WIZARD_PROFESSOR_OUTFIT = ["Wizard Professor Top","Wizard Professor Pants","Wizard Professor Shoes","Wizard Professor Wand","Wizard Professor Potion Bottle","Wizard Professor Wig"]
+    SILLY_SKUNK_BUNDLE = ['Silly Skunk Plushie', 'Silly Skunk Ears', 'Silly Skunk Paw', 'Silly Skunk Tail']
 
-    SPOILT_WIZARD_OUTFIT = ["Spoilt Wizard Top","Spoilt Wizard Pants","Spoilt Wizard Shoes","Spoilt Wizard Wand","Spoilt Wizard Flag","Spoilt Wizard Wig"]
+    PINK_FOX_BUNDLE = ['Pink Fox Plushie', 'Pink Fox Ears', 'Pink Fox Paw', 'Pink Fox Tail']
 
-    ARISTOCRAT_WITCH_OUTFIT = ["Aristocrat Witch Dress","Aristocrat Witch Shoes","Aristocrat Witch Wand","Aristocrat Witch Cape","Aristocrat Witch Wig"]
+    GLOW_IN_THE_DARK_PAINTING_BUNDLE = ['Flower Glass Painting', 'Butterfly Glass Painting', 'Yellow Flower Glass Painting']
 
-    CRAZY_WITCH_OUTFIT = ["Crazy Witch Dress","Crazy Witch Boots","Crazy Witch Wand","Crazy Witch Wig"]
+    AQUA_LOBSTER_OUTFIT = ['Aqua Lobster Shoes', 'Aqua Lobster Pants', 'Aqua Lobster Hood', 'Aqua Lobster Top']
 
-    POLITICAL_WITCH_OUTFIT = ["Political Witch Dress","Political Witch Stockings","Political Witch Hat","Political Witch Shoes","Political Witch Wand","Political Witch Teacup","Political Witch Wig"]
+    GOLDEN_AGE_WORKER_BOY_OUTFIT = ['Golden Age Worker Boy Pants', 'Golden Age Worker Boy Shoes', 'Golden Age Worker Boy Top']
 
-    WITCH_OF_THE_EAST_OUTFIT = ["Witch of the East Dress","Witch of the East Stockings","Witch of the East Hat","Witch of the East Slippers","Witch of the East Broom","Witch of the East Wig"]
+    GREEN_FINGERS_BOY_OUTFIT = ['Green Fingers Boys Boots', 'Green Fingers Boys Pants', 'Green Fingers Boys Hat', 'Green Fingers Boys Top']
 
-    OZ_PRINCE_OUTFIT = ["Oz Prince Top","Oz Prince Pants","Oz Prince Boots","Oz Prince Wig"]
+    EASTER_BAKER_BOYS_OUTFIT = ['Easter Baker Boys Pants', 'Easter Baker Boys Shoes', 'Easter Baker Boys Top']
 
-    DOROTHY_OUTFIT = ["Dorothy Dress","Dorothy Stockings","Dorothy Slippers","Dorothy Toto","Dorothy Wig"]
+    BIRDIE_GUY_OUTFIT = ['Birdie Guy Shoes', 'Birdie Guy Pants', 'Birdie Guy Top']
 
-    WITCH_OF_THE_NORTH_OUTFIT = ["Witch of the North Dress","Witch of the North Tiara","Witch of the North Shoes","Witch of the North Scepter","Witch of the North Wig"]
+    IRISH_BOY_OUTFIT = ['Irish Boy Shoes', 'Irish Boy Pants', 'Irish Boy Top', 'Irish Boy Hat']
 
-    WONDERFUL_WIZARD_OUTFIT = ["Wonderful Wizard Jacket","Wonderful Wizard Pants","Wonderful Wizard Hat","Wonderful Wizard Shoes","Wonderful Wizard Sac","Wonderful Wizard Cape","Wonderful Wizard Wig"]
+    CHIVALROUS_BOY_OUTFIT = ['Chivalrous Boy Shoes', 'Chivalrous Boy Pant', 'Chivalrous Boy Hat', 'Chivalrous Boy Top']
 
-    WITCH_OF_THE_WEST_OUTFIT = ["Witch of the West Dress","Witch of the West Hat","Witch of the West Boots","Witch of the West Ball of Fire","Witch of the West Broom","Witch of the West Wig"]
+    SHIFUS_BOYISH_COUTURE = ['Shifus Boyish Boots', 'Shifus Boyish Top']
 
-    OZ_HEADMISTRESS_OUTFIT = ["Oz Headmistress Dress","Oz Headmistress Shoes","Oz Headmistress Book","Oz Headmistress Spectacles","Oz Headmistress Wig"]
+    GEEK_BOY_OUTFIT = ['Geek Boy Shoes', 'Geek Boy Pants', 'Geek Boy Top']
 
-    FLYING_MONKEY_OUTFIT = ["Flying Monkey Jacket","Flying Monkey Pants","Flying Monkey Ears","Flying Monkey Shoes","Flying Monkey Companion Placeholder","Flying Monkey Glove","Flying Monkey Wing","Flying Monkey Tail"]
+    CUPID_BOY_OUTFIT = ['Cupid Boy Boots', 'Cupid Boy Pant', 'Cupid Boy Top', 'Cupid Boy Wig']
 
-    QUEEN_FAIRY_OUTFIT = ["Queen Fairy Dress","Queen Fairy Crown","Queen Fairy Shoes","Queen Fairy Scepter","Queen Fairy Wings","Queen Fairy Hairclip","Queen Fairy Wig"]
+    SKETCH_BOY_OUTFIT_BUNDLE = ['Sketch Boy Shoes', 'Sketch Boy Pants', 'Sketch Boy Top']
 
-    KING_FAIRY_OUTFIT = ["King Fairy Top","King Fairy Pants","King Fairy Crown","King Fairy Boots","King Fairy Scepter","King Fairy Wings","King Fairy Wig"]
+    PATCH_BOY_OUTFIT = ['Patch Boy Boots', 'Patch Boy Shorts', 'Patch Boy Top']
 
-    PRINCESS_FAIRY_OUTFIT = ["Princess Fairy Dress","Princess Fairy Stockings","Princess Fairy Tiara","Princess Fairy Shoes","Princess Fairy Dust Bottle","Princess Fairy Wings","Princess Fairy Mask","Princess Fairy Wig"]
+    WILD_SAFARI_BOY_OUTFIT = ['Wild Safari Boy Boots', 'Wild Safari Boy Pants', 'Wild Safari Boy Stick', 'Wild Safari Boy Top', 'Wild Safari Boy Hat']
 
-    PRINCE_FAIRY_OUTFIT = ["Prince Fairy Top","Prince Fairy Shorts","Prince Fairy Boots","Prince Fairy Sword","Prince Fairy Wings","Prince Fairy Wig"]
+    MEADOW_BOY_OUTFIT = ['Meadow Boy Shoes', 'Meadow Boy Pants', 'Meadow Boy Top']
 
-    DARK_FAIRY_OUTFIT = ["Dark Fairy Dress","Dark Fairy Stockings","Dark Fairy Headdress","Dark Fairy High Boots","Dark Fairy Wand","Dark Fairy Dust Bottle","Dark Fairy Wings","Dark Fairy Wig"]
+    SPICY_BOY_OUTFIT = ['Spicy Boy Boots', 'Spicy Boy Headgear', 'Spicy Boy Pants', 'Spicy Boy Top']
 
-    IMMACULATE_FAIRY_OUTFIT = ["Immaculate Fairy Dress","Immaculate Fairy Headdress","Immaculate Fairy Shoes","Immaculate Fairy Dust Bottle","Immaculate Fairy Fairy Companion Bracelet","Immaculate Fairy Wings","Immaculate Fairy Wig"]
+    NEW_YEAR_BASH_BOY_OUTFIT_BUNDLE = ['New Year Bash Boy Boots', 'New Year Bash Boy Pants', 'New Year Bash Boy Top']
 
-    HIDEENI_EASTER_BUNNY_COSTUME = ["Hideeni Easter Bunny Costume Body","Hideeni Easter Bunny Costume Pants","Hideeni Easter Bunny Costume Hat"]
+    NEON_SUIT_BOY_OUTFIT_BUNDLE = ['Neon Suit Boy Boots', 'Neon Suit Boy Goggles', 'Neon Suit Boy Pants', 'Neon Suit Boy Top']
 
-    HIDEENI_SOCCER_BALL_COSTUME = ["Hideeni Soccer Ball Costume Body","Hideeni Soccer Ball Costume Hat","Hideeni Soccer Ball Costume Shoes"]
+    CHRISTMAS_CASTLE_BOY_OUTFIT_BUNDLE = ['Christmas Castle Boy Boots', 'Christmas Castle Boy Top', 'Christmas Castle Boy Pants', 'Christmas Castle Boy Wig']
 
-    HIDEENI_CHICKEN_COSTUME = ["Hideeni Chicken Costume Body","Hideeni Chicken Costume Pants","Hideeni Chicken Costume Hat"]
+    WINTER_ESKIMO_BOY_OUTFIT_BUNDLE = ['Winter Eskimo Boy Boots', 'Winter Eskimo Boy Tights', 'Winter Eskimo Boy Top', 'Winter Eskimo Boy Hat']
 
-    HIDEENI_TURKEY_COSTUME = ["Hideeni Turkey Costume Body","Hideeni Turkey Costume Pants","Hideeni Turkey Costume Hat"]
+    EVIL_CHRISTMAS_BOY_OUTFIT_BUNDLE = ['Evil Christmas Boy Pants', 'Evil Christmas Boy Boots', 'Evil Christmas Boy Hat', 'Evil Christmas Boy Top']
 
-    HIDEENI_TIGER_COSTUME = ["Hideeni Tiger Costume Body","Hideeni Tiger Costume Pants","Hideeni Tiger Costume Hat"]
+    WINTER_BOY_OUTFIT = ['Winter Boy Boots', 'Winter Boy Glove', 'Winter Boy Tights', 'Winter Boy Top']
 
-    HIDEENI_OCTOPUS_COSTUME = ["Hideeni Octopus Costume Body","Hideeni Octopus Costume Hat"]
+    ODYSSEY_BOY_OUTFIT = ['Odyssey Boy Shoes', 'Odyssey Boy Top', 'Odyssey Boy Pants', 'Odyssey Boy Mask']
 
-    HIDEENI_PUMPKIN_COSTUME = ["Hideeni Pumpkin Costume Mask"]
+    PANDORA_WARRIOR_BOY_OUTFIT_BUNDLE = ['Pandora Warrior Boy Stick', 'Pandora Warrior Boy Headgear', 'Pandora Warrior Boy Anklet', 'Pandora Warrior Boy Arm Band', 'Pandora Warrior Boy Top', 'Pandora Warrior Boy Wig']
 
-    HIDEENI_ASTRONAUT_COSTUME = ["Hideeni Astronaut Costume Body","Hideeni Astronaut Costume Pants","Hideeni Astronaut Costume Helmet"]
+    PANDORA_AIR_BOY_OUTFIT = ['Pandora Air Boy Shoes', 'Pandora Air Boy Pants', 'Pandora Air Boy Top']
 
-    HIDEENI_PINEAPPLE_COSTUME = ["Hideeni Pineapple Costume Mask"]
+    PILGRIM_BOY_OUTFIT = ['Pilgrim Boy Boots', 'Pilgrim Boy Pants', 'Pilgrim Boy Top', 'Pilgrim Boy Hat']
 
-    HIDEENI_MONKEY_COSTUME = ["Hideeni Monkey Costume Body","Hideeni Monkey Costume Pants","Hideeni Monkey Costume Hat"]
+    MARTIAN_BOY_OUTFIT = ['Martian Boy Boots', 'Martian Boy Pants', 'Martian Boy Top', 'Martian Boy Wig']
 
-    YELLOW_DUCKLING_COSTUME = ["Yellow Duckling Body","Yellow Duckling Pants","Yellow Duckling Hat"]
+    TIKI_BOY_OUTFIT = ['Tiki Boy Sandals', 'Tiki Boy Hat', 'Tiki Boy Shorts', 'Tiki Boy Top']
 
-    PARTY_CLOWN_OUTFIT = ["Party Clown Top","Party Clown Pants","Party Clown Hat","Party Clown Shoes","Party Clown Glove","Party Clown Nose","Party Clown Wig"]
+    TRIBAL_WARRIOR_OUTFIT_BUNDLE = ['Tribal Warrior Ankle Band', 'Tribal Warrior Top', 'Tribal Warrior Wig']
 
-    MISCHIEVOUS_OUTFIT = ["Mischievous Top","Mischievous Leggings","Mischievous Mask","Mischievous Wings","Mischievous Tail"]
+    TRIBAL_ELDER_OUTFIT_BUNDLE = ['Tribal Elder Ankle Band', 'Tribal Elder Top', 'Tribal Elder Hat']
 
-    ADVENTURER_OUTFIT = ["Adventurer Backpack","Adventurer Well","Adventurer Top","Adventurer Pants","Adventurer Hat","Adventurer Boots"]
+    MENAGE_BOY_OUTFIT = ['Menage Boy Boots', 'Menage Boy Pants', 'Menage Boy Top']
 
-    PRINCESS_AND_THE_PEA_BUNDLE = ["Spoilt Princess Wig", "Spoilt Princess Tiara", "Spoilt Princess Dress", "Spoilt Princess Shoes"]
+    PUMPKIN_HALLOW_BOY_OUTFIT = ['Pumpkin Hallow Boy Boots', 'Pumpkin Hallow Boy Pants', 'Pumpkin Hallow Boy Top', 'Pumpkin Hallow Boy Goggles']
 
-    RED_SHOES_BUNDLE = ["Ballerina Hairband", "Ballerina Dress", "Red Ballerina Shoes"]
+    HAUNTED_PIRATE_BOY_OUTFIT = ['Haunted Pirate Boy Boots', 'Haunted Pirate Boy Headband', 'Haunted Pirate Boy Pants', 'Haunted Pirate Boy Top']
 
-    UGLY_DUCKLING_BUNDLE = ["Basic Bob Wig", "Black Feathers Dress", "Black Stringed Boots"]
+    RED_CARPET_BOY_OUTFIT = ['Red Carpet Boy Boots', 'Red Carpet Boy Pants', 'Red Carpet Boy Top', 'Red Carpet Boy Wig']
 
-    LITTLE_PRINCE_BUNDLE = ["Little Prince Top","Little Prince Pants","Little Prince Crown"]
+    LAVISH_BOY_OUTFIT = ['Lavish Boy Boots', 'Lavish Boy Pants', 'Lavish Boy Top']
 
-    RAPUNZEL_BUNDLE = ["Rapunzel Dress","Rapunzel Shoes","Rapunzel Wig"]
+    VICTORIAN_TALE_GENTLEMAN_OUTFIT = ['Victorian Tale Gentleman Boots', 'Victorian Tale Gentleman Pants', 'Victorian Tale Gentleman Hat', 'Victorian Tale Gentleman Top']
 
-    ROYAL_WEDDING_GUEST_DUKE_OUTFIT = ["Duke Top Hat", "Duke Cane", "Duke Top", "Duke Pants", "Duke Shoes"]
+    SLUMBER_BOY_OUTFIT = ['Slumber Bunny Headband', 'Slumber Boy Shoes', 'Slumber Boy Pants', 'Slumber Boy Top']
 
-    ROYAL_WEDDING_GUEST_DUCHESS_OUTFIT = ["Duchess Hat", "Duchess Dress", "Duchess Shoes", "Duchess Handbag"]
+    VINEYARD_BOY_OUTFIT = ['Vineyard Boy Boots', 'Vineyard Boy Pants', 'Vineyard Boy Top']
 
-    THE_QUEEN_OUTFIT = ["Royal Hat", "Royal Wig", "Royal Dress", "Royal Handbag", "Royal Shoes"]
+    HORROR_CARNIVAL_BOY_OUTFIT = ['Horror Carnival Boy Boots', 'Horror Carnival Boy Pants', 'Horror Carnival Boy Top', 'Horror Carnival Boy Arm Band', 'Horror Carnival Boy Mask']
+
+    COLOR_SPLASH_BOY_OUTFIT = ['Color Splash Boy Boots', 'Color Splash Boy Pants', 'Color Splash Boy Hat', 'Color Splash Boy Top']
+
+    BEST_MAN_OUTFIT = ['Best Man Boots', 'Best Man Pants', 'Best Man Top']
+
+    BEACH_GROOM_OUTFIT_BUNDLE = ['Beach Groom Boots', 'Beach Groom Pants', 'Beach Groom Top', 'Beach Groom Wig']
+
+    VIKING_BOY_OUTFIT = ['Viking Boy Boots', 'Viking Boy Pants', 'Viking Boy Top', 'Viking Boy Shield', 'Viking Boy Wig']
+
+    VANILLA_BIRTHDAY_CHEF_OUTFIT = ['Vanilla Birthday Chef Boots', 'Vanilla Birthday Chef Pants', 'Vanilla Birthday Chef Top', 'Vanilla Birthday Chef Hat']
+
+    VANILLA_BIRTHDAY_BOY_OUTFIT_BUNDLE = ['Vanilla Birthday Boy Boots', 'Vanilla Birthday Boy Pants', 'Vanilla Birthday Boy Top']
+
+    CHOCOLATE_BIRTHDAY_BOY_OUTFIT_BUNDLE = ['Chocolate Birthday Boy Boots', 'Chocolate Birthday Boy Pants', 'Chocolate Birthday Boy Top']
+
+    HONEY_BOY_OUTFIT_BUNDLE = ['Honey Boy Shoes', 'Honey Boy Pants', 'Honey Boy Top', 'Honey Boy Helmet']
+
+    PAWLYMPICS_BOY_OUTFIT_BUNDLE = ['Pawlympics Boy Boots', 'Pawlympics Boy Shorts', 'Pawlympics Boy Top']
+
+    ADVENTURE_BOY_OUTFIT = ['Adventure Boy Boots', 'Adventure Boy Pants', 'Adventure Boy Top']
+
+    BOY_AIR_SCOUT_OUTFIT_BUNDLE = ['Boy Air Scout Pants', 'Boy Air Scout Boots', 'Boy Air Scout Hat', 'Boy Air Scout Top', 'Boy Air Scout Wig']
+
+    TESSELLATION_BOY_OUTFIT_BUNDLE = ['Tessellation Boy Wig', 'Tessellation Boy Boots', 'Tessellation Boy Pants', 'Tessellation Boy Top']
+
+    KAMI_DETECTIVE_OUTFIT = ['Kami Detective Boots', 'Kami Detective Pants', 'Kami Detective Top', 'Kami Detective Hat']
+
+    CHRONICLE_BOY_OUTFIT = ['Chronicle Boy Boots', 'Chronicle Boy Pants', 'Chronicle Boy Top', 'Chronicle Boy Wig']
+
+    OLYMPUS_BOY_OUTFIT = ['Olympus Boy Boots', 'Olympus Boy Dress', 'Olympus Boy Wig']
+
+    SPRING_CROCUS_OUTFIT = ['Spring Crocus Wig', 'Spring Crocus Boots', 'Spring Crocus Pants', 'Spring Crocus Top', 'Spring Crocus Hat']
+
+    SUMMER_BLOSSOM_BOY_OUTFIT = ['Summer Blossom Boy Pants', 'Summer Blossom Boy Boots', 'Summer Blossom Boy Top']
+
+    PAWITCHED_SORCERER_OUTFIT = ['Pawitched Sorcerer Boots', 'Pawitched Sorcerer Pants', 'Pawitched Sorcerer Cape', 'Pawitched Sorcerer Top', 'Pawitched Sorcerer Hat']
+
+    MARS_INDIGO_OUTFIT = ['Mars Indigo Pants', 'Mars Indigo Boots', 'Mars Indigo Top']
+
+    TAIWANESE_BOY_COSTUME_BUNDLE = ['Taiwanese Boy Shoes', 'Taiwanese Boy Pants', 'Taiwanese Boy Wig', 'Taiwanese Boy Top']
+
+    CASINO_BOY_COSTUME_BUNDLE = ['Casino Boy Stick', 'Casino Boy Shoes', 'Casino Boy Pants', 'Casino Boy Top', 'Casino Boy Hat']
+
+    SALSA_BOY_COSTUME_BUNDLE = ['Salsa Boy Shoes', 'Salsa Boy Pants', 'Salsa Boy Top', 'Salsa Boy Hat']
+
+    BARONG_TAGALOG_OUTFIT = ['Barong Tagalog Shoes', 'Barong Tagalog Pants', 'Barong Tagalog Top', 'Barong Tagalog Wig']
+
+    NOIR_BOY_OUTFIT = ['Noir Boy Boots', 'Noir Boy Pants', 'Noir Boy Hat', 'Noir Boy Top', 'Noir Magnifing Glass']
+
+    CHIC_SUMMER_BOY_OUTFIT = ['Chic Summer Boy Boots', 'Chic Summer Boy Pants', 'Chic Summer Boy Top']
+
+    MODERN_PARTY_BOY_OUTFIT = ['Modern Party Boy Boots', 'Modern Party Boy Pants', 'Modern Party Boy Top']
+
+    BEAU_MONDE_BOY_OUTFIT = ['Beau Monde Boy Boots', 'Beau Monde Boy Pants', 'Beau Monde Boy Top', 'Beau Monde Boy Cap']
+
+    WOODCUTTER_BOY_OUTFIT = ['Woodcutter Boy Wooden Stick', 'Woodcutter Boy Boots', 'Woodcutter Boy Pants', 'Woodcutter Boy Top', 'Woodcutter Boy Hat']
+
+    GLOW_IN_THE_DARK_PUNK_OUTFIT_BUNDLE = ['Glow Punk Goggles', 'Glow Punk Boots', 'Glow Punk Pants', 'Glow Punk Top', 'Glow Punk Wig']
+
+    PURPLE_SUIT_BOY_OUTFIT = ['Purple Suit Boy Boots', 'Purple Suit Boy Goggles', 'Purple Suit Boy Pants', 'Purple Suit Boy Top']
+
+    CITRUS_BOY_OUTFIT = ['Citrus Boy Boots', 'Citrus Boy Pants', 'Citrus Boy Hat', 'Citrus Boy Top']
+
+    CHINESE_WARRIOR_BOY_OUTFIT = ['Chinese Warrior Boy Pants', 'Chinese Warrior Boy Boots', 'Chinese Warrior Boy Top', 'Chinese Warrior Boy Wig']
+
+    CHOCO_MUFFIN_BOY_OUTFIT = ['Choco Muffin Boy Pan', 'Choco Muffin Boy Shoes', 'Choco Muffin Boy Pants', 'Choco Muffin Boy Top', 'Choco Muffin Boy Hat']
+
+    SPADE_PRINCE_OUTFIT = ['Spade Prince Shoes', 'Spade Prince Pants', 'Spade Prince Top', 'Spade Prince Wig', 'Spade Prince Crown']
+
+    GARDEN_BOY_OUTFIT = ['Garden Boy Pants', 'Garden Boy Top', 'Gum Boots', 'Summer Fork']
+
+    KLEM_OUTFIT = ['Klem Pink Nose', 'Klem Boots', 'Klem Pants', 'Klem Top', 'Klem Wig']
+
+    DANSEUR_BOY_OUTFIT = ['Danseur Boots', 'Danseur Pants', 'Danseur Top', 'Danseur Wig']
+
+    FILIPE_BOY_COSTUME = ['Filipe Boy Boots', 'Filipe Boy Bracelets', 'Filipe Boy Top', 'Filipe Boy Crown']
+
+    GLAM_ROCK_BUNDLE = ['Glam Rock Shoes', 'Glam Rock Bellbottom Pants', 'Glam Rock Shirt', 'Glam Rock Wig', 'Glam Rock Sunglasses']
+
+    PINK_PRINCE_BUNDLE = ['Pink Prince Rose', 'Pink Prince Pants', 'Pink Prince Shoes', 'Pink Prince Top', 'Pink Prince Wig']
+
+    TUBBY_BOY_OUTFIT = ['Tubby Boy Top', 'Tubby Boy Legs', 'Tubby Boy Mask']
+
+    SHAKESPEAREAN_BOY_OUTFIT = ['Shakespearean Boy Pants', 'Shakespearean Boy Shoes', 'Shakespearean Boy Top']
+
+    OLD_WEST_COWBOY_OUTFIT = ['Old West Cowboy Pants', 'Old West Cowboy Boots', 'Old West Cowboy Top', 'Old West Cowboy Hat']
+
+    LITTLE_BOY_BAKER_OUTFIT = ['Little Boy Baker Oven Mitt', 'Little Boy Baker Hat', 'Little Boy Baker Shoes', 'Little Boy Baker Shorts', 'Little Boy Baker Top']
+
+    IMPERIAL_GUARD_OUTFIT = ['Imperial Guard Boots', 'Imperial Guard Hat', 'Imperial Guard Pants', 'Imperial Guard Top']
+
+    JAPANESE_NEW_YEAR_BOY_OUTFIT = ['Japanese New Year Boy Kimono', 'Japanese New Year Boy Charm', 'Japanese New Year Boy Sandals']
+
+    MASQUERADE_BOY_OUTFIT = ['Masquerade Boy Shoes', 'Masquerade Boy Pants', 'Masquerade Boy Top', 'Masquerade Boy Mask']
+
+    WINTER_SKATING_BOY_OUTFIT = ['Winter Skating Boy Skates', 'Winter Skating Boy Pants', 'Winter Skating Boy Top', 'Winter Skating Boy Ear Muffs']
+
+    WHITE_ELF_OUTFIT = ['White Elf Boots', 'White Elf Glove', 'White Elf Dress', 'White Elf Hat']
+
+    ICE_PRINCE_OUTFIT = ['Ice Prince Crown', 'Ice Prince Boots', 'Ice Prince Pants', 'Ice Prince Top', 'Ice Prince Wig']
+
+    HARAJUKU_BOY_OUTFIT = ['Harajuku Boy Shoes', 'Harajuku Boy Pants', 'Harajuku Boy Glove', 'Harajuku Boy Top', 'Harajuku Boy Cheek Bandage']
+
+    COZY_COTTAGE_BOY_OUTFIT = ['Cozy Cottage Boy Boots', 'Cozy Cottage Boy Pants', 'Cozy Cottage Boy Glove', 'Cozy Cottage Boy Sweater', 'Cozy Cottage Boy Ear Muffs']
+
+    SNOW_WHITE_PRINCE_OUTFIT = ['Snow White Prince Boots', 'Snow White Prince Pants', 'Snow White Prince Top', 'Snow White Prince Cape', 'Snow White Prince Cap']
+
+    PREHISTORIC_BOY_OUTFIT = ['Prehistoric Boy Top', 'Prehistoric Club', 'Prehistoric Boy Wig']
+
+    STRIKING_SPIDER_OUTFIT = ['Striking Spider Shoes', 'Striking Spider Pants', 'Striking Spider Top', 'Striking Spider Wig']
+
+    EGYPTIAN_BOY_OUTFIT = ['Egyptian Boy Bracelet', 'Egyptian Boy Anklets', 'Egyptian Boy Holdable Ankh', 'Egyptian Boy Top', 'Egyptian Boy Headdress']
+
+    ACORN_FAIRY_OUTFIT = ['Acorn Fairy Shorts', 'Acorn Fairy Shoes', 'Acorn Fairy Wings', 'Acorn Fairy Top', 'Acorn Fairy Hat']
+
+    GOTHIC_PRINCE_OUTFIT = ['Gothic Prince Sceptre', 'Gothic Prince Pants', 'Gothic Prince Shoes', 'Gothic Prince Top', 'Gothic Prince Crown', 'Gothic Prince Wig']
+
+    MEDIEVAL_PRINCE_OUTFIT = ['Medieval Prince Sword', 'Medieval Prince Boots', 'Medieval Prince Pants', 'Medieval Prince Cape', 'Medieval Prince Top']
+
+    BOHEMIAN_PRINCE_OUTFIT = ['Bohemian Prince Pants', 'Bohemian Prince Boots', 'Bohemian Prince Top', 'Bohemian Prince Headscarf', 'Bohemian Prince Moustache']
+
+    ROMANTIC_ROCOCO_BOY_OUTFIT = ['Romantic Rococo Black Shoes', 'Romantic Rococo Pants', 'Romantic Rococo Jacket', 'Romantic Rococo Boy Wig']
+
+    POOLSIDE_BOY_OUTFIT = ['Poolside Blue Sandals', 'Poolside Boy Swimwear']
+
+    WACKY_BOY_CANDYMAKER_OUTFIT = ['Wacky Boy Candymaker Glasses', 'Wacky Boy Candymaker Scepter', 'Wacky Boy Candymaker Hat', 'Wacky Boy Candymaker Shoes', 'Wacky Boy Candymaker Pants', 'Wacky Boy Candymaker Top', 'Wacky Boy Candymaker Wig']
+
+    BOY_CANDY_WORKER_OUTFIT = ['Boy Candy Worker Shoes', 'Boy Candy Worker Hat', 'Boy Candy Worker Pants', 'Boy Candy Worker Top']
+
+    CASUAL_WIZARD_OUTFIT = ['Casual Wizard Sneakers', 'Casual Wizard Pants', 'Casual Wizard Top']
+
+    WINTER_PROM_BOY_OUTFIT = ['Winter Prom Smart Shoes', 'Winter Prom Smart Pants', 'Winter Prom Smart Top']
+
+    BOY_SCOUT_OUTFIT = ['Boy Scout Shoes', 'Boy Scout Flag', 'Boy Scout Pants', 'Boy Scout Top']
+
+    RAINBOW_BOY_OUTFIT = ['Rainbow Boy Watch', 'Rainbow Boy Shoes', 'Rainbow Boy Pants', 'Rainbow Boy Top', 'Rainbow Boy Cap']
+
+    SHIRE_BOY_OUTFIT = ['Shire Boy Cape', 'Shire Boy Pants', 'Shire Boy Top']
+
+    ELVEN_LORD_OUTFIT = ['Elven Lord Boots', 'Elven Lord Headband', 'Elven Lord Pants', 'Elven Lord Robe', 'Elven Lord Wig']
+
+    SWEETHEART_BOY_OUTFIT = ['Sweetheart Loafers', 'Sweetheart Pants', 'Sweetheart Top', 'Sweetheart Cap']
+
+    PIRATE_BOY_OUTFIT = ['Pirate Boy Boots', 'Pirate Boy Pants', 'Pirate Boy Top', 'Pirate Boy Hat']
+
+    PUNK_ROCK_BOY_OUTFIT = ['Punk Rock Boots', 'Punk Rock Pants', 'Punk Rock Top', 'Punk Rock Shades']
+
+    RING_BEARER_OUTFIT = ['Ring Bearer Shoes', 'Ring Bearer Pants', 'Ring Bearer Top']
+
+    SPRING_PICNIC_BOY_OUTFIT = ['Spring Picnic Boy Shoes', 'Spring Picnic Boy Pants', 'Spring Picnic Boy Top', 'Spring Picnic Boy Glasses', 'Spring Picnic Boy Cap']
+
+    MONSTER_CATCHER_OUTFIT = ['Monster Catcher Boots', 'Monster Catcher Pants', 'Monster Catcher Top']
+
+    LUXURY_FRIDAY_NIGHT_OUTFIT = ['Luxury Friday Night Shoes', 'Luxury Friday Night Pants', 'Luxury Friday Night Top']
+
+    PRINCE_SAILOR_OUTFIT = ['Prince Sailor Boots', 'Prince Sailor Pants', 'Prince Sailor Top']
+
+    PRINCE_CHARMING_OUTFIT = ['Prince Charming Boots', 'Prince Charming Pants', 'Prince Charming Top']
+
+    VICTORIAN_GENTLEMAN_OUTFIT = ['Victorian Gentleman Shoes', 'Victorian Gentleman Pants', 'Victorian Gentleman Top Hat', 'Victorian Gentleman Top']
+
+    CARNIVAL_RINGMASTER_OUTFIT = ['Carnival Ringmaster Jacket', 'Carnival Ringmaster Black Boots', 'Carnival Ringmaster Pants', 'Carnival Ringmaster Cape', 'Carnival Ringmaster Top Hat']
+
+    FARMER_BOY_OUTFIT = ['Farmer Pitchfork', 'Farmer Blue Pants', 'Farmer Yellow Boots', 'Farmer Blue Top', 'Farmer Straw Hat']
+
+    ARCHAEOLOGIST_OUTFIT = ['Archaeologist Shoes', 'Archaeologist Pants', 'Archaeologist Top', 'Archaeologist Hat']
+
+    GANGSTER_OUTFIT = ['Gangster Black Shoes', 'Gangster Blue Striped Pants', 'Gangster Blue Striped Jacket', 'Gangster Blue Fedora']
+
+    PRINCELY_OUTFIT = ['Princely Tights', 'Princely Boots', 'Princely Cap', 'Princely Top']
+
+    VINTAGE_LEATHER_BOY_OUTFIT = ['Vintage Leather Boots', 'Vintage Leather Top']
+
+    ARABIAN_PRINCE_OUTFIT = ['Arabian Prince Pants', 'Arabian Prince Top', 'Arabian Prince Headpiece']
+
+    RED_STRAWBERRY_CHEF_BUNDLE = ['Red Chef Uniform', 'Red Chef Hat']
+
+    PUMPKIN_WITCH_OUTFIT_BUNDLE = ['Pumpkin Witch Dress', 'Pumpkin Witch Stockings', 'Pumpkin Witch Hat', 'Pumpkin Witch Boots', 'Pumpkin Witch Cute Wig']
+
+    PUMPKIN_PRINCE_OUTFIT_BUNDLE = ['Pumpkin Prince Shirt', 'Pumpkin Prince Shorts', 'Pumpkin Prince Crown', 'Pumpkin Prince Shoes', 'Pumpkin Prince Cape', 'Pumpkin Prince Sleek Wig']
+
+    GAKURAN_UNIFORM = ['Gakuran Uniform Top', 'Gakuran Uniform Pants', 'Gakuran Uniform Shoes', 'Gakuran Uniform Glasses']
+
+    JAPANESE_WINTER_UNIFORM = ['Japanese Winter Uniform Dress', 'Japanese Winter Uniform Shoes', 'Japanese Winter Uniform French Horn']
+
+    JAPANESE_TAN_UNIFORM = ['Japanese Tan Uniform Dress', 'Japanese Tan Uniform Shoes', 'Japanese Tan Uniform Schoolbag']
+
+    JAPANESE_PINK_UNIFORM = ['Japanese Pink Uniform Dress', 'Japanese Pink Uniform Shoes', 'Japanese Pink Uniform Purse']
+
+    JAPANESE_COFFEE_UNIFORM = ['Japanese Coffee Uniform Dress', 'Japanese Coffee Uniform Shoes', 'Japanese Coffee Uniform Mobile Phone']
+
+    FRANKENSTEIN_COSTUME = ['Frankenstein Top', 'Frankenstein Pants', 'Frankenstein Headpiece', 'Frankenstein Shoes', 'Frankenstein Mask']
+
+    WEREWOLF_COSTUME = ['Werewolf Top', 'Werewolf Legs', 'Werewolf Mask']
+
+    MAD_SCIENTIST_COSTUME = ['Mad Scientist Top', 'Mad Scientist Bottoms', 'Mad Scientist Brain Cap', 'Mad Scientist Glove', 'Mad Scientist Wings', 'Mad Scientist Goggles']
+
+    SCARY_CLOWN_COSTUME = ['Scary Clown Top', 'Scary Clown Pants', 'Scary Clown Shoes', 'Scary Clown Mask']
+
+    ZOMBIE_GIRL_COSTUME = ['Zombie Girl Bunny Doll', 'Zombie Girl Dress', 'Zombie Girl Shoes', 'Zombie Girl Mask', 'Zombie Girl Wig']
+
+    GRAY_WIZARD_OUTFIT = ['Gray Wizard Cloak', 'Gray Wizard Hat', 'Gray Wizard Shoes', 'Gray Wizard Staff', 'Gray Wizard Cape', 'Gray Wizard Wig']
+
+    PRINCE_ADAM_OUTFIT = ['Prince Adam Top', 'Prince Adam Pants', 'Prince Adam Shoes', 'Prince Adam Rose', 'Prince Adam Wig']
+
+    CONCEITED_SUITOR_OUTFIT = ['Conceited Suitor Top', 'Conceited Suitor Pants', 'Conceited Suitor Shoes', 'Conceited Suitor Glove', 'Conceited Suitor Wig']
+
+    BELLE_OUTFIT = ['Belle Dress', 'Belle Tiara', 'Belle Shoes', 'Belle Glove', 'Belle Wig']
+
+    CHARMED_TEAPOT_OUTFIT = ['Charmed Teapot Dress', 'Charmed Teapot Mask', 'Charmed Teapot Shoes', 'Charmed Teapot Glove']
+
+    CHARMED_CLOCK_OUTFIT = ['Charmed Clock Costume', 'Charmed Clock Mask', 'Charmed Clock Shoes']
+
+    BUNNY_SWEETHEART_OUTFIT = ['Bunny Sweetheart Dress', 'Bunny Sweetheart Hair Bow', 'Bunny Sweetheart Shoes', 'Bunny Sweetheart Wig']
+
+    GEEK_CHIC_OUTFIT = ['Geek Chic Shirt', 'Geek Chic Pants', 'Geek Chic Shoes', 'Geek Chic Watch', 'Geek Chic Glasses', 'Geek Chic Wig']
+
+    BOLLYWOOD_BOY_OUTFIT = ['Bollywood Boy Top', 'Bollywood Boy Pants', 'Bollywood Boy Turban', 'Bollywood Boy Shoes']
+
+    LONDON_BOY_OUTFIT = ['London Boy Top', 'London Boy Pants', 'London Boy Shoes', 'London Boy Flag']
+
+    VENETIAN_CARNEVALE_OUTFIT = ['Venetian Carnevale Dress', 'Venetian Carnevale Headpiece', 'Venetian Carnevale Shoes', 'Venetian Carnevale Fan', 'Venetian Carnevale Mask']
+
+    VENETIAN_GONDOLIER_OUTFIT = ['Venetian Gondolier Top', 'Venetian Gondolier Pants', 'Venetian Gondolier Hat', 'Venetian Gondolier Shoes']
+
+    CLEVER_BEAVER_BUNDLE = ['Clever Beaver Ears', 'Clever Beaver Paw', 'Clever Beaver Tail']
+
+    BOY_CANDY_FACTORY_HELPER_OUTFIT = ['Boy Candy Factory Helper Overalls', 'Boy Candy Factory Helper Pants', 'Boy Candy Factory Helper Shoes', 'Boy Candy Factory Helper Glove', 'Boy Candy Factory Helper Lolly', 'Boy Candy Factory Helper Wig']
+
+    TIDE_BUNDLE = ['Tide Bottle', 'Tide Washer', 'Tide T Shirt', 'Tide Super Clean Summer Dress', 'Tide Super Clean Polo Shirt', 'Tide Super Clean Blue Pants', 'Tide Super Clean Blue Jeans', 'Tide Super Clean Blue Hair Bow', 'Tide Super Clean Summer Shoes', 'Tide Super Clean Summer Sneakers', 'Tide Summer Bangles']
+
+    SATYR_OUTFIT = ['Satyr Belly', 'Satyr Legs', 'Satyr Horns', 'Satyr Panpipe', 'Satyr Goatee', 'Satyr Wig']
+
+    CAT_GODDESS_COSTUME = ['Cat Goddess Dress', 'Cat Goddess Shoes', 'Cat Goddess Armlet', 'Cat Goddess Mask']
+
+    HALLOWEEN_TOWN_MAYOR_OUTFIT = ['Halloween Town Mayor Top', 'Halloween Town Mayor Pants', 'Halloween Town Mayor Hat', 'Halloween Town Mayor Shoes', 'Halloween Town Mayor Happy Mask', 'Halloween Town Mayor Sad Mask']
+
+    DWARF_OUTFIT = ['Dwarf Top', 'Dwarf Pants', 'Dwarf Hat', 'Dwarf Shoes', 'Dwarf Pickaxe', 'Dwarf Beard']
+
+    ICE_PALACE_JESTER_OUTFIT = ['Ice Palace Jester Top', 'Ice Palace Jester Tights', 'Ice Palace Jester Hat', 'Ice Palace Jester Shoes']
+
+    SWEETHEART_MASQUERADE_OUTFIT = ['Sweetheart Masquerade Dress', 'Sweetheart Masquerade Shoes', 'Sweetheart Masquerade Glove', 'Sweetheart Masquerade Mask', 'Sweetheart Masquerade Wig']
+
+    REGAL_MASQUERADE_OUTFIT = ['Regal Masquerade Dress', 'Regal Masquerade Shoes', 'Regal Masquerade Mask', 'Regal Masquerade Wig']
+
+    ELEGANT_MASQUERADE_OUTFIT = ['Elegant Masquerade Dress', 'Elegant Masquerade Shoes', 'Elegant Masquerade Mask', 'Elegant Masquerade Wig']
+
+    RAVEN_MASQUERADE_OUTFIT = ['Raven Masquerade Dress', 'Raven Masquerade Shoes', 'Raven Masquerade Mask', 'Raven Masquerade Wig']
+
+    CASANOVA_MASQUERADE_OUTFIT = ['Casanova Masquerade Top', 'Casanova Masquerade Pants', 'Casanova Masquerade Shoes', 'Casanova Masquerade Mask', 'Casanova Masquerade Wig']
+
+    MARQUIS_MASQUERADE_OUTFIT = ['Marquis Masquerade Top', 'Marquis Masquerade Pants', 'Marquis Masquerade Shoes', 'Marquis Masquerade Mask', 'Marquis Masquerade Wig']
+
+    STRAWBERRY_CUPCAKE_OUTFIT = ['Strawberry Cupcake Dress', 'Strawberry Cupcake Stockings', 'Strawberry Cupcake Bow', 'Strawberry Cupcake Shoes', 'Strawberry Cupcake Earrings']
+
+    DREAMY_KITCHEN_BUNDLE_IMAGE = ['Dreamy Kitchen Table', 'Dreamy Kitchen Cabinet', 'Dreamy Kitchen Mixer', 'Dreamy Kitchen Counter', 'Dreamy Kitchen Lights', 'Dreamy Kitchen Wallpaper', 'Dreamy Kitchen Floor']
+
+    BIKE_BUNDLE = ['Bike Wheel']
+
+    BODACIOUS_BLACK_OUTFIT_BUNDLE = ['Bodacious Black Dress', 'Bodacious Black Tiara', 'Bodacious Black Shoes', 'Bodacious Black Armband', 'Bodacious Black Mask', 'Bodacious Black Wig']
+
+    SHINY_SHIMMER_OUTFIT_BUNDLE = ['Shiny Shimmer Dress', 'Shiny Shimmer Pants', 'Shiny Shimmer Shoes', 'Shiny Shimmer Armband', 'Shiny Shimmer Mask', 'Shiny Shimmer Wig']
+
+    PREPPY_PRINCESS_OUTFIT_BUNDLE = ['Preppy Princess Dress', 'Preppy Princess Shoes', 'Preppy Princess Bag', 'Preppy Princess Mask', 'Preppy Princess Wig']
+
+    DANCING_DIVA_OUTFIT_BUNDLE = ['Dancing Diva Dress', 'Dancing Diva Headband', 'Dancing Diva Shoes', 'Dancing Diva Mask', 'Dancing Diva Wig']
+
+    PREPPY_PRINCE_OUTFIT_BUNDLE = ['Preppy Prince Top', 'Preppy Prince Pants', 'Preppy Prince Hat', 'Preppy Prince Boots', 'Preppy Prince Mask', 'Preppy Prince Wig']
+
+    ROBUST_RED_OUTFIT_BUNDLE = ['Robust Red Top', 'Robust Red Pants', 'Robust Red Hat', 'Robust Red Boots', 'Robust Red Mask', 'Robust Red Wig']
+
+    RAINBOW_PATCH_OUTFIT_BUNDLE = ['Rainbow Patch Dress', 'Rainbow Patch Hairband', 'Rainbow Patch Shoes', 'Rainbow Patch Wig']
+
+    DARK_PATCH_OUTFIT_BUNDLE = ['Dark Patch Dress', 'Dark Patch Shoes', 'Dark Patch Wig']
+
+    PURPLE_PATCHY_OUTFIT_BUNDLE = ['Purple Patchy Dress', 'Purple Patchy Stockings', 'Purple Patchy Hat', 'Purple Patchy Shoes', 'Purple Patchy Wig']
+
+    FLORA_PATCH_OUTFIT_BUNDLE = ['Flora Patch Dress', 'Flora Patch Shoes', 'Flora Patch Wig']
+
+    COUNTRY_PATCH_OUTFIT_BUNDLE = ['Country Patch Top', 'Country Patch Pants', 'Country Patch Pants New', 'Country Patch Boots', 'Country Patch Boots New', 'Country Patch Wig']
+
+    PATCH_PUNK_OUTFIT_BUNDLE = ['Patch Punk Top', 'Patch Punk Shorts', 'Patch Punk Boots', 'Patch Punk Goggles', 'Patch Punk Wig']
+
+    TRADITIONAL_SWEDISH_OUTFIT = ['Traditional Swedish Dress', 'Traditional Swedish Socks', 'Traditional Swedish Headband', 'Traditional Swedish Shoes', 'Traditional Swedish Wig']
+
+    TRADITIONAL_INDIAN_OUTFIT = ['Traditional Indian Sari', 'Traditional Indian Shoes', 'Traditional Indian Bangles Left', 'Traditional Indian Bangles Right', 'Traditional Indian Bindi', 'Traditional Indian Wig']
+
+    TRADITIONAL_JAPANESE_OUTFIT = ['Traditional Japanese Kimono', 'Traditional Japanese Socks', 'Traditional Japanese Headgear', 'Traditional Japanese Sandals', 'Traditional Japanese Hand Bag', 'Traditional Japanese Wig']
+
+    TRADITIONAL_IRISH_OUTFIT = ['Traditional Irish Dress', 'Traditional Irish Tiara', 'Traditional Irish LadyHat', 'Traditional Irish Shoes', 'Traditional Irish Wig']
+
+    AFRICAN_KAFTAN = ['African Kaftan Dress', 'African Kaftan Hat', 'African Kaftan Shoes']
+
+    TRADITIONAL_NORWEGIAN_OUTFIT = ['Traditional Norwegian Dress', 'Traditional Norwegian Hat', 'Traditional Norwegian Shoes']
+
+    GOLDEN_AGE_POLKA_OUTFIT = ['Golden Age Polka Dress', 'Golden Age Polka Shoes', 'Golden Age Polka Wig']
+
+    GOLDEN_AGE_PLAID_OUTFIT = ['Golden Age Plaid Dress', 'Golden Age Plaid Headband', 'Golden Age Plaid Shoes', 'Golden Age Plaid Wig']
+
+    GOLDEN_AGE_CHIC_OUTFIT = ['Golden Age Chic Dress', 'Golden Age Chic Hat', 'Golden Age Chic Shoes', 'Golden Age Chic Glove Left', 'Golden Age Chic Glove Right']
+
+    GOLDEN_AGE_EVENING_GLAMOUR_OUTFIT = ['Golden Age Evening Glamour Dress', 'Golden Age Evening Glamour Shoes', 'Golden Age Evening Glamour Glove Left', 'Golden Age Evening Glamour Glove Right', 'Golden Age Evening Glamour Ornaments', 'Golden Age Evening Glamour Wig']
+
+    GOLDEN_AGE_MISTER_OUTFIT = ['Golden Age Mister Top', 'Golden Age Mister Pants', 'Golden Age Mister Boots', 'Golden Age Mister Wig']
+
+    GOLDEN_AGE_PETSLEY_OUTFIT = ['Golden Age Petsley Top', 'Golden Age Petsley Pants', 'Golden Age Petsley Boots', 'Golden Age Petsley Wig']
+
+    LADY_POKER_PAW_OUTFIT_BUNDLE = ['Lady Poker Paw Dress', 'Lady Poker Paw Stockings', 'Lady Poker Paw Shoes', 'Lady Poker Paw Star', 'Lady Poker Paw Wig']
+
+    PET_BERRY_OUTFIT_BUNDLE = ['Pet Berry Dress', 'Pet Berry Shoes', 'Pet Berry Bracelet', 'Pet Berry Wig']
+
+    POUTY_PET_OUTFIT_BUNDLE = ['Pouty Pet Dress', 'Pouty Pet Shoes', 'Pouty Pet Clutch', 'Pouty Pet Ornaments', 'Pouty Pet Wig']
+
+    PAWLYA_PET_OUTFIT_BUNDLE = ['Pawlya Pet Dress', 'Pawlya Pet Shoes', 'Pawlya Pet Bracelet', 'Pawlya Pet Wig']
+
+    NEVER_SAY_PAW_OUTFIT_BUNDLE = ['Never Say Paw Top', 'Never Say Paw Pants', 'Never Say Paw Boots', 'Never Say Paw Wig']
+
+    PAWPIT_OUTFIT_BUNDLE = ['Pawpit Top', 'Pawpit Pants', 'Pawpit Boots', 'Pawpit Wig']
+
+    SWEET_JULIET_OUTFIT = ['Sweet Juliet Dress', 'Sweet Juliet Headdress', 'Sweet Juliet Shoes', 'Sweet Juliet Bottle', 'Sweet Juliet Wig']
+
+    LOVESICK_OPHELIA_OUTFIT = ['Lovesick Ophelia Dress', 'Lovesick Ophelia Garland', 'Lovesick Ophelia Shoes', 'Lovesick Ophelia Bouquet', 'Lovesick Ophelia Wig']
+
+    ELIZABETH_I_OUTFIT = ['Elizabeth I Dress', 'Elizabeth I Crown', 'Elizabeth I Shoes', 'Elizabeth I Scepter', 'Elizabeth I Cape', 'Elizabeth I Wig']
+
+    LOVELY_VIOLA_OUTFIT = ['Lovely Viola Dress', 'Lovely Viola Tiara', 'Lovely Viola Shoes', 'Lovely Viola Love Letter', 'Lovely Viola Wig']
+
+    PLAYFUL_SHAKESPEARE_OUTFIT = ['Playful Shakespeare Top', 'Playful Shakespeare Pants', 'Playful Shakespeare Cap', 'Playful Shakespeare Shoes', 'Playful Shakespeare Quill', 'Playful Shakespeare Wig']
+
+    HAUNTED_HAMLET_OUTFIT = ['Haunted Hamlet Skull Ghost of King', 'Haunted Hamlet Top', 'Haunted Hamlet Pants', 'Haunted Hamlet Cap', 'Haunted Hamlet Shoes', 'Haunted Hamlet Skull', 'Haunted Hamlet Moustache', 'Haunted Hamlet Wig']
+
+    VICTORIAN_MAIDEN_OUTFIT_BUNDLE = ['Victorian Maiden Dress', 'Victorian Maiden Girl Dress', 'Victorian Maiden Hat', 'Victorian Maiden Shoes', 'Victorian Maiden Girl Shoes', 'Victorian Maiden Girl Glove']
+
+    VICTORIAN_QUEEN_OUTFIT_BUNDLE = ['Victorian Queen Dress', 'Victorian Queen Hat', 'Victorian Queen Shoes']
+
+    VICTORIAN_DAME_OUTFIT_BUNDLE = ['Victorian Dame Dress', 'Victorian Dame Hat', 'Victorian Dame Shoes']
+
+    VICTORIAN_PRINCESS_OUTFIT_BUNDLE = ['Victorian Princess Dress', 'Victorian Princess Hat', 'Victorian Princess Shoes']
+
+    VICTORIAN_PRINCE_OUTFIT_BUNDLE = ['Victorian Prince Top', 'Victorian Prince Pants', 'Victorian Prince Boots', 'Victorian Prince Wig']
+
+    VICTORIAN_KNIGHT_OUTFIT_BUNDLE = ['Victorian Knight Top', 'Victorian Knight Pants', 'Victorian Knight Hat', 'Victorian Knight Boots']
+
+    TUESDAY_OUTFIT_BUNDLE = ['Tuesday Dress', 'Tuesday Stockings', 'Tuesday Shoes', 'Tuesday Doll', 'Tuesday Wig']
+
+    GRANDMAMA_OUTFIT_BUNDLE = ['Grandmama Dress', 'Grandmama Stockings', 'Grandmama Shoes', 'Grandmama Wig']
+
+    PETRICIA_OUTFIT_BUNDLE = ['Petricia Dress', 'Petricia Shoes', 'Petricia Wig']
+
+    PAWMINA_OUTFIT_BUNDLE = ['Pawmina Dress', 'Pawmina Headband', 'Pawmina Shoes', 'Pawmina Wig']
+
+    PAWMEZ_OUTFIT_BUNDLE = ['Pawmez Top', 'Pawmez Pants', 'Pawmez Boots', 'Pawmez Mustache', 'Pawmez Wig']
+
+    UNCLE_PESTER_OUTFIT_BUNDLE = ['Uncle Pester Top', 'Uncle Pester Boots', 'Uncle Pester Shovel', 'Uncle Pester Mask']
+
+    CHEWING_GUM_GIRL_OUTFIT_BUNDLE = ['Chewing Gum Girl Dress', 'Chewing Gum Girl Tiara', 'Chewing Gum Girl Shoes', 'Chewing Gum Girl Wig']
+
+    GIRL_ON_FIRE_OUTFIT_BUNDLE = ['Girl On Fire Dress', 'Girl On Fire Head Ornament', 'Girl On Fire Shoes', 'Girl On Fire Wig']
+
+    SNOW_GIRL_OUTFIT_BUNDLE = ['Snow Girl Dress', 'Snow Girl Crown', 'Snow Girl Shoes', 'Snow Girl Wig']
+
+    SNOW_KING_OUTFIT_BUNDLE = ['Snow King Dress', 'Snow King Crown', 'Snow King Shoes', 'Snow King Wig']
+
+    VAMPIRE_BOY_OUTFIT_BUNDLE = ['Vampire Boy Cat Doll', 'Vampire Boy Top', 'Vampire Boy Pants', 'Vampire Boy Crown', 'Vampire Boy Boots', 'Vampire Boy Wig']
+
+    VAMPIRE_GIRL__OUTFIT_BUNDLE = ['Vampire Girl Cat Doll', 'Vampire Girl Top', 'Vampire Girl Pants', 'Vampire Girl Shoes', 'Vampire Girl Wig']
+
+    FLOWER_POWER_OUTFIT = ['Flower Power Dress', 'Flower Power Tank Top Blue', 'Flower Power Tank Top Purple', 'Flower Power Tank Top Black', 'Flower Power Tank Top Red', 'Flower Power Tank Top Yellow', 'Flower Power Tank Top White', 'Flower Power Tank Top Pink', 'Flower Power Shoes', 'Flower Power Tambourine', 'Flower Power Purse', 'Flower Power Wig']
+
+    SUNSHINE_OUTFIT = ['Sunshine Dress', 'Sunshine Shoes', 'Sunshine Sunglasses', 'Sunshine Wig']
+
+    PINKY_WINKY_OUTFIT = ['Pinky Winky Dress', 'Pinky Winky Shoes', 'Pinky Winky Flowers', 'Pinky Winky Wig']
+
+    JACKIE_BROWN_OUTFIT = ['Jackie Brown Shirt', 'Jackie Brown Pant', 'Jackie Brown Shoes', 'Jackie Brown Guitar', 'Jackie Brown Moustache', 'Jackie Brown Wig']
+
+    AABI_DANCER_COSTUME = ['Aabi Dancer Top', 'Aabi Dancer Bottom', 'Aabi Dancer Boots', 'Aabi Dancer Bracelets', 'Aabi Dancer Feather Headdress']
+
+    GIANNA_BELLE_COSTUME = ['Gianna Belle Dress', 'Gianna Belle Boots', 'Gianna Belle Bracelets', 'Gianna Belle Wings', 'Gianna Belle Feather Headdress']
+
+    CRISTINA_DANCER_COSTUME = ['Cristina Dancer Dress', 'Cristina Dancer Boots', 'Cristina Dancer Bracelets', 'Cristina Dancer Wings', 'Cristina Dancer Feather Headdress']
+
+    JANGO_BELLE_COSTUME = ['Jango Belle Dress', 'Jango Belle Boots', 'Jango Belle Bracelets Left', 'Jango Belle Bracelets Right', 'Jango Belle Wings', 'Jango Belle Feather Headdress']
+
+    SOFIA_QUEEN_COSTUME = ['Sofia Queen Dress', 'Sofia Queen Boots', 'Sofia Queen Bracelets', 'Sofia Queen Wings', 'Sofia Queen Feather Headdress']
+
+    CAIO_FAIRY_COSTUME = ['Caio Fairy Dress', 'Caio Fairy Boots', 'Caio Fairy Bracelets', 'Caio Fairy Wings', 'Caio Fairy Crown Headdress']
+
+    KIWI_GIRL_COSTUME = ['Kiwi Girl Dress', 'Kiwi Girl Hairclip', 'Kiwi Girl Boots', 'Kiwi Girl Wig']
+
+    ORANGE_SLICE_GIRL_COSTUME = ['Orange Slice Girl Dress', 'Orange Slice Girl Hairclip', 'Orange Slice Girl Boots', 'Orange Slice Girl Wig']
+
+    ORANGE_PEEL_GIRL_COSTUME = ['Orange Peel Girl Dress', 'Orange Peel Girl Hairclip', 'Orange Peel Girl Sandals', 'Orange Peel Girl Wig']
+
+    SWEET_LIME_GIRL_COSTUME = ['Sweet Lime Girl Dress', 'Sweet Lime Girl Hat', 'Sweet Lime Girl Boots', 'Sweet Lime Girl Wig']
+
+    CITRUS_COCKTAIL_GIRL_COSTUME = ['Citrus Cocktail Girl Dress', 'Citrus Cocktail Girl Hairband', 'Citrus Cocktail Girl Boots', 'Citrus Cocktail Girl Wig']
+
+    CITRUS_COCKTAIL_BOY_COSTUME = ['Citrus Cocktail Boy Top', 'Citrus Cocktail Boy Pants', 'Citrus Cocktail Boy Boots', 'Citrus Cocktail Boy Goggles', 'Citrus Cocktail Boy Wig']
+
+    RED_HOOD_GIRL_COSTUME = ['Red Hood Girl Dress', 'Red Hood Girl Stockings', 'Red Hood Girl Red Hood', 'Red Hood Girl Boots', 'Red Hood Girl Cape', 'Red Hood Girl Wig']
+
+    COUNTRY_GIRL_BLUE_COSTUME = ['Country Girl Blue Dress', 'Country Girl Blue Stockings', 'Country Girl Blue Hat', 'Country Girl Blue Boots', 'Country Girl Blue Wig']
+
+    WOLF_GIRL_COSTUME = ['Wolf Girl Dress', 'Wolf Girl Socks', 'Wolf Girl Wolf Hood', 'Wolf Girl Boots', 'Wolf Girl Cape']
+
+    COUNTY_GIRL_RED_COSTUME = ['County Girl Red Dress', 'County Girl Red Socks', 'County Girl Red Bird Clip', 'County Girl Red Boots', 'County Girl Red Wig']
+
+    RED_CAPE_GIRL_COSTUME = ['Red Cape Girl Dress', 'Red Cape Girl Socks', 'Red Cape Girl Hairbow', 'Red Cape Girl Boots', 'Red Cape Girl Basket', 'Red Cape Girl Cape', 'Red Cape Girl Wig']
+
+    COUNTRY_BOY_COSTUME = ['Country Boy Top', 'Country Boy Pants', 'Country Boy Hat', 'Country Boy Boots', 'Country Boy Axe']
+
+    EVIL_JESTER_OUTFIT_BUNDLE = ['Evil Jester Top', 'Evil Jester Pants', 'Evil Jester Shoes', 'Evil Jester Mask']
+
+    EVIL_RINGMASTER_OUTFIT_BUNDLE = ['Evil Ringmaster Top', 'Evil Ringmaster Pants', 'Evil Ringmaster Hat', 'Evil Ringmaster Boots', 'Evil Ringmaster Knife']
+
+    CREEPY_CARNY_OUTFIT_BUNDLE = ['Creepy Carny Top', 'Creepy Carny Pants', 'Creepy Carny Hat', 'Creepy Carny Boots', 'Creepy Carny Wig']
+
+    HORROR_NURSE_OUTFIT_BUNDLE = ['Horror Nurse Dress', 'Horror Nurse Socks', 'Horror Nurse Shoes', 'Horror Nurse Eye Patch', 'Horror Nurse Wig']
+
+    HORROR_CLOWN_OUTFIT_BUNDLE = ['Horror Clown Gate', 'Horror Clown Jack In The Box', 'Horror Clown Top', 'Horror Clown Pants', 'Horror Clown Hat', 'Horror Clown Boots', 'Horror Clown Mask']
+
+    HORROR_CARNY_OUTFIT_BUNDLE = ['Horror Carny Top', 'Horror Carny Socks', 'Horror Carny Shoes', 'Horror Carny Wig']
+
+    PINK_MIST_GIRL_COSTUME = ['Pink Mist Girl Dress', 'Pink Mist Girl Hat', 'Pink Mist Girl Boots']
+
+    WHITE_POP_GIRL_COSTUME = ['White Pop Girl Dress', 'White Pop Girl Shorts', 'White Pop Girl Hairband', 'White Pop Girl Boots', 'White Pop Girl Armband', 'White Pop Girl Goggles', 'White Pop Girl Wig']
+
+    CHIC_RUNAWAY_GIRL_COSTUME = ['Chic Runaway Girl Dress', 'Chic Runaway Girl Boots', 'Chic Runaway Girl Bracelet', 'Chic Runaway Girl Scarf', 'Chic Runaway Girl Wig']
+
+    SUMMER_FLORAL_GIRL_COSTUME = ['Summer Floral Girl Dress', 'Summer Floral Girl Hairband', 'Summer Floral Girl Boots', 'Summer Floral Girl Wig']
+
+    GLITZY_PURPLE_BOY_COSTUME = ['Glitzy Purple Boy Top', 'Glitzy Purple Boy Pants', 'Glitzy Purple Boy Boots', 'Glitzy Purple Boy Goggles', 'Glitzy Purple Boy Wig']
+
+    HUNKY_DORY_BOY_COSTUME = ['Hunky Dory Boy Top', 'Hunky Dory Boy Pants', 'Hunky Dory Boy Cap', 'Hunky Dory Boy Boots', 'Hunky Dory Boy Goggles', 'Hunky Dory Boy Wig']
+
+    VENUS_AQUA_GIRL_OUTFIT = ['Venus Aqua Girl Dress', 'Venus Aqua Girl Boots', 'Venus Aqua Girl Wig']
+
+    VENUS_PARTY_NIGHT_OUTFIT = ['Venus Party Night Dress', 'Venus Party Night Boots', 'Venus Party Night Wig']
+
+    VENUS_ARTIST_OUTFIT = ['Venus Artist Top', 'Venus Artist Pants', 'Venus Artist Hat', 'Venus Artist Boots', 'Venus Artist Wig']
+
+    VENUS_TROPICAL_ISLAND_OUTFIT = ['Venus Tropical Island Dress', 'Venus Tropical Island Hat', 'Venus Tropical Island Boots']
+
+    MARS_PARTY_NIGHT_OUTFIT = ['Mars Party Night Top', 'Mars Party Night Pants', 'Mars Party Night Boots', 'Mars Party Night Wig']
+
+    MARS_ARTIST_OUTFIT = ['Mars Artist Top', 'Mars Artist Pants', 'Mars Artist Boots', 'Mars Artist Wig']
+
+    MONARCHIAL_GIRL_OUTFIT = ['Monarchial Girl Dress', 'Monarchial Girl Boots', 'Monarchial Girl Wig']
+
+    DIVINE_MAIDEN_OUTFIT = ['Divine Maiden Dress', 'Divine Maiden Boots', 'Divine Maiden Wig']
+
+    CHARMING_PRINCESS_OUTFIT = ['Charming Princess Dress', 'Charming Princess Boots', 'Charming Princess Wig']
+
+    ANGELIC_QUEEN_OUTFIT = ['Angelic Queen Dress', 'Angelic Queen Tiara', 'Angelic Queen Boots', 'Angelic Queen Wig']
+
+    COURAGEOUS_PALADIN_OUTFIT = ['Courageous Paladin Top', 'Courageous Paladin Pants', 'Courageous Paladin Boots', 'Courageous Paladin Wig']
+
+    NOBLE_KING_OUTFIT = ['Noble King Top', 'Noble King Pants', 'Noble King Boots', 'Noble King Cape', 'Noble King Wig']
+
+    CYCLING_OUTFIT_BUNDLE = ['Cycling Champ', 'Cycling Backpack', 'Cycling Top', 'Cycling Shorts', 'Cycling Helmet', 'Cycling Shoes', 'Cycling Goggles']
+
+    SWIMMING_OUTFIT_BUNDLE = ['Swimming Top', 'Swimming Shorts', 'Swimming Pants', 'Swimming Cap', 'Swimming Goggles']
+
+    HOCKEY_OUTFIT_BUNDLE = ['Hockey Backpack', 'Hockey Banner', 'Hockey Girl Dress', 'Hockey Girl Socks', 'Hockey Girl Boots', 'Hockey Stick', 'Hockey Girl Wig']
+
+    TENNIS_OUTFIT_BUNDLE = ['Tennis Backpack', 'Tennis Racket', 'Tennis Dress', 'Tennis Socks', 'Tennis Cap', 'Tennis Boots']
+
+    JOCKEY_OUTFIT_BUNDLE = ['Jockey Backpack', 'Jockey Top', 'Jockey Pants', 'Jockey Helmet', 'Jockey Boots']
+
+    BOXING_OUTFIT_BUNDLE = ['Boxing Backpack', 'Boxing Top', 'Boxing Shorts', 'Boxing Headguard', 'Boxing Boots', 'Boxing Glove']
+
+    PURPLE_LEOTARDS_OUTFIT_BUNDLE = ['Purple Leotards Suit', 'Purple Leotards Stockings']
+
+    YELLOW_PURPLE_LEOTARDS_OUTFIT_BUNDLE = ['Yellow Purple Leotards Suit', 'Yellow Purple Leotards Stockings']
+
+    PURPLE_YELLOW_LEOTARDS_OUTFIT_BUNDLE = ['Purple Yellow Leotards Suit', 'Purple Yellow Leotards Stockings']
+
+    SLEEVED_PURPLE_LEOTARDS_OUTFIT_BUNDLE = ['Sleeved Purple Leotards Suit', 'Sleeved Purple Leotards Stockings']
+
+    GOLDEN_MERMAID_BUNDLE = ['Golden Mermaid Dress', 'Golden Mermaid Headdress', 'Golden Mermaid Bracelet', 'Golden Mermaid Wig']
+
+    MERMAID_PRINCESS_BUNDLE = ['Mermaid Princess Dress', 'Mermaid Princess Bracelet', 'Mermaid Princess Flower Barrette', 'Mermaid Princess Wig']
+
+    FUCHSIA_MERMAID_BUNDLE = ['Fuchsia Mermaid Dress', 'Fuchsia Mermaid Bracelet', 'Fuchsia Mermaid Starfish Barrette', 'Fuchsia Mermaid Wig']
+
+    KING_OF_THE_SEAS_BUNDLE = ['King of the Seas Tail', 'King of the Seas Crown', 'King of the Seas Trident', 'King of the Seas Wig']
+
+    TRINIDADIAN_CRAB_BUNDLE = ['Trinidadian Crab Top', 'Trinidadian Crab Pants', 'Trinidadian Crab Shell', 'Trinidadian Crab Hood']
+
+    EVIL_SEA_WITCH_BUNDLE = ['Evil Sea Witch Dress', 'Evil Sea Witch Bracelet', 'Evil Sea Witch Earrings', 'Evil Sea Witch Wig']
+
+    ALICE_BUNDLE = ['Alice Dress', 'Alice Blue Dress', 'Alice Hairband', 'Alice Blue Bow', 'Alice Black Shoes', 'Alice Door Key', 'Alice Blonde Wig']
+
+    WHITE_QUEEN_BUNDLE = ['White Queen Dress', 'White Queen Pearl Tiara', 'White Queen Shoes', 'White Queen Wig']
+
+    RED_QUEEN_BUNDLE = ['Red Queen Dress', 'Red Queen Tiara', 'Red Queen Shoes', 'Red Queen Wig']
+
+    MAD_HATTER_BUNDLE = ['Mad Hatter Jacket', 'Mad Hatter Coat', 'Mad Hatter Pants', 'Mad Hatter Tights', 'Mad Hatter Hat', 'Mad Hatter Top Hat', 'Mad Hatter Shoes', 'Mad Hatter Boots', 'Mad Hatter Cape', 'Mad Hatter Wig']
+
+    WHITE_RABBIT_BUNDLE = ['White Rabbit Top', 'White Rabbit Pants', 'White Rabbit Ears Headband', 'White Rabbit Top Hat', 'White Rabbit Shoes', 'White Rabbit Trumpet']
+
+    CHESHIRE_CAT_BUNDLE = ['Cheshire Cat Top', 'Cheshire Cat Pants', 'Cheshire Cat Tail', 'Cheshire Cat Hood']
+
+    ROYAL_BRIDE_OUTFIT = ['Royal Bride Dress', 'Royal Bride Garter Belt', 'Royal Bride Headdress', 'Royal Bride Shoes', 'Royal Bride Gloves', 'Royal Bride Veil', 'Royal Bride Wig']
+
+    ROYAL_GROOM_OUTFIT = ['Royal Groom Top', 'Royal Groom Pants', 'Royal Groom Hat', 'Royal Groom Boots', 'Royal Groom Gloves', 'Royal Groom Wig']
+
+    ROYAL_GUARD_OUTFIT = ['Royal Guard Top', 'Royal Guard Pants', 'Royal Guard Hat', 'Royal Guard Shoes']
+
+    PIRATE_PRINCE_OUTFIT = ['Pirate Prince Top', 'Pirate Prince Pants', 'Pirate Prince Hat', 'Pirate Prince Boots', 'Pirate Prince Compass', 'Pirate Prince Wig']
+
+    PIRATE_PRINCESS_OUTFIT = ['Pirate Princess Dress', 'Pirate Princess Tiara', 'Pirate Princess Shoes', 'Pirate Princess Fan', 'Pirate Princess Wig']
+
+    PIRATE_SORCERESS_OUTFIT = ['Pirate Sorceress Dress', 'Pirate Sorceress Bows', 'Pirate Sorceress Shoes', 'Pirate Sorceress Voodoo Doll']
+
+    SEA_ADMIRAL_OUTFIT = ['Sea Admiral Top', 'Sea Admiral Pants', 'Sea Admiral Hat', 'Sea Admiral Shoes', 'Sea Admiral Rapier']
+
+    MYTHICAL_PIRATE_CAPTAIN_OUTFIT = ['Mythical Pirate Captain Top', 'Mythical Pirate Captain Pants', 'Mythical Pirate Captain Hat', 'Mythical Pirate Captain Boots', 'Mythical Pirate Captain Beard']
+
+    LADY_PIRATE_OUTFIT = ['Lady Pirate Top', 'Lady Pirate Pants', 'Lady Pirate Hat', 'Lady Pirate Boots', 'Lady Pirate Rapier']
+
+    WIZARD_PRODIGY_OUTFIT = ['Wizard Prodigy Top', 'Wizard Prodigy Pants', 'Wizard Prodigy Shoes', 'Wizard Prodigy Wand', 'Wizard Prodigy Golden Ball', 'Wizard Prodigy Glasses', 'Wizard Prodigy Wig']
+
+    GOOFY_WIZARD_OUTFIT = ['Goofy Wizard Top', 'Goofy Wizard Pants', 'Goofy Wizard Mouse on Head', 'Goofy Wizard Shoes', 'Goofy Wizard Wand', 'Goofy Wizard Wig']
+
+    CUTE_WITCH_OUTFIT = ['Cute Witch Jubble', 'Cute Witch Dress', 'Cute Witch Skirt', 'Cute Witch Hat', 'Cute Witch Barrette', 'Cute Witch Shoes', 'Cute Witch Flats', 'Cute Witch Wand', 'Cute Witch Wig']
+
+    SMART_WITCH_OUTFIT = ['Smart Witch Skirt', 'Smart Witch Flats', 'Smart Witch Wand', 'Smart Witch Spell Book', 'Smart Witch Wig']
+
+    LOONY_WITCH_OUTFIT = ['Loony Witch Skirt', 'Loony Witch Flats', 'Loony Witch Wand', 'Loony Witch Earrings', 'Loony Witch Wig']
+
+    HEADMASTER_WIZARD_OUTFIT = ['Headmaster Wizard Robe', 'Headmaster Wizard Hat', 'Headmaster Wizard Shoes', 'Headmaster Wizard Wand', 'Headmaster Wizard Glasses', 'Headmaster Wizard Wig']
+
+    JOURNALIST_WITCH_OUTFIT = ['Journalist Witch Dress', 'Journalist Witch Boots', 'Journalist Witch Stylus', 'Journalist Witch Glasses', 'Journalist Witch Wig']
+
+    FRENCH_WITCH_OUTFIT = ['French Witch Dress', 'French Witch Hat', 'French Witch Shoes', 'French Witch Wand', 'French Witch Wig']
+
+    DOG_WIZARD_OUTFIT = ['Dog Wizard Top', 'Dog Wizard Pants', 'Dog Wizard Headband', 'Dog Wizard Shoes', 'Dog Wizard Wand', 'Dog Wizard Tail', 'Dog Wizard Wig']
+
+    PUNK_WITCH_OUTFIT = ['Punk Witch Top', 'Punk Witch Pants', 'Punk Witch Boots', 'Punk Witch Wand', 'Punk Witch Pig Nose', 'Punk Witch Wig']
+
+    WIZARD_PROFESSOR_OUTFIT = ['Wizard Professor Top', 'Wizard Professor Pants', 'Wizard Professor Shoes', 'Wizard Professor Wand', 'Wizard Professor Potion Bottle', 'Wizard Professor Wig']
+
+    SPOILT_WIZARD_OUTFIT = ['Spoilt Wizard Top', 'Spoilt Wizard Pants', 'Spoilt Wizard Shoes', 'Spoilt Wizard Wand', 'Spoilt Wizard Flag', 'Spoilt Wizard Wig']
+
+    ARISTOCRAT_WITCH_OUTFIT = ['Aristocrat Witch Dress', 'Aristocrat Witch Shoes', 'Aristocrat Witch Wand', 'Aristocrat Witch Cape', 'Aristocrat Witch Wig']
+
+    CRAZY_WITCH_OUTFIT = ['Crazy Witch Dress', 'Crazy Witch Boots', 'Crazy Witch Wand', 'Crazy Witch Wig']
+
+    POLITICAL_WITCH_OUTFIT = ['Political Witch Dress', 'Political Witch Stockings', 'Political Witch Hat', 'Political Witch Shoes', 'Political Witch Wand', 'Political Witch Teacup', 'Political Witch Wig']
+
+    WITCH_OF_THE_EAST_OUTFIT = ['Witch of the East Dress', 'Witch of the East Stockings', 'Witch of the East Hat', 'Witch of the East Slippers', 'Witch of the East Broom', 'Witch of the East Wig']
+
+    OZ_PRINCE_OUTFIT = ['Oz Prince Top', 'Oz Prince Pants', 'Oz Prince Boots', 'Oz Prince Wig']
+
+    DOROTHY_OUTFIT = ['Dorothy Dress', 'Dorothy Stockings', 'Dorothy Slippers', 'Dorothy Toto', 'Dorothy Wig']
+
+    WITCH_OF_THE_NORTH_OUTFIT = ['Witch of the North Dress', 'Witch of the North Tiara', 'Witch of the North Shoes', 'Witch of the North Scepter', 'Witch of the North Wig']
+
+    WONDERFUL_WIZARD_OUTFIT = ['Wonderful Wizard Jacket', 'Wonderful Wizard Pants', 'Wonderful Wizard Hat', 'Wonderful Wizard Shoes', 'Wonderful Wizard Sac', 'Wonderful Wizard Cape', 'Wonderful Wizard Wig']
+
+    WITCH_OF_THE_WEST_OUTFIT = ['Witch of the West Dress', 'Witch of the West Hat', 'Witch of the West Boots', 'Witch of the West Ball of Fire', 'Witch of the West Broom', 'Witch of the West Wig']
+
+    OZ_HEADMISTRESS_OUTFIT = ['Oz Headmistress Dress', 'Oz Headmistress Shoes', 'Oz Headmistress Book', 'Oz Headmistress Spectacles', 'Oz Headmistress Wig']
+
+    FLYING_MONKEY_OUTFIT = ['Flying Monkey Jacket', 'Flying Monkey Pants', 'Flying Monkey Ears', 'Flying Monkey Shoes', 'Flying Monkey Companion Placeholder', 'Flying Monkey Glove', 'Flying Monkey Wing', 'Flying Monkey Tail']
+
+    QUEEN_FAIRY_OUTFIT = ['Queen Fairy Dress', 'Queen Fairy Crown', 'Queen Fairy Shoes', 'Queen Fairy Scepter', 'Queen Fairy Wings', 'Queen Fairy Hairclip', 'Queen Fairy Wig']
+
+    KING_FAIRY_OUTFIT = ['King Fairy Top', 'King Fairy Pants', 'King Fairy Crown', 'King Fairy Boots', 'King Fairy Scepter', 'King Fairy Wings', 'King Fairy Wig']
+
+    PRINCESS_FAIRY_OUTFIT = ['Princess Fairy Dress', 'Princess Fairy Stockings', 'Princess Fairy Tiara', 'Princess Fairy Shoes', 'Princess Fairy Dust Bottle', 'Princess Fairy Wings', 'Princess Fairy Mask', 'Princess Fairy Wig']
+
+    PRINCE_FAIRY_OUTFIT = ['Prince Fairy Top', 'Prince Fairy Shorts', 'Prince Fairy Boots', 'Prince Fairy Sword', 'Prince Fairy Wings', 'Prince Fairy Wig']
+
+    DARK_FAIRY_OUTFIT = ['Dark Fairy Dress', 'Dark Fairy Stockings', 'Dark Fairy Headdress', 'Dark Fairy High Boots', 'Dark Fairy Wand', 'Dark Fairy Dust Bottle', 'Dark Fairy Wings', 'Dark Fairy Wig']
+
+    IMMACULATE_FAIRY_OUTFIT = ['Immaculate Fairy Dress', 'Immaculate Fairy Headdress', 'Immaculate Fairy Shoes', 'Immaculate Fairy Dust Bottle', 'Immaculate Fairy Fairy Companion Bracelet', 'Immaculate Fairy Wings', 'Immaculate Fairy Wig']
+
+    HIDEENI_EASTER_BUNNY_COSTUME = ['Hideeni Easter Bunny Costume Body', 'Hideeni Easter Bunny Costume Pants', 'Hideeni Easter Bunny Costume Hat']
+
+    HIDEENI_SOCCER_BALL_COSTUME = ['Hideeni Soccer Ball Costume Body', 'Hideeni Soccer Ball Costume Hat', 'Hideeni Soccer Ball Costume Shoes']
+
+    HIDEENI_CHICKEN_COSTUME = ['Hideeni Chicken Costume Body', 'Hideeni Chicken Costume Pants', 'Hideeni Chicken Costume Hat']
+
+    HIDEENI_TURKEY_COSTUME = ['Hideeni Turkey Costume Body', 'Hideeni Turkey Costume Pants', 'Hideeni Turkey Costume Hat']
+
+    HIDEENI_TIGER_COSTUME = ['Hideeni Tiger Costume Body', 'Hideeni Tiger Costume Pants', 'Hideeni Tiger Costume Hat']
+
+    HIDEENI_OCTOPUS_COSTUME = ['Hideeni Octopus Costume Body', 'Hideeni Octopus Costume Hat']
+
+    HIDEENI_PUMPKIN_COSTUME = ['Hideeni Pumpkin Costume Mask']
+
+    HIDEENI_ASTRONAUT_COSTUME = ['Hideeni Astronaut Costume Body', 'Hideeni Astronaut Costume Pants', 'Hideeni Astronaut Costume Helmet']
+
+    HIDEENI_PINEAPPLE_COSTUME = ['Hideeni Pineapple Costume Mask']
+
+    HIDEENI_MONKEY_COSTUME = ['Hideeni Monkey Costume Body', 'Hideeni Monkey Costume Pants', 'Hideeni Monkey Costume Hat']
+
+    YELLOW_DUCKLING_COSTUME = ['Yellow Duckling Body', 'Yellow Duckling Pants', 'Yellow Duckling Hat']
+
+    PARTY_CLOWN_OUTFIT = ['Party Clown Top', 'Party Clown Pants', 'Party Clown Hat', 'Party Clown Shoes', 'Party Clown Glove', 'Party Clown Nose', 'Party Clown Wig']
+
+    MISCHIEVOUS_OUTFIT = ['Mischievous Top', 'Mischievous Leggings', 'Mischievous Mask', 'Mischievous Wings', 'Mischievous Tail']
+
+    ADVENTURER_OUTFIT = ['Adventurer Backpack', 'Adventurer Well', 'Adventurer Top', 'Adventurer Pants', 'Adventurer Hat', 'Adventurer Boots']
+
+    PRINCESS_AND_THE_PEA_BUNDLE = ['Spoilt Princess Wig', 'Spoilt Princess Tiara', 'Spoilt Princess Dress', 'Spoilt Princess Shoes']
+
+    RED_SHOES_BUNDLE = ['Ballerina Hairband', 'Ballerina Dress', 'Red Ballerina Shoes']
+
+    UGLY_DUCKLING_BUNDLE = ['Basic Bob Wig', 'Black Feathers Dress', 'Black Stringed Boots']
+
+    LITTLE_PRINCE_BUNDLE = ['Little Prince Top', 'Little Prince Pants', 'Little Prince Crown']
+
+    RAPUNZEL_BUNDLE = ['Rapunzel Dress', 'Rapunzel Shoes', 'Rapunzel Wig']
+
+    ROYAL_WEDDING_GUEST_DUKE_OUTFIT = ['Duke Top Hat', 'Duke Cane', 'Duke Top', 'Duke Pants', 'Duke Shoes']
+
+    ROYAL_WEDDING_GUEST_DUCHESS_OUTFIT = ['Duchess Hat', 'Duchess Dress', 'Duchess Shoes', 'Duchess Handbag']
+
+    THE_QUEEN_OUTFIT = ['Royal Hat', 'Royal Wig', 'Royal Dress', 'Royal Handbag', 'Royal Shoes']
+
+    MOSS_LADY_FAIRY = ['Moss Lady Fairy']
+
+    PEACH_LADY_FAIRY = ['Peach Lady Fairy']
+
+    LAVENDER_LADY_FAIRY = ['Lavender Lady Fairy']
+
+    GRAPE_GIRL_FAIRY = ['Grape Girl Fairy']
+
+    RASPBERRY_GIRL_FAIRY = ['Raspberry Girl Fairy']
+
+    LEMON_GIRL_FAIRY = ['Lemon Girl Fairy']
+
+    LIME_GIRL_FAIRY = ['Lime Girl Fairy']
+
+    STRAWBERRY_BABY_FAIRY = ['Strawberry Baby Fairy']
+
+    BLUEBERRY_BABY_FAIRY = ['Blueberry Baby Fairy']
+
+    PUMPKIN_KING_OUTFIT = ['Pumpkin King Top', 'Pumpkin King Pants', 'Pumpkin King Boots', 'Pumpkin King Jack O Lantern', 'Pumpkin King Mask']
+
+    PETTLEGEUSE_OUTFIT = ['Pettlegeuse Top', 'Pettlegeuse Groom Top', 'Pettlegeuse Guide Top', 'Pettlegeuse Pants', 'Pettlegeuse Groom Pants', 'Pettlegeuse Guide Pants', 'Pettlegeuse Guide Cap', 'Pettlegeuse Guide Shoes', 'Pettlegeuse Boots', 'Pettlegeuse Groom Shoes', 'Pettlegeuse Wig', 'Pettlegeuse Groom Wig']
+
+    RAG_DOLL_OUTFIT = ['Rag Doll Dress', 'Rag Doll Leg Stitches', 'Rag Doll Shoes', 'Rag Doll Needle', 'Rag Doll Wig']
+
+    PETWARD_SCISSORPAWS_OUTFIT = ['Petward Scissorpaws Top', 'Petward Scissorpaws Pants', 'Petward Scissorpaws Boots', 'Petward Scissorpaws Glove', 'Petward Scissorpaws Wig']
+
+    PETTLEGEUSE_GROOM_OUTFIT = ['Pettlegeuse Groom Top', 'Pettlegeuse Groom Pants', 'Pettlegeuse Groom Shoes', 'Pettlegeuse Groom Wig']
+
+    PIE_MAKER_OUTFIT = ['Pie Maker Dress', 'Pie Maker Stockings', 'Pie Maker Shoes', 'Pie Maker Meat Pie', 'Pie Maker Wig']
+
+    GOTH_BRIDE_OUTFIT = ['Goth Bride Dress', 'Goth Bride Stockings', 'Goth Bride Shoes', 'Goth Bride Bouquet', 'Goth Bride Veil', 'Goth Bride Wig']
+
+    UNDEAD_BRIDE_OUTFIT = ['Undead Bride Dress', 'Undead Bride Stockings', 'Undead Bride Headdress', 'Undead Bride Shoes', 'Undead Bride Bouquet', 'Undead Bride Glove', 'Undead Bride Skeleton Arm', 'Undead Bride Veil', 'Undead Bride Wig']
+
+    DREAM_STALKER_COSTUME = ['Dream Stalker Top', 'Dream Stalker Pants', 'Dream Stalker Fedora', 'Dream Stalker Shoes', 'Dream Stalker Razor Glove', 'Dream Stalker Mask']
+
+    BLOODY_PROM_QUEEN_COSTUME = ['Bloody Prom Queen Dress', 'Bloody Prom Queen Stockings', 'Bloody Prom Queen Spilled Blood', 'Bloody Prom Queen Wig']
+
+    HOTDOG_COSTUME = ['Hotdog Ketchup Bottle', 'Hotdog Mustard Bottle', 'Hotdog Mask']
+
+    CEREAL_KILLER_COSTUME = ['Cereal Killer Knife', 'Cereal Killer Fork', 'Cereal Killer Mask']
+
+    CANNIBAL_DOCTOR_COSTUME = ['Cannibal Doctor Italian Bottle in Basket', 'Cannibal Doctor Top', 'Cannibal Doctor Pants', 'Cannibal Doctor Shoes', 'Cannibal Doctor Glass of Italian Juice', 'Cannibal Doctor Mask']
+
+    INSANE_ALICE_COSTUME = ['Insane Alice Dress', 'Insane Alice Stockings', 'Insane Alice Boots', 'Insane Alice Wig']
+
+    SILENT_NURSE_COSTUME = ['Silent Nurse Dress', 'Silent Nurse Hat', 'Silent Nurse Shoes', 'Silent Nurse Syringe', 'Silent Nurse Mask']
+
+    FOLDING_METAL_MAN_COSTUME = ['Folding Metal Man Top', 'Folding Metal Man Legs', 'Folding Metal Man Mask']
+
+    GOLDEN_POO_COSTUME = ['Golden Poo Mask']
+
+    WWF_TIGER_COSTUME_SET = ['WWF Tiger Costume Top', 'WWF Tiger Costume Hat', 'WWF Tiger Costume Pants']
+
+    WILD_ACCESSORIES_BUNDLE = ['Wild Giraffe Bundle', 'Wild Zebra Bundle', 'Wild Hippo Bundle', 'Wild Lion Bundle']
+
+    LADY_POPS_BUNDLES = ['Lady Paula Bundle', 'Lady Madona Bundle', 'Lady Brittney Bundle']
+
+    EAST_MEETS_WEST_GIRL_THEME_BUNDLE = ['Salsa Girl Costume Bundle', 'Casino Girl Costume Bundle', 'Taiwanese Girl Costume Bundle']
+
+    EAST_MEETS_WEST_BOY_THEME_BUNDLE = ['Salsa Boy Costume Bundle', 'Casino Boy Costume Bundle', 'Taiwanese Boy Costume Bundle']
+
+    GLOW_IN_THE_DARK_GIRL_THEME_BUNDLE = ['Glow In The Dark Painting Bundle', 'Glow In The Dark Star Fairy', 'Glow In The Dark Princess Outfit Bundle']
+
+    GLOW_IN_THE_DARK_BOY_THEME_BUNDLE = ['Glow In The Dark Punk Outfit Bundle', 'Glow In The Dark Star Fairy', 'Glow In The Dark Painting Bundle']
     
-    MOSS_LADY_FAIRY = ["Moss Lady Fairy"]
+    ALPHABET_BLOCK_BUNDLE_01 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    PEACH_LADY_FAIRY = ["Peach Lady Fairy"]
+    ALPHABET_BLOCK_BUNDLE_02 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    LAVENDER_LADY_FAIRY = ["Lavender Lady Fairy"]
+    ALPHABET_BLOCK_BUNDLE_03 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    GRAPE_GIRL_FAIRY = ["Grape Girl Fairy"]
+    ALPHABET_BLOCK_BUNDLE_04 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    RASPBERRY_GIRL_FAIRY = ["Raspberry Girl Fairy"]
+    ALPHABET_BLOCK_BUNDLE_05 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    LEMON_GIRL_FAIRY = ["Lemon Girl Fairy"]
+    ALPHABET_BLOCK_BUNDLE_06 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    LIME_GIRL_FAIRY = ["Lime Girl Fairy"]
+    ALPHABET_BLOCK_BUNDLE_07 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    STRAWBERRY_BABY_FAIRY = ["Strawberry Baby Fairy"]
+    ALPHABET_BLOCK_BUNDLE_08 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    BLUEBERRY_BABY_FAIRY = ["Blueberry Baby Fairy"]
-    
-    PUMPKIN_KING_OUTFIT = ["Pumpkin King Top","Pumpkin King Pants","Pumpkin King Boots","Pumpkin King Jack O Lantern","Pumpkin King Mask"]
+    ALPHABET_BLOCK_BUNDLE_09 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
 
-    PETTLEGEUSE_OUTFIT = ["Pettlegeuse Top","Pettlegeuse Groom Top","Pettlegeuse Guide Top","Pettlegeuse Pants","Pettlegeuse Groom Pants","Pettlegeuse Guide Pants","Pettlegeuse Guide Cap","Pettlegeuse Guide Shoes","Pettlegeuse Boots","Pettlegeuse Groom Shoes","Pettlegeuse Wig","Pettlegeuse Groom Wig"]
-
-    RAG_DOLL_OUTFIT = ["Rag Doll Dress","Rag Doll Leg Stitches","Rag Doll Shoes","Rag Doll Needle","Rag Doll Wig"]
-
-    PETWARD_SCISSORPAWS_OUTFIT = ["Petward Scissorpaws Top","Petward Scissorpaws Pants","Petward Scissorpaws Boots","Petward Scissorpaws Glove","Petward Scissorpaws Wig"]
-
-    PETTLEGEUSE_GROOM_OUTFIT = ["Pettlegeuse Groom Top","Pettlegeuse Groom Pants","Pettlegeuse Groom Shoes","Pettlegeuse Groom Wig"]
-
-    PIE_MAKER_OUTFIT = ["Pie Maker Dress","Pie Maker Stockings","Pie Maker Shoes","Pie Maker Meat Pie","Pie Maker Wig"]
-
-    GOTH_BRIDE_OUTFIT = ["Goth Bride Dress","Goth Bride Stockings","Goth Bride Shoes","Goth Bride Bouquet","Goth Bride Veil","Goth Bride Wig"]
-
-    UNDEAD_BRIDE_OUTFIT = ["Undead Bride Dress","Undead Bride Stockings","Undead Bride Headdress","Undead Bride Shoes","Undead Bride Bouquet","Undead Bride Glove","Undead Bride Skeleton Arm","Undead Bride Veil","Undead Bride Wig"]
-
-    DREAM_STALKER_COSTUME = ["Dream Stalker Top","Dream Stalker Pants","Dream Stalker Fedora","Dream Stalker Shoes","Dream Stalker Razor Glove","Dream Stalker Mask"]
-
-    BLOODY_PROM_QUEEN_COSTUME = ["Bloody Prom Queen Dress","Bloody Prom Queen Stockings","Bloody Prom Queen Spilled Blood","Bloody Prom Queen Wig"]
-
-    HOTDOG_COSTUME = ["Hotdog Ketchup Bottle","Hotdog Mustard Bottle","Hotdog Mask"]
-
-    CEREAL_KILLER_COSTUME = ["Cereal Killer Knife","Cereal Killer Fork","Cereal Killer Mask"]
-
-    CANNIBAL_DOCTOR_COSTUME = ["Cannibal Doctor Italian Bottle in Basket","Cannibal Doctor Top","Cannibal Doctor Pants","Cannibal Doctor Shoes","Cannibal Doctor Glass of Italian Juice","Cannibal Doctor Mask"]
-
-    INSANE_ALICE_COSTUME = ["Insane Alice Dress","Insane Alice Stockings","Insane Alice Boots", "Insane Alice Wig"]
-
-    SILENT_NURSE_COSTUME = ["Silent Nurse Dress","Silent Nurse Hat","Silent Nurse Shoes","Silent Nurse Syringe","Silent Nurse Mask"]
-
-    FOLDING_METAL_MAN_COSTUME = ["Folding Metal Man Top","Folding Metal Man Legs","Folding Metal Man Mask"]
-
-    GOLDEN_POO_COSTUME = ["Golden Poo Mask"]
-
-    WWF_TIGER_COSTUME_SET = ["WWF Tiger Costume Top","WWF Tiger Costume Hat","WWF Tiger Costume Pants"]
-
-    CABBAGE_GIRL_OUTFIT = ["Cabbage Girl Dress", "Cabbage Girl Hairclip", "Cabbage Girl Wig", "Cabbage Girl Shoes"]
-
-    CARROT_OUTFIT = ["Carrot Top", "Carrot Pants", "Carrot Boots", "Carrot Headgear"]
-
-    AQUA_LADY_FISHIE_OUTFIT = ["Aqua Lady Fishie Wig"]
-
-    BE_A_BUNNY_SUIT_OUTFIT = ["Be A Bunny Mask", "Be A Bunny Top", "Be A Bunny Plushie", "Be A Bunny Pant", "Be A Bunny Shoes"]
-
-    GREEN_FINGERS_GIRL_OUTFIT = ["Green Fingers Girls Dress", "Green Fingers Girls Hat", "Green Fingers Girls Shoes"]
-
-    GOLDEN_AGE_WORKER_GIRL_OUTFIT = ["Golden Age Worker Girl Dress", "Golden Age Worker Girl Shoes"]
-
-    ALPHABET_BLOCK_BUNDLE_01 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_02 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_03 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_04 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_05 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_06 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_07 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_08 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_09 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
-
-    ALPHABET_BLOCK_BUNDLE_10 = ["Alphabet Block A","Alphabet Block B","Alphabet Block C","Alphabet Block D","Alphabet Block E","Alphabet Block F","Alphabet Block G","Alphabet Block H","Alphabet Block I","Alphabet Block J","Alphabet Block K","Alphabet Block L","Alphabet Block M","Alphabet Block N","Alphabet Block O","Alphabet Block P","Alphabet Block Q","Alphabet Block R","Alphabet Block S","Alphabet Block T","Alphabet Block U","Alphabet Block V","Alphabet Block W","Alphabet Block X","Alphabet Block Y","Alphabet Block Z"]
+    ALPHABET_BLOCK_BUNDLE_10 = ['Alphabet Block A', 'Alphabet Block B', 'Alphabet Block C', 'Alphabet Block D', 'Alphabet Block E', 'Alphabet Block F', 'Alphabet Block G', 'Alphabet Block H', 'Alphabet Block I', 'Alphabet Block J', 'Alphabet Block K', 'Alphabet Block L', 'Alphabet Block M', 'Alphabet Block N', 'Alphabet Block O', 'Alphabet Block P', 'Alphabet Block Q', 'Alphabet Block R', 'Alphabet Block S', 'Alphabet Block T', 'Alphabet Block U', 'Alphabet Block V', 'Alphabet Block W', 'Alphabet Block X', 'Alphabet Block Y', 'Alphabet Block Z']
