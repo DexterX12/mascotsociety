@@ -112,46 +112,46 @@ class Profile:
         if "itemId" in data:
             item.itemId = data["itemId"]
 
-        if "itemHash" in data:
+        if "itemHash" in data and data["itemHash"] != 0:
             item.itemHash = data["itemHash"]
         
         if "active" in data:
             item.active = data["active"]
         
-        if "roomIndex" in data:
+        if "roomIndex" in data and data["roomIndex"] != 0:
             item.roomIndex = data["roomIndex"]
         
-        if "positionX" in data:
+        if "positionX" in data and data["positionX"] != 0:
             item.positionX = data["positionX"]
         
-        if "positionY" in data:
+        if "positionY" in data and data["positionY"] != 0:
             item.positionY = data["positionY"]
         
-        if "positionZ" in data:
+        if "positionZ" in data and data["positionZ"] != 0:
             item.positionZ = data["positionZ"]
         
-        if "containedType" in data:
+        if "containedType" in data and data["containedType"] != 0:
             item.containedType = data["containedType"]
         
-        if "containedType2" in data:
+        if "containedType2" in data and data["containedType2"] != 0:
             item.containedItem2 = data["containedType2"]
 
-        if "containedItem" in data:
+        if "containedItem" in data and data["containedItem"] != 0:
             item.containedItem = data["containedItem"]
         
-        if "containtedItem2" in data:
+        if "containtedItem2" in data and data["containeditem2"] != 0:
             item.containedItem2 = data["containeditem2"]
 
-        if "createTime" in data:
+        if "createTime" in data and data["createTime"] != None:
             item.createTime = data["createTime"]
 
-        if "message" in data:
+        if "message" in data and data["message"] != "":
             item.message = data["message"]
 
-        if "containedAmount" in data:
+        if "containedAmount" in data and data["containedAmount"] != 0:
             item.containedAmount = data["containedAmount"]
 
-        if "sender" in data:
+        if "sender" in data and data["message"] != None:
             item.sender = data["sender"]
 
     def _selectItemToMutate(self, itemAudit: RpcOwnedItem) -> int:
