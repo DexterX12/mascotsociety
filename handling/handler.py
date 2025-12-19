@@ -23,6 +23,7 @@ from .call_types.call_type_complete_quest import handle_complete_quest
 from .call_types.call_type_cook_recipe import handle_cook_recipe
 from .call_types.call_type_claim_collaborative_item import handle_claim_collaborative_item
 from .call_types.call_type_purchase_plot_extension import handle_purchase_plot_extension
+from .call_types.call_type_claim_completion_reward import handle_claim_completion_reward
 
 from ..utils.datastream.output_data_stream import OutputDataStream
 from ..utils.datastream.input_data_stream import InputDataStream
@@ -156,6 +157,9 @@ def handle_message(msg_type:int, stream:InputDataStream, context:dict):
     
     elif msg_type == CallTypes.CALL_TYPE_COMPLETE_QUEST:
         return handle_complete_quest(stream)
+    
+    elif msg_type == CallTypes.CALL_TYPE_CLAIM_COMPLETION_REWARD:
+        return handle_claim_completion_reward(stream)
     
     elif msg_type == CallTypes.CALL_TYPE_COOK_RECIPE:
         return handle_cook_recipe(stream)
