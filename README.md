@@ -21,7 +21,13 @@ Finally, go to `http://localhost:8881/` and start playing!
 If you want to change the save file, delete or move the `profile.pet` file and put your own file, its extension can be either `.pet` or `.nofil`, just remember to name your save file as `profile`.
 
 ####
-#### Linux/MacOS
+#### macOS
+macOS binaries are provided for the latest release in the [releases page](https://github.com/DexterX12/mascotsociety/releases/). After extracting the files, you should see both `play` and `profile.pet` files. Open a terminal inside the folder where these 2 files reside an execute the command `./play`, this will execute the server in the same directory where the save file is located.
+
+#### Saves
+They are managed the same way as on Windows.
+
+#### Linux
 Make sure you have at least Python 3.11 installed.
 1. Clone this repository or download it and extract it. Then go inside the root directory.
 2. Open a terminal inside the directory
