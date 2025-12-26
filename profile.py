@@ -118,16 +118,16 @@ class Profile:
         if "active" in data:
             item.active = data["active"]
         
-        if "roomIndex" in data and data["roomIndex"] != 0:
+        if "roomIndex" in data:
             item.roomIndex = data["roomIndex"]
         
-        if "positionX" in data and data["positionX"] != 0:
+        if "positionX" in data:
             item.positionX = data["positionX"]
         
-        if "positionY" in data and data["positionY"] != 0:
+        if "positionY" in data:
             item.positionY = data["positionY"]
         
-        if "positionZ" in data and data["positionZ"] != 0:
+        if "positionZ" in data:
             item.positionZ = data["positionZ"]
         
         if "containedType" in data and data["containedType"] != 0:
@@ -151,7 +151,7 @@ class Profile:
         if "containedAmount" in data and data["containedAmount"] != 0:
             item.containedAmount = data["containedAmount"]
 
-        if "sender" in data and data["message"] != None:
+        if "sender" in data and data["sender"] != None:
             item.sender = data["sender"]
 
     def _selectItemToMutate(self, itemAudit: RpcOwnedItem) -> int:
