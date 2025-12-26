@@ -88,12 +88,13 @@ def handle_audit_action(audit:AuditChange) -> None:
         })
 
     if action == Actions.FINISH_COOKING:
+        burned_food_hash = 3493891527
+
         item_data = set_item_data(audit)
         item_data["itemId"] = audit.newItemId
         item_data["itemHash"] = audit.itemHash
 
         profile_handler.create_item(item_data)
-        profile_handler.user.cookingPoints += 1
 
         profile_handler.update_item({
             "itemId": audit.itemId,
@@ -101,7 +102,13 @@ def handle_audit_action(audit:AuditChange) -> None:
             "containedItem": 0,
             "createTime": None
         })
+        
+        # burned food has no 1:1 related ingredients
 
+        if item_data["itemHash"] == burned_food_hash: return
+
+        profile_handler.user.cookingPoints += 1
+        
         # Since the game does not send delete actions
         # for some reason after cooking, manually delete
         # all cooking items from current recipe
@@ -113,6 +120,5 @@ def handle_audit_action(audit:AuditChange) -> None:
                 "itemId": -1,
                 "itemHash": cooking_item_hash
             })
-        
 
     
